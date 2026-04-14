@@ -1,6 +1,34 @@
 // ─── STATE ────────────────────────────────────────────────
 let manifest = [];
 let currentChapter = null;
+const THEME_KEY = 'chemistry-notes-theme';
+
+// ─── THEME ─────────────────────────────────────────────────
+function setTheme(theme) {
+  const next = theme === 'dark' ? 'dark' : 'light';
+  document.documentElement.setAttribute('data-theme', next);
+  try { localStorage.setItem(THEME_KEY, next); } catch(e) {}
+  document.querySelectorAll('[data-theme-toggle]').forEach(btn => {
+    btn.textContent = next === 'dark' ? '☀ Light' : '🌙 Dark';
+    btn.setAttribute('aria-pressed', next === 'dark');
+  });
+}
+
+function initTheme() {
+  let starting = 'light';
+  try {
+    const saved = localStorage.getItem(THEME_KEY);
+    const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)') && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    starting = saved || (prefersDark ? 'dark' : 'light');
+  } catch(e) {}
+  setTheme(starting);
+  document.querySelectorAll('[data-theme-toggle]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const current = document.documentElement.getAttribute('data-theme');
+      setTheme(current === 'dark' ? 'light' : 'dark');
+    });
+  });
+}
 
 // ─── INIT ─────────────────────────────────────────────────
 async function init() {
