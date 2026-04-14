@@ -45,6 +45,12 @@ That's it. No build step, no npm, no terminal needed.
 
 ---
 
+## Testing
+
+Run `npm test` to execute the automated jsdom test suite that covers the inline app logic.
+
+---
+
 ## manifest.json Fields
 
 ```json
