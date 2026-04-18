@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 260" width="360" height="260">
+  <rect width="360" height="260" fill="#0c0f14"/>
+  <text x="180" y="14" text-anchor="middle" font-family="monospace" font-size="11" fill="#7a8899">SUCCESSIVE IE — BERYLLIUM (Z=4)</text>
+
+  <defs>
+    <linearGradient id="l2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3bbfb8"/><stop offset="100%" stop-color="#3bbfb8" stop-opacity="0.35"/>
+    </linearGradient>
+    <linearGradient id="l1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d95f5f"/><stop offset="100%" stop-color="#d95f5f" stop-opacity="0.35"/>
+    </linearGradient>
+    <marker id="arr2" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#4db87a"/>
+    </marker>
+  </defs>
+
+  <!-- axes -->
+  <line x1="50" y1="220" x2="320" y2="220" stroke="#303a4a" stroke-width="1.5"/>
+  <line x1="50" y1="30" x2="50" y2="220" stroke="#303a4a" stroke-width="1.5"/>
+  <text x="185" y="245" text-anchor="middle" font-family="monospace" font-size="10" fill="#7a8899">Number of electrons removed</text>
+  <text x="12" y="125" text-anchor="middle" font-family="monospace" font-size="9" fill="#7a8899" transform="rotate(-90,12,125)">log₁₀ (IE)</text>
+
+  <!-- Be: IE1=900, IE2=1757, IE3=14848, IE4=21006 -->
+  <!-- log: 2.954, 3.245, 4.172, 4.322 -->
+  <!-- normalize: (log - 2.8) / 1.7 * 170 = height; y = 220 - height -->
+  <!-- IE1: (2.954-2.8)/1.7*170 = 15.4 → y=205 -->
+  <!-- IE2: (3.245-2.8)/1.7*170 = 44.5 → y=176 -->
+  <!-- IE3: (4.172-2.8)/1.7*170 = 137.2 → y=83 -->
+  <!-- IE4: (4.322-2.8)/1.7*170 = 152.2 → y=68 -->
+
+  <!-- L shell bars (teal) -->
+  <rect x="80" y="205" width="55" height="15" fill="url(#l2)" rx="3"/>
+  <rect x="145" y="176" width="55" height="44" fill="url(#l2)" rx="3"/>
+
+  <!-- jump arrow -->
+  <path d="M 200 162 L 210 148 L 220 162" stroke="#4db87a" stroke-width="2" fill="none" marker-end="url(#arr2)"/>
+  <text x="220" y="144" font-family="monospace" font-size="9" fill="#4db87a">JUMP!</text>
+  <text x="220" y="156" font-family="monospace" font-size="8" fill="#7a8899">L→K shell</text>
+
+  <!-- K shell bars (red) -->
+  <rect x="210" y="83" width="55" height="137" fill="url(#l1)" rx="3"/>
+  <rect x="275" y="68" width="55" height="152" fill="url(#l1)" rx="3"/>
+
+  <!-- x labels -->
+  <text x="107" y="235" text-anchor="middle" font-family="monospace" font-size="11" fill="#7a8899">1</text>
+  <text x="172" y="235" text-anchor="middle" font-family="monospace" font-size="11" fill="#7a8899">2</text>
+  <text x="237" y="235" text-anchor="middle" font-family="monospace" font-size="11" fill="#7a8899">3</text>
+  <text x="302" y="235" text-anchor="middle" font-family="monospace" font-size="11" fill="#7a8899">4</text>
+
+  <!-- IE values -->
+  <text x="107" y="200" text-anchor="middle" font-family="monospace" font-size="8" fill="#3bbfb8">900</text>
+  <text x="172" y="170" text-anchor="middle" font-family="monospace" font-size="8" fill="#3bbfb8">1757</text>
+  <text x="237" y="77" text-anchor="middle" font-family="monospace" font-size="8" fill="#d95f5f">14848</text>
+  <text x="302" y="62" text-anchor="middle" font-family="monospace" font-size="8" fill="#d95f5f">21006</text>
+
+  <!-- legend -->
+  <rect x="55" y="35" width="12" height="10" fill="url(#l2)" rx="1"/>
+  <text x="72" y="44" font-family="monospace" font-size="9" fill="#3bbfb8">L shell (2nd) — 2 e⁻</text>
+  <rect x="55" y="52" width="12" height="10" fill="url(#l1)" rx="1"/>
+  <text x="72" y="61" font-family="monospace" font-size="9" fill="#d95f5f">K shell (1st) — 2 e⁻</text>
+
+  <text x="180" y="255" text-anchor="middle" font-family="monospace" font-size="9" fill="#4db87a">1 big jump → confirms Be has 2 valence electrons → Group 2</text>
+</svg>

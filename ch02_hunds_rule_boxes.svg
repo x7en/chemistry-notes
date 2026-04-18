@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 310" width="580" height="310">
+  <rect width="580" height="310" fill="#0c0f14"/>
+  <text x="290" y="15" text-anchor="middle" font-family="monospace" font-size="11" fill="#7a8899" letter-spacing="0.3">HUND'S RULE + PAULI PRINCIPLE — Orbital Box Diagrams</text>
+
+  <!-- Column headers -->
+  <text x="30" y="38" font-family="monospace" font-size="10" fill="#7a8899">Element</text>
+  <text x="100" y="38" font-family="monospace" font-size="10" fill="#d4a843">1s</text>
+  <text x="170" y="38" font-family="monospace" font-size="10" fill="#3bbfb8">2s</text>
+  <text x="255" y="38" font-family="monospace" font-size="10" fill="#9070d0">2p  (px · py · pz)</text>
+  <text x="450" y="38" font-family="monospace" font-size="10" fill="#7a8899">Unpaired e⁻</text>
+  <text x="530" y="38" font-family="monospace" font-size="10" fill="#7a8899">Config</text>
+
+  <line x1="10" y1="42" x2="570" y2="42" stroke="#252d3a" stroke-width="1"/>
+
+  <!-- helper macros as groups -->
+  <!-- box(x,y) = rect; up(x,y) = ↑; down(x,y) = ↓; empty(x,y) = empty box -->
+
+  <!-- Z=6 Carbon -->
+  <text x="30" y="70" font-family="monospace" font-size="11" fill="#e8c060">₆C</text>
+  <!-- 1s paired -->
+  <rect x="92" y="54" width="28" height="24" rx="3" fill="rgba(212,168,67,0.1)" stroke="#d4a843" stroke-width="1"/>
+  <text x="106" y="70" text-anchor="middle" font-family="monospace" font-size="13" fill="#4db87a">↑↓</text>
+  <!-- 2s paired -->
+  <rect x="162" y="54" width="28" height="24" rx="3" fill="rgba(59,191,184,0.1)" stroke="#3bbfb8" stroke-width="1"/>
+  <text x="176" y="70" text-anchor="middle" font-family="monospace" font-size="13" fill="#4db87a">↑↓</text>
+  <!-- 2p: 1 in px, 1 in py, empty pz -->
+  <rect x="232" y="54" width="28" height="24" rx="3" fill="rgba(144,112,208,0.1)" stroke="#9070d0" stroke-width="1"/>
+  <text x="246" y="70" text-anchor="middle" font-family="monospace" font-size="13" fill="#4db87a">↑</text>
+  <rect x="264" y="54" width="28" height="24" rx="3" fill="rgba(144,112,208,0.1)" stroke="#9070d0" stroke-width="1"/>
+  <text x="278" y="70" text-anchor="middle" font-family="monospace" font-size="13" fill="#4db87a">↑</text>
+  <rect x="296" y="54" width="28" height="24" rx="3" fill="rgba(144,112,208,0.05)" stroke="#9070d0" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="450" y="70" font-family="monospace" font-size="11" fill="#d4a843">2</text>
+  <text x="490" y="70" font-family="monospace" font-size="9" fill="#7a8899">1s²2s²2p²</text>
+
+  <!-- Z=7 Nitrogen — KEY: half-filled -->
+  <text x="30" y="108" font-family="monospace" font-size="11" fill="#e8c060">₇N</text>
+  <rect x="92" y="92" width="28" height="24" rx="3" fill="rgba(212,168,67,0.1)" stroke="#d4a843" stroke-width="1"/>
+  <text x="106" y="108" text-anchor="middle" font-family="monospace" font-size="13" fill="#4db87a">↑↓</text>
+  <rect x="162" y="92" width="28" height="24" rx="3" fill="rgba(59,191,184,0.1)" stroke="#3bbfb8" stroke-width="1"/>
+  <text x="176" y="108" text-anchor="middle" font-family="monospace" font-size="13" fill="#4db87a">↑↓</text>
+  <rect x="232" y="92" width="28" height="24" rx="3" fill="rgba(144,112,208,0.1)" stroke="#9070d0" stroke-width="1"/>
+  <text x="246" y="108" text-anchor="middle" font-family="monospace" font-size="13" fill="#4db87a">↑</text>
+  <rect x="264" y="92" width="28" height="24" rx="3" fill="rgba(144,112,208,0.1)" stroke="#9070d0" stroke-width="1"/>
+  <text x="278" y="108" text-anchor="middle" font-family="monospace" font-size="13" fill="#4db87a">↑</text>
+  <rect x="296" y="92" width="28" height="24" rx="3" fill="rgba(144,112,208,0.1)" stroke="#9070d0" stroke-width="1"/>
+  <text x="310" y="108" text-anchor="middle" font-family="monospace" font-size="13" fill="#4db87a">↑</text>
+  <!-- star for half-filled -->
+  <text x="338" y="108" font-family="monospace" font-size="10" fill="#e8c060">★ half-filled</text>
+  <text x="450" y="108" font-family="monospace" font-size="11" fill="#d4a843">3</text>
+  <text x="490" y="108" font-family="monospace" font-size="9" fill="#7a8899">1s²2s²2p³</text>
+
+  <!-- Z=8 Oxygen — KEY: first paired electron -->
+  <text x="30" y="146" font-family="monospace" font-size="11" fill="#e8c060">₈O</text>
+  <rect x="92" y="130" width="28" height="24" rx="3" fill="rgba(212,168,67,0.1)" stroke="#d4a843" stroke-width="1"/>
+  <text x="106" y="146" text-anchor="middle" font-family="monospace" font-size="13" fill="#4db87a">↑↓</text>
+  <rect x="162" y="130" width="28" height="24" rx="3" fill="rgba(59,191,184,0.1)" stroke="#3bbfb8" stroke-width="1"/>
+  <text x="176" y="146" text-anchor="middle" font-family="monospace" font-size="13" fill="#4db87a">↑↓</text>
+  <rect x="232" y="130" width="28" height="24" rx="3" fill="rgba(217,95,95,0.1)" stroke="#d95f5f" stroke-width="1.5"/>
+  <text x="246" y="146" text-anchor="middle" font-family="monospace" font-size="13" fill="#4db87a">↑↓</text>
+  <rect x="264" y="130" width="28" height="24" rx="3" fill="rgba(144,112,208,0.1)" stroke="#9070d0" stroke-width="1"/>
+  <text x="278" y="146" text-anchor="middle" font-family="monospace" font-size="13" fill="#4db87a">↑</text>
+  <rect x="296" y="130" width="28" height="24" rx="3" fill="rgba(144,112,208,0.1)" stroke="#9070d0" stroke-width="1"/>
+  <text x="310" y="146" text-anchor="middle" font-family="monospace" font-size="13" fill="#4db87a">↑</text>
+  <text x="338" y="146" font-family="monospace" font-size="9" fill="#d95f5f">← paired! ↓ IE</text>
+  <text x="450" y="146" font-family="monospace" font-size="11" fill="#d4a843">2</text>
+  <text x="490" y="146" font-family="monospace" font-size="9" fill="#7a8899">1s²2s²2p⁴</text>
+
+  <!-- Z=9 Fluorine -->
+  <text x="30" y="184" font-family="monospace" font-size="11" fill="#e8c060">₉F</text>
+  <rect x="92" y="168" width="28" height="24" rx="3" fill="rgba(212,168,67,0.1)" stroke="#d4a843" stroke-width="1"/>
+  <text x="106" y="184" text-anchor="middle" font-family="monospace" font-size="13" fill="#4db87a">↑↓</text>
+  <rect x="162" y="168" width="28" height="24" rx="3" fill="rgba(59,191,184,0.1)" stroke="#3bbfb8" stroke-width="1"/>
+  <text x="176" y="184" text-anchor="middle" font-family="monospace" font-size="13" fill="#4db87a">↑↓</text>
+  <rect x="232" y="168" width="28" height="24" rx="3" fill="rgba(144,112,208,0.1)" stroke="#9070d0" stroke-width="1"/>
+  <text x="246" y="184" text-anchor="middle" font-family="monospace" font-size="13" fill="#4db87a">↑↓</text>
+  <rect x="264" y="168" width="28" height="24" rx="3" fill="rgba(144,112,208,0.1)" stroke="#9070d0" stroke-width="1"/>
+  <text x="278" y="184" text-anchor="middle" font-family="monospace" font-size="13" fill="#4db87a">↑↓</text>
+  <rect x="296" y="168" width="28" height="24" rx="3" fill="rgba(144,112,208,0.1)" stroke="#9070d0" stroke-width="1"/>
+  <text x="310" y="184" text-anchor="middle" font-family="monospace" font-size="13" fill="#4db87a">↑</text>
+  <text x="450" y="184" font-family="monospace" font-size="11" fill="#d4a843">1</text>
+  <text x="490" y="184" font-family="monospace" font-size="9" fill="#7a8899">1s²2s²2p⁵</text>
+
+  <!-- Z=10 Neon -->
+  <text x="30" y="222" font-family="monospace" font-size="11" fill="#e8c060">₁₀Ne</text>
+  <rect x="92" y="206" width="28" height="24" rx="3" fill="rgba(212,168,67,0.1)" stroke="#d4a843" stroke-width="1"/>
+  <text x="106" y="222" text-anchor="middle" font-family="monospace" font-size="13" fill="#4db87a">↑↓</text>
+  <rect x="162" y="206" width="28" height="24" rx="3" fill="rgba(59,191,184,0.1)" stroke="#3bbfb8" stroke-width="1"/>
+  <text x="176" y="222" text-anchor="middle" font-family="monospace" font-size="13" fill="#4db87a">↑↓</text>
+  <rect x="232" y="206" width="28" height="24" rx="3" fill="rgba(144,112,208,0.1)" stroke="#9070d0" stroke-width="1"/>
+  <text x="246" y="222" text-anchor="middle" font-family="monospace" font-size="13" fill="#4db87a">↑↓</text>
+  <rect x="264" y="206" width="28" height="24" rx="3" fill="rgba(144,112,208,0.1)" stroke="#9070d0" stroke-width="1"/>
+  <text x="278" y="222" text-anchor="middle" font-family="monospace" font-size="13" fill="#4db87a">↑↓</text>
+  <rect x="296" y="206" width="28" height="24" rx="3" fill="rgba(144,112,208,0.1)" stroke="#9070d0" stroke-width="1"/>
+  <text x="310" y="222" text-anchor="middle" font-family="monospace" font-size="13" fill="#4db87a">↑↓</text>
+  <text x="338" y="222" font-family="monospace" font-size="10" fill="#e8c060">★ full</text>
+  <text x="450" y="222" font-family="monospace" font-size="11" fill="#d4a843">0</text>
+  <text x="490" y="222" font-family="monospace" font-size="9" fill="#7a8899">1s²2s²2p⁶</text>
+
+  <!-- WRONG Hund example -->
+  <text x="30" y="258" font-family="monospace" font-size="9" fill="#d95f5f">❌ WRONG</text>
+  <text x="30" y="272" font-family="monospace" font-size="8" fill="#d95f5f">(violates Hund)</text>
+  <rect x="232" y="247" width="28" height="24" rx="3" fill="rgba(217,95,95,0.1)" stroke="#d95f5f" stroke-width="1.5"/>
+  <text x="246" y="263" text-anchor="middle" font-family="monospace" font-size="13" fill="#d95f5f">↑↓</text>
+  <rect x="264" y="247" width="28" height="24" rx="3" fill="rgba(217,95,95,0.05)" stroke="#d95f5f" stroke-width="1" stroke-dasharray="3,2"/>
+  <rect x="296" y="247" width="28" height="24" rx="3" fill="rgba(217,95,95,0.05)" stroke="#d95f5f" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="340" y="263" font-family="monospace" font-size="9" fill="#d95f5f">← pairing before filling → higher energy → wrong</text>
+
+  <text x="290" y="298" text-anchor="middle" font-family="monospace" font-size="9" fill="#4db87a">Hund: fill degenerate orbitals singly with same spin BEFORE pairing · Pauli: max 2e⁻ per orbital with opposite spins</text>
+</svg>

@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 380" width="560" height="380">
+  <rect width="560" height="380" fill="#0c0f14"/>
+  <text x="280" y="15" text-anchor="middle" font-family="monospace" font-size="11" fill="#7a8899">ORBITAL SHAPES + QUANTUM NUMBER SUMMARY</text>
+
+  <!-- ── s orbital ── -->
+  <text x="80" y="38" text-anchor="middle" font-family="monospace" font-size="10" fill="#d4a843">s subshell</text>
+  <text x="80" y="52" text-anchor="middle" font-family="monospace" font-size="9" fill="#7a8899">ℓ = 0 · m = 0</text>
+  <defs>
+    <radialGradient id="sg2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#d4a843" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#d4a843" stop-opacity="0.04"/>
+    </radialGradient>
+    <radialGradient id="pg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3bbfb8" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#3bbfb8" stop-opacity="0.05"/>
+    </radialGradient>
+    <radialGradient id="pg2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#9070d0" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#9070d0" stop-opacity="0.05"/>
+    </radialGradient>
+  </defs>
+  <circle cx="80" cy="130" r="62" fill="url(#sg2)" stroke="#d4a843" stroke-width="1.2" stroke-dasharray="5,3" stroke-opacity="0.5"/>
+  <circle cx="80" cy="130" r="6" fill="#e8c060"/>
+  <!-- info box -->
+  <rect x="20" y="205" width="120" height="65" rx="5" fill="rgba(212,168,67,0.05)" stroke="rgba(212,168,67,0.2)" stroke-width="1"/>
+  <text x="80" y="221" text-anchor="middle" font-family="monospace" font-size="9" fill="#d4a843">1 orbital</text>
+  <text x="80" y="235" text-anchor="middle" font-family="monospace" font-size="9" fill="#7a8899">Shape: Spherical</text>
+  <text x="80" y="249" text-anchor="middle" font-family="monospace" font-size="9" fill="#7a8899">Nodes: 0</text>
+  <text x="80" y="263" text-anchor="middle" font-family="monospace" font-size="9" fill="#4db87a">Max 2e⁻</text>
+
+  <!-- ── p orbitals (show px only, note 3 exist) ── -->
+  <text x="280" y="38" text-anchor="middle" font-family="monospace" font-size="10" fill="#3bbfb8">p subshell</text>
+  <text x="280" y="52" text-anchor="middle" font-family="monospace" font-size="9" fill="#7a8899">ℓ = 1 · m = −1, 0, +1</text>
+  <!-- px lobe right -->
+  <ellipse cx="330" cy="130" rx="52" ry="28" fill="url(#pg)" stroke="#3bbfb8" stroke-width="1.2"/>
+  <!-- px lobe left -->
+  <ellipse cx="228" cy="130" rx="52" ry="28" fill="url(#pg2)" stroke="#9070d0" stroke-width="1.2"/>
+  <circle cx="280" cy="130" r="6" fill="#e8c060"/>
+  <line x1="210" y1="130" x2="350" y2="130" stroke="#252d3a" stroke-width="0.8"/>
+  <!-- py vertical hint -->
+  <ellipse cx="280" cy="80" rx="14" ry="30" fill="none" stroke="#3bbfb8" stroke-width="1" stroke-dasharray="3,3" stroke-opacity="0.5"/>
+  <ellipse cx="280" cy="180" rx="14" ry="30" fill="none" stroke="#9070d0" stroke-width="1" stroke-dasharray="3,3" stroke-opacity="0.5"/>
+  <text x="360" y="133" font-family="monospace" font-size="8" fill="#7a8899">px</text>
+  <text x="287" y="72" font-family="monospace" font-size="8" fill="#7a8899">py</text>
+  <text x="216" y="88" font-family="monospace" font-size="7" fill="#7a8899">(pz into page)</text>
+  <rect x="162" y="205" width="236" height="65" rx="5" fill="rgba(59,191,184,0.05)" stroke="rgba(59,191,184,0.2)" stroke-width="1"/>
+  <text x="280" y="221" text-anchor="middle" font-family="monospace" font-size="9" fill="#3bbfb8">3 degenerate orbitals (px · py · pz)</text>
+  <text x="280" y="235" text-anchor="middle" font-family="monospace" font-size="9" fill="#7a8899">Shape: Dumbbell · 2 lobes · 1 nodal plane</text>
+  <text x="280" y="249" text-anchor="middle" font-family="monospace" font-size="9" fill="#7a8899">Mutually perpendicular along x, y, z axes</text>
+  <text x="280" y="263" text-anchor="middle" font-family="monospace" font-size="9" fill="#4db87a">Max 6e⁻</text>
+
+  <!-- ── d orbital (show dx2-y2) ── -->
+  <text x="470" y="38" text-anchor="middle" font-family="monospace" font-size="10" fill="#9070d0">d subshell</text>
+  <text x="470" y="52" text-anchor="middle" font-family="monospace" font-size="9" fill="#7a8899">ℓ = 2 · m = −2 to +2</text>
+  <!-- 4 lobes cloverleaf -->
+  <ellipse cx="470" cy="92" rx="18" ry="38" fill="url(#pg)" stroke="#3bbfb8" stroke-width="1.2"/>
+  <ellipse cx="470" cy="168" rx="18" ry="38" fill="url(#pg2)" stroke="#9070d0" stroke-width="1.2"/>
+  <ellipse cx="432" cy="130" rx="38" ry="18" fill="url(#pg2)" stroke="#9070d0" stroke-width="1.2"/>
+  <ellipse cx="508" cy="130" rx="38" ry="18" fill="url(#pg)" stroke="#3bbfb8" stroke-width="1.2"/>
+  <circle cx="470" cy="130" r="6" fill="#e8c060"/>
+  <rect x="410" y="205" width="120" height="80" rx="5" fill="rgba(144,112,208,0.05)" stroke="rgba(144,112,208,0.2)" stroke-width="1"/>
+  <text x="470" y="221" text-anchor="middle" font-family="monospace" font-size="9" fill="#9070d0">5 degenerate orbitals</text>
+  <text x="470" y="235" text-anchor="middle" font-family="monospace" font-size="9" fill="#7a8899">Shape: Cloverleaf</text>
+  <text x="470" y="249" text-anchor="middle" font-family="monospace" font-size="9" fill="#7a8899">4 lobes · 2 nodal planes</text>
+  <text x="470" y="263" text-anchor="middle" font-family="monospace" font-size="9" fill="#7a8899">dz² special: 2 lobes</text>
+  <text x="470" y="277" text-anchor="middle" font-family="monospace" font-size="9" fill="#7a8899">+ torus ring</text>
+  <text x="470" y="291" text-anchor="middle" font-family="monospace" font-size="9" fill="#4db87a">Max 10e⁻</text>
+
+  <!-- Summary table -->
+  <rect x="20" y="300" width="520" height="72" rx="6" fill="rgba(255,255,255,0.02)" stroke="#252d3a" stroke-width="1"/>
+  <text x="40" y="318" font-family="monospace" font-size="9" fill="#7a8899">Subshell</text>
+  <text x="120" y="318" font-family="monospace" font-size="9" fill="#7a8899">ℓ</text>
+  <text x="160" y="318" font-family="monospace" font-size="9" fill="#7a8899">m values</text>
+  <text x="270" y="318" font-family="monospace" font-size="9" fill="#7a8899">Orbitals</text>
+  <text x="340" y="318" font-family="monospace" font-size="9" fill="#7a8899">Shape</text>
+  <text x="440" y="318" font-family="monospace" font-size="9" fill="#7a8899">Max e⁻</text>
+  <line x1="30" y1="322" x2="530" y2="322" stroke="#252d3a" stroke-width="0.8"/>
+  <text x="40" y="337" font-family="monospace" font-size="9" fill="#d4a843">s</text><text x="120" y="337" font-family="monospace" font-size="9" fill="#7a8899">0</text><text x="160" y="337" font-family="monospace" font-size="9" fill="#7a8899">0</text><text x="270" y="337" font-family="monospace" font-size="9" fill="#7a8899">1</text><text x="340" y="337" font-family="monospace" font-size="9" fill="#7a8899">Spherical</text><text x="440" y="337" font-family="monospace" font-size="9" fill="#4db87a">2</text>
+  <text x="40" y="352" font-family="monospace" font-size="9" fill="#3bbfb8">p</text><text x="120" y="352" font-family="monospace" font-size="9" fill="#7a8899">1</text><text x="160" y="352" font-family="monospace" font-size="9" fill="#7a8899">−1, 0, +1</text><text x="270" y="352" font-family="monospace" font-size="9" fill="#7a8899">3</text><text x="340" y="352" font-family="monospace" font-size="9" fill="#7a8899">Dumbbell</text><text x="440" y="352" font-family="monospace" font-size="9" fill="#4db87a">6</text>
+  <text x="40" y="367" font-family="monospace" font-size="9" fill="#9070d0">d</text><text x="120" y="367" font-family="monospace" font-size="9" fill="#7a8899">2</text><text x="160" y="367" font-family="monospace" font-size="9" fill="#7a8899">−2 to +2</text><text x="270" y="367" font-family="monospace" font-size="9" fill="#7a8899">5</text><text x="340" y="367" font-family="monospace" font-size="9" fill="#7a8899">Cloverleaf</text><text x="440" y="367" font-family="monospace" font-size="9" fill="#4db87a">10</text>
+</svg>

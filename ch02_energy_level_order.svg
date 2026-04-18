@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" width="400" height="420">
+  <rect width="400" height="420" fill="#0c0f14"/>
+  <text x="200" y="15" text-anchor="middle" font-family="monospace" font-size="11" fill="#7a8899" letter-spacing="0.3">SUBSHELL ENERGY LEVELS  ·  Aufbau Order</text>
+
+  <!-- y-axis: energy arrow -->
+  <line x1="40" y1="380" x2="40" y2="25" stroke="#303a4a" stroke-width="1.5" marker-end="url(#uarr)"/>
+  <defs>
+    <marker id="uarr" markerWidth="8" markerHeight="6" refX="4" refY="3" orient="auto">
+      <polygon points="0 6, 4 0, 8 6" fill="#303a4a"/>
+    </marker>
+  </defs>
+  <text x="15" y="200" text-anchor="middle" font-family="monospace" font-size="10" fill="#7a8899" transform="rotate(-90,15,200)">ENERGY</text>
+
+  <!-- Subshell levels — drawn as horizontal lines with labels -->
+  <!-- Order from bottom (low energy) to top (high energy): 1s 2s 2p 3s 3p 4s 3d 4p 5s 4d 5p -->
+  <!-- y positions from bottom: 1s=370, 2s=340, 2p=315, 3s=285, 3p=255, 4s=225, 3d=210, 4p=185, 5s=160, 4d=145, 5p=120 -->
+
+  <!-- helper: line from x=60 to x=200, label on right -->
+
+  <!-- 1s -->
+  <line x1="60" y1="370" x2="200" y2="370" stroke="#d4a843" stroke-width="2.5"/>
+  <text x="210" y="374" font-family="monospace" font-size="12" fill="#d4a843">1s</text>
+  <text x="250" y="374" font-family="monospace" font-size="10" fill="#7a8899">(n+ℓ=1)</text>
+  <text x="340" y="374" font-family="monospace" font-size="9" fill="#4db87a">① fill 1st</text>
+
+  <!-- 2s -->
+  <line x1="60" y1="340" x2="200" y2="340" stroke="#d4a843" stroke-width="2"/>
+  <text x="210" y="344" font-family="monospace" font-size="12" fill="#d4a843">2s</text>
+  <text x="250" y="344" font-family="monospace" font-size="10" fill="#7a8899">(n+ℓ=2)</text>
+  <text x="340" y="344" font-family="monospace" font-size="9" fill="#4db87a">②</text>
+
+  <!-- 2p -->
+  <line x1="60" y1="315" x2="200" y2="315" stroke="#3bbfb8" stroke-width="2"/>
+  <text x="210" y="319" font-family="monospace" font-size="12" fill="#3bbfb8">2p</text>
+  <text x="250" y="319" font-family="monospace" font-size="10" fill="#7a8899">(n+ℓ=3)</text>
+  <text x="340" y="319" font-family="monospace" font-size="9" fill="#4db87a">③</text>
+
+  <!-- 3s -->
+  <line x1="60" y1="285" x2="200" y2="285" stroke="#d4a843" stroke-width="2"/>
+  <text x="210" y="289" font-family="monospace" font-size="12" fill="#d4a843">3s</text>
+  <text x="250" y="289" font-family="monospace" font-size="10" fill="#7a8899">(n+ℓ=3)</text>
+  <text x="340" y="289" font-family="monospace" font-size="9" fill="#4db87a">④</text>
+
+  <!-- 3p -->
+  <line x1="60" y1="255" x2="200" y2="255" stroke="#3bbfb8" stroke-width="2"/>
+  <text x="210" y="259" font-family="monospace" font-size="12" fill="#3bbfb8">3p</text>
+  <text x="250" y="259" font-family="monospace" font-size="10" fill="#7a8899">(n+ℓ=4)</text>
+  <text x="340" y="259" font-family="monospace" font-size="9" fill="#4db87a">⑤</text>
+
+  <!-- 4s — BEFORE 3d (key point) -->
+  <line x1="60" y1="225" x2="200" y2="225" stroke="#d4a843" stroke-width="2"/>
+  <text x="210" y="229" font-family="monospace" font-size="12" fill="#d4a843">4s</text>
+  <text x="250" y="229" font-family="monospace" font-size="10" fill="#e8c060">(n+ℓ=4) !</text>
+  <text x="340" y="229" font-family="monospace" font-size="9" fill="#4db87a">⑥ BEFORE 3d</text>
+
+  <!-- 3d — just above 4s -->
+  <line x1="60" y1="205" x2="200" y2="205" stroke="#9070d0" stroke-width="2"/>
+  <text x="210" y="209" font-family="monospace" font-size="12" fill="#9070d0">3d</text>
+  <text x="250" y="209" font-family="monospace" font-size="10" fill="#7a8899">(n+ℓ=5)</text>
+  <text x="340" y="209" font-family="monospace" font-size="9" fill="#4db87a">⑦</text>
+
+  <!-- 4p -->
+  <line x1="60" y1="180" x2="200" y2="180" stroke="#3bbfb8" stroke-width="2"/>
+  <text x="210" y="184" font-family="monospace" font-size="12" fill="#3bbfb8">4p</text>
+  <text x="250" y="184" font-family="monospace" font-size="10" fill="#7a8899">(n+ℓ=5)</text>
+  <text x="340" y="184" font-family="monospace" font-size="9" fill="#4db87a">⑧</text>
+
+  <!-- 5s -->
+  <line x1="60" y1="152" x2="200" y2="152" stroke="#d4a843" stroke-width="1.5"/>
+  <text x="210" y="156" font-family="monospace" font-size="12" fill="#d4a843">5s</text>
+  <text x="250" y="156" font-family="monospace" font-size="10" fill="#7a8899">(n+ℓ=5)</text>
+  <text x="340" y="156" font-family="monospace" font-size="9" fill="#4db87a">⑨</text>
+
+  <!-- 4d -->
+  <line x1="60" y1="128" x2="200" y2="128" stroke="#9070d0" stroke-width="1.5"/>
+  <text x="210" y="132" font-family="monospace" font-size="12" fill="#9070d0">4d</text>
+  <text x="250" y="132" font-family="monospace" font-size="10" fill="#7a8899">(n+ℓ=6)</text>
+  <text x="340" y="132" font-family="monospace" font-size="9" fill="#4db87a">⑩</text>
+
+  <!-- 5p -->
+  <line x1="60" y1="104" x2="200" y2="104" stroke="#3bbfb8" stroke-width="1.5"/>
+  <text x="210" y="108" font-family="monospace" font-size="12" fill="#3bbfb8">5p</text>
+  <text x="250" y="108" font-family="monospace" font-size="10" fill="#7a8899">(n+ℓ=6)</text>
+  <text x="340" y="108" font-family="monospace" font-size="9" fill="#4db87a">⑪</text>
+
+  <!-- Key callout box -->
+  <rect x="55" y="235" width="140" height="18" rx="3" fill="rgba(232,192,96,0.08)" stroke="rgba(232,192,96,0.3)" stroke-width="1"/>
+  <text x="125" y="247" text-anchor="middle" font-family="monospace" font-size="8" fill="#e8c060">4s fills BEFORE 3d !</text>
+
+  <!-- bottom note -->
+  <text x="200" y="402" text-anchor="middle" font-family="monospace" font-size="9" fill="#4db87a">Equal (n+ℓ)? → lower n fills first</text>
+  <text x="200" y="415" text-anchor="middle" font-family="monospace" font-size="9" fill="#7a8899">4s (n+ℓ=4, n=4) fills before 3d (n+ℓ=5)</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 220" width="500" height="220">
+  <rect width="500" height="220" fill="#0c0f14"/>
+  <text x="250" y="16" text-anchor="middle" font-family="monospace" font-size="11" fill="#7a8899" letter-spacing="0.5">SPIN QUANTUM NUMBER  ·  s = +½  or  −½</text>
+
+  <!-- Left: up spin -->
+  <rect x="60" y="50" width="160" height="120" rx="10" fill="rgba(77,184,122,0.08)" stroke="rgba(77,184,122,0.4)" stroke-width="1.5"/>
+  <text x="140" y="44" text-anchor="middle" font-family="monospace" font-size="10" fill="#4db87a">s = +½</text>
+  <!-- orbital box -->
+  <rect x="105" y="75" width="70" height="50" rx="4" fill="rgba(77,184,122,0.12)" stroke="#4db87a" stroke-width="1.5"/>
+  <!-- up arrow -->
+  <line x1="140" y1="118" x2="140" y2="82" stroke="#4db87a" stroke-width="3"/>
+  <polygon points="140,76 133,90 147,90" fill="#4db87a"/>
+  <text x="140" y="148" text-anchor="middle" font-family="monospace" font-size="11" fill="#4db87a">↑ Up-spin</text>
+  <text x="140" y="163" text-anchor="middle" font-family="monospace" font-size="10" fill="#7a8899">Anticlockwise</text>
+  <text x="140" y="178" text-anchor="middle" font-family="monospace" font-size="10" fill="#7a8899">rotation</text>
+
+  <!-- Right: down spin -->
+  <rect x="280" y="50" width="160" height="120" rx="10" fill="rgba(217,95,95,0.08)" stroke="rgba(217,95,95,0.4)" stroke-width="1.5"/>
+  <text x="360" y="44" text-anchor="middle" font-family="monospace" font-size="10" fill="#d95f5f">s = −½</text>
+  <!-- orbital box -->
+  <rect x="325" y="75" width="70" height="50" rx="4" fill="rgba(217,95,95,0.12)" stroke="#d95f5f" stroke-width="1.5"/>
+  <!-- down arrow -->
+  <line x1="360" y1="82" x2="360" y2="118" stroke="#d95f5f" stroke-width="3"/>
+  <polygon points="360,124 353,110 367,110" fill="#d95f5f"/>
+  <text x="360" y="148" text-anchor="middle" font-family="monospace" font-size="11" fill="#d95f5f">↓ Down-spin</text>
+  <text x="360" y="163" text-anchor="middle" font-family="monospace" font-size="10" fill="#7a8899">Clockwise</text>
+  <text x="360" y="178" text-anchor="middle" font-family="monospace" font-size="10" fill="#7a8899">rotation</text>
+
+  <!-- paired orbital example -->
+  <text x="250" y="205" text-anchor="middle" font-family="monospace" font-size="10" fill="#e8c060">Paired orbital: [↑↓] — one +½ and one −½ — always opposite (Pauli)</text>
+</svg>
