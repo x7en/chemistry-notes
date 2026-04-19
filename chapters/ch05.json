@@ -1,0 +1,1617 @@
+{
+  "meta": {
+    "id": "ch05",
+    "number": 5,
+    "title": "States and Phases of Matter",
+    "exam_info": "1 MCQ · Q5(b) Long Question",
+    "deleted": "5.10 Energetics of phase changes (pp.104–105) · Solids general properties (pp.105) — only properties needed for SLOs retained · Exercise MCQ IV · SAQs d, j · Numerical Problems 8, 9",
+    "notes_merged": "Academy notes merged · 2 note errors flagged · Note uses 'id-id' and 'pd-pd' shorthand throughout"
+  },
+  "sections": [
+    {
+      "id": "sec51",
+      "number": "5.1",
+      "title": "Properties of Gases",
+      "blocks": [
+        {
+          "type": "p",
+          "t": "Matter exists in four states: solid, liquid, gas, and plasma. The simplest form of matter is the gaseous state. Liquids exist only within a narrow range of temperature and pressure."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Gases have <strong>no definite shape or volume</strong>. Volume = volume of container.",
+            "Ideal gases have <strong>zero particle volume</strong>.",
+            "Molecules are widely separated — nearly 99.9% of gas is empty space, so gases compress easily.",
+            "When sudden expansion of gases occurs, cooling takes place — called <strong>Joule-Thomson effect</strong>.",
+            "Pressure of a gas is due to <strong>collisions of molecules with walls</strong> of the container.",
+            "Ideal gases have <strong>negligible intermolecular forces</strong>.",
+            "Gaseous molecules have <strong>negligible intermolecular forces</strong> and large gaps — so they occupy a larger volume.",
+            "Gases are <strong>highly compressible</strong>. Solids: 0.0005% compressibility."
+          ]
+        },
+        {
+          "type": "def",
+          "label": "Joule-Thomson Effect",
+          "text": "When sudden expansion of gases occurs, cooling takes place. It is called Joule-Thomson effect.",
+          "src": "p.92"
+        },
+        {
+          "type": "concept",
+          "head": "Density of Gases",
+          "body": "Density of a gas depends on its molar mass. From the ideal gas equation:",
+          "eq": "d = PM / RT\nd ∝ P,  d ∝ Mr,  d ∝ 1/T"
+        },
+        {
+          "type": "tip",
+          "t": "Gases are compressible because 99.9% of their volume is empty space — molecules can be pushed closer. Solids and liquids have no such space."
+        }
+      ]
+    },
+    {
+      "id": "sec52",
+      "number": "5.2",
+      "title": "Ideal Gas Equation",
+      "blocks": [
+        {
+          "type": "p",
+          "t": "Gas laws relate volume of a gas to temperature, pressure, and amount. Combining Boyle's, Charles', and Avogadro's laws gives the ideal gas equation."
+        },
+        {
+          "type": "concept",
+          "head": "Derivation of Ideal Gas Equation",
+          "body": "Three gas laws combined:",
+          "eq": "Boyle's Law:     V ∝ 1/P   (n, T = constant)\nCharles' Law:    V ∝ T    (n, P = constant)\nAvogadro's Law: V ∝ n    (P, T = constant)\n\nCombining: V ∝ nT/P\n\nV = R × nT/P\n∴  PV = nRT"
+        },
+        {
+          "type": "def",
+          "label": "Ideal Gas Equation",
+          "text": "PV = nRT  where R = 0.0821 atm dm³ K⁻¹ mol⁻¹ (general gas constant). Also called the general gas equation.",
+          "src": "p.93"
+        },
+        {
+          "type": "concept",
+          "head": "Calculation of Relative Molecular Mass (Mr)",
+          "body": "Put n = m/M in PV = nRT:",
+          "eq": "PV = (m/M) RT\nPVM = mRT\nM = mRT / PV\n∴ Mr = mRT / PV"
+        },
+        {
+          "type": "concept",
+          "head": "To Find Density from Ideal Gas Equation",
+          "body": "Since d = m/V:",
+          "eq": "PV = (m/M) RT\nPM = (m/V) RT\nPM = d RT\n∴ d = PM / RT"
+        },
+        {
+          "type": "info",
+          "head": "STP (Standard Temperature and Pressure)",
+          "body": "Standard temperature = 273 K (0°C), Standard pressure = 1 atm",
+          "items": [
+            "TK = T°C + 273",
+            "At STP, 1 mole of ideal gas occupies 22.4 dm³"
+          ]
+        },
+        {
+          "type": "concept",
+          "head": "Sample Problem — Finding Mr",
+          "body": "134 g of a gas at −73°C, 10 atm pressure, volume 5 dm³. Find Mr.",
+          "eq": "T = −73 + 273 = 200 K\nMr = mRT / PV\nMr = (134)(0.0821)(200) / (10)(5)\nMr = 2200.28 / 50 = 44 g mol⁻¹"
+        },
+        {
+          "type": "qc",
+          "title": "Quick Check 5.1",
+          "items": [
+            {
+              "num": "a",
+              "q": "Explain why gases can be compressed easily?",
+              "ans": "<p>Gases can be compressed easily because their molecules are widely separated. Nearly 99.9% of the volume of a gas is empty space. On applying pressure, molecules come closer together, reducing the volume. There is no significant resistance from intermolecular forces since ideal gases have negligible IMF.</p>"
+            },
+            {
+              "num": "b",
+              "q": "What is Joule-Thomson effect?",
+              "ans": "<p>When a gas undergoes sudden expansion, its molecules use energy to overcome intermolecular forces (if any) and to do work against external pressure. This causes a decrease in kinetic energy of molecules and thus <strong>cooling takes place</strong>. This is called the <strong>Joule-Thomson effect</strong>.</p>"
+            },
+            {
+              "num": "c",
+              "q": "The volume of 84 g of a gas is 8 dm³ at −90°C under 7 atm pressure. Calculate the relative molecular mass of the gas.",
+              "ans": "<p>T = −90 + 273 = 183 K</p><div>Mr = mRT / PV = (84)(0.0821)(183) / (7)(8) = 1263.6 / 56 ≈ <strong>22.6 g mol⁻¹</strong></div>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec53",
+      "number": "5.3",
+      "title": "Properties of Liquids",
+      "blocks": [
+        {
+          "type": "ul",
+          "items": [
+            "<strong>Diffusion:</strong> Liquids diffuse like gases but 10⁵ times slower than gases and 10 times faster than solids.",
+            "<strong>Compressibility:</strong> Liquids are 10⁵ times less compressible than gases but about 10 times more compressible than solids.",
+            "<strong>Intermolecular forces:</strong> Stronger than gases but weaker than solids. Density order: Solids > Liquids > Gases.",
+            "<strong>Movement:</strong> Molecules in constant random motion but slower than gases. Liquids flow freely.",
+            "<strong>Expansion:</strong> Liquids expand on heating but much less than gases.",
+            "<strong>Kinetic energy:</strong> Molecules have KE at all temperatures (KMT). T ∝ KE.",
+            "<strong>Shape and volume:</strong> No definite shape but has definite volume."
+          ]
+        },
+        {
+          "type": "concept",
+          "head": "Strength of Attractive Forces",
+          "body": "Order: Solids > Liquids > Gases",
+          "items": [
+            "Solids: very strong IMF, particles fixed in place",
+            "Liquids: intermediate IMF, particles move but stay together",
+            "Gases: negligible IMF, particles free to move"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec54",
+      "number": "5.4",
+      "title": "Intermolecular Forces",
+      "blocks": [
+        {
+          "type": "p",
+          "t": "Forces of attraction between atoms of molecules are <strong>intermolecular forces</strong> (IMF). Forces of attraction between atoms <em>within</em> a molecule is a <strong>bond</strong>. IMF are weak forces of attraction represented by dotted lines (···)."
+        },
+        {
+          "type": "concept",
+          "head": "Types of Intermolecular Forces",
+          "items": [
+            "i. Instantaneous dipole – induced dipole (id-id) = London Dispersion Forces",
+            "ii. Permanent dipole – permanent dipole (pd-pd) = Dipole-Dipole forces",
+            "iii. Hydrogen bonding (special type of pd-pd)"
+          ],
+          "note": "IMF does NOT involve transfer of electrons (ionic) or sharing (covalent). It only requires δ⁺ and δ⁻ ends."
+        },
+        {
+          "type": "concept",
+          "head": "Strength Order",
+          "body": "Among all intermolecular forces:",
+          "eq": "Chemical bond > H-bonding > Intermolecular forces (id-id, pd-pd)"
+        },
+        {
+          "type": "concept",
+          "head": "Umpolung / Induction Rule",
+          "body": "In a chain A–B–C–D, the charges alternate:",
+          "eq": "δ⁻  δ⁺  δ⁻  δ⁺\n A — B — C — D"
+        },
+        {
+          "type": "subsec",
+          "t": "5.4.1 Instantaneous Dipole – Induced Dipole Forces (id-id) / London Dispersion Forces"
+        },
+        {
+          "type": "def",
+          "label": "London Dispersion Forces (id-id)",
+          "text": "The momentary force of attraction between an instantaneous dipole and an induced dipole is called instantaneous dipole-induced dipole force.",
+          "src": "p.95"
+        },
+        {
+          "type": "concept",
+          "head": "How id-id Forces Form (Mechanism for Br₂)",
+          "body": "Br₂ is homoatomic and non-polar. Electronic charges are equally distributed. Bond pair orbits equally for both atoms. When two Br₂ molecules come close:",
+          "items": [
+            "Electrons of one molecule repel electrons of nearby molecule (unequal distribution)",
+            "One molecule becomes an instantaneous dipole",
+            "This induces a dipole in the nearby molecule",
+            "Force of attraction develops between the two dipoles — this is id-id force"
+          ]
+        },
+        {
+          "type": "diagram",
+          "file": "diagrams/ch05_id_id_force_bromine.svg",
+          "caption": "Creation of instantaneous dipole-induced dipole force in Br₂",
+          "alt": "Two Br₂ molecules showing electron redistribution creating δ+ and δ- ends, then attraction between dipoles"
+        },
+        {
+          "type": "p",
+          "t": "London forces are present in <strong>all molecules</strong> — polar and non-polar. In polar molecules they exist at the non-polar end."
+        },
+        {
+          "type": "subsec",
+          "t": "Factors Affecting Strength of id-id Forces"
+        },
+        {
+          "type": "factors",
+          "items": [
+            {
+              "num": "1",
+              "title": "Molecular Mass and Size",
+              "body": " — Larger mass → larger size → greater polarizability → stronger id-id forces → higher boiling point. Example: F₂ (gas) < Cl₂ (gas) < Br₂ (liquid) < I₂ (solid). Noble gases: He < Ne < Ar < Kr < Xe."
+            },
+            {
+              "num": "2",
+              "title": "Surface Area (Atomicity / Shape)",
+              "body": " — More atoms in molecule → larger surface area → more contact points → stronger London forces. Straight chain has more surface area than branched chain. n-pentane (bp 36°C) > iso-pentane (bp 28°C) > neo-pentane (bp 9.5°C)."
+            }
+          ]
+        },
+        {
+          "type": "concept",
+          "head": "Polarizability Order",
+          "items": [
+            "CH₄ < C₂H₆ < C₃H₇ < C₄H₁₀",
+            "F₂ < Cl₂ < Br₂ < I₂",
+            "He < Ne < Ar < Kr < Xe"
+          ],
+          "note": "Polarizability increases with size and number of shells (electronic cloud increases)."
+        },
+        {
+          "type": "concept",
+          "head": "Why I₂ is Solid while F₂ is Gas?",
+          "body": "Boiling point of F₂ is 85K while boiling point of I₂ is 458K. I₂ has much higher atomicity, larger size, greater polarizability and stronger London forces → solid at room temperature. F₂ has smallest size → weakest London forces → gas."
+        },
+        {
+          "type": "concept",
+          "head": "Why Boiling Point of Butane > Ethane?",
+          "items": [
+            "i. Butane has higher atomicity",
+            "ii. Butane has larger size",
+            "iii. Butane has higher polarizability",
+            "Therefore: stronger London forces → higher boiling point"
+          ]
+        },
+        {
+          "type": "concept",
+          "head": "Why BP of n-pentane > neo-pentane?",
+          "body": "Number of binding sites is larger in straight chains than in branched chains. More binding sites → stronger London forces → higher BP.",
+          "eq": "n-pentane (36°C) > iso-pentane (28°C) > neo-pentane (9.5°C)"
+        },
+        {
+          "type": "table",
+          "cols": ["Substance", "Mr", "Boiling Point (K)", "State"],
+          "rows": [
+            ["F₂", "38", "85", "Gas"],
+            ["Cl₂", "71", "239", "Gas"],
+            ["Br₂", "159", "333", "Liquid"],
+            ["I₂", "253.8", "458", "Solid"],
+            ["He", "4", "4.22", "Gas"],
+            ["Ne", "20", "27.1", "Gas"],
+            ["Ar", "40", "87.3", "Gas"],
+            ["Kr", "84", "120", "Gas"],
+            ["Xe", "131", "165", "Gas"]
+          ]
+        },
+        {
+          "type": "qc",
+          "title": "Quick Check 5.2",
+          "items": [
+            {
+              "num": "a",
+              "q": "Why are straight chain hydrocarbons converted to branched chain ones in petrol refining?",
+              "ans": "<p>Straight chain hydrocarbons have more surface area and stronger London dispersion forces. They have higher boiling points and ignite less smoothly in engines (causing knocking). Converting to branched chains reduces London forces, lowers BP, and improves octane rating for smoother combustion.</p>"
+            },
+            {
+              "num": "b",
+              "q": "Which forces are present among molecules of CCl₄ and SiF₄?",
+              "ans": "<p>Both CCl₄ and SiF₄ are <strong>symmetrical non-polar molecules</strong>. They have no permanent dipole. Therefore, only <strong>instantaneous dipole – induced dipole (London dispersion) forces</strong> are present between their molecules.</p>"
+            },
+            {
+              "num": "c",
+              "q": "Differentiate id-id and pd-pd forces with examples.",
+              "ans": "<p><strong>id-id (London) forces:</strong> Momentary attractive force between an instantaneous dipole and induced dipole. Present in ALL molecules. Example: Br₂, I₂, noble gases.</p><p><strong>pd-pd (Dipole-Dipole) forces:</strong> Force of attraction between partial positive end of one polar molecule and partial negative end of another. Present only in polar molecules. Example: HCl, CHCl₃.</p>"
+            }
+          ]
+        },
+        {
+          "type": "subsec",
+          "t": "5.4.2 Permanent Dipole – Permanent Dipole Forces (pd-pd)"
+        },
+        {
+          "type": "def",
+          "label": "Dipole-Dipole Force",
+          "text": "The force of attraction between the positive end of a polar molecule and the negative end of a nearby polar molecule is called permanent dipole-permanent dipole force.",
+          "src": "p.96"
+        },
+        {
+          "type": "concept",
+          "head": "Example: HCl",
+          "body": "EN of H = 2.1, EN of Cl = 3.0. Difference = 0.9 → HCl is polar. H has δ⁺, Cl has δ⁻. Adjacent HCl molecules line up with δ⁺ end of one attracting δ⁻ end of next.",
+          "eq": "H⁻Cl⁺ ···  H⁻Cl⁺ ···  H⁻Cl⁺"
+        },
+        {
+          "type": "concept",
+          "head": "Boiling Point of Polar vs Non-Polar",
+          "body": "Polar molecules have pd-pd forces IN ADDITION to id-id forces. So they have higher BP than non-polar molecules of similar mass.",
+          "eq": "Boiling point order: Butane < Propanone < Propanol\n(non-polar) (polar, pd-pd) (polar, H-bond)"
+        },
+        {
+          "type": "diagram",
+          "file": "diagrams/ch05_dipole_dipole_HCl.svg",
+          "caption": "Permanent dipole-permanent dipole forces in HCl",
+          "alt": "Row of HCl molecules showing δ+ on H end and δ- on Cl end, with dotted lines showing attraction between molecules"
+        },
+        {
+          "type": "subsec",
+          "t": "5.4.3 Hydrogen Bonding"
+        },
+        {
+          "type": "def",
+          "label": "Hydrogen Bond",
+          "text": "Electrostatic force of attraction between partial positive hydrogen and lone pair of a highly electronegative atom of molecules is called hydrogen bonding.",
+          "src": "p.97"
+        },
+        {
+          "type": "concept",
+          "head": "Conditions for H-Bonding",
+          "items": [
+            "i. Presence of partial positive hydrogen (δ⁺ H)",
+            "ii. Highly electronegative atom with lone pair — F, O, or N"
+          ],
+          "note": "H-bonding is a special type of dipole-dipole interaction. It is the STRONGEST intermolecular force. It is weaker than chemical (covalent) bonds. Represented by dotted lines (···)."
+        },
+        {
+          "type": "concept",
+          "head": "a) H-Bonding in Water (H₂O)",
+          "body": "Formula: H₂O. EN of H = 2.1, EN of O = 3.5. Difference = 1.4 → polar molecule.",
+          "items": [
+            "H has partial positive charge (δ⁺)",
+            "O has: i. lone pair, ii. highly electronegative (partial negative charge δ⁻)",
+            "So water is polar → can develop H-bonding",
+            "Water molecule can form average <strong>two H-bonds</strong> (using either lone pair or δ⁺ hydrogens)",
+            "Water has extensive H-bonding → very strong"
+          ],
+          "eq": "Boiling point ∝ strength of H-bonding\nWater BP = 100°C (760 torr)"
+        },
+        {
+          "type": "diagram",
+          "file": "diagrams/ch05_hbond_water.svg",
+          "caption": "Hydrogen bonding network in liquid water",
+          "alt": "Multiple water molecules connected by dotted H-bonds showing tetrahedral arrangement"
+        },
+        {
+          "type": "concept",
+          "head": "b) H-Bonding in Ammonia (NH₃)",
+          "body": "Formula: NH₃. EN of H = 2.1(2.5), EN of N = 3.2. Nitrogen has <strong>one lone pair</strong>, hydrogen has partial positive charge.",
+          "items": [
+            "NH₃ can have hydrogen bonding",
+            "N has only ONE lone pair → average ONE H-bond per molecule",
+            "H-bonding in NH₃ is weaker than water",
+            "Exists as liquid at −33°C (boiling point)"
+          ]
+        },
+        {
+          "type": "concept",
+          "head": "c) H-Bonding in HF",
+          "body": "Formula: HF. EN of H = 2.1(2.2), EN of F = 4.0. ΔEN = 4.0 − 2.2 = 1.8 (largest among HF, H₂O, NH₃).",
+          "items": [
+            "F has THREE lone pairs → can form 3 H-bonds in theory",
+            "But only ONE H atom → restricted to ONE H-bond per molecule",
+            "H-bond in HF is strong (high ΔEN) but only 1 per molecule",
+            "Boiling point = 19.9°C"
+          ]
+        },
+        {
+          "type": "table",
+          "cols": ["Compound", "ΔEN", "Lone pairs used", "Avg H-bonds/molecule", "BP"],
+          "rows": [
+            ["H₂O", "3.5−2.2 = 1.3", "2", "2 (strongest)", "100°C"],
+            ["HF", "4.0−2.2 = 1.8", "3 (but 1 H)", "1", "19.9°C"],
+            ["NH₃", "3.2−2.2 = 1.0", "1", "1 (weakest)", "−33°C"]
+          ]
+        },
+        {
+          "type": "concept",
+          "head": "Boiling Point Order: H₂O > HF > NH₃",
+          "body": "BP ∝ number of lone pairs in bonding. Water uses 2 lone pairs (stronger, extensive), HF and NH₃ use one each.",
+          "eq": "H₂O (100°C) > HF (19.9°C) > NH₃ (−33°C)"
+        },
+        {
+          "type": "tip",
+          "t": "Exam favourite: Why does water have higher BP than HF even though HF has larger ΔEN? Answer: Water forms MORE H-bonds per molecule (2 lone pairs used) giving more extensive H-bonding."
+        },
+        {
+          "type": "qc",
+          "title": "Quick Check 5.3",
+          "items": [
+            {
+              "num": "a",
+              "q": "Can CHF₃ make a hydrogen bond? Explain.",
+              "ans": "<p>Yes. In CHF₃, F is highly electronegative and has lone pairs. The H atom bonded to C has a partial positive charge due to the inductive effect of the three F atoms. This satisfies both conditions for H-bonding: δ⁺ H and an electronegative atom (F) with lone pairs. So CHF₃ can form H-bonds.</p>"
+            },
+            {
+              "num": "b",
+              "q": "Show a hydrogen bond between two molecules of ethanol (CH₃CH₂OH).",
+              "ans": "<p>In ethanol, O is electronegative (EN=3.5) and has lone pairs. H bonded to O has δ⁺ charge. H-bond forms between the δ⁺ H of one ethanol molecule and the lone pair on O of the adjacent molecule: <br><strong>C₂H₅—O—H ··· O—C₂H₅</strong></p>"
+            },
+            {
+              "num": "c",
+              "q": "Arrange CH₃CH₂CH₃, CH₃CH₂OH, CH₃CH₂Cl in increasing order of boiling point.",
+              "ans": "<p>i. CH₃CH₂CH₃ (propane) — non-polar, only London forces → lowest BP<br>ii. CH₃CH₂Cl (chloroethane) — polar, pd-pd + London forces → intermediate BP<br>iii. CH₃CH₂OH (ethanol) — polar, H-bonding + pd-pd + London → highest BP<br><strong>Order: propane &lt; chloroethane &lt; ethanol</strong></p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec544",
+      "number": "5.4.4",
+      "title": "Influence of Hydrogen Bonding on Properties of Water",
+      "blocks": [
+        {
+          "type": "subsec",
+          "t": "i. Structure and Low Density of Ice"
+        },
+        {
+          "type": "p",
+          "t": "Water molecules have <strong>tetrahedral structure</strong> (lone pairs included). When temperature is lowered: H-bonding gets stronger → molecules get regularly arranged → regularity extends throughout system → water converts to ice."
+        },
+        {
+          "type": "concept",
+          "head": "Why Ice is Less Dense than Water",
+          "body": "During freezing, extensive H-bonding creates empty spaces in the crystal structure. Volume of water increases by 9% when it becomes ice (d = m/v → density decreases).",
+          "items": [
+            "At 4°C: density = 1 g cm⁻³ (maximum density of water)",
+            "At 0°C: density = 0.9 g cm⁻³",
+            "Ice floats on water due to lower density"
+          ]
+        },
+        {
+          "type": "info",
+          "head": "How Water Helps Aquatic Animals Survive",
+          "body": "Ice (low density) floats on water surface and acts as a blanket/insulator. It does NOT allow the cooling effect to extend into the interior of water. Aquatic animals survive beneath the ice layer in cold areas."
+        },
+        {
+          "type": "diagram",
+          "file": "diagrams/ch05_ice_structure.svg",
+          "caption": "Extensive hydrogen bonding in ice showing empty spaces between molecules",
+          "alt": "Hexagonal lattice of water molecules in ice connected by H-bonds with visible empty spaces"
+        },
+        {
+          "type": "subsec",
+          "t": "ii. High Heat Capacity"
+        },
+        {
+          "type": "def",
+          "label": "Heat Capacity",
+          "text": "Amount of heat absorbed before changing physical state.",
+          "src": "p.98"
+        },
+        {
+          "type": "concept",
+          "head": "Water Has Maximum Heat Capacity",
+          "body": "Heat capacity ∝ strength of intermolecular forces. Water has strongest H-bonding among common liquids.",
+          "eq": "Order: H₂O > C₂H₅OH > NH₃"
+        },
+        {
+          "type": "info",
+          "head": "Why Water is Used as a Coolant",
+          "body": "Water has high heat capacity due to extensive hydrogen bonding. More energy is required to vaporize even a small amount of water. So water absorbs large amounts of heat while keeping temperature change small — ideal as a coolant in engines, reactors."
+        },
+        {
+          "type": "subsec",
+          "t": "iii. Anomalous Heat of Vaporization and Boiling Point"
+        },
+        {
+          "type": "concept",
+          "head": "Group 16 Hydrides Anomaly",
+          "body": "Normal trend: BP increases down the group (H₂S → H₂Te) because London forces increase with size. H₂O should have the LOWEST BP among group 16 hydrides (smallest size). But H₂O has the HIGHEST BP (100°C) due to extensive H-bonding.",
+          "eq": "Expected: H₂S < H₂Se < H₂Te < H₂Po\nActual: H₂S < H₂Se < H₂Te < H₂Po < H₂O\n(H₂O anomalously high due to H-bonding)"
+        },
+        {
+          "type": "diagram",
+          "file": "diagrams/ch05_group16_bp_graph.svg",
+          "caption": "Graph of boiling points of Group 16 hydrides showing anomalous high BP of H₂O",
+          "alt": "Line graph with atomic number on x-axis and BP on y-axis; H₂S, H₂Se, H₂Te increasing, then H₂O far above the trend line"
+        },
+        {
+          "type": "subsec",
+          "t": "iv. Surface Tension and Viscosity"
+        },
+        {
+          "type": "p",
+          "t": "Water has <strong>stronger H-bonding</strong> among liquids, so it has <strong>high viscosity</strong> and flow is less (slower)."
+        },
+        {
+          "type": "concept",
+          "head": "Viscosity Order",
+          "eq": "H₂O > C₂H₅OH > C₆H₁₄\n(water) (ethanol) (hexane)"
+        }
+      ]
+    },
+    {
+      "id": "sec55",
+      "number": "5.5",
+      "title": "Surface Tension of Liquids",
+      "blocks": [
+        {
+          "type": "def",
+          "label": "Surface Tension",
+          "text": "The inward and downward pulling force of liquid molecules is called surface tension.",
+          "src": "p.99"
+        },
+        {
+          "type": "concept",
+          "head": "Explanation",
+          "body": "Molecules of liquid present at corners (surface) have force of attraction with downward or inward molecules. Due to this, surface molecules are attracted towards downward or inward. These forces are called surface tension. It causes liquids to contract and become strained.",
+          "items": [
+            "Surface tension causes formation of spherical droplets",
+            "Explains capillary action",
+            "Explains wetting ability"
+          ]
+        },
+        {
+          "type": "concept",
+          "head": "Why Liquid Droplets Are Spherical",
+          "body": "Due to surface tension, liquid molecules attract each other and try to increase surface area. As a result they contract and convert to spherical droplets (sphere has minimum surface area)."
+        },
+        {
+          "type": "concept",
+          "head": "Factors Affecting Surface Tension",
+          "eq": "Surface Tension ∝ 1/Temperature\nSurface Tension ∝ Intermolecular Forces"
+        },
+        {
+          "type": "concept",
+          "head": "Strength of Surface Tension ∝ Strength of IMF",
+          "body": "Water has higher surface tension than ethanol or ether because water has stronger H-bonding.",
+          "items": [
+            "Water > ethanol > ether (surface tension order)"
+          ]
+        },
+        {
+          "type": "info",
+          "head": "Importance of Surface Tension",
+          "items": [
+            "Wetting ability",
+            "Capillary action",
+            "Formation of spherical droplets",
+            "Removing stains"
+          ]
+        },
+        {
+          "type": "diagram",
+          "file": "diagrams/ch05_surface_tension.svg",
+          "caption": "Surface tension showing inward pull on surface molecules vs balanced forces on interior molecules",
+          "alt": "Liquid in container with arrows showing net downward/inward force on surface molecules and balanced arrows on interior molecules"
+        },
+        {
+          "type": "qc",
+          "title": "Quick Check 5.4",
+          "items": [
+            {
+              "num": "a",
+              "q": "Arrange acetone, ethanol, methoxy methane in increasing order of surface tension.",
+              "ans": "<p>Surface tension ∝ strength of IMF.<br>• Methoxy methane (dimethyl ether): polar but very weak pd-pd, no OH group → lowest ST<br>• Acetone: polar (pd-pd) but no H-bonding → intermediate<br>• Ethanol: H-bonding → highest surface tension<br><strong>Order: methoxy methane &lt; acetone &lt; ethanol</strong></p>"
+            },
+            {
+              "num": "d",
+              "q": "Which is more viscous: glycerine or hexane? Why?",
+              "ans": "<p><strong>Glycerine</strong> is more viscous. Glycerine has three –OH groups and forms extensive H-bonds. Hexane is non-polar with only weak London forces. Stronger IMF → higher viscosity.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec56",
+      "number": "5.6",
+      "title": "Viscosity of Liquids",
+      "blocks": [
+        {
+          "type": "def",
+          "label": "Viscosity",
+          "text": "Resistance against the flow of molecules during flow. Molecules try to attract each other. As a result cause resistance against flow.",
+          "src": "p.100"
+        },
+        {
+          "type": "concept",
+          "head": "Key Points",
+          "items": [
+            "High viscosity means slow movement",
+            "Low viscosity means fast movement",
+            "Water flows faster than honey and glycerine"
+          ]
+        },
+        {
+          "type": "subsec",
+          "t": "5.6.1 Factors Affecting Viscosity"
+        },
+        {
+          "type": "factors",
+          "items": [
+            {
+              "num": "1",
+              "title": "Temperature",
+              "body": " — Viscosity ∝ 1/Temperature. Pouring honey in summer is easier because high temperature increases KE and decreases resistance against flow. Example: honey flows more easily when warm."
+            },
+            {
+              "num": "2",
+              "title": "Strength of Intermolecular Forces",
+              "body": " — Viscosity ∝ Strength of IMF. Stronger IMF → molecules resist flow more → higher viscosity. Water flows slower than ethanol; ethanol slower than petrol. Order: Water > ethanol > petrol."
+            }
+          ]
+        },
+        {
+          "type": "concept",
+          "head": "Viscosity — IMF Order",
+          "eq": "Stronger IMF → Higher viscosity\nH₂O > C₂H₅OH > C₆H₁₄ (hexane)"
+        },
+        {
+          "type": "info",
+          "head": "Note on Alkanes",
+          "body": "Alkanes are non-polar. They have no δ⁺ hydrogen bonding, no H-bonding. So they have lowest viscosity."
+        },
+        {
+          "type": "qc",
+          "title": "Quick Check 5.4 (continued)",
+          "items": [
+            {
+              "num": "c",
+              "q": "The viscosity of honey is higher than water, explain why.",
+              "ans": "<p>Honey contains sugars with many –OH groups that form extensive hydrogen bonds. These strong IMF create high resistance to flow → high viscosity. Water also has H-bonds but far fewer per molecule than the complex sugar network in honey.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec57",
+      "number": "5.7",
+      "title": "Evaporation",
+      "blocks": [
+        {
+          "type": "def",
+          "label": "Evaporation",
+          "text": "Escaping of liquid molecules in the form of gas from surface called evaporation. It is a surface phenomenon.",
+          "src": "p.101"
+        },
+        {
+          "type": "concept",
+          "head": "Explanation (KMT)",
+          "body": "When high energy molecules reach the surface, they break intermolecular forces. With high KE, KE overcomes intermolecular forces. They escape and evaporate.",
+          "items": [
+            "On heating: volume of liquid increases → liquids expand → attractive forces become weaker → molecules move away → evaporate",
+            "Liquid molecules never have zero KE even at 0°C — so evaporation never stops",
+            "This is a continuous process"
+          ]
+        },
+        {
+          "type": "subsec",
+          "t": "Cooling Process"
+        },
+        {
+          "type": "concept",
+          "head": "Why Evaporation Causes Cooling",
+          "body": "T ∝ KE. During evaporation, high energy molecules escape. Remaining molecules have low energy → temperature lowers. To compensate this loss of energy, heat from surrounding moves into liquid → surrounding gets cooled.",
+          "items": [
+            "Earthen-ware vessels keep water cool — clay is an insulator, vessels have micropores through which high energy molecules escape and cooling is produced as remaining molecules have low energy",
+            "One feels sense of cooling under fan after bath"
+          ]
+        },
+        {
+          "type": "concept",
+          "head": "Why Ether Evaporates Faster than Water",
+          "body": "Ether has weak intermolecular forces (London forces only). Water has strong H-bonding. Weaker IMF → molecules escape more easily → faster evaporation."
+        },
+        {
+          "type": "concept",
+          "head": "Why Evaporation Increases with Temperature",
+          "body": "Higher temperature → higher KE of molecules → more molecules have enough energy to break IMF and escape from surface → evaporation rate increases."
+        },
+        {
+          "type": "concept",
+          "head": "Factors Affecting Rate of Evaporation",
+          "eq": "Rate of evaporation ∝ Surface area\nRate of evaporation ∝ Speed of wind\nRate of evaporation ∝ 1/Moisture\nRate of evaporation ∝ Temperature\nRate of evaporation ∝ 1/Strength of IMF\nRate of evaporation ∝ 1/No. of molecules (size)"
+        },
+        {
+          "type": "qc",
+          "title": "Quick Check 5.5",
+          "items": [
+            {
+              "num": "a",
+              "q": "Which has higher vapour pressure: (i) alcohol or glycerine, (ii) petrol or kerosene, (iii) mercury or water?",
+              "ans": "<p>(i) Alcohol — weaker IMF than glycerine → higher VP<br>(ii) Petrol — lighter, weaker forces → higher VP<br>(iii) Water — mercury has extremely strong metallic bonds, very low VP; water has higher VP</p>"
+            },
+            {
+              "num": "d",
+              "q": "Why evaporation gets faster at higher temperatures?",
+              "ans": "<p>At higher temperatures, KE of liquid molecules increases. More molecules gain sufficient energy to overcome IMF and escape from the surface. Therefore the rate of evaporation increases.</p>"
+            },
+            {
+              "num": "e",
+              "q": "Why do we feel cool near the bank of a river?",
+              "ans": "<p>Water from the river surface is continuously evaporating. During evaporation, high energy molecules escape, leaving behind low energy molecules. Heat is absorbed from the surroundings to compensate, causing the surrounding air to cool. We feel this cooling effect near the river bank.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec58",
+      "number": "5.8",
+      "title": "Vapour Pressure",
+      "blocks": [
+        {
+          "type": "def",
+          "label": "Vapour Pressure",
+          "text": "Pressure exerted by gaseous molecules of liquid on surface at equilibrium with liquid state called vapour pressure. i.e. at 100°C water exerts pressure of 760 torr.",
+          "src": "p.101"
+        },
+        {
+          "type": "concept",
+          "head": "Explanation (Open System → Closed System)",
+          "body": "At high temperature in:",
+          "items": [
+            "<strong>a. Open System:</strong> Gaseous molecules of liquid escape from surface → evaporation",
+            "<strong>b. Closed System:</strong> Molecules gather at surface. Some molecules return into liquid → condensation. Most molecules exert pressure on surface."
+          ]
+        },
+        {
+          "type": "concept",
+          "head": "After Some Time — Equilibrium",
+          "body": "Rate of evaporation = Rate of condensation. At this stage equilibrium is established:",
+          "eq": "liquid ⇌ vapours\nAt equilibrium: rate of evaporation = rate of condensation"
+        },
+        {
+          "type": "p",
+          "t": "Now pressure exerted by gaseous molecules of liquid is called <strong>vapour pressure</strong>. VP does NOT depend on amount of liquid or surface area."
+        },
+        {
+          "type": "subsec",
+          "t": "Effect of IMF Strength on Vapour Pressure"
+        },
+        {
+          "type": "concept",
+          "head": "Strength of IMF and VP",
+          "body": "If IMF increases → rate of evaporation decreases → fewer vapour molecules → vapour pressure decreases.",
+          "eq": "At 25°C VP: Water < Ethanol < Ether\n(strongest IMF to weakest)"
+        },
+        {
+          "type": "concept",
+          "head": "Factors Affecting Vapour Pressure",
+          "items": [
+            "Amount of liquid and surface area has <strong>no effect</strong> on VP",
+            "High surface area → larger target for condensation → vapour molecules decrease → VP decreases (net effect = 0)",
+            "VP ∝ No. of vapour molecules ∝ Rate of evaporation ∝ Temperature ∝ 1/IMF"
+          ]
+        },
+        {
+          "type": "subsec",
+          "t": "Effect of Temperature on Vapour Pressure"
+        },
+        {
+          "type": "concept",
+          "head": "Temperature Increases → VP Increases",
+          "body": "Temperature increases → rate of evaporation increases → no. of vapour molecules increases → vapour pressure increases.",
+          "eq": "Vapour pressure of water is higher at 100°C than at 25°C"
+        },
+        {
+          "type": "diagram",
+          "file": "diagrams/ch05_vapour_pressure_equilibrium.svg",
+          "caption": "Attainment of equilibrium during evaporation in closed vessel: (a) initial, (b) intermediate, (c) equilibrium",
+          "alt": "Three containers showing liquid with vapour above: (a) few arrows up only, (b) more arrows both directions, (c) equal arrows up and down"
+        },
+        {
+          "type": "qc",
+          "title": "Quick Check 5.5 (continued)",
+          "items": [
+            {
+              "num": "c",
+              "q": "Separate portions of acetone and water at same temperature. Acetone feels colder. Why?",
+              "ans": "<p>Acetone has weaker intermolecular forces (pd-pd only) compared to water (H-bonds). Weaker forces → faster evaporation of acetone → more heat absorbed from skin → skin feels colder. Water evaporates slowly due to strong H-bonding.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec59",
+      "number": "5.9",
+      "title": "Boiling Point",
+      "blocks": [
+        {
+          "type": "def",
+          "label": "Boiling Point",
+          "text": "The temperature at which the vapour pressure of a liquid becomes equal to the external pressure (atmospheric pressure).",
+          "src": "p.102"
+        },
+        {
+          "type": "concept",
+          "head": "Mechanism of Boiling",
+          "body": "When temperature of liquid is increased by heating, KE of liquid molecules increases. These high energy molecules reach the surface. It also forms bubbles. When bubbles burst, high energy molecules escape (evaporate).",
+          "items": [
+            "At boiling point: VP = external pressure",
+            "High energy molecules leave liquid → further heating has no effect on temperature of liquid",
+            "All extra heat is used to break IMF and convert liquid to vapour"
+          ]
+        },
+        {
+          "type": "concept",
+          "head": "BP of Some Liquids at 760 torr (1 atm)",
+          "eq": "Diethyl ether: 34.6°C\nEthylene glycol: 197°C"
+        },
+        {
+          "type": "table",
+          "cols": ["External Pressure (torr)", "BP of H₂O"],
+          "rows": [
+            ["23.7", "25°C"],
+            ["323", "69°C"],
+            ["700", "98°C"],
+            ["760", "100°C"]
+          ]
+        },
+        {
+          "type": "subsec",
+          "t": "5.9.1 Factors Affecting Boiling Point"
+        },
+        {
+          "type": "factors",
+          "items": [
+            {
+              "num": "1",
+              "title": "Strength of Intermolecular Forces",
+              "body": " — BP ∝ Strength of IMF. Stronger IMF → lower VP → needs higher temperature to make VP = external pressure → higher BP. Ethylene glycol boils at higher temperature than water."
+            },
+            {
+              "num": "2",
+              "title": "External Pressure",
+              "body": " — BP ∝ External Pressure. Higher external pressure → needs higher number of vapour molecules to equalize → needs to increase rate of evaporation → requires higher temperature. So increasing pressure → increases BP. Application: pressure cooker."
+            }
+          ]
+        },
+        {
+          "type": "concept",
+          "head": "BP & Strength of IMF (B.P IS Strength of IMF)",
+          "items": [
+            "Stronger Van der Waal forces → require higher heat to break interaction",
+            "Vapour pressure equalize to atmospheric pressure at high temperature",
+            "So boiling point is high"
+          ]
+        },
+        {
+          "type": "concept",
+          "head": "Boiling Point Order (by IMF)",
+          "eq": "Ethylene glycol > H₂O > Ethanol > Diethyl ether"
+        },
+        {
+          "type": "info",
+          "head": "Application: Pressure Cooker",
+          "body": "A pressure cooker is a closed container. Vapour mixes with air above surface, increasing pressure above 760 torr. So BP of water increases above 100°C (e.g. 120°C at 1489 torr). More heat is absorbed by water → food cooked faster with less fuel."
+        },
+        {
+          "type": "concept",
+          "head": "With Increase in Altitude",
+          "body": "Boiling point lowers with increase in altitude because external pressure decreases at higher altitudes.",
+          "items": [
+            "At Murree hills: BP of water = 98°C (external pressure ~700 torr)",
+            "At Mount Everest: BP = 69°C (323 torr)"
+          ]
+        },
+        {
+          "type": "qc",
+          "title": "Quick Check 5.6",
+          "items": [
+            {
+              "num": "a",
+              "q": "Why is food cooking difficult in areas with high altitude?",
+              "ans": "<p>At high altitudes, atmospheric pressure is lower. Since BP ∝ external pressure, water boils at a lower temperature. At reduced boiling temperature, there is less heat available to cook food, making cooking slower and more difficult.</p>"
+            },
+            {
+              "num": "b",
+              "q": "The food cooks faster in a pressure cooker, explain.",
+              "ans": "<p>A pressure cooker is a closed container. Steam cannot escape, so pressure above water surface increases above 760 torr (atmosphere). Higher external pressure → higher BP of water (e.g. 120°C at 1489 torr). At higher temperature, more heat is absorbed by water and food is cooked faster with less fuel.</p>"
+            },
+            {
+              "num": "c",
+              "q": "Why is the boiling point of water (100°C) higher than ethanol (78°C), although both have H-bonds?",
+              "ans": "<p>Both water and ethanol form H-bonds, but the <strong>extent and strength differ</strong>. Water forms on average <strong>two H-bonds per molecule</strong> (using both lone pairs on O). Ethanol forms only one H-bond per molecule. Water also has more extensive H-bonding throughout the liquid. Therefore more energy (higher temperature) is needed to overcome water's IMF → higher BP.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec510",
+      "number": "5.10",
+      "title": "Energetics of Phase Changes",
+      "blocks": [
+        {
+          "type": "deleted",
+          "t": "Section 5.10 (Energetics of Phase Changes — Molar Heat of Fusion and Molar Heat of Vaporization definitions and numerical applications) is DELETED from the smart syllabus. Definitions below are retained for conceptual understanding only."
+        },
+        {
+          "type": "def",
+          "label": "Molar Heat of Fusion (ΔHf)",
+          "text": "Amount of heat required by one mole of solid to convert it into a liquid form at 1 atm called molar heat of fusion.",
+          "src": "p.104"
+        },
+        {
+          "type": "eq",
+          "t": "H₂O(s) → H₂O(l)   ΔHf = 4.6 kJ mol⁻¹\nΔHf ∝ strength of packing"
+        },
+        {
+          "type": "def",
+          "label": "Molar Heat of Vaporization (ΔHv)",
+          "text": "Amount of heat required to convert one mole of liquid into gas at 1 atm called molar heat of vaporization.",
+          "src": "p.104"
+        },
+        {
+          "type": "eq",
+          "t": "H₂O(l) → H₂O(g)   ΔHv = 40.6 kJ mol⁻¹\nΔHv ∝ strength of IMF"
+        },
+        {
+          "type": "concept",
+          "head": "Effect of Molar Heat of Vaporization",
+          "items": [
+            "It regulates temperature of the environment",
+            "More energy is required to vaporize small amount of water",
+            "Water is used as a coolant because of it"
+          ]
+        },
+        {
+          "type": "info",
+          "head": "Application of High Heat of Fusion",
+          "items": [
+            "Water has maximum heat of fusion (due to extensive H-bonding)",
+            "Solid ice can absorb maximum heat",
+            "Ice is reflecting material for light",
+            "So, ice bergs and ice caps help to maintain the temperature on earth at poles",
+            "Due to high heat of fusion, melting of ice caps and ice bergs is delayed",
+            "This prevents sea levels from rising suddenly"
+          ]
+        },
+        {
+          "type": "concept",
+          "head": "Anomalous Heat of Vaporization of Water",
+          "body": "Hydrides of Group 16: H₂O, H₂S, H₂Se, H₂Te, H₂Po (mnemonic: Over Smart Students Troubles Power).",
+          "items": [
+            "Down the group: size of elements increases (period → new shell increases)",
+            "Polarizability ∝ size → so it increases",
+            "Strength of Van der Waal forces also increases",
+            "So heat of vaporization increases from H₂S to H₂Po",
+            "H₂O should boil at LOWEST temperature, but it actually boils at 100°C — anomalously HIGH",
+            "This means water has strongest IMF → strongest H-bonding",
+            "High heat is needed to separate water molecules by breaking H-bonds"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec511",
+      "number": "5.11",
+      "title": "Solids",
+      "blocks": [
+        {
+          "type": "deleted",
+          "t": "Detailed general properties of solids (pp.105) are deleted per smart syllabus. Key definitions and types are retained."
+        },
+        {
+          "type": "def",
+          "label": "Solid",
+          "text": "In solids particles are closely packed. Attractive forces are stronger. Have definite shape and volume. Have high melting point and boiling point.",
+          "src": "p.105"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "<strong>Types:</strong> Crystalline (true solids) and Amorphous (pseudo-solids)",
+            "<strong>Particles:</strong> Closely packed, negligible gaps",
+            "<strong>Motion:</strong> Particles only vibrate (no translational or rotational motion)",
+            "<strong>KE:</strong> Only vibrational energy (based on KMT)",
+            "<strong>Compressibility:</strong> Not compressible (0.0005%)",
+            "<strong>Expansion:</strong> Very small, not significantly observable"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec512",
+      "number": "5.12",
+      "title": "Types of Solids",
+      "blocks": [
+        {
+          "type": "subsec",
+          "t": "5.12.1 Crystalline Solids"
+        },
+        {
+          "type": "def",
+          "label": "Crystal Lattice",
+          "text": "The regular arrangement of ions, atoms, or molecules in three dimensional space is called the crystal lattice.",
+          "src": "p.106"
+        },
+        {
+          "type": "concept",
+          "head": "Properties of Crystalline Solids",
+          "items": [
+            "<strong>Shape:</strong> Particles are regularly arranged in 3-D pattern. Particles have orderly arrangement. Interfacial angles are fixed even in which shape or crystal grows.",
+            "<strong>Melting Point:</strong> Sharp, fixed and distinctive melting points (due to strong IMF or inter-particle forces). NaCl has cubic, Diamond has hexagonal, Graphite has hexagonal planar shape.",
+            "<strong>Cleavage:</strong> Breakdown of crystal along specific direction called cleavage. Direction along which a crystal can be broken → cleavage. Each crystal has definite shape so have different cleavage points. Crystals cut along cleavage plane. Otherwise can break.",
+            "<strong>Habit of Crystal:</strong> Each crystal has specific habit. CaCO₃ has cubic shape and Mg has hexagonal shape. NaCl grows cubic and CuSO₄ grows in needle shape. Presence of impurity may cause change in arrangement of particles — 10% urea causes NaCl in powder form.",
+            "<strong>Crystal Growth:</strong> Crystals are grown by supersaturated solution. Addition of further solute in saturated solution forms crystal due to common ion effect.",
+            "<strong>Anisotropic:</strong> Properties depend on direction of measurement",
+            "<strong>Regular arrangement throughout structure</strong>"
+          ]
+        },
+        {
+          "type": "subsec",
+          "t": "5.12.2 Amorphous Solids"
+        },
+        {
+          "type": "concept",
+          "head": "Properties of Amorphous Solids",
+          "items": [
+            "<strong>Irregular shape</strong> — particles are irregularly arranged",
+            "<strong>Not fixed and sharp melting points</strong> — have wide range of melting points",
+            "<strong>Isotropic</strong> — properties same in all directions",
+            "<strong>Pseudo-solids</strong> — not true solids",
+            "<strong>Low heat of fusion</strong> value",
+            "<strong>Crystallites:</strong> Amorphous solids have small regions where particles are regularly arranged called crystallites. These have varieties of low boiling points.",
+            "Examples: Glass, Wood, Plastic"
+          ]
+        },
+        {
+          "type": "table",
+          "cols": ["Property", "Crystalline Solids", "Amorphous Solids"],
+          "rows": [
+            ["Geometry", "Definite 3-D shape, regular arrangement", "Irregular, lump or powder form"],
+            ["Melting Point", "Sharp, fixed, distinctive", "Not fixed, wide range"],
+            ["Nature", "Anisotropic", "Isotropic"],
+            ["Order", "Long-range order throughout", "No long-range order (only crystallites)"],
+            ["Examples", "NaCl, Diamond, Graphite, Lead", "Glass, Wood, Plastic"],
+            ["Heat of Fusion", "High (definite value)", "No definite value"],
+            ["Classification", "True Solids", "Pseudo-Solids"]
+          ]
+        },
+        {
+          "type": "qc",
+          "title": "Quick Check 5.7",
+          "items": [
+            {
+              "num": "a",
+              "q": "Why do solids have very low compressibility and expansion?",
+              "ans": "<p>In solids, inter-particle forces are very strong and particles are closely packed with no space between them. Application of pressure cannot bring particles closer → not compressible (0.0005%). Similarly, strong forces resist change in relative positions on heating → negligible expansion.</p>"
+            },
+            {
+              "num": "b",
+              "q": "What is meant by habit of a crystal?",
+              "ans": "<p><strong>Definition:</strong> The shape of a crystal in which it usually grows is called the habit of a crystal. If conditions are maintained, the shape remains the same. If conditions change, the habit may change. Example: NaCl normally grows in cubic shape but in presence of 10% urea impurity, it grows in powder (needle-like) form.</p>"
+            },
+            {
+              "num": "c",
+              "q": "Why do solids not undergo translatory motion?",
+              "ans": "<p>In solids, inter-particle forces of attraction are very strong. Particles are held tightly at their mean positions. They do not have enough kinetic energy to overcome these forces and move from one place to another. Therefore, solid particles can only <strong>vibrate</strong> about their mean positions — not undergo translatory (linear) motion.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec513",
+      "number": "5.13",
+      "title": "Liquid Crystals",
+      "blocks": [
+        {
+          "type": "def",
+          "label": "Liquid Crystals",
+          "text": "Turbid liquid phase between anisotropic solid and isotropic liquid. It is a phase in which particles can move like liquid. Also have restricted rotation like solid. These are also viscous.",
+          "src": "p.108"
+        },
+        {
+          "type": "concept",
+          "head": "Phase Transition",
+          "eq": "Solid (Anisotropic) →[heat/melting temp]→ Turbid Liquid (intermediate phase) →[heat/clearing temp]→ Clear Liquid"
+        },
+        {
+          "type": "subsec",
+          "t": "5.13.1 General Properties of Liquid Crystals"
+        },
+        {
+          "type": "concept",
+          "head": "Properties",
+          "body": "Particles are needle-like (elongated, rod-like):",
+          "items": [
+            "Can flow like liquid",
+            "These are viscous",
+            "These contain crystals like solids",
+            "Change with their temperature change",
+            "Show optical activity (anisotropic)",
+            "Particles are arranged regularly in layers, sphere or randomly",
+            "Three types: Smectic, Nematic, Cholesteric"
+          ]
+        },
+        {
+          "type": "subsec",
+          "t": "5.13.2 Uses of Liquid Crystals"
+        },
+        {
+          "type": "concept",
+          "head": "Uses",
+          "items": [
+            "<strong>Medical Field — Diagnostics:</strong> Used to treat tumours on skin. Used to locate blood vessels. Cholesteric liquid crystals change their colour at place of tumours and blood vessels.",
+            "<strong>LCDs (Liquid Crystal Displays):</strong> Since liquid crystals are anisotropic, they produce light rays when current is applied. Used in Liquid Crystal Displays (LCD) to produce vibrant pictures. Used in TV, computer and mobile screens.",
+            "<strong>Temperature Sensing:</strong> Used as a temperature sensor. As they are highly sensitive to it. Used to find faulty connections — at the place where temperature changes, liquid crystals change their colour."
+          ]
+        },
+        {
+          "type": "qc",
+          "title": "Quick Check 5.8",
+          "items": [
+            {
+              "num": "a",
+              "q": "Name the properties of liquid crystals in which they resemble solids.",
+              "ans": "<p>Liquid crystals resemble solids in: (i) restricted rotation of molecules, (ii) anisotropic nature — properties depend on direction, (iii) presence of crystal-like optical properties, (iv) regular arrangement of particles in layers.</p>"
+            },
+            {
+              "num": "b",
+              "q": "Mention the properties of liquid crystals in which they resemble liquids.",
+              "ans": "<p>Liquid crystals resemble liquids in: (i) ability to flow like a liquid, (ii) viscosity, (iii) molecules can move/migrate through the fluid.</p>"
+            },
+            {
+              "num": "c",
+              "q": "Which property of liquid crystals makes it possible to use them in temperature sensing devices?",
+              "ans": "<p>Liquid crystals are highly sensitive to temperature changes. <strong>Cholesteric liquid crystals change their colour</strong> when temperature changes. This colour change at a specific temperature allows them to be used as temperature sensors to detect heat variations, locate tumours, and find faulty electrical connections.</p>"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "mcqs": [
+    {
+      "num": "Book I",
+      "src": "Book I",
+      "q": "London dispersion forces are the only forces present among:",
+      "opts": [
+        "molecules of water in liquid state",
+        "atoms of helium in gaseous state at high temperature",
+        "molecules of solid iodine",
+        "molecules of hydrogen chloride gas"
+      ],
+      "ans": 2,
+      "exp": "I₂ is a non-polar homoatomic molecule. No permanent dipole exists. Only London dispersion (id-id) forces operate. Water has H-bonding, HCl has pd-pd forces."
+    },
+    {
+      "num": "Book II",
+      "src": "Book II",
+      "q": "When the vapour pressure of a liquid equals the external pressure, what phenomenon occurs?",
+      "opts": ["Sublimation", "Condensation", "Boiling", "Freezing"],
+      "ans": 2,
+      "exp": "By definition, boiling point is the temperature at which vapour pressure equals external (atmospheric) pressure. At this point, the liquid boils."
+    },
+    {
+      "num": "Book III",
+      "src": "Book III",
+      "q": "When water freezes at 0°C, its density decreases due to:",
+      "opts": [
+        "cubic structure of ice",
+        "empty spaces present in the structure of ice",
+        "decrease in volume",
+        "decrease in viscosity"
+      ],
+      "ans": 1,
+      "exp": "When water freezes, extensive H-bonding creates empty spaces in the hexagonal ice lattice. Volume increases by 9% → density (= m/v) decreases. This is why ice floats."
+    },
+    {
+      "num": "Book IV",
+      "src": "Book IV — DELETED",
+      "q": "[DELETED per smart syllabus — MCQ IV on energetics of phase changes is removed]",
+      "opts": ["—", "—", "—", "—"],
+      "ans": 0,
+      "exp": "This MCQ is deleted from smart syllabus."
+    },
+    {
+      "num": "Book V",
+      "src": "Book V",
+      "q": "Surface tension of a liquid is due to:",
+      "opts": [
+        "inward pull of surface molecules",
+        "upward pull from the surface",
+        "collision of molecules",
+        "repulsive forces"
+      ],
+      "ans": 0,
+      "exp": "Surface molecules are pulled inward and downward by the molecules below. This net inward/downward force is surface tension. Molecules inside the liquid are balanced on all sides."
+    },
+    {
+      "num": "Book VI",
+      "src": "Book VI",
+      "q": "Which change of state involves overcoming only London dispersion forces?",
+      "opts": [
+        "Melting of ice (H₂O(s) → H₂O(l))",
+        "Boiling of ethanol (CH₃CH₂OH(l) → CH₃CH₂OH(g))",
+        "Sublimation of iodine (I₂(s) → I₂(g))",
+        "Dissolving sodium chloride in water"
+      ],
+      "ans": 2,
+      "exp": "I₂ is a non-polar homoatomic molecule held only by London dispersion forces. When it sublimes, only these forces are overcome. Ice and ethanol have H-bonds; NaCl has ionic bonds."
+    },
+    {
+      "num": "Book VII",
+      "src": "Book VII",
+      "q": "In which of the following substances are London dispersion forces the only significant intermolecular forces present?",
+      "opts": ["Ammonia (NH₃)", "Water (H₂O)", "Methane (CH₄)", "Hydrogen fluoride (HF)"],
+      "ans": 2,
+      "exp": "CH₄ is a non-polar symmetrical molecule. No permanent dipole, no H-bonding possible (C is not electronegative enough). Only London forces exist. NH₃, H₂O, and HF all have H-bonding."
+    },
+    {
+      "num": "Book VIII",
+      "src": "Book VIII",
+      "q": "Which of the following is a characteristic property of crystalline solids?",
+      "opts": [
+        "They have a range of melting points.",
+        "They are isotropic.",
+        "They have a definite and sharp melting point.",
+        "They lack a regular arrangement of particles."
+      ],
+      "ans": 2,
+      "exp": "Crystalline solids have sharp, fixed melting points due to their regular 3-D arrangement and strong IMF. Amorphous solids melt over a range. Crystalline solids are anisotropic (not isotropic)."
+    },
+    {
+      "num": "Book IX",
+      "src": "Book IX",
+      "q": "Which of the following liquids would you expect to have the highest viscosity at a given temperature?",
+      "opts": [
+        "Water (H₂O)",
+        "Ethanol (CH₃CH₂OH)",
+        "Diethyl ether (CH₃CH₂OCH₂CH₃)",
+        "Glycerol (CH₂OHCHOHCH₂OH)"
+      ],
+      "ans": 3,
+      "exp": "Glycerol has three –OH groups forming extensive H-bonds. Highest IMF → highest viscosity. Diethyl ether has weakest forces → lowest viscosity. Viscosity ∝ strength of IMF."
+    },
+    {
+      "num": "Book X",
+      "src": "Book X",
+      "q": "Which type of intermolecular force is present in all types of molecules regardless of their polarity?",
+      "opts": [
+        "Dipole-dipole forces",
+        "Hydrogen bonds",
+        "London dispersion forces",
+        "Ion-dipole forces"
+      ],
+      "ans": 2,
+      "exp": "London dispersion (id-id) forces exist in ALL molecules — polar and non-polar — because all molecules have electrons that can form instantaneous dipoles."
+    },
+    {
+      "num": "Book XI",
+      "src": "Book XI",
+      "q": "Liquid crystals exhibit properties:",
+      "opts": [
+        "Only like solids.",
+        "Only like liquids.",
+        "Between solids and liquids.",
+        "Unlike solids or liquids."
+      ],
+      "ans": 2,
+      "exp": "Liquid crystals are an intermediate phase: they can flow like liquids and yet have restricted rotation and optical properties like solids. They are neither purely solid nor purely liquid."
+    },
+    {
+      "num": "Extra 1",
+      "src": "Extra",
+      "q": "Which of the following has the highest vapour pressure at 25°C?",
+      "opts": ["Glycerol", "Water", "Ethanol", "Diethyl ether"],
+      "ans": 3,
+      "exp": "Vapour pressure ∝ 1/IMF. Diethyl ether has weakest intermolecular forces (London + weak pd-pd) → highest rate of evaporation → highest VP. Glycerol has strongest forces (3 OH groups) → lowest VP."
+    },
+    {
+      "num": "Extra 2",
+      "src": "Extra",
+      "q": "Why does water have an anomalously high boiling point compared to other Group 16 hydrides?",
+      "opts": [
+        "It has the highest molar mass in the group",
+        "It forms extensive hydrogen bonds",
+        "It has the strongest London dispersion forces",
+        "It has the highest external pressure"
+      ],
+      "ans": 1,
+      "exp": "H₂O forms on average TWO H-bonds per molecule due to two lone pairs on O. This extensive H-bonding gives it anomalously high BP (100°C) even though it has the smallest size in Group 16."
+    },
+    {
+      "num": "Extra 3",
+      "src": "Extra",
+      "q": "Which order correctly shows increasing boiling points of n-pentane, iso-pentane, and neo-pentane?",
+      "opts": [
+        "n-pentane < iso-pentane < neo-pentane",
+        "neo-pentane < iso-pentane < n-pentane",
+        "iso-pentane < n-pentane < neo-pentane",
+        "neo-pentane < n-pentane < iso-pentane"
+      ],
+      "ans": 1,
+      "exp": "All three have the same Mr but different surface areas. n-pentane (straight chain, largest surface area, most binding sites) has strongest London forces → highest BP (36°C). neo-pentane (most branched) has smallest surface area → lowest BP (9.5°C)."
+    },
+    {
+      "num": "Extra 4",
+      "src": "Extra",
+      "q": "The pressure exerted by gaseous molecules of a liquid on the surface at equilibrium is called:",
+      "opts": ["Osmotic pressure", "Atmospheric pressure", "Vapour pressure", "Gas pressure"],
+      "ans": 2,
+      "exp": "By definition, vapour pressure is the pressure exerted by liquid vapour in equilibrium with its liquid at a given temperature."
+    },
+    {
+      "num": "Extra 5",
+      "src": "Extra",
+      "q": "When ice floats on water, it is because:",
+      "opts": [
+        "Ice is heavier than water",
+        "Volume of ice is less than equal mass of water",
+        "Extensive H-bonding in ice creates empty spaces increasing volume",
+        "Ice has higher surface tension"
+      ],
+      "ans": 2,
+      "exp": "During freezing, extensive H-bonding arranges water molecules in a hexagonal lattice with empty spaces. Volume increases 9%, density decreases → ice floats."
+    }
+  ],
+  "sqs": [
+    {
+      "num": "SAQ a",
+      "q": "Explain, at the molecular level, why evaporation leads to a cooling effect.",
+      "a": "<p><strong>Definition:</strong> Evaporation is the spontaneous conversion of liquid into vapour at any temperature from the surface.</p><p><strong>Explanation:</strong> During evaporation, the high energy molecules at the surface break intermolecular forces and escape into the gaseous state. The remaining molecules in the liquid have lower average kinetic energy. Since T ∝ KE (kinetic molecular theory), the temperature of the liquid falls.</p><p>To compensate for this loss of energy, heat moves from the surroundings into the liquid. The surroundings get cooled. This is why evaporation causes cooling.</p><p><strong>Example:</strong> A person after bath feels a sense of cooling under the fan due to evaporation of water from the body.</p>",
+      "tag": "BOARD STYLE"
+    },
+    {
+      "num": "SAQ b",
+      "q": "Explain why liquids with stronger intermolecular forces tend to have lower rates of evaporation at a given temperature.",
+      "a": "<p><strong>Concept:</strong> Rate of evaporation ∝ 1/Strength of IMF.</p><p><strong>Explanation:</strong> Evaporation occurs when surface molecules gain enough kinetic energy to overcome intermolecular forces and escape. When IMF are stronger, more energy is required for molecules to overcome these forces. At a given temperature (fixed KE), fewer molecules have sufficient energy to escape → rate of evaporation is lower.</p><p><strong>Example:</strong> Water (H-bonding, strong IMF) evaporates much slower than ether (London forces only, weak IMF) at the same temperature. Therefore water has lower vapour pressure than ether at 25°C.</p>",
+      "tag": "BOARD STYLE"
+    },
+    {
+      "num": "SAQ c",
+      "q": "One feels a sense of cooling under the fan after bath. Explain.",
+      "a": "<p>After a bath, water is present on the skin. Under the fan, the speed of air increases over the skin surface.</p><p><strong>Reason:</strong> Increased air speed removes water vapour from near the surface (reduces moisture), increasing the rate of evaporation. During evaporation, high energy water molecules escape, leaving behind low energy molecules. The temperature of the remaining water drops. Heat is absorbed from the skin surface to compensate → skin feels cool.</p><p><strong>Conclusion:</strong> Evaporation → high energy molecules escape → cooling effect on skin.</p>",
+      "tag": "BOARD STYLE"
+    },
+    {
+      "num": "SAQ e",
+      "q": "The boiling point of water is different at Lahore and Murree hills.",
+      "a": "<p><strong>Definition:</strong> Boiling point is the temperature at which vapour pressure of a liquid equals external (atmospheric) pressure.</p><p><strong>Explanation:</strong> BP ∝ external pressure. Lahore is at low altitude → higher atmospheric pressure → VP must build up more to equal atmospheric pressure → higher temperature required → higher BP (100°C). Murree hills are at higher altitude → lower atmospheric pressure (≈700 torr) → less VP needed → lower temperature sufficient → lower BP (98°C).</p><p><strong>Conclusion:</strong> BP of water at Lahore (100°C) > BP at Murree (98°C) because Lahore has higher external pressure.</p>",
+      "tag": "BOARD STYLE"
+    },
+    {
+      "num": "SAQ f",
+      "q": "Discuss two significant consequences of the lower density of ice compared to liquid water in natural environments.",
+      "a": "<p><strong>Why ice is less dense:</strong> Extensive H-bonding in ice creates empty spaces in the hexagonal lattice. Volume increases 9% → density decreases from 1 g/cm³ (at 4°C) to 0.9 g/cm³ (at 0°C).</p><p><strong>Consequence 1 — Aquatic Life Survival:</strong> Ice floats on water, acting as a blanket/insulator. It prevents the cooling effect from reaching the interior of water. Fish and other aquatic organisms survive beneath the ice layer in cold areas.</p><p><strong>Consequence 2 — Sea Level Stability:</strong> Due to high heat of fusion, melting of ice caps and icebergs is delayed. Ice is also a reflecting material for sunlight (ice bergs and ice caps help maintain Earth's temperature at poles). If ice melted rapidly, sea levels would rise drastically flooding land areas.</p>",
+      "tag": "BOARD STYLE"
+    },
+    {
+      "num": "SAQ g",
+      "q": "Why does the boiling point of a liquid increase when external pressure rises?",
+      "a": "<p><strong>Definition:</strong> Boiling point is the temperature at which VP = external pressure.</p><p><strong>Explanation:</strong> When external pressure is high, the liquid requires a greater number of vapour molecules to equalize with external pressure. This means the rate of evaporation must increase, which requires a higher temperature. Therefore, higher external pressure → liquid boils at higher temperature → boiling point increases.</p><p><strong>Example:</strong> Water at 760 torr boils at 100°C. At 1489 torr (pressure cooker), it boils at 120°C.</p>",
+      "tag": "BOARD STYLE"
+    },
+    {
+      "num": "SAQ h",
+      "q": "Mention four items in which liquid crystals are used.",
+      "a": "<ul><li><strong>LCD screens</strong> — Liquid Crystal Displays in TVs, computers, mobile phones</li><li><strong>Medical diagnostics</strong> — Cholesteric liquid crystals used to locate tumours and blood vessels (change colour at tumour sites)</li><li><strong>Thermometers</strong> — Liquid crystal thermometers (sensitive to temperature changes, change colour)</li><li><strong>Faulty connection detection</strong> — Used in circuit boards to detect areas of higher temperature</li></ul>",
+      "tag": "BOARD STYLE"
+    },
+    {
+      "num": "SAQ i",
+      "q": "How do you differentiate between crystalline solids and amorphous solids?",
+      "a": "<p><strong>Crystalline Solids:</strong></p><ul><li>Regular, definite 3-D geometric shape</li><li>Sharp and distinctive melting points</li><li>Anisotropic (properties depend on direction)</li><li>True solids</li><li>Long-range order throughout</li><li>Examples: NaCl, Diamond, Graphite</li></ul><p><strong>Amorphous Solids:</strong></p><ul><li>Irregular shape (no definite geometry)</li><li>Wide range of melting points (no sharp MP)</li><li>Isotropic (properties same in all directions)</li><li>Pseudo-solids</li><li>No long-range order (only crystallites in small regions)</li><li>Examples: Glass, Wood, Plastic</li></ul>",
+      "tag": "BOARD STYLE"
+    },
+    {
+      "num": "SAQ k",
+      "q": "Discuss how hydrogen bonding is responsible for the relatively high surface tension of water.",
+      "a": "<p><strong>Surface Tension Definition:</strong> The inward and downward pulling force of liquid molecules.</p><p><strong>Explanation:</strong> Surface tension ∝ strength of IMF. Water molecules form extensive hydrogen bonds with each other (average 2 H-bonds per molecule). Molecules at the surface are pulled strongly inward and downward by H-bonded interior molecules. This creates a strong 'skin' at the water surface.</p><p><strong>Comparison:</strong> Ethanol and ether have weaker H-bonding/IMF → lower surface tension than water.</p><p><strong>Applications:</strong> High surface tension allows water to support insects (mosquitoes), enables capillary action, and causes water to form spherical droplets.</p>",
+      "tag": "BOARD STYLE"
+    },
+    {
+      "num": "SAQ l",
+      "q": "What type of intermolecular forces will dominate in NH₃, Ar, CH₃COCH₃, CH₃OH?",
+      "a": "<ul><li><strong>NH₃:</strong> Hydrogen bonding (N is electronegative with lone pair, H has δ⁺) — also has pd-pd and id-id</li><li><strong>Ar:</strong> Only London dispersion (id-id) forces — noble gas, non-polar, no permanent dipole</li><li><strong>CH₃COCH₃ (acetone):</strong> Permanent dipole-dipole (pd-pd) forces — polar due to C=O group. Also id-id. No H-bonding (no OH or NH)</li><li><strong>CH₃OH (methanol):</strong> Hydrogen bonding — OH group satisfies both conditions for H-bonding. Also pd-pd and id-id.</li></ul>",
+      "tag": "BOARD STYLE"
+    },
+    {
+      "num": "Extra 1",
+      "q": "What are London dispersion forces? Explain how they form in Br₂ with a diagram description.",
+      "a": "<p><strong>Definition:</strong> The momentary force of attraction between an instantaneous dipole and an induced dipole is called instantaneous dipole-induced dipole (id-id) or London dispersion force.</p><p><strong>Formation in Br₂:</strong> Br₂ is homoatomic and non-polar. Electronic charges are equally distributed. When two Br₂ molecules come close, the electron cloud of one repels electrons of the other, creating an unequal distribution. This makes one molecule an instantaneous dipole (δ⁺ and δ⁻ ends). This disturbs the electron cloud of the adjacent molecule, inducing a dipole in it. Force of attraction between these two dipoles = London force.</p><p><strong>Key Features:</strong></p><ul><li>Present in ALL molecules (polar and non-polar)</li><li>Very weak, temporary forces</li><li>Strength ∝ molecular mass and size (polarizability)</li><li>Strength ∝ surface area (atomicity)</li></ul>",
+      "tag": "BOARD STYLE"
+    },
+    {
+      "num": "Extra 2",
+      "q": "Explain why water has anomalously high boiling point, heat of vaporization and heat capacity among Group 16 hydrides.",
+      "a": "<p><strong>General trend:</strong> Down Group 16 (H₂S → H₂Te → H₂Po), size increases → polarizability increases → London forces increase → BP increases. So H₂O (smallest) should have the LOWEST BP.</p><p><strong>Anomaly:</strong> H₂O actually has the highest BP (100°C) due to <strong>extensive hydrogen bonding</strong>.</p><p><strong>Reasons:</strong></p><ul><li>O is highly electronegative (EN = 3.5) with 2 lone pairs</li><li>H has δ⁺ charge (partial positive)</li><li>Water forms average <strong>2 H-bonds per molecule</strong> — more than HF (1) or NH₃ (1)</li><li>Extensive network of H-bonds requires much more energy to break</li><li>Therefore: higher BP, higher ΔHv (40.6 kJ/mol), higher heat capacity</li></ul><p><strong>Conclusion:</strong> Water's anomalous properties are all due to its exceptional H-bonding capability.</p>",
+      "tag": "BOARD STYLE"
+    }
+  ],
+  "lqs": [
+    {
+      "title": "Q5(b) — States and Phases of Matter",
+      "marks": "8 marks",
+      "q": "Describe the types of intermolecular forces. Explain their strength and applications with reference to hydrogen bonding and its effects on the properties of water.",
+      "parts": [
+        {
+          "label": "TYPES OF INTERMOLECULAR FORCES",
+          "points": [
+            "IMF are forces of attraction between molecules, represented by dotted lines (···)",
+            "Type 1: id-id (London Dispersion Forces) — between instantaneous and induced dipoles; present in ALL molecules; strength ∝ molecular mass and surface area",
+            "Type 2: pd-pd (Dipole-Dipole) — between polar molecules' δ⁺ and δ⁻ ends; stronger than id-id",
+            "Type 3: Hydrogen Bonding — strongest IMF; electrostatic force between δ⁺ H and lone pair on F, O, or N",
+            "Strength order: Chemical bond > H-bonding > pd-pd > id-id"
+          ]
+        },
+        {
+          "label": "HYDROGEN BONDING — CONDITIONS",
+          "points": [
+            "Condition 1: Presence of partial positive hydrogen (δ⁺ H) — H must be bonded to electronegative atom",
+            "Condition 2: Highly electronegative atom with lone pair — only F, O, or N qualify",
+            "H-bond is represented by dotted line (···)",
+            "Strength: H₂O (2 H-bonds) > HF (1 H-bond) > NH₃ (1 H-bond)",
+            "BP order: H₂O (100°C) > HF (19.9°C) > NH₃ (−33°C)"
+          ]
+        },
+        {
+          "label": "EFFECTS ON PROPERTIES OF WATER",
+          "points": [
+            "1. Structure of Ice: Extensive H-bonding → hexagonal lattice with empty spaces → volume increases 9% → density decreases → ice floats on water → aquatic life survives",
+            "2. High Heat Capacity: H-bonding gives water high capacity to absorb heat without large temperature change → used as coolant",
+            "3. Anomalous BP and ΔHv: H₂O has highest BP (100°C) and ΔHv (40.6 kJ/mol) in Group 16 due to extensive H-bonding (expected to be lowest based on size)",
+            "4. High Surface Tension: Strong H-bonds pull surface molecules inward → high surface tension → spherical droplets, capillary action",
+            "5. High Viscosity: Strong H-bonding → high resistance to flow → water more viscous than ethanol and hexane"
+          ]
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "What is the value of the ideal gas constant R?",
+      "opts": ["0.0821 atm dm³ K⁻¹ mol⁻¹", "8.314 J K⁻¹ mol⁻¹ only", "0.821 atm dm³ K⁻¹ mol⁻¹", "0.0082 atm dm³ K⁻¹ mol⁻¹"],
+      "ans": 0,
+      "exp": "R = 0.0821 atm dm³ K⁻¹ mol⁻¹ in the units used for the ideal gas equation in this chapter."
+    },
+    {
+      "q": "Which equation is used to find molar mass of a gas?",
+      "opts": ["M = PVnRT", "M = mRT/PV", "M = mPV/RT", "M = nRT/PV"],
+      "ans": 1,
+      "exp": "From PV = nRT, putting n = m/M: PV = (m/M)RT → M = mRT/PV."
+    },
+    {
+      "q": "Gases are compressible because:",
+      "opts": ["They have strong IMF", "99.9% of their volume is empty space", "Their molecules are large", "They have zero KE"],
+      "ans": 1,
+      "exp": "Gas molecules are widely separated with 99.9% empty space. On applying pressure, molecules can be pushed closer, reducing volume."
+    },
+    {
+      "q": "What is the Joule-Thomson effect?",
+      "opts": [
+        "Cooling due to sudden compression",
+        "Heating due to sudden compression",
+        "Cooling due to sudden expansion",
+        "Heating due to sudden expansion"
+      ],
+      "ans": 2,
+      "exp": "When gases undergo sudden expansion, molecules do work and KE decreases → temperature falls. This cooling is the Joule-Thomson effect."
+    },
+    {
+      "q": "The id-id forces are present in:",
+      "opts": ["Only non-polar molecules", "Only polar molecules", "All molecules regardless of polarity", "Only ionic compounds"],
+      "ans": 2,
+      "exp": "London dispersion forces (id-id) arise from instantaneous dipoles which form in ALL molecules. Polar molecules have them in addition to pd-pd forces."
+    },
+    {
+      "q": "Polarizability order of halogens is:",
+      "opts": ["I₂ < Br₂ < Cl₂ < F₂", "F₂ < Cl₂ < Br₂ < I₂", "Cl₂ < F₂ < Br₂ < I₂", "All equal"],
+      "ans": 1,
+      "exp": "Polarizability ∝ size. Down the group, atomic size increases → electronic cloud is more easily distorted → polarizability increases: F₂ < Cl₂ < Br₂ < I₂."
+    },
+    {
+      "q": "Boiling point order of pentane isomers is:",
+      "opts": [
+        "neo > iso > n-pentane",
+        "n > neo > iso-pentane",
+        "n > iso > neo-pentane",
+        "iso > n > neo-pentane"
+      ],
+      "ans": 2,
+      "exp": "n-pentane (36°C) has greatest surface area → strongest London forces → highest BP. neo-pentane (9.5°C) is most branched → smallest surface area → lowest BP."
+    },
+    {
+      "q": "Conditions for hydrogen bonding include:",
+      "opts": [
+        "δ⁺ H and highly electronegative atom with lone pair",
+        "δ⁻ H and any electronegative atom",
+        "Transfer of electrons between atoms",
+        "Presence of metallic bonds"
+      ],
+      "ans": 0,
+      "exp": "H-bonding requires: (i) partial positive H (δ⁺ H bonded to F, O, or N) and (ii) a highly electronegative atom (F, O, or N) with a lone pair."
+    },
+    {
+      "q": "Boiling point order of H₂O, HF, NH₃ is:",
+      "opts": [
+        "NH₃ > H₂O > HF",
+        "HF > H₂O > NH₃",
+        "H₂O > HF > NH₃",
+        "NH₃ > HF > H₂O"
+      ],
+      "ans": 2,
+      "exp": "BP ∝ no. of lone pairs in H-bonding. H₂O uses 2 lone pairs (2 H-bonds/molecule) → highest BP (100°C). HF and NH₃ each form 1 H-bond/molecule. HF has higher ΔEN than NH₃ → HF BP (19.9°C) > NH₃ (−33°C)."
+    },
+    {
+      "q": "Why does ice float on water?",
+      "opts": [
+        "Ice has greater density than water",
+        "Extensive H-bonding creates empty spaces increasing volume of ice",
+        "Ice molecules are heavier",
+        "Ice has lower surface tension"
+      ],
+      "ans": 1,
+      "exp": "Extensive H-bonding in ice crystal creates empty spaces. Volume increases 9% on freezing → density decreases to 0.9 g/cm³ → less dense than water → floats."
+    },
+    {
+      "q": "Surface tension is directly proportional to:",
+      "opts": ["Temperature", "1/Temperature", "Pressure only", "Molecular weight only"],
+      "ans": 1,
+      "exp": "Surface tension ∝ 1/Temperature (decreases with temperature increase) and ∝ strength of IMF. As temperature increases, KE increases and IMF weaken → surface tension decreases."
+    },
+    {
+      "q": "Viscosity of water is higher than hexane because:",
+      "opts": [
+        "Water molecules are smaller",
+        "Water forms H-bonds, hexane has only London forces",
+        "Hexane is more polar",
+        "Water molecules are non-polar"
+      ],
+      "ans": 1,
+      "exp": "Viscosity ∝ IMF. Water has strong H-bonding (high resistance to flow). Hexane is non-polar with only weak London forces → flows easily → lower viscosity."
+    },
+    {
+      "q": "At boiling point:",
+      "opts": [
+        "Vapour pressure < external pressure",
+        "Vapour pressure > external pressure",
+        "Vapour pressure = external pressure",
+        "Vapour pressure = 0"
+      ],
+      "ans": 2,
+      "exp": "By definition, the boiling point is the temperature at which the vapour pressure of a liquid equals the external (atmospheric) pressure."
+    },
+    {
+      "q": "Which has the highest vapour pressure at 25°C?",
+      "opts": ["Glycerol", "Water", "Diethyl ether", "Ethanol"],
+      "ans": 2,
+      "exp": "VP ∝ 1/IMF. Diethyl ether has weakest IMF (London + weak pd-pd) → easiest to evaporate → highest VP. Glycerol (3 OH groups) has lowest VP."
+    },
+    {
+      "q": "Which type of solid has sharp, fixed melting points?",
+      "opts": ["Amorphous", "Crystalline", "Both", "Neither"],
+      "ans": 1,
+      "exp": "Crystalline solids have sharp, fixed melting points due to their regular arrangement and uniform inter-particle forces. Amorphous solids melt over a range of temperatures."
+    },
+    {
+      "q": "Crystalline solids are:",
+      "opts": ["Isotropic", "Anisotropic", "Non-directional", "Pseudo-solids"],
+      "ans": 1,
+      "exp": "Crystalline solids are anisotropic — their properties (like refractive index, hardness) depend on the direction of measurement, due to their asymmetric crystal structure."
+    },
+    {
+      "q": "Liquid crystals are:",
+      "opts": [
+        "Always isotropic",
+        "Anisotropic and intermediate between solids and liquids",
+        "Purely solid phase",
+        "Purely liquid phase"
+      ],
+      "ans": 1,
+      "exp": "Liquid crystals are anisotropic (like solids) and can flow (like liquids). They are an intermediate phase existing between melting point and clearing temperature."
+    },
+    {
+      "q": "The molar heat of vaporization of water (ΔHv) is:",
+      "opts": ["4.6 kJ mol⁻¹", "21.7 kJ mol⁻¹", "40.6 kJ mol⁻¹", "15.6 kJ mol⁻¹"],
+      "ans": 2,
+      "exp": "ΔHv of H₂O = 40.6 kJ mol⁻¹. This is the highest in Group 16 hydrides due to extensive H-bonding. ΔHf of water = 4.6 kJ mol⁻¹ (fusion, not vaporization)."
+    },
+    {
+      "q": "Density of gas from ideal gas law is:",
+      "opts": ["d = RT/PM", "d = PM/RT", "d = PV/mR", "d = nRT/M"],
+      "ans": 1,
+      "exp": "From PV = nRT and n = m/M: PV = (m/M)RT → PM = (m/V)RT → d = m/V = PM/RT."
+    },
+    {
+      "q": "In earthenware pots, water remains cool because:",
+      "opts": [
+        "Clay absorbs heat strongly",
+        "Water cannot evaporate through clay",
+        "Micropores allow high-energy molecules to escape, cooling remaining water",
+        "Clay provides insulation from outside heat"
+      ],
+      "ans": 2,
+      "exp": "Earthenware vessels are porous. High-energy water molecules escape through micropores (evaporation). Remaining molecules have lower KE → temperature falls. Clay is also an insulator to external heat."
+    }
+  ]
+}
