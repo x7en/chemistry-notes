@@ -1,0 +1,1385 @@
+{
+  "meta": {
+    "id": "ch06",
+    "number": 6,
+    "title": "Chemical Energetics",
+    "exam_info": "2 MCQs · Q3 Short Questions · Q8(a) Long Question",
+    "deleted": "Entropy (6.11, pp.129-131) · Free Energy Change ΔG (6.12, pp.133-135) · MCQs IV, XI, XII · SAQs c, j · Num 9, 10",
+    "notes_merged": "Academy notes merged · 2 errors flagged (book value discrepancy + note error on bond energy sign)"
+  },
+  "sections": [
+    {
+      "id": "sec61",
+      "number": "6.1",
+      "title": "Enthalpy Change",
+      "blocks": [
+        {
+          "type": "note",
+          "t": "From academy notes — Thermochemistry: branch of chemistry that deals with quantity of heat evolved or absorbed during chemical change."
+        },
+        {
+          "type": "def",
+          "label": "Thermodynamics",
+          "text": "The science of the relationships between heat and other forms of energy.",
+          "src": "p.113"
+        },
+        {
+          "type": "def",
+          "label": "Thermochemistry",
+          "text": "The area of thermodynamics concerned with the study of the quantity of heat energy absorbed or evolved during physical or chemical changes.",
+          "src": "p.113"
+        },
+        {
+          "type": "def",
+          "label": "Enthalpy (H)",
+          "text": "The sum of all the possible, potential and kinetic energies of a system is called its heat content or enthalpy, denoted by H.",
+          "src": "p.113"
+        },
+        {
+          "type": "concept",
+          "head": "Enthalpy Change (ΔH)",
+          "body": "During a chemical reaction, when reactants are converted into products, there occurs a change in enthalpy. Enthalpy change is the net energy which is either evolved or absorbed in the form of heat.",
+          "eq": "ΔH = Heat content of products (HP) − Heat content of reactants (HR)",
+          "note": "From notes: Enthalpy = KE + PE. Represented by H. Cannot be measured directly — only ΔH can."
+        },
+        {
+          "type": "concept",
+          "head": "Two Cases of ΔH",
+          "body": "Depending on the value of ΔH, reactions may be exothermic or endothermic.",
+          "items": [
+            "HP < HR → ΔH is negative → Exothermic reaction → Product is stable → Spontaneous",
+            "HP > HR → ΔH is positive → Endothermic reaction → Product unstable → Non-spontaneous"
+          ]
+        },
+        {
+          "type": "def",
+          "label": "Exothermic Process",
+          "text": "A chemical reaction or a physical change in which heat is evolved from the system to surroundings.",
+          "src": "p.113"
+        },
+        {
+          "type": "def",
+          "label": "Endothermic Process",
+          "text": "A chemical reaction or a physical change in which heat is absorbed by the system from surroundings.",
+          "src": "p.113"
+        },
+        {
+          "type": "reactions",
+          "head": "Examples",
+          "rxns": [
+            {"eq": "C(s) + O₂(g) → CO₂(g)     ΔH = −393.7 kJ mol⁻¹", "note": "Exothermic — combustion of carbon"},
+            {"eq": "NH₄Cl(s) + H₂O → NH₄⁺(aq) + Cl⁻(aq)     ΔH = +16.2 kJ mol⁻¹", "note": "Endothermic — used in cold packs"}
+          ]
+        },
+        {
+          "type": "diagram",
+          "file": "diagrams/ch06_enthalpy_diagram_exo_endo.svg",
+          "caption": "Enthalpy diagram for (a) Exothermic and (b) Endothermic reactions",
+          "alt": "Two bar diagrams showing HR and HP levels with ΔH arrows"
+        }
+      ]
+    },
+    {
+      "id": "sec62",
+      "number": "6.2",
+      "title": "Energy Profile Diagram",
+      "blocks": [
+        {
+          "type": "p",
+          "t": "All chemical reactions involve the breaking of bonds in the reactant molecules before the formation of new bonds. Reactant molecules must collide with sufficient energy to overcome an energy barrier."
+        },
+        {
+          "type": "def",
+          "label": "Energy of Activation (Ea)",
+          "text": "The minimum amount of energy required by the reactant molecules just to cross the energy barrier.",
+          "src": "p.114"
+        },
+        {
+          "type": "concept",
+          "head": "Energy of Activation — Key Points (from notes)",
+          "items": [
+            "Represented by Ea",
+            "Required to bring molecules in correct orientation",
+            "Ea helps pass the hurdle (energy barrier) towards product formation",
+            "Collision Molecular Theory: substances must collide to form product",
+            "Effective collision → correct orientation → product formed",
+            "In exothermic: Ea > EP > ER",
+            "In endothermic: Ea > ER > EP"
+          ]
+        },
+        {
+          "type": "diagram",
+          "file": "diagrams/ch06_energy_profile_exo_endo.svg",
+          "caption": "Energy profile diagram showing ΔH and Ea for exothermic and endothermic reactions",
+          "alt": "Two humped curves showing reactants, transition state peak, and products with Ea and ΔH marked"
+        },
+        {
+          "type": "qc",
+          "title": "Quick Check 6.1",
+          "items": [
+            {
+              "num": "i",
+              "q": "Draw energy profile diagram for: CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l)  ΔH = −890.3 kJ mol⁻¹",
+              "ans": "<p>This is an <strong>exothermic</strong> reaction (ΔH is negative). In the energy profile diagram: reactants (CH₄ + 2O₂) are at a higher energy level than products (CO₂ + 2H₂O). The activation energy hump rises above the reactant level. The difference between reactant level and product level = 890.3 kJ mol⁻¹.</p>"
+            },
+            {
+              "num": "ii",
+              "q": "Draw energy profile diagram for: CaCO₃(s) → CaO(s) + CO₂(g)  ΔH = +572 kJ mol⁻¹",
+              "ans": "<p>This is an <strong>endothermic</strong> reaction (ΔH is positive). In the energy profile diagram: reactants (CaCO₃) are at a lower energy level than products (CaO + CO₂). The activation energy hump rises above both reactant and product levels.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec63",
+      "number": "6.3",
+      "title": "Standard Enthalpy Changes",
+      "blocks": [
+        {
+          "type": "concept",
+          "head": "Standard Conditions",
+          "body": "Enthalpy depends on physical state, pressure and temperature. Standard conditions for measuring ΔH are:",
+          "items": [
+            "Temperature: 25°C or 298 K",
+            "Pressure: 1 atm or 101 kPa"
+          ],
+          "note": "Standard state of an element is its most stable form at 298 K and 1 atm. Standard enthalpy of formation of any element in its standard state = zero."
+        },
+        {
+          "type": "subsec",
+          "t": "6.3.1 Enthalpy Change of Reaction (ΔHᵣ)"
+        },
+        {
+          "type": "def",
+          "label": "Standard Enthalpy of Reaction (ΔH°ᵣ)",
+          "text": "The enthalpy change involved when stoichiometric amounts of reactants in their standard states react together completely to form products under standard conditions.",
+          "src": "p.115"
+        },
+        {
+          "type": "reactions",
+          "head": "Example",
+          "rxns": [
+            {"eq": "H₂(g) + ½ O₂(g) → H₂O(l)     ΔH°ᵣ = −286 kJ mol⁻¹"}
+          ]
+        },
+        {
+          "type": "subsec",
+          "t": "6.3.2 Enthalpy Change of Combustion (ΔH°c)"
+        },
+        {
+          "type": "def",
+          "label": "Standard Enthalpy Change of Combustion (ΔH°c)",
+          "text": "The enthalpy change involved when one mole of the substance is completely burnt in excess of oxygen, under standard conditions.",
+          "src": "p.115"
+        },
+        {
+          "type": "concept",
+          "head": "Key Facts — Combustion",
+          "items": [
+            "Always exothermic (ΔH is always negative)",
+            "One mole of substance burnt in excess oxygen",
+            "Used to calculate calorie content of food and fuels"
+          ]
+        },
+        {
+          "type": "reactions",
+          "head": "Example",
+          "rxns": [
+            {"eq": "C₂H₅OH(l) + 3O₂(g) → 2CO₂(g) + 3H₂O(l)     ΔH°c = −1368 kJ mol⁻¹"}
+          ]
+        },
+        {
+          "type": "subsec",
+          "t": "6.3.3 Enthalpy Change of Formation (ΔH°f)"
+        },
+        {
+          "type": "def",
+          "label": "Standard Enthalpy Change of Formation (ΔH°f)",
+          "text": "The enthalpy change involved when one mole of the compound is formed from its elements under standard conditions.",
+          "src": "p.115"
+        },
+        {
+          "type": "concept",
+          "head": "Key Facts — Formation",
+          "items": [
+            "Can be exothermic or endothermic",
+            "Elements must be in their standard states",
+            "Standard enthalpy of formation of any element in its standard state = 0"
+          ]
+        },
+        {
+          "type": "reactions",
+          "head": "Example",
+          "rxns": [
+            {"eq": "C(s) + 2H₂(g) → CH₄(g)     ΔH°f = −74.8 kJ mol⁻¹"}
+          ]
+        },
+        {
+          "type": "subsec",
+          "t": "6.3.4 Enthalpy Change of Atomization (ΔH°at)"
+        },
+        {
+          "type": "def",
+          "label": "Standard Enthalpy Change of Atomization (ΔH°at)",
+          "text": "The standard enthalpy change of atomization of an element is the enthalpy change involved when one mole of gaseous atoms is formed from the element under standard conditions.",
+          "src": "p.116"
+        },
+        {
+          "type": "concept",
+          "head": "Key Facts — Atomization",
+          "items": [
+            "ΔH°at is always positive (+ve) — energy is always absorbed",
+            "Always written for one mole of gaseous atoms"
+          ]
+        },
+        {
+          "type": "reactions",
+          "head": "Examples",
+          "rxns": [
+            {"eq": "½ H₂(g) → H(g)     ΔH°at = +218 kJ mol⁻¹"},
+            {"eq": "½ Cl₂(g) → Cl(g)     ΔH°at = +121 kJ mol⁻¹"}
+          ]
+        },
+        {
+          "type": "subsec",
+          "t": "6.3.5 Enthalpy Change of Neutralization (ΔH°n)"
+        },
+        {
+          "type": "def",
+          "label": "Standard Enthalpy Change of Neutralization (ΔH°n)",
+          "text": "The standard enthalpy change of neutralization is the enthalpy change involved when one mole of water is formed by the reaction of an acid with an alkali under standard conditions.",
+          "src": "p.116"
+        },
+        {
+          "type": "concept",
+          "head": "Key Facts — Neutralization",
+          "items": [
+            "Always exothermic (ΔH is always negative)",
+            "For all strong acid-base reactions, ΔH°n is always near −57.1 kJ mol⁻¹",
+            "Net reaction: H⁺(aq) + OH⁻(aq) → H₂O(l)",
+            "Why same for all strong acids/bases: net chemical change only involves combination of H⁺ and OH⁻ to form 1 mole of H₂O"
+          ]
+        },
+        {
+          "type": "reactions",
+          "head": "Net Neutralization Reaction",
+          "rxns": [
+            {"eq": "H⁺(aq) + OH⁻(aq) → H₂O(l)     ΔH°n = −57.1 kJ mol⁻¹"}
+          ]
+        },
+        {
+          "type": "subsec",
+          "t": "6.3.6 Electron Affinity (ΔH°ea)"
+        },
+        {
+          "type": "def",
+          "label": "First Electron Affinity (ΔH°ea)",
+          "text": "The enthalpy change involved when 1 mole of electrons is added to 1 mole of gaseous atoms to form 1 mole of gaseous uni-negative ions under standard conditions.",
+          "src": "p.116"
+        },
+        {
+          "type": "concept",
+          "head": "Key Facts — Electron Affinity",
+          "items": [
+            "First ΔH°ea is always negative (energy released — exothermic)",
+            "Second ΔH°ea is always positive (energy absorbed — endothermic)",
+            "Represented by ΔH°ea",
+            "Unit: kJ mol⁻¹"
+          ]
+        },
+        {
+          "type": "reactions",
+          "head": "Examples",
+          "rxns": [
+            {"eq": "Cl(g) + e⁻ → Cl⁻     ΔH°ea = −348.8 kJ mol⁻¹", "note": "First EA — negative"},
+            {"eq": "O(g) + e⁻ → O⁻     ΔH°ea = −141 kJ mol⁻¹", "note": "First EA — negative"},
+            {"eq": "O⁻(g) + e⁻ → O²⁻     ΔH°ea = +740 kJ mol⁻¹", "note": "Second EA — positive (repulsion)"}
+          ]
+        },
+        {
+          "type": "qc",
+          "title": "Quick Check 6.2",
+          "items": [
+            {
+              "num": "a",
+              "q": "Write equations for the enthalpy change of atomization of: (i) Oxygen (ii) Barium (iii) Bromine",
+              "ans": "<p><strong>(i) Oxygen:</strong></p><div class='eq-block'>½ O₂(g) → O(g)     ΔH°at = +ve</div><p><strong>(ii) Barium:</strong></p><div class='eq-block'>Ba(s) → Ba(g)     ΔH°at = +ve</div><p><strong>(iii) Bromine:</strong></p><div class='eq-block'>½ Br₂(l) → Br(g)     ΔH°at = +ve</div>"
+            },
+            {
+              "num": "b",
+              "q": "Name the enthalpy changes: (i) C(graphite) + O₂(g) → CO₂(g)  (ii) HCl(g) + NH₃(g) → NH₄Cl(s)  (iii) H₂(g) + ½O₂(g) → H₂O(l)",
+              "ans": "<p><strong>(i)</strong> Enthalpy change of <strong>combustion</strong> (and also formation) of CO₂</p><p><strong>(ii)</strong> Enthalpy change of <strong>reaction</strong> (formation of NH₄Cl)</p><p><strong>(iii)</strong> Enthalpy change of <strong>formation</strong> of water (also standard enthalpy of reaction)</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec64",
+      "number": "6.4",
+      "title": "Bond Energy (Bond Dissociation Energy) and Enthalpy Changes",
+      "blocks": [
+        {
+          "type": "def",
+          "label": "Bond Dissociation Energy",
+          "text": "The average amount of energy required to break (dissociate) one mole of a particular bond in a substance.",
+          "src": "p.117"
+        },
+        {
+          "type": "concept",
+          "head": "Exact vs Average Bond Energy",
+          "body": "Bond energy of a particular bond in a particular substance = Exact bond energy. Bond energy is affected by neighbouring atoms in a molecule.",
+          "items": [
+            "In ethane: E(C-C) = 376 kJ mol⁻¹ — exact",
+            "In propane: E(C-C) = 356 kJ mol⁻¹ — exact",
+            "In butane: E(C-C) = 352 kJ mol⁻¹ — exact",
+            "Average C-C bond energy = average of all E(C-C) values in different molecules",
+            "Practically, average bond energy is used instead of exact bond energies"
+          ],
+          "note": "Exact bond energy is affected by: (1) Presence of electronegative atoms (decreases BE), (2) Presence of bulky groups (decreases BE)"
+        },
+        {
+          "type": "error",
+          "head": "NOTE ERROR",
+          "wrong": "For formation of bond, ΔH = −ve (always)",
+          "correct": "Bond formation is generally exothermic (ΔH = −ve), but this is not always absolute. The statement is correct as a general rule.",
+          "reason": "The note simplification is acceptable for board level but students should know bond formation releases energy and bond breaking absorbs energy."
+        },
+        {
+          "type": "table",
+          "cols": ["Bond", "H−", "C−", "C=", "C≡", "N−", "N=", "N≡", "O−", "O=", "Cl−", "Br−"],
+          "rows": [
+            ["H", "436", "413", "", "", "391", "", "", "463", "", "", ""],
+            ["C", "413", "348", "615", "812", "292", "615", "891", "351", "728", "328", "276"],
+            ["N", "391", "292", "615", "891", "161", "418", "945", "222", "607", "", ""],
+            ["O", "463", "351", "728", "", "222", "607", "", "139", "498", "", ""],
+            ["Cl", "432", "328", "", "", "200", "", "", "203", "", "243", ""],
+            ["Br", "366", "276", "", "", "", "", "", "", "", "", "192"]
+          ]
+        },
+        {
+          "type": "tip",
+          "t": "Always remember: Bond breaking = energy absorbed (+ve ΔH). Bond formation = energy released (−ve ΔH). Overall sign of ΔH depends on which is greater."
+        }
+      ]
+    },
+    {
+      "id": "sec65",
+      "number": "6.5",
+      "title": "Enthalpy Change of Reaction (ΔHᵣ) and Chemical Bonds",
+      "blocks": [
+        {
+          "type": "concept",
+          "head": "ΔH from Bond Energies",
+          "body": "A chemical bond represents chemical energy. Bond breaking absorbs energy (ΔH = +ve) while bond formation releases it (ΔH = −ve). Their difference decides the overall sign of ΔH.",
+          "eq": "ΔH°rxn = ΣE(R) − ΣE(P)\n\nΣE(R) = sum of bond energies of reactants (broken)\nΣE(P) = sum of bond energies of products (formed)"
+        },
+        {
+          "type": "concept",
+          "head": "Rules",
+          "items": [
+            "If ΣE(P) > ΣE(R) → ΔH = −ve → Exothermic",
+            "If ΣE(R) > ΣE(P) → ΔH = +ve → Endothermic"
+          ]
+        },
+        {
+          "type": "diagram",
+          "file": "diagrams/ch06_hess_bond_energy_cycle.svg",
+          "caption": "Hess Cycle showing relationship between bond energies and ΔHᵣ: Reactants → Atoms → Products",
+          "alt": "Triangle diagram: Reactants at top-left, Atoms at bottom, Products at top-right. ΔH rxn across top, ER down-left, EP down-right"
+        },
+        {
+          "type": "concept",
+          "head": "Sample Problem 6.1 — Worked Example",
+          "body": "Calculate ΔH for: H₂(g) + ½O₂(g) → H₂O(g). Given: E(H-H) = 436, E(O=O) = 495, E(H-O) = 463 kJ mol⁻¹",
+          "eq": "ΣE(R) = E(H-H) + ½E(O=O) = 436 + ½(495) = 436 + 247.5 = 683.5 kJ\nΣE(P) = 2 × E(H-O) = 2 × 463 = 926 kJ\n\nΔH°r = ΣE(R) − ΣE(P) = 683.5 − 926 = −242.5 kJ mol⁻¹"
+        },
+        {
+          "type": "qc",
+          "title": "Quick Check 6.6",
+          "items": [
+            {
+              "num": "a",
+              "q": "The Haber process: N₂(g) + 3H₂(g) → 2NH₃(g). Calculate ΔH using: E(N≡N) = 945 kJ mol⁻¹, E(H-H) = 436 kJ mol⁻¹, E(N-H) = 391 kJ mol⁻¹",
+              "ans": "<p><strong>ΣE(R)</strong> = E(N≡N) + 3E(H-H) = 945 + 3(436) = 945 + 1308 = 2253 kJ</p><p><strong>ΣE(P)</strong> = 2 × 3 × E(N-H) = 6 × 391 = 2346 kJ</p><div class='eq-block'>ΔH = ΣE(R) − ΣE(P) = 2253 − 2346 = −93 kJ mol⁻¹</div>"
+            },
+            {
+              "num": "b",
+              "q": "Calculate ΔH for: C₂H₅OH(l) + 3O₂(g) → 2CO₂(g) + 3H₂O(l). Given bond energies (kJ mol⁻¹): E(C-C)=347, E(C-H)=410, E(C-O)=336, E(O=O)=496, E(C=O in CO₂)=805, E(O-H)=465",
+              "ans": "<p><strong>Bonds broken in reactants:</strong><br>Ethanol: 1×C-C + 5×C-H + 1×C-O + 1×O-H = 347+5(410)+336+465 = 3198 kJ<br>3×O=O = 3×496 = 1488 kJ<br>ΣE(R) = 3198 + 1488 = 4686 kJ</p><p><strong>Bonds formed in products:</strong><br>2×CO₂: 2×2×C=O = 4×805 = 3220 kJ<br>3×H₂O: 3×2×O-H = 6×465 = 2790 kJ<br>ΣE(P) = 3220 + 2790 = 6010 kJ</p><div class='eq-block'>ΔH = 4686 − 6010 = −1324 kJ mol⁻¹</div><p><em>Note: Slight variation expected depending on exact bond energy values used.</em></p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec66",
+      "number": "6.6",
+      "title": "Measurement of Enthalpy Change of a Reaction",
+      "blocks": [
+        {
+          "type": "p",
+          "t": "The amount of heat evolved or absorbed during a physical or chemical change can be measured by an instrument called a <strong>calorimeter</strong>."
+        },
+        {
+          "type": "def",
+          "label": "Specific Heat Capacity (c)",
+          "text": "The amount of heat energy required to raise the temperature of a substance of mass 1 kg through 1 K (or 1°C).",
+          "src": "p.118"
+        },
+        {
+          "type": "concept",
+          "head": "Specific Heat Capacity of Water",
+          "body": "For water: c = 4.18 J g⁻¹ K⁻¹ (rounded to 4.2 J g⁻¹ K⁻¹)",
+          "note": "Why use mass of water and c of water? Because solution is very dilute — mass of reactant is very small compared to water."
+        },
+        {
+          "type": "subsec",
+          "t": "6.6.1 Glass Calorimeter"
+        },
+        {
+          "type": "concept",
+          "head": "Glass Calorimeter — Construction",
+          "items": [
+            "Consists of a beaker (Cu-glass), stirrer, thermometer and a loose-fitting lid",
+            "Outer walls insulated with cotton wool to minimize heat exchange",
+            "Used for reactions in solutions (neutralization, solution reactions)",
+            "Cannot be used for combustion, multi-step reactions, or reactions with large heat changes"
+          ]
+        },
+        {
+          "type": "diagram",
+          "file": "diagrams/ch06_glass_calorimeter.svg",
+          "caption": "Glass calorimeter setup showing beaker, cotton wool insulation, thermometer, stirrer and loose lid",
+          "alt": "Labeled diagram of glass calorimeter with stirrer at top, thermometer, reaction mixture in beaker, surrounded by cotton wool"
+        },
+        {
+          "type": "concept",
+          "head": "Calculating ΔH from Calorimeter Data",
+          "eq": "Step 1: q = m(water) × c(water) × ΔT    (in Joules)\nStep 2: Convert to kJ by dividing by 1000\nStep 3: ΔH = −q/n  kJ mol⁻¹  (for exothermic)\n        or\n        ΔH = −(m × c × ΔT)/n  kJ mol⁻¹\n\nWhere n = number of moles of product (or key reactant)\nΔT = T₂ − T₁",
+          "note": "Negative sign in ΔH formula: if q is positive (temperature rose = exothermic), ΔH is negative. For endothermic, temperature falls, q is negative, ΔH is positive."
+        },
+        {
+          "type": "concept",
+          "head": "Limitations of Glass Calorimeter (from notes)",
+          "items": [
+            "Not used for combustion reactions",
+            "Not used for multi-step reactions",
+            "Not used for reactions having side products",
+            "Not used for reactions involving larger amounts of heat changes"
+          ]
+        },
+        {
+          "type": "concept",
+          "head": "Sample Problem 6.2 — Worked Example",
+          "body": "Neutralization of 100 cm³ of 0.5 mol dm⁻³ NaOH at 25°C with 100 cm³ of 0.5 mol dm⁻³ HCl at 25°C raised temperature to 28.5°C. Find ΔH of neutralization. c(water) = 4.2 J g⁻¹ K⁻¹",
+          "eq": "Total volume = 200 cm³ ≈ 200 g (density of water ≈ 1 g/cm³)\nΔT = 28.5 − 25.0 = 3.5°C = 3.5 K\nq = 200 × 4.2 × 3.5 = 2940 J = 2.94 kJ\n\nn(HCl) = n(NaOH) = 0.5 × 100/1000 = 0.05 mol\nn(H₂O formed) = 0.05 mol\n\nΔH°n = −q/n = −2.94/0.05 = −58.8 kJ mol⁻¹"
+        },
+        {
+          "type": "qc",
+          "title": "Quick Check 6.3",
+          "items": [
+            {
+              "num": "",
+              "q": "Calculate ΔH°n of the reaction of 50 cm³ of 1.5 mol dm⁻³ HNO₃ with 50 cm³ of 1.5 mol dm⁻³ NaOH. The change in temperature is 4°C.",
+              "ans": "<p><strong>Given:</strong> V₁ = V₂ = 50 cm³, c = 1.5 mol dm⁻³, ΔT = 4°C</p><p><strong>Step 1:</strong> Total mass = 100 g</p><div class='eq-block'>q = m × c × ΔT = 100 × 4.2 × 4 = 1680 J = 1.68 kJ</div><p><strong>Step 2:</strong> n(HNO₃) = n(NaOH) = 1.5 × 50/1000 = 0.075 mol → n(H₂O) = 0.075 mol</p><div class='eq-block'>ΔH°n = −q/n = −1.68/0.075 = −22.4 kJ mol⁻¹</div><p><em>Note: This is lower than theoretical −57.1 because of heat loss to surroundings.</em></p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec67",
+      "number": "6.7",
+      "title": "Enthalpy Change and Calorie Content of Food",
+      "blocks": [
+        {
+          "type": "def",
+          "label": "Calorie Content",
+          "text": "The calorie content of food is a measure of the energy 'released' when the food is completely consumed in the body.",
+          "src": "p.120"
+        },
+        {
+          "type": "concept",
+          "head": "Key Concept",
+          "body": "When food is digested, it releases the same amount of energy as when it is burned outside the body. So the overall enthalpy of combustion = calorie content.",
+          "items": [
+            "Calorie content expressed in kilocalories (kcal) or Joules (J)",
+            "1 cal = 4.18 J",
+            "Measured in Kcal"
+          ]
+        },
+        {
+          "type": "concept",
+          "head": "Relation between ΔH and Calorie Content",
+          "eq": "Calorie content = −ΔH°(kJ/g) / 4.184  kcal/g\n\nSteps:\n1. Calculate ΔH in kJ mol⁻¹\n2. Convert to kJ g⁻¹ by dividing by molar mass\n3. Divide by 4.184 to get kcal g⁻¹"
+        },
+        {
+          "type": "concept",
+          "head": "Sample Problem — Glucose",
+          "body": "C₆H₁₂O₆(s) + 6O₂(g) → 6CO₂(g) + 6H₂O(l)  ΔH° = −2803 kJ mol⁻¹",
+          "eq": "Molar mass of glucose = 180 g mol⁻¹\n1 mol (180 g) burns to produce 2803 kJ\n1 g of glucose = 2803/180 = 15.57 kJ g⁻¹\n\nCalorie content = 15.57/4.184 = −3.72 kcal g⁻¹"
+        },
+        {
+          "type": "info",
+          "head": "Health Tip",
+          "body": "The calorie content taken from food must be balanced by working, exercising and doing positive activities. Otherwise our bodies will have imbalanced growth and maintenance.",
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "sec68",
+      "number": "6.8",
+      "title": "Hess's Law of Heat Summation",
+      "blocks": [
+        {
+          "type": "def",
+          "label": "Hess's Law",
+          "text": "The total enthalpy change in a chemical reaction is independent of the route by which the chemical reaction takes place as long as the initial and final conditions are the same.",
+          "src": "p.121"
+        },
+        {
+          "type": "concept",
+          "head": "Basis of Hess's Law",
+          "body": "Hess's Law is an application of the First Law of Thermodynamics: Energy can neither be created nor destroyed, but can be converted from one form to another. It is used for reactions where ΔH cannot be measured directly.",
+          "note": "From notes — OR statement: Enthalpy change for direct route and indirect or multi-step route are equal regardless of path, keeping initial and final conditions constant."
+        },
+        {
+          "type": "diagram",
+          "file": "diagrams/ch06_hess_cycle_general.svg",
+          "caption": "Hess's Cycle showing direct route A→B and two indirect routes via intermediates",
+          "alt": "Diagram showing substance A converting to B directly (ΔHr), or indirectly via M+N (route 1: ΔH1+ΔH2) or via X,Y,Z (route 2: ΔH3+ΔH4+ΔH5)"
+        },
+        {
+          "type": "concept",
+          "head": "Hess's Law Equations",
+          "eq": "For indirect route 1: ΔH°r = ΔH₁ + ΔH₂\nFor indirect route 2: ΔH°r = ΔH₃ + ΔH₄ + ΔH₅"
+        },
+        {
+          "type": "subsec",
+          "t": "i) Calculating Enthalpy of Formation from Enthalpy of Combustion"
+        },
+        {
+          "type": "concept",
+          "head": "Method — ΔHf from ΔHc",
+          "items": [
+            "Find ΔH°c for direct route",
+            "Find ΔH₁ or ΔH₂ for indirect routes from given data",
+            "Apply formula: ΔH°c = ΔH₁ + ΔH₂",
+            "Rearrange to find unknown"
+          ]
+        },
+        {
+          "type": "concept",
+          "head": "Sample Problem 6.3 — Worked Example",
+          "body": "Calculate ΔHf of CO using: C(graphite) + O₂ → CO₂ (ΔH = −393.5), CO + ½O₂ → CO₂ (ΔH₂ = −283 kJ mol⁻¹)",
+          "eq": "Applying Hess's Law:\nΔH = ΔH₁ + ΔH₂\nΔH₁ = ΔH − ΔH₂\n     = −393.5 − (−283)\n     = −393.5 + 283\n     = −110.5 kJ mol⁻¹\n\nΔHf(CO) = −110.5 kJ mol⁻¹"
+        },
+        {
+          "type": "diagram",
+          "file": "diagrams/ch06_hess_CO_formation.svg",
+          "caption": "Hess cycle for formation of CO: Route 1 direct C+O₂→CO₂, Route 2 via CO",
+          "alt": "Triangle: C+O₂ at top-left, CO₂ at top-right, C+2O at bottom. ΔH along top, ΔH1 and ΔH2 on sides"
+        },
+        {
+          "type": "subsec",
+          "t": "ii) Calculating Enthalpy of Reaction from Enthalpies of Formation"
+        },
+        {
+          "type": "concept",
+          "head": "Formula",
+          "eq": "ΔH°r = ΣΔH°f(products) − ΣΔH°f(reactants)"
+        },
+        {
+          "type": "concept",
+          "head": "Sample Problem 6.4 — Worked Example",
+          "body": "Calculate ΔH for: C₂H₄(g) + HCl(g) → C₂H₅Cl(g). Given: ΔH°f(C₂H₄) = +52.2, ΔH°f(HCl) = −92.3, ΔH°f(C₂H₅Cl) = −109 kJ mol⁻¹",
+          "eq": "ΔH = ΔH°f(products) − ΔH°f(reactants)\n   = [−109] − [+52.2 + (−92.3)]\n   = −109 − [52.2 − 92.3]\n   = −109 − (−40.1)\n   = −109 + 40.1\n   = −68.9 kJ mol⁻¹"
+        },
+        {
+          "type": "subsec",
+          "t": "iii) Calculating ΔHf using Combustion Data and Formation Enthalpies"
+        },
+        {
+          "type": "concept",
+          "head": "Sample Problem 6.5 — Worked Example",
+          "body": "14.64 g of propane C₃H₈ burned, 678.6 kJ evolved. ΔH°f(CO₂) = −393.51, ΔH°f(H₂O) = −241.82 kJ mol⁻¹. Find ΔH°f(C₃H₈).",
+          "eq": "Molar mass of C₃H₈ = 44.096 g mol⁻¹\nn = 14.64/44.096 = 0.3320 mol\n\n1 mol propane evolves = 678.6/0.3320 = −2044 kJ mol⁻¹\n\nC₃H₈ + 5O₂ → 3CO₂ + 4H₂O\n\nApplying Hess's Law:\n−2044 = [3(−393.51) + 4(−241.82)] − [ΔH°f(C₃H₈) + 5(0)]\n−2044 = [−1180.53 + (−967.28)] − ΔH°f(C₃H₈)\n−2044 = −2147.81 − ΔH°f(C₃H₈)\nΔH°f(C₃H₈) = −2147.81 + 2044 = −103.81 ≈ −104 kJ mol⁻¹"
+        },
+        {
+          "type": "subsec",
+          "t": "iv) Calculating ΔHr using Bond Energies — Special Case of Hess's Law"
+        },
+        {
+          "type": "concept",
+          "head": "Method (already covered in Section 6.5)",
+          "items": [
+            "Step 1: Break all bonds in reactants (add bond enthalpies) → gives free atoms",
+            "Step 2: Form all bonds in products (subtract bond enthalpies)",
+            "ΔH°r = ΣE(R) − ΣE(P)"
+          ]
+        },
+        {
+          "type": "concept",
+          "head": "Sample Problem 6.6 — HCl Formation",
+          "body": "H₂(g) + Cl₂(g) → 2HCl(g). E(H-H) = 436, E(Cl-Cl) = 242, E(H-Cl) = 431 kJ mol⁻¹",
+          "eq": "ΣE(R) = 1×436 + 1×242 = 678 kJ\nΣE(P) = 2×431 = 862 kJ\n\nΔH°r = 678 − 862 = −184 kJ (for 2 mol HCl)\nΔHf(HCl) = −184/2 = −92 kJ mol⁻¹"
+        },
+        {
+          "type": "qc",
+          "title": "Quick Check 6.4",
+          "items": [
+            {
+              "num": "",
+              "q": "Calculate the standard enthalpy change for: 6C(s) + 3H₂(g) → C₆H₆(l). Given: ΔH°c(C) = −394, ΔH°c(H₂) = −286 kJ mol⁻¹, ΔH°f(C₆H₆) = −3267 kJ mol⁻¹",
+              "ans": "<p>Using Hess's Law with combustion data:</p><div class='eq-block'>C₆H₆(l) + 15/2 O₂(g) → 6CO₂(g) + 3H₂O(l)  ΔH°c = −3267 kJ mol⁻¹\n6C(s) + 6O₂(g) → 6CO₂(g)  6×(−394) = −2364 kJ\n3H₂(g) + 3/2 O₂(g) → 3H₂O(l)  3×(−286) = −858 kJ</div><p>Applying Hess's Law:</p><div class='eq-block'>ΔH°f(C₆H₆) = [6ΔH°c(C) + 3ΔH°c(H₂)] − ΔH°c(C₆H₆)\n= [−2364 + (−858)] − (−3267)\n= −3222 + 3267\n= +45 kJ mol⁻¹</div>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec69",
+      "number": "6.9",
+      "title": "Energetics of Solution",
+      "blocks": [
+        {
+          "type": "def",
+          "label": "Dissolution",
+          "text": "The process of dissolving a solute in a solvent is called dissolution.",
+          "src": "p.124"
+        },
+        {
+          "type": "concept",
+          "head": "Steps in Dissolution",
+          "body": "Formation of a solution takes place in three steps:",
+          "items": [
+            "Step 1: Overcoming intermolecular forces in the solvent to make room for the solute (expanding the solvent)",
+            "Step 2: Breaking up the solute into individual components (expanding the solute)",
+            "Step 3: Allowing the solute and solvent to interact to form the solution"
+          ]
+        },
+        {
+          "type": "diagram",
+          "file": "diagrams/ch06_dissolution_steps.svg",
+          "caption": "Three-step process of dissolution showing solvent expansion, solute expansion and interaction",
+          "alt": "Diagram showing ionic compound breaking apart and water molecules surrounding the ions"
+        },
+        {
+          "type": "def",
+          "label": "Standard Enthalpy Change of Solution (ΔH°sol)",
+          "text": "The standard enthalpy of solution is the amount of heat absorbed or evolved when one mole of a substance is dissolved in a solvent to give an infinitely dilute solution.",
+          "src": "p.124"
+        },
+        {
+          "type": "reactions",
+          "head": "Examples",
+          "rxns": [
+            {"eq": "Na₂CO₃(s) + aq → 2Na⁺(aq) + CO₃²⁻(aq)     ΔH°sol = −25 kJ mol⁻¹", "note": "Exothermic"},
+            {"eq": "NH₄Cl(s) + aq → NH₄⁺(aq) + Cl⁻(aq)     ΔH°sol = +16.2 kJ mol⁻¹", "note": "Endothermic"}
+          ]
+        },
+        {
+          "type": "concept",
+          "head": "Two Factors Governing Dissolution",
+          "items": [
+            "Hydration energy (attraction of solute ions with water molecules)",
+            "Lattice energy (controls the breaking of ionic compounds)"
+          ],
+          "note": "ΔH°sol = −ve (exothermic): when ΔH°HE > ΔH°L (hydration energy > lattice energy)\nΔH°sol = +ve (endothermic): when ΔH°L > ΔH°HE (lattice energy > hydration energy)"
+        },
+        {
+          "type": "table",
+          "cols": ["Substance", "Heat of Solution (kJ mol⁻¹)"],
+          "rows": [
+            ["NaCl", "4.98"],
+            ["KCl", "17.8"],
+            ["KBr", "19.9"],
+            ["KI", "21.4"],
+            ["NH₄Cl", "16.2"],
+            ["NH₄NO₃", "26.0"]
+          ]
+        },
+        {
+          "type": "subsec",
+          "t": "6.9.1 Hydration"
+        },
+        {
+          "type": "def",
+          "label": "Hydration",
+          "text": "The process in which water molecules surround and interact with the solute ions is called hydration.",
+          "src": "p.125"
+        },
+        {
+          "type": "def",
+          "label": "Enthalpy of Hydration (ΔH°hyd)",
+          "text": "The enthalpy change involved when one mole of a solute is dissolved in excess of water to make infinitely dilute solution under standard conditions.",
+          "src": "p.125"
+        },
+        {
+          "type": "concept",
+          "head": "Key Facts — Hydration Energy",
+          "items": [
+            "Always negative (always exothermic) — ion-dipole bond formation releases energy",
+            "Represented by ΔH°hyd",
+            "Forces between water and ions = ion-dipole forces",
+            "Unit: kJ mol⁻¹"
+          ]
+        },
+        {
+          "type": "concept",
+          "head": "Factors Affecting Hydration Energy",
+          "body": "Hydration energy depends on charge density = charge per unit area.",
+          "items": [
+            "Greater charge on smaller ion → greater charge density → greater hydration energy",
+            "Smaller size → greater HE (hydration energy)",
+            "Greater charge → greater HE",
+            "H.E. ∝ Charge density ∝ charge/size"
+          ]
+        },
+        {
+          "type": "trends",
+          "cards": [
+            {
+              "prop": "HYDRATION ENERGY ORDER (Cations)",
+              "body": "Size order: Li⁺ < Na⁺ < K⁺ < Rb⁺\nCharge density: Rb⁺ < K⁺ < Na⁺ < Li⁺\nH.E. order: Rb⁺ < K⁺ < Na⁺ < Li⁺\n\nAlso: Na⁺ < Mg²⁺ < Al³⁺ < Si⁴⁺ (increasing charge)"
+            },
+            {
+              "prop": "HYDRATION ENERGY ORDER (Anions)",
+              "body": "Size order: F⁻ < Cl⁻ < Br⁻ < I⁻\nH.E. order: I⁻ < Br⁻ < Cl⁻ < F⁻ (F⁻ has highest HE — smallest size)"
+            }
+          ]
+        },
+        {
+          "type": "subsec",
+          "t": "6.9.2 Lattice Energy (ΔH°latt)"
+        },
+        {
+          "type": "def",
+          "label": "Lattice Energy (ΔH°latt)",
+          "text": "The lattice energy of an ionic crystal is the enthalpy change involved when one mole of the ionic compound is formed from gaseous ions under standard conditions.",
+          "src": "p.125"
+        },
+        {
+          "type": "concept",
+          "head": "Key Facts — Lattice Energy",
+          "items": [
+            "Always negative (always exothermic) — ionic compound more stable than separate gaseous ions",
+            "Large negative value = strongly held lattice",
+            "KCl → K⁺ + Cl⁻  ΔH = +690 kJ mol⁻¹ (this is reverse of lattice energy — endothermic)"
+          ]
+        },
+        {
+          "type": "reactions",
+          "head": "Example",
+          "rxns": [
+            {"eq": "Na⁺(g) + Cl⁻(g) → NaCl(s)     ΔH°latt = −787 kJ mol⁻¹"}
+          ]
+        },
+        {
+          "type": "factors",
+          "items": [
+            {"num": "1", "title": "Charge on ions", "body": " — Greater charge → stronger ionic interaction → greater (more negative) lattice energy. Example: MgO (−3923 kJ mol⁻¹) >> LiF (−1049 kJ mol⁻¹) due to 2+ charges."},
+            {"num": "2", "title": "Size of ions", "body": " — Smaller ions → more tightly packed → greater ionic interaction → greater lattice energy. Lattice energy decreases as size increases. LiCl > NaCl > KCl > RbCl."}
+          ]
+        },
+        {
+          "type": "diagram",
+          "file": "diagrams/ch06_lattice_energies_graph.svg",
+          "caption": "Graph of lattice enthalpies of alkali metal halides — decreasing with increase in cation/anion size",
+          "alt": "Line graph: y-axis = lattice enthalpy (kJ mol⁻¹) from 0 to −1100, x-axis = halide ions F⁻, Cl⁻, Br⁻, I⁻. Five lines for Li⁺, Na⁺, K⁺, Rb⁺, Cs⁺ all decreasing left to right"
+        },
+        {
+          "type": "concept",
+          "head": "Solubility Trends of Group II Hydroxides",
+          "body": "Both hydration energy and lattice energy decrease down Group II. But lattice energy decreases MORE rapidly than hydration energy. So lattice energy factor dominates → ΔH°sol becomes more exothermic → solubility increases.",
+          "eq": "Solubility order: Be(OH)₂ < Mg(OH)₂ < Ca(OH)₂ < Sr(OH)₂ < Ba(OH)₂"
+        },
+        {
+          "type": "concept",
+          "head": "Solubility Trends of Group II Sulphates",
+          "body": "SO₄²⁻ is much larger than OH⁻. The decrease in lattice energy going from MgSO₄ to BaSO₄ is LESS than the decrease in hydration energy. So hydration energy dominates → ΔH°sol becomes more endothermic → solubility decreases.",
+          "eq": "Solubility order: BeSO₄ > MgSO₄ > CaSO₄ > SrSO₄ > BaSO₄"
+        },
+        {
+          "type": "subsec",
+          "t": "6.9.3 Calculating Enthalpy Change of Solution (ΔH°sol)"
+        },
+        {
+          "type": "concept",
+          "head": "Energy Cycle for ΔH°sol",
+          "eq": "ΔH°latt + ΔH°sol = ΔH°hyd\n\nTherefore:\nΔH°sol = ΔH°hyd − ΔH°latt\n\nor:\nΔH°sol = ΔH°hyd(cation) + ΔH°hyd(anion) + ΔH°latt",
+          "note": "Remember: ΔH°latt used here is the value for FORMATION of solid from gaseous ions (negative value). When dissolving, the solid splits into gaseous ions — that step absorbs energy (+ΔH°latt)."
+        },
+        {
+          "type": "diagram",
+          "file": "diagrams/ch06_solution_energy_cycle.svg",
+          "caption": "Energy cycle for formation of aqueous solution using Hess's Law (ionic solid → gaseous ions → ions in solution)",
+          "alt": "Cycle: ionic solid at left, gaseous ions at right (connected by ΔH°latt), ions in solution at bottom. ΔH°sol connects solid to solution, ΔH°hyd connects gaseous ions to solution"
+        },
+        {
+          "type": "concept",
+          "head": "Sample Problem 6.6 — Worked Example",
+          "body": "Find ΔH°sol of NaF. Given: ΔH°latt(NaF) = −902 kJ mol⁻¹, ΔH°hyd(Na⁺) = −406 kJ mol⁻¹, ΔH°hyd(F⁻) = −506 kJ mol⁻¹",
+          "eq": "ΔH°sol = ΔH°latt + ΔH°hyd\n       = +902 + (−406 − 506)\n       = +902 + (−912)\n       = −10 kJ mol⁻¹\n\n(Note: ΔH°latt used as +902 because we are BREAKING the lattice)"
+        }
+      ]
+    },
+    {
+      "id": "sec610",
+      "number": "6.10",
+      "title": "Born-Haber Cycle",
+      "blocks": [
+        {
+          "type": "concept",
+          "head": "Purpose of Born-Haber Cycle",
+          "body": "It is impossible to determine lattice energy of a compound by a single direct experiment. Born-Haber Cycle is an application of Hess's Law used to calculate lattice energy of ionic compounds.",
+          "items": [
+            "Formation of ionic compound involves: atomization of metal and non-metal, ionization of atoms, combination of ions",
+            "For such multi-step reactions, calorimeter cannot be used directly",
+            "So Born-Haber Cycle is applied"
+          ]
+        },
+        {
+          "type": "concept",
+          "head": "Steps in Born-Haber Cycle (for NaCl)",
+          "items": [
+            "ΔH°at(Na): Atomization of Na — Na(s) → Na(g)  (+108 kJ mol⁻¹)",
+            "ΔH°i(Na): Ionization of Na — Na(g) → Na⁺(g) + e⁻  (+496 kJ mol⁻¹)",
+            "ΔH°at(Cl): Atomization of Cl — ½Cl₂(g) → Cl(g)  (+121 kJ mol⁻¹)",
+            "ΔH°ea(Cl): Electron affinity of Cl — Cl(g) + e⁻ → Cl⁻(g)  (−349 kJ mol⁻¹)",
+            "ΔH°f: Standard enthalpy of formation of NaCl — Na(s) + ½Cl₂(g) → NaCl(s)  (−411 kJ mol⁻¹)",
+            "ΔH°latt: Lattice energy — Na⁺(g) + Cl⁻(g) → NaCl(s)  (= ?)"
+          ]
+        },
+        {
+          "type": "diagram",
+          "file": "diagrams/ch06_born_haber_NaCl.svg",
+          "caption": "Born-Haber Cycle for sodium chloride showing all steps from elements to NaCl",
+          "alt": "Vertical energy level diagram: Na(s)+½Cl₂ at bottom (reactants), NaCl(s) at bottom-right (product), steps going up through Na(g), Na(g)+Cl(g), Na⁺(g)+Cl(g), Na⁺(g)+Cl⁻(g), then down via lattice energy to NaCl(s)"
+        },
+        {
+          "type": "concept",
+          "head": "Calculation of Lattice Energy (NaCl)",
+          "eq": "According to Hess's Law:\nΔH°f = ΔHx + ΔH°latt\n\nΔHx = ΔH°at(Na) + ΔH°i(Na) + ΔH°at(Cl) + ΔH°ea(Cl)\n     = 108 + 496 + 121 + (−349)\n     = 376 kJ mol⁻¹\n\nΔH°latt = ΔH°f − ΔHx\n        = −411 − 376\n        = −787 kJ mol⁻¹"
+        },
+        {
+          "type": "concept",
+          "head": "Sample Problem 6.7 — Worked Example (NaF)",
+          "body": "Heat of atomization of Na = 109 kJ mol⁻¹, half bond energy of F₂ = 79 kJ mol⁻¹, ionization energy of Na = 494 kJ mol⁻¹, electron affinity of F = −328 kJ mol⁻¹, lattice energy = −939 kJ mol⁻¹. Find ΔH°f.",
+          "eq": "ΔH°f = ΔH°latt + ΔH°at(Na) + ΔH°i(Na) + ΔH°at(F) + ΔH°ea(F)\n     = (−939) + 109 + 494 + 79 + (−328)\n     = −585 kJ mol⁻¹"
+        },
+        {
+          "type": "qc",
+          "title": "Quick Check 6.7",
+          "items": [
+            {
+              "num": "b",
+              "q": "Calculate ΔH°f of LiF. ΔH°at(Li) = 161 kJ mol⁻¹, half bond energy of F₂ = 79 kJ mol⁻¹, IE(Li) = 520 kJ mol⁻¹, EA(F) = −328 kJ mol⁻¹, lattice energy = −1107 kJ mol⁻¹",
+              "ans": "<div class='eq-block'>ΔH°f = ΔH°latt + ΔH°at(Li) + IE(Li) + ΔH°at(F) + EA(F)\n     = (−1107) + 161 + 520 + 79 + (−328)\n     = −675 kJ mol⁻¹</div>"
+            }
+          ]
+        },
+        {
+          "type": "deleted",
+          "t": "Section 6.11 (Entropy) and Section 6.12 (Free Energy Change ΔG) are DELETED from the smart syllabus. Do not study pp.129–136."
+        }
+      ]
+    }
+  ],
+  "mcqs": [
+    {
+      "num": "Book I",
+      "src": "Book I",
+      "q": "Which of the following equations represents standard heat of formation of C₂H₄?",
+      "opts": [
+        "2C(diamond) + 2H₂(g) → C₂H₄(g)",
+        "2C(graphite) + 2H₂(g) → C₂H₄(g)",
+        "C(graphite) + H₂(g) → ½ C₂H₄(g)",
+        "2C(diamond) + 4H(g) → C₂H₄(g)"
+      ],
+      "ans": 1,
+      "exp": "Standard enthalpy of formation requires elements in their standard states. Standard state of carbon is graphite (not diamond). Also, 1 mole of product must be formed, so 2C(graphite) + 2H₂(g) → C₂H₄(g) is correct."
+    },
+    {
+      "num": "Book II",
+      "src": "Book II",
+      "q": "Which of the following equations correctly defines lattice energy of MgCl₂?",
+      "opts": [
+        "Mg(s) + Cl₂(g) → MgCl₂",
+        "Mg²⁺(g) + 2Cl⁻(g) → MgCl₂(g)",
+        "Mg²⁺(s) + 2Cl⁻(g) → MgCl₂(s)",
+        "Mg²⁺(g) + 2Cl⁻(g) → MgCl₂(s)"
+      ],
+      "ans": 3,
+      "exp": "Lattice energy = enthalpy change when 1 mole of ionic compound is formed from gaseous ions. Both cation and anion must be gaseous, and product must be solid. So Mg²⁺(g) + 2Cl⁻(g) → MgCl₂(s)."
+    },
+    {
+      "num": "Book III",
+      "src": "Book III",
+      "q": "Suppose there are 100 molecules of a gas initially in jar A connected to an evacuated jar B. When the stopcock is opened, the possible ways of arrangement will be:",
+      "opts": [
+        "100",
+        "1/100",
+        "2¹⁰⁰",
+        "1/2¹⁰⁰"
+      ],
+      "ans": 2,
+      "exp": "Number of possible arrangements = x^y where x = number of places (jars) = 2, y = number of particles = 100. So 2¹⁰⁰."
+    },
+    {
+      "num": "Book V",
+      "src": "Book V",
+      "q": "The calorie content of food, often expressed in Calories (kcal), is fundamentally related to which thermodynamic quantity during its metabolism or combustion?",
+      "opts": [
+        "Entropy change (ΔS)",
+        "Gibbs free energy change (ΔG)",
+        "Enthalpy change (ΔH)",
+        "Specific heat capacity (c)"
+      ],
+      "ans": 2,
+      "exp": "Calorie content is determined from the enthalpy of combustion (ΔH°c). When food is metabolized, it releases the same energy as when burned — this is ΔH of combustion."
+    },
+    {
+      "num": "Book VI",
+      "src": "Book VI",
+      "q": "Which of the following quantities is NOT typically determined using Hess's Law?",
+      "opts": [
+        "Enthalpy change of formation",
+        "Enthalpy change of combustion",
+        "Activation energy",
+        "Enthalpy change of reaction"
+      ],
+      "ans": 2,
+      "exp": "Activation energy (Ea) is not determined by Hess's Law. Hess's Law is used to calculate ΔH values (formation, combustion, reaction) when direct measurement is not possible. Ea is determined from rate studies."
+    },
+    {
+      "num": "Book VII",
+      "src": "Book VII",
+      "q": "Which of the following factors would lead to a greater enthalpy change of hydration (more exothermic)?",
+      "opts": [
+        "A larger ionic radius and a smaller charge",
+        "A smaller ionic radius and a smaller charge",
+        "A larger ionic radius and a larger charge",
+        "A smaller ionic radius and a larger charge"
+      ],
+      "ans": 3,
+      "exp": "Hydration energy ∝ charge density = charge/size. A smaller ionic radius and a larger charge gives higher charge density, hence more exothermic hydration energy."
+    },
+    {
+      "num": "Book VIII",
+      "src": "Book VIII",
+      "q": "The enthalpy of solution can be expressed in terms of which of the following enthalpy changes?",
+      "opts": [
+        "ΔH(lattice) + ΔH(hydration)",
+        "ΔH(lattice) − ΔH(hydration)",
+        "−ΔH(lattice) + ΔH(hydration)",
+        "−ΔH(lattice) − ΔH(hydration)"
+      ],
+      "ans": 0,
+      "exp": "ΔH°sol = ΔH°latt + ΔH°hyd. Here ΔH°latt is used as a positive value (energy needed to break lattice) and ΔH°hyd is negative (energy released). The formula from the book: ΔH°latt + ΔH°sol = ΔH°hyd, so ΔH°sol = ΔH°hyd − ΔH°latt... but from the energy cycle: ΔH°sol = ΔH°latt(+ve for breaking) + ΔH°hyd. Option (a) represents this."
+    },
+    {
+      "num": "Book IX",
+      "src": "Book IX",
+      "q": "Which of the following reactions has an enthalpy change equal to the standard enthalpy of formation of water, ΔH°f[H₂O(l)]?",
+      "opts": [
+        "2H(g) + O(g) → H₂O(l)",
+        "H₂(g) + ½O₂(g) → H₂O(g)",
+        "H₂(g) + ½O₂(g) → H₂O(l)",
+        "2H⁺(aq) + O²⁻(aq) → H₂O(l)"
+      ],
+      "ans": 2,
+      "exp": "Standard enthalpy of formation requires: (1) elements in their standard states — H₂(g) and O₂(g), (2) 1 mole of product formed — H₂O(l). So H₂(g) + ½O₂(g) → H₂O(l) is correct."
+    },
+    {
+      "num": "Book X",
+      "src": "Book X",
+      "q": "The enthalpy change for a reaction depends on:",
+      "opts": [
+        "Pathway taken from reactants to products",
+        "Presence of a catalyst",
+        "Initial and final states of the reactants and products",
+        "Rate of the reaction"
+      ],
+      "ans": 2,
+      "exp": "According to Hess's Law, ΔH is a state function — it depends only on initial and final states, not on the pathway. Catalysts, reaction rates and pathways do not affect ΔH."
+    },
+    {
+      "num": "Extra 1",
+      "src": "Extra",
+      "q": "Which enthalpy change is always exothermic?",
+      "opts": [
+        "Enthalpy of formation",
+        "Enthalpy of atomization",
+        "Enthalpy of solution",
+        "Enthalpy of combustion"
+      ],
+      "ans": 3,
+      "exp": "Enthalpy of combustion is always exothermic (ΔH is always −ve) because burning always releases heat. Formation and solution can be either. Atomization is always endothermic (+ve)."
+    },
+    {
+      "num": "Extra 2",
+      "src": "Extra",
+      "q": "In the Born-Haber cycle for NaCl, which step has a POSITIVE enthalpy change?",
+      "opts": [
+        "Lattice energy",
+        "Electron affinity of Cl",
+        "Atomization of Na",
+        "Formation of NaCl"
+      ],
+      "ans": 2,
+      "exp": "Atomization of Na (Na(s) → Na(g)) is endothermic — energy is absorbed to convert solid Na to gaseous atoms. ΔH°at is always positive. Lattice energy, EA of Cl, and formation are all negative (exothermic)."
+    },
+    {
+      "num": "Extra 3",
+      "src": "Extra",
+      "q": "Which of the following has the highest hydration energy?",
+      "opts": [
+        "Na⁺",
+        "K⁺",
+        "Li⁺",
+        "Rb⁺"
+      ],
+      "ans": 2,
+      "exp": "Hydration energy ∝ charge density ∝ 1/size. Li⁺ is the smallest among Na⁺, K⁺, Li⁺, Rb⁺, so it has the highest charge density and therefore the highest (most negative) hydration energy."
+    },
+    {
+      "num": "Extra 4",
+      "src": "Extra",
+      "q": "For the reaction H-H → H + H, the enthalpy change is:",
+      "opts": [
+        "−436 kJ mol⁻¹",
+        "+436 kJ mol⁻¹",
+        "−218 kJ mol⁻¹",
+        "+218 kJ mol⁻¹"
+      ],
+      "ans": 1,
+      "exp": "Bond breaking always absorbs energy — ΔH is positive (+ve). The bond energy of H-H = 436 kJ mol⁻¹ means it takes +436 kJ to break 1 mole of H-H bonds."
+    }
+  ],
+  "sqs": [
+    {
+      "num": "SAQ a",
+      "q": "Differentiate between exothermic and endothermic reactions.",
+      "a": "<p><strong>Exothermic Reaction:</strong></p><p>A chemical reaction or physical change in which heat is evolved from the system to the surroundings. In exothermic reactions, H<sub>P</sub> &lt; H<sub>R</sub>, so ΔH is <strong>negative</strong>.</p><p><strong>Example:</strong></p><div class='eq-block'>C(s) + O₂(g) → CO₂(g)     ΔH = −393.7 kJ mol⁻¹</div><p><strong>Endothermic Reaction:</strong></p><p>A chemical reaction or physical change in which heat is absorbed by the system from the surroundings. In endothermic reactions, H<sub>P</sub> &gt; H<sub>R</sub>, so ΔH is <strong>positive</strong>.</p><p><strong>Example:</strong></p><div class='eq-block'>NH₄Cl(s) + H₂O → NH₄⁺(aq) + Cl⁻(aq)     ΔH = +16.2 kJ mol⁻¹</div>",
+      "tag": "BOARD STYLE ANSWER"
+    },
+    {
+      "num": "SAQ b",
+      "q": "What do you understand by the enthalpy of a system?",
+      "a": "<p><strong>Definition:</strong> The sum of all the possible, potential and kinetic energies of a system is called its <strong>heat content or enthalpy</strong>, denoted by <strong>H</strong>.</p><p><strong>Formula:</strong></p><div class='eq-block'>H = E + PV\n(Internal energy + Product of pressure and volume)</div><p><strong>Key Points:</strong></p><ul><li>Enthalpy is a <strong>state function</strong> — depends only on initial and final states</li><li>Enthalpy cannot be measured directly</li><li>Only the <strong>change in enthalpy (ΔH)</strong> can be measured</li><li>ΔH = H<sub>P</sub> − H<sub>R</sub></li></ul>",
+      "tag": "BOARD STYLE ANSWER"
+    },
+    {
+      "num": "SAQ d",
+      "q": "Distinguish clearly between standard enthalpy of reaction and standard enthalpy of formation.",
+      "a": "<p><strong>Standard Enthalpy of Reaction (ΔH°r):</strong></p><p>The enthalpy change involved when <strong>stoichiometric amounts</strong> of reactants in their standard states react together completely to form products under standard conditions.</p><div class='eq-block'>H₂(g) + ½O₂(g) → H₂O(l)     ΔH°r = −286 kJ mol⁻¹</div><p><strong>Standard Enthalpy of Formation (ΔH°f):</strong></p><p>The enthalpy change involved when <strong>one mole</strong> of the compound is formed from its <strong>elements in their standard states</strong> under standard conditions.</p><div class='eq-block'>C(s) + 2H₂(g) → CH₄(g)     ΔH°f = −74.8 kJ mol⁻¹</div><p><strong>Key Difference:</strong> ΔH°f always involves formation of exactly 1 mole of product from its elements; ΔH°r can involve any stoichiometric amounts and any type of reactants.</p>",
+      "tag": "BOARD STYLE ANSWER"
+    },
+    {
+      "num": "SAQ e",
+      "q": "Define the following enthalpies and give one example of each: (i) Standard enthalpy of solution (ii) Standard enthalpy of hydration (iii) Standard enthalpy of atomization (iv) Standard enthalpy of combustion",
+      "a": "<p><strong>(i) Standard Enthalpy of Solution (ΔH°sol):</strong></p><p>The amount of heat absorbed or evolved when one mole of a substance is dissolved in a solvent to give an infinitely dilute solution.</p><div class='eq-block'>NH₄Cl(s) + aq → NH₄⁺(aq) + Cl⁻(aq)     ΔH°sol = +16.2 kJ mol⁻¹</div><p><strong>(ii) Standard Enthalpy of Hydration (ΔH°hyd):</strong></p><p>The enthalpy change involved when one mole of a solute is dissolved in excess water to make infinitely dilute solution under standard conditions. Always exothermic.</p><div class='eq-block'>Na⁺(g) + H₂O → Na⁺(aq)     ΔH°hyd = −406 kJ mol⁻¹</div><p><strong>(iii) Standard Enthalpy of Atomization (ΔH°at):</strong></p><p>The enthalpy change involved when one mole of gaseous atoms is formed from the element under standard conditions. Always endothermic (+ve).</p><div class='eq-block'>½H₂(g) → H(g)     ΔH°at = +218 kJ mol⁻¹</div><p><strong>(iv) Standard Enthalpy of Combustion (ΔH°c):</strong></p><p>The enthalpy change involved when one mole of the substance is completely burnt in excess oxygen under standard conditions. Always exothermic (−ve).</p><div class='eq-block'>C₂H₅OH(l) + 3O₂(g) → 2CO₂(g) + 3H₂O(l)     ΔH°c = −1368 kJ mol⁻¹</div>",
+      "tag": "BOARD STYLE ANSWER"
+    },
+    {
+      "num": "SAQ f",
+      "q": "Explain why the lattice enthalpy of an ionic compound is typically a large negative value.",
+      "a": "<p><strong>Definition:</strong> Lattice energy is the enthalpy change when 1 mole of ionic compound is formed from gaseous ions.</p><p><strong>Reason for Large Negative Value:</strong></p><ul><li>Ionic compounds consist of oppositely charged ions attracted by strong electrostatic (Coulombic) forces</li><li>When oppositely charged gaseous ions come together to form the crystal lattice, a large amount of energy is <strong>released</strong></li><li>The release of energy = negative ΔH = exothermic process</li><li>The ionic lattice is much more stable than separate gaseous ions — hence large energy release</li></ul><p><strong>Example:</strong></p><div class='eq-block'>Na⁺(g) + Cl⁻(g) → NaCl(s)     ΔH°latt = −787 kJ mol⁻¹</div>",
+      "tag": "BOARD STYLE ANSWER"
+    },
+    {
+      "num": "SAQ g",
+      "q": "What factors influence the magnitude of the lattice enthalpy?",
+      "a": "<p>Lattice energy depends on two main factors:</p><p><strong>1. Charge on the ions:</strong><br>Greater the charge on ions → stronger electrostatic attraction → greater (more negative) lattice energy.</p><div class='eq-block'>ΔH°latt(MgO) = −3923 kJ mol⁻¹  (Mg²⁺ and O²⁻)\nΔH°latt(LiF) = −1049 kJ mol⁻¹   (Li⁺ and F⁻)</div><p>MgO has higher lattice energy due to 2+ charges on both ions.</p><p><strong>2. Size of the ions:</strong><br>Smaller ions → more tightly packed → stronger interaction → greater lattice energy. With increase in size, oppositely charged ions become less tightly packed → lattice energy decreases.</p><div class='eq-block'>LiCl > NaCl > KCl > RbCl  (decreasing lattice energy)</div>",
+      "tag": "BOARD STYLE ANSWER"
+    },
+    {
+      "num": "SAQ h",
+      "q": "Explain why the enthalpy of hydration is always an exothermic process for gaseous ions. What are the main interactions responsible?",
+      "a": "<p><strong>Hydration is always exothermic because:</strong></p><ul><li>When gaseous ions are placed in water, water molecules surround the ions</li><li>The attraction between ions and water molecules (ion-dipole forces) releases energy</li><li>Formation of any bond (here ion-dipole bond) releases energy → exothermic</li><li>Therefore ΔH°hyd is always negative (−ve)</li></ul><p><strong>Main Interactions:</strong></p><p><strong>Ion-Dipole Forces</strong> — water is a polar molecule with δ− oxygen and δ+ hydrogen. Cations attract the δ− oxygen end; anions attract the δ+ hydrogen end. These attractions result in energy release.</p><div class='eq-block'>A⁺(g) + H₂O → A⁺(aq)     ΔH = −ve</div>",
+      "tag": "BOARD STYLE ANSWER"
+    },
+    {
+      "num": "SAQ i",
+      "q": "For the reaction CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(g), identify all bonds that need to be broken and formed for a bond energy calculation of ΔH.",
+      "a": "<p><strong>Bonds to be BROKEN (in reactants):</strong></p><ul><li>CH₄: 4 × C-H bonds = 4 C-H</li><li>2O₂: 2 × O=O bonds = 2 O=O</li></ul><p><strong>Total bonds broken:</strong> 4(C-H) + 2(O=O)</p><p><strong>Bonds to be FORMED (in products):</strong></p><ul><li>CO₂: 2 × C=O bonds = 2 C=O</li><li>2H₂O: 2 × 2 O-H bonds = 4 O-H</li></ul><p><strong>Total bonds formed:</strong> 2(C=O) + 4(O-H)</p><p><strong>Formula:</strong></p><div class='eq-block'>ΔH = ΣE(R) − ΣE(P)\n   = [4E(C-H) + 2E(O=O)] − [2E(C=O) + 4E(O-H)]</div>",
+      "tag": "BOARD STYLE ANSWER"
+    },
+    {
+      "num": "SAQ k",
+      "q": "The enthalpy of solution can be either positive or negative. Explain what a positive ΔH°sol and a negative ΔH°sol indicate about the energy changes during dissolution.",
+      "a": "<p><strong>Positive ΔH°sol (+ve) — Endothermic Dissolution:</strong></p><ul><li>More energy is absorbed to break the lattice than is released during hydration</li><li>ΔH°L (lattice energy to break) &gt; ΔH°HE (hydration energy)</li><li>Heat is absorbed from surroundings — solution feels cold</li><li>Example: NH₄Cl dissolving in water — ΔH°sol = +16.2 kJ mol⁻¹</li><li>Solubility increases with temperature (endothermic ∝ temperature)</li></ul><p><strong>Negative ΔH°sol (−ve) — Exothermic Dissolution:</strong></p><ul><li>More energy is released during hydration than absorbed to break the lattice</li><li>ΔH°HE &gt; ΔH°L</li><li>Heat is evolved to surroundings — solution feels warm</li><li>Example: Na₂CO₃ dissolving in water — ΔH°sol = −25 kJ mol⁻¹</li><li>Solubility decreases with temperature (exothermic ∝ 1/temperature)</li></ul>",
+      "tag": "BOARD STYLE ANSWER"
+    },
+    {
+      "num": "SAQ l",
+      "q": "Explain how charge density can be used to predict which ion will have a more exothermic enthalpy of hydration.",
+      "a": "<p><strong>Charge Density:</strong> Charge density = charge per unit area of the ion. It depends on two factors: charge on the ion and size (radius) of the ion.</p><p><strong>H.E. ∝ Charge density ∝ charge/size</strong></p><p><strong>Effect of Charge:</strong><br>With increase in charge → charge density increases → more attraction for water molecules → more exothermic HE.<br>Order: Na⁺ &lt; Mg²⁺ &lt; Al³⁺ (increasing charge)</p><p><strong>Effect of Size:</strong><br>With decrease in size → charge density increases → more exothermic HE.<br>Order: Rb⁺ &lt; K⁺ &lt; Na⁺ &lt; Li⁺ (decreasing size → increasing HE)</p><p><strong>Conclusion:</strong> The ion with <strong>smaller size and greater charge</strong> (highest charge density) will have the most exothermic enthalpy of hydration.</p>",
+      "tag": "BOARD STYLE ANSWER"
+    },
+    {
+      "num": "Extra 1",
+      "q": "What is Hess's Law? Give its two applications.",
+      "a": "<p><strong>Statement of Hess's Law:</strong></p><p>The total enthalpy change in a chemical reaction is independent of the route by which the chemical reaction takes place, as long as the initial and final conditions are the same.</p><p><strong>Basis:</strong> Hess's Law is an application of the First Law of Thermodynamics (conservation of energy).</p><p><strong>Application 1 — Calculating Enthalpy of Formation from Combustion Data:</strong></p><p>Enthalpy of formation of CO cannot be measured directly. Using Hess's Cycle with combustion data:</p><div class='eq-block'>C(s) + O₂(g) → CO₂(g)   ΔH = −393.5 kJ mol⁻¹\nCO(g) + ½O₂(g) → CO₂(g)   ΔH₂ = −283 kJ mol⁻¹\n∴ ΔHf(CO) = −393.5 − (−283) = −110.5 kJ mol⁻¹</div><p><strong>Application 2 — Calculating Enthalpy of Reaction from Enthalpies of Formation:</strong></p><div class='eq-block'>ΔH°r = ΣΔH°f(products) − ΣΔH°f(reactants)</div>",
+      "tag": "BOARD STYLE ANSWER"
+    },
+    {
+      "num": "Extra 2",
+      "q": "What is lattice energy? How does Born-Haber Cycle help to calculate the lattice energy of NaCl?",
+      "a": "<p><strong>Lattice Energy:</strong></p><p>The enthalpy change involved when one mole of ionic compound is formed from gaseous ions under standard conditions. It is always exothermic (large negative value).</p><div class='eq-block'>Na⁺(g) + Cl⁻(g) → NaCl(s)     ΔH°latt = −787 kJ mol⁻¹</div><p><strong>Born-Haber Cycle for NaCl:</strong></p><p>Steps involved:</p><ol><li>Na(s) → Na(g)  ΔH°at = +108 kJ mol⁻¹ (atomization)</li><li>Na(g) → Na⁺(g) + e⁻  ΔH°i = +496 kJ mol⁻¹ (ionization)</li><li>½Cl₂(g) → Cl(g)  ΔH°at = +121 kJ mol⁻¹ (atomization)</li><li>Cl(g) + e⁻ → Cl⁻(g)  ΔH°ea = −349 kJ mol⁻¹ (electron affinity)</li><li>Na(s) + ½Cl₂(g) → NaCl(s)  ΔH°f = −411 kJ mol⁻¹ (formation)</li></ol><p><strong>Calculation:</strong></p><div class='eq-block'>ΔHx = 108 + 496 + 121 + (−349) = 376 kJ mol⁻¹\nΔH°latt = ΔH°f − ΔHx = −411 − 376 = −787 kJ mol⁻¹</div>",
+      "tag": "BOARD STYLE ANSWER"
+    }
+  ],
+  "lqs": [
+    {
+      "title": "Q8(a) — Chemical Energetics",
+      "marks": "8 marks",
+      "q": "What is enthalpy? Discuss the different types of standard enthalpy changes with equations and examples.",
+      "parts": [
+        {
+          "label": "ENTHALPY AND ENTHALPY CHANGE",
+          "points": [
+            "Enthalpy (H) = sum of all possible potential and kinetic energies of a system (heat content), H = E + PV",
+            "Enthalpy cannot be measured directly; only ΔH can be measured",
+            "ΔH = HP − HR; if ΔH is negative = exothermic; if positive = endothermic",
+            "Standard conditions: T = 25°C (298 K), P = 1 atm (101 kPa)"
+          ]
+        },
+        {
+          "label": "STANDARD ENTHALPY OF REACTION (ΔH°r)",
+          "points": [
+            "Definition: Enthalpy change when stoichiometric amounts of reactants in standard states react completely",
+            "Can be +ve or −ve",
+            "Example: H₂(g) + ½O₂(g) → H₂O(l)  ΔH°r = −286 kJ mol⁻¹"
+          ]
+        },
+        {
+          "label": "STANDARD ENTHALPY OF FORMATION (ΔH°f)",
+          "points": [
+            "Definition: Enthalpy change when 1 mole of compound is formed from its elements in standard states",
+            "Standard enthalpy of any element in standard state = 0",
+            "Example: C(s) + 2H₂(g) → CH₄(g)  ΔH°f = −74.8 kJ mol⁻¹"
+          ]
+        },
+        {
+          "label": "STANDARD ENTHALPY OF COMBUSTION (ΔH°c)",
+          "points": [
+            "Definition: Enthalpy change when 1 mole of substance is completely burnt in excess O₂",
+            "Always exothermic (always negative)",
+            "Used to calculate calorie content of foods",
+            "Example: C₂H₅OH + 3O₂ → 2CO₂ + 3H₂O  ΔH°c = −1368 kJ mol⁻¹"
+          ]
+        },
+        {
+          "label": "OTHER ENTHALPY CHANGES",
+          "points": [
+            "ΔH°n (Neutralization): Heat when 1 mole H₂O formed; always −ve; ≈ −57.1 kJ mol⁻¹ for strong acid-base",
+            "ΔH°at (Atomization): Heat when 1 mole gaseous atoms formed from element; always +ve",
+            "ΔH°ea (Electron affinity): Heat when electron added to gaseous atom; 1st EA is −ve, 2nd EA is +ve",
+            "ΔH°sol (Solution): Heat when 1 mole solute dissolved to infinite dilution; can be +ve or −ve"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Q8(a) Alt — Hess's Law & Born-Haber Cycle",
+      "marks": "8 marks",
+      "q": "State and explain Hess's Law. Describe the Born-Haber Cycle for the formation of NaCl and use it to calculate lattice energy.",
+      "parts": [
+        {
+          "label": "HESS'S LAW",
+          "points": [
+            "Statement: Total enthalpy change is independent of the route, as long as initial and final conditions are same",
+            "It is an application of First Law of Thermodynamics (conservation of energy)",
+            "Used when ΔH cannot be directly measured (e.g., CCl₄ cannot be made directly from C + Cl₂)",
+            "Can be illustrated by drawing enthalpy/energy cycles (Hess cycles)",
+            "For indirect route 1: ΔH°r = ΔH₁ + ΔH₂"
+          ]
+        },
+        {
+          "label": "BORN-HABER CYCLE — CONCEPT",
+          "points": [
+            "Used to calculate lattice energy of ionic compounds (cannot be measured directly)",
+            "Is an application of Hess's Law to ionic compound formation",
+            "Formation of ionic compound involves multiple steps: atomization, ionization, EA, lattice energy"
+          ]
+        },
+        {
+          "label": "BORN-HABER CYCLE FOR NaCl — STEPS",
+          "points": [
+            "Step 1: Na(s) → Na(g)  ΔH°at = +108 kJ mol⁻¹ (atomization, always +ve)",
+            "Step 2: Na(g) → Na⁺(g) + e⁻  IE = +496 kJ mol⁻¹ (ionization, always +ve)",
+            "Step 3: ½Cl₂(g) → Cl(g)  ΔH°at = +121 kJ mol⁻¹ (atomization, always +ve)",
+            "Step 4: Cl(g) + e⁻ → Cl⁻(g)  ΔH°ea = −349 kJ mol⁻¹ (electron affinity, −ve for 1st EA)",
+            "Overall: Na(s) + ½Cl₂(g) → NaCl(s)  ΔH°f = −411 kJ mol⁻¹"
+          ]
+        },
+        {
+          "label": "CALCULATION OF LATTICE ENERGY",
+          "points": [
+            "ΔHx = ΔH°at(Na) + IE(Na) + ΔH°at(Cl) + EA(Cl) = 108 + 496 + 121 + (−349) = +376 kJ mol⁻¹",
+            "Applying Hess's Law: ΔH°f = ΔHx + ΔH°latt",
+            "ΔH°latt = ΔH°f − ΔHx = −411 − 376 = −787 kJ mol⁻¹",
+            "Lattice energy increases with greater charge and smaller ionic size (MgO > NaCl due to 2+ charges)"
+          ]
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "What is the sign of ΔH for an exothermic reaction?",
+      "opts": ["Positive (+ve)", "Negative (−ve)", "Zero", "Cannot be determined"],
+      "ans": 1,
+      "exp": "In exothermic reactions, HP < HR, so ΔH = HP − HR is negative."
+    },
+    {
+      "q": "Standard conditions for measuring enthalpy changes are:",
+      "opts": ["0°C and 1 atm", "25°C and 1 atm", "100°C and 1 atm", "25°C and 2 atm"],
+      "ans": 1,
+      "exp": "Standard conditions: temperature = 25°C (298 K) and pressure = 1 atm (101 kPa)."
+    },
+    {
+      "q": "Enthalpy of atomization is always:",
+      "opts": ["Negative", "Positive", "Zero", "Can be positive or negative"],
+      "ans": 1,
+      "exp": "Atomization requires energy input to break bonds/convert solid/liquid to gaseous atoms — always endothermic (+ve)."
+    },
+    {
+      "q": "The glass calorimeter CANNOT be used for:",
+      "opts": ["Neutralization reactions", "Solution reactions", "Combustion reactions", "Acid-base reactions"],
+      "ans": 2,
+      "exp": "Glass calorimeter cannot be used for combustion (high temperature products would escape) or multi-step reactions."
+    },
+    {
+      "q": "ΔH°n for all strong acid-base reactions is approximately:",
+      "opts": ["−393 kJ mol⁻¹", "−286 kJ mol⁻¹", "−57.1 kJ mol⁻¹", "+57.1 kJ mol⁻¹"],
+      "ans": 2,
+      "exp": "For strong acid-base reactions, net change is always H⁺ + OH⁻ → H₂O, giving ΔH°n ≈ −57.1 kJ mol⁻¹."
+    },
+    {
+      "q": "In the formula ΔH = −mcΔT/n, what does 'n' represent?",
+      "opts": ["Number of atoms", "Number of moles of key reactant/product", "Number of bonds broken", "Number of steps"],
+      "ans": 1,
+      "exp": "n = number of moles of the key reactant or product (e.g., moles of water formed in neutralization)."
+    },
+    {
+      "q": "Born-Haber Cycle is an application of:",
+      "opts": ["Second Law of Thermodynamics", "Hess's Law", "Le Chatelier's Principle", "Boyle's Law"],
+      "ans": 1,
+      "exp": "Born-Haber Cycle applies Hess's Law to ionic compound formation to calculate lattice energy."
+    },
+    {
+      "q": "Which factor does NOT affect lattice energy?",
+      "opts": ["Charge on ions", "Size of ions", "Temperature", "Arrangement of ions"],
+      "ans": 2,
+      "exp": "Lattice energy depends mainly on charge and size of ions. Temperature (at standard conditions) does not directly determine lattice energy."
+    },
+    {
+      "q": "Which has a higher hydration energy: Na⁺ or Mg²⁺?",
+      "opts": ["Na⁺ (larger size)", "Mg²⁺ (higher charge)", "Both equal", "Depends on temperature"],
+      "ans": 1,
+      "exp": "HE ∝ charge density. Mg²⁺ has higher charge (2+) vs Na⁺ (1+) and smaller size — giving higher charge density and more negative (exothermic) HE."
+    },
+    {
+      "q": "In the energy profile diagram, the activation energy Ea is:",
+      "opts": [
+        "Energy difference between reactants and products",
+        "Minimum energy for reactants to cross the energy barrier",
+        "Energy released during bond formation",
+        "Total energy of the system"
+      ],
+      "ans": 1,
+      "exp": "Ea = minimum amount of energy required by reactant molecules just to cross the energy barrier (transition state)."
+    },
+    {
+      "q": "ΔH°sol for dissolution of Na₂CO₃ is −25 kJ mol⁻¹. This means dissolution is:",
+      "opts": ["Endothermic, solution cools", "Exothermic, solution warms", "Neutral", "Spontaneous only"],
+      "ans": 1,
+      "exp": "Negative ΔH°sol means exothermic — heat is released to surroundings and the solution warms up. HE > LE in this case."
+    },
+    {
+      "q": "The formula for calorie content is:",
+      "opts": [
+        "ΔH(kJ/g) × 4.184",
+        "−ΔH(kJ/g) / 4.184",
+        "ΔH(kJ/mol) / 4.184",
+        "ΔH(kJ/g) / 4.184"
+      ],
+      "ans": 1,
+      "exp": "Calorie content (kcal/g) = −ΔH(kJ/g) / 4.184. The negative sign is because ΔH of combustion is negative but calorie content is expressed as a positive value."
+    },
+    {
+      "q": "For bond energy calculations, which equation is used?",
+      "opts": [
+        "ΔH = ΣE(P) − ΣE(R)",
+        "ΔH = ΣE(R) − ΣE(P)",
+        "ΔH = ΣE(R) + ΣE(P)",
+        "ΔH = ΣE(R) × ΣE(P)"
+      ],
+      "ans": 1,
+      "exp": "ΔH°rxn = ΣE(R) − ΣE(P), where E(R) = bond energies of bonds broken in reactants, E(P) = bond energies of bonds formed in products."
+    },
+    {
+      "q": "The solubility of Group II sulphates decreases from MgSO₄ to BaSO₄ because:",
+      "opts": [
+        "Lattice energy decreases more than hydration energy",
+        "Hydration energy decreases more than lattice energy",
+        "Both energies increase",
+        "Neither energy changes"
+      ],
+      "ans": 1,
+      "exp": "For sulphates, HE decreases by a greater amount than LE going down the group. So ΔH°sol becomes more endothermic → solubility decreases."
+    },
+    {
+      "q": "Second electron affinity is always:",
+      "opts": ["Negative (exothermic)", "Positive (endothermic)", "Zero", "Equal to first EA"],
+      "ans": 1,
+      "exp": "Second EA is +ve (endothermic) because adding a second electron to an already negative ion requires overcoming repulsion between like charges."
+    },
+    {
+      "q": "In Born-Haber Cycle, which step has the LARGEST positive value for NaCl?",
+      "opts": [
+        "Atomization of Na",
+        "Ionization energy of Na",
+        "Atomization of Cl",
+        "Electron affinity of Cl"
+      ],
+      "ans": 1,
+      "exp": "IE of Na = +496 kJ mol⁻¹ is the largest positive step. ΔH°at(Na) = +108 and ΔH°at(Cl) = +121 are much smaller. EA of Cl is negative."
+    },
+    {
+      "q": "When 50 cm³ of acid reacts with 50 cm³ of base in calorimeter, the total mass used is approximately:",
+      "opts": ["50 g", "100 g", "25 g", "200 g"],
+      "ans": 1,
+      "exp": "Total volume = 50 + 50 = 100 cm³. Since density of water ≈ 1 g/cm³, total mass ≈ 100 g."
+    },
+    {
+      "q": "Which of the following has the LOWEST enthalpy of hydration?",
+      "opts": ["Li⁺", "Na⁺", "K⁺", "Rb⁺"],
+      "ans": 3,
+      "exp": "HE ∝ 1/size. Rb⁺ is the largest among these ions, so it has the lowest charge density and least exothermic (lowest magnitude) hydration energy."
+    },
+    {
+      "q": "Ionization energy is always:",
+      "opts": ["Negative", "Positive", "Zero", "Depends on the element"],
+      "ans": 1,
+      "exp": "Ionization energy is always positive (+ve) because removing an electron from a gaseous atom always requires energy input — it is always endothermic."
+    },
+    {
+      "q": "Hess's Law states that ΔH of a reaction is independent of:",
+      "opts": [
+        "Initial state",
+        "Final state",
+        "The route (pathway)",
+        "Temperature"
+      ],
+      "ans": 2,
+      "exp": "Hess's Law: total enthalpy change is independent of the route (pathway) as long as initial and final conditions are the same. ΔH is a state function."
+    }
+  ]
+}
