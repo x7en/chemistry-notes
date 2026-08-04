@@ -1,0 +1,810 @@
+{
+  "meta": {
+    "id": "ch14",
+    "number": 14,
+    "title": "Atmosphere",
+    "exam_info": "1 MCQ · Q3 & Q4 Short Questions · Q8(b) Long Question",
+    "deleted": "Sections 14.8 (Air Quality/AQI) · 14.9 (Health) · 14.10 (Health Risks) · 14.11 (Monitoring) · 14.12 (Experiments) · 14.13 (Data Analysis) · 14.14 (Strategies) · 14.15 (Laws) · 14.16 (Economic/Social/Political Issues) — pp.306–311 · MCQs III, IV, VII, XI · SAQs d, e, h, i, k, l, m · DQ 6",
+    "notes_merged": "Book content only — no separate handwritten notes provided · 0 errors flagged"
+  },
+  "sections": [
+    {
+      "id": "sec141",
+      "number": "14.1",
+      "title": "Layers of the Atmosphere",
+      "blocks": [
+        {
+          "type": "p",
+          "t": "The atmosphere has four distinct layers determined by changes in temperature with increasing altitude."
+        },
+        {
+          "type": "diagram",
+          "file": "diagrams/ch14_atmosphere_layers.svg",
+          "caption": "Four layers of the atmosphere showing altitude ranges and temperature trends",
+          "alt": "Vertical diagram showing troposphere (0–12 km), stratosphere (12–50 km), mesosphere (50–80 km), thermosphere (80–600 km) with temperature curves"
+        },
+        {
+          "type": "def",
+          "label": "Troposphere",
+          "text": "The lowest region of the atmosphere which extends up to 12 km. It includes all the major gases present in the atmosphere i.e., nitrogen, oxygen, and carbon dioxide. Temperature decreases from 17°C to –58°C regularly. It is the densest layer and the layer in which major events such as rain, lightning, and hurricanes occur.",
+          "src": "p.298"
+        },
+        {
+          "type": "def",
+          "label": "Stratosphere",
+          "text": "Above the troposphere, the stratosphere lies at a distance of 12–50 km above the earth surface. Temperature increases from –58°C to –2°C. It can be divided into three regions according to the distribution of ultraviolet radiations from the Sun.",
+          "src": "p.298"
+        },
+        {
+          "type": "concept",
+          "head": "Three Regions of the Stratosphere",
+          "body": "The stratosphere is divided into three regions based on UV radiation intensity and ozone behaviour.",
+          "items": [
+            "<strong>Upper stratosphere:</strong> High-energy UV breaks ozone into O and O₂. (O₃ → O₂ + O)",
+            "<strong>Middle stratosphere:</strong> Less UV — O and O₂ recombine to form ozone in an exothermic reaction, forming the ozone layer. (O₂ + O → O₃)",
+            "<strong>Lower stratosphere:</strong> Very low UV — no monoatomic O present, so no ozone is formed here."
+          ],
+          "eq": "O₃(g) → O₂(g) + O(g)   [depletion — upper]\nO₂(g) + O(g) → O₃(g)   [formation — middle]"
+        },
+        {
+          "type": "def",
+          "label": "Mesosphere",
+          "text": "Extends to a height of about 50–80 km from the ground. Temperature decreases with altitude from –2°C to –93°C. The coldest region of the atmosphere is located in this layer.",
+          "src": "p.298"
+        },
+        {
+          "type": "def",
+          "label": "Thermosphere",
+          "text": "Extends from 80 km to 600 km above the earth surface. Temperature increases as altitude increases due to absorption of energetic UV and X-rays. Temperature in the upper thermosphere can range from 500°C to 2000°C or higher.",
+          "src": "p.298"
+        },
+        {
+          "type": "table",
+          "cols": ["Layer", "Height", "Temperature Range", "Key Feature"],
+          "rows": [
+            ["Troposphere", "0–12 km", "17°C to –58°C", "Densest layer; all weather events"],
+            ["Stratosphere", "12–50 km", "–58°C to –2°C", "Ozone layer; UV absorption"],
+            ["Mesosphere", "50–80 km", "–2°C to –93°C", "Coldest region"],
+            ["Thermosphere", "80–600 km", "500°C to 2000°C+", "UV + X-ray absorption"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec142",
+      "number": "14.2",
+      "title": "Air Pollutants",
+      "blocks": [
+        {
+          "type": "def",
+          "label": "Pollutants",
+          "text": "Pollutants are substances (gases, liquids and solids) that are harmful to the environment.",
+          "src": "p.298"
+        },
+        {
+          "type": "concept",
+          "head": "Primary vs Secondary Pollutants",
+          "body": "Air pollutants are classified as primary or secondary.",
+          "items": [
+            "<strong>Primary pollutants:</strong> Directly produced or emitted — e.g. ash from volcanic eruption, CO from motor vehicle exhaust.",
+            "<strong>Secondary pollutants:</strong> Formed due to chemical reactions of primary pollutants — e.g. ground-level ozone formed in photochemical smog."
+          ]
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Oxides of Carbon: CO and CO₂",
+            "Oxides of Nitrogen: NO and NO₂ — collectively NO<sub>x</sub>",
+            "Oxides of Sulphur: SO₂ and SO₃ — collectively SO<sub>x</sub>",
+            "Hydrocarbons (methane, ethane)",
+            "Low-altitude Ozone (O₃)",
+            "Chlorofluorocarbons (CFCs)",
+            "Polycyclic Aromatic Hydrocarbons (PAHs)",
+            "Persistent Organic Pollutants (POPs)",
+            "Volatile Organic Compounds (VOCs)",
+            "Particulate Matter (PM)",
+            "Heavy Metals: Lead (Pb), Mercury (Hg), Cadmium (Cd)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec143",
+      "number": "14.3",
+      "title": "Sources of Air Pollution",
+      "blocks": [
+        {
+          "type": "subsec",
+          "t": "14.3.1 Natural Sources"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Dust from earth's surface and biological materials (pollens, spores, animal debris).",
+            "Volcanic eruptions — introduce very large quantities of gases and particulate matter (PM).",
+            "Thunderbolts — produce significant quantities of oxides of nitrogen (NO<sub>x</sub>).",
+            "Algae on ocean surfaces — release hydrogen sulphide (H₂S).",
+            "Wind erosion — introduces PM into the air.",
+            "Swamps and humid zones (peat bogs, shallow lakes) — produce methane (CH₄)."
+          ]
+        },
+        {
+          "type": "subsec",
+          "t": "14.3.2 Human-Made Sources"
+        },
+        {
+          "type": "concept",
+          "head": "Human-Made (Anthropogenic) Sources",
+          "body": "Classified as mobile sources or point sources.",
+          "items": [
+            "<strong>Mobile sources:</strong> Cars, trucks, airplanes, marine engines.",
+            "<strong>Point sources:</strong> Factories, electric power plants.",
+            "Combustion of fossil fuels (coal, fuel oils, natural gas) produces CO₂, CO and hydrocarbons.",
+            "Burning wood as domestic fuel and coal in brick kilns are also major sources."
+          ]
+        },
+        {
+          "type": "qc",
+          "title": "Quick Check 14.1",
+          "items": [
+            {
+              "num": "a",
+              "q": "Mention important air pollutants.",
+              "ans": "<p><strong>Important Air Pollutants:</strong></p><ul><li>Oxides of Carbon: CO and CO₂</li><li>Oxides of Nitrogen: NO and NO₂ (NO<sub>x</sub>)</li><li>Oxides of Sulphur: SO₂ and SO₃ (SO<sub>x</sub>)</li><li>Hydrocarbons, low-altitude O₃, CFCs</li><li>PAHs, POPs, VOCs, Particulate Matter (PM)</li><li>Heavy metals: Pb, Hg, Cd</li></ul>"
+            },
+            {
+              "num": "b",
+              "q": "Give the equations for the formation and depletion of ozone in the stratosphere.",
+              "ans": "<p><strong>Depletion (upper stratosphere — UV breaks ozone):</strong></p><div class='eq-block'>O₃(g) → O₂(g) + O(g)</div><p><strong>Formation (middle stratosphere — O and O₂ recombine):</strong></p><div class='eq-block'>O₂(g) + O(g) → O₃(g)</div>"
+            },
+            {
+              "num": "c",
+              "q": "Write down the names and approximate heights of the different layers of the atmosphere.",
+              "ans": "<ul><li><strong>Troposphere:</strong> 0–12 km</li><li><strong>Stratosphere:</strong> 12–50 km</li><li><strong>Mesosphere:</strong> 50–80 km</li><li><strong>Thermosphere:</strong> 80–600 km</li></ul>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec144",
+      "number": "14.4",
+      "title": "Sources of Air Pollutants (Detailed)",
+      "blocks": [
+        {
+          "type": "subsec",
+          "t": "14.4.1 Oxides of Carbon"
+        },
+        {
+          "type": "concept",
+          "head": "Carbon Monoxide (CO)",
+          "body": "Produced mainly by incomplete combustion of fossil fuels. It is a highly poisonous gas.",
+          "eq": "2C(s) + O₂(g) → 2CO(g)",
+          "note": "CO binds haemoglobin more strongly than oxygen, excluding O₂ from normal respiration. CO poisoning can be reversed by giving high-pressure oxygen."
+        },
+        {
+          "type": "concept",
+          "head": "Carbon Dioxide (CO₂)",
+          "body": "CO₂ is the key greenhouse gas emitted by human activities like combustion of fossil fuels. It is a primary greenhouse gas that traps heat in the atmosphere, leading to global warming.",
+          "eq": "C(s) + O₂(g) → CO₂(g)"
+        },
+        {
+          "type": "subsec",
+          "t": "14.4.2 Oxides of Nitrogen (NO<sub>x</sub>)"
+        },
+        {
+          "type": "concept",
+          "head": "Nitric Oxide (NO) and Nitrogen Dioxide (NO₂)",
+          "body": "Generally produced from burning fossil fuels at high temperatures. NO₂ depletes the ozone layer and contributes to climate change.",
+          "eq": "N₂(g) + O₂(g) → 2NO(g)   [high temperature]\n2NO(g) + O₂(g) → 2NO₂(g)",
+          "note": "Natural sources of NO₂ include microbial processes in soil and oceans. Human sources include synthetic fertilizers and combustion of fossil fuels."
+        },
+        {
+          "type": "subsec",
+          "t": "14.4.3 Oxides of Sulphur (SO<sub>x</sub>)"
+        },
+        {
+          "type": "p",
+          "t": "SO₂ and SO₃ are emitted primarily by burning coal and oil. When SO<sub>x</sub> combines with water vapour, it causes acid rain that damages ecosystems. SO₂ is the major source of acid deposition in the air."
+        },
+        {
+          "type": "subsec",
+          "t": "14.4.4 Hydrocarbons"
+        },
+        {
+          "type": "p",
+          "t": "Produced naturally by vegetation, wildfire, and volcanoes. Anthropogenic sources include incomplete burning of fossil fuels, oil spills, and vehicular/industrial emissions. <strong>Methane is the most common hydrocarbon pollutant.</strong> Automobiles are the major source of hydrocarbon emission."
+        },
+        {
+          "type": "subsec",
+          "t": "14.4.5 Low-Altitude Ozone (O₃)"
+        },
+        {
+          "type": "p",
+          "t": "Ozone is a powerful oxidizing agent. Non-toxic in small concentrations, but <strong>above 100 ppm it is toxic</strong>. It is harmful to humans, plants, rubber and fabric dyes."
+        },
+        {
+          "type": "subsec",
+          "t": "14.4.6 Chlorofluorocarbons (CFCs)"
+        },
+        {
+          "type": "def",
+          "label": "Ozone Depletion",
+          "text": "The decrease in the concentration of ozone in the stratosphere is called depletion of ozone. This depletion has been caused by certain organic compounds called chlorofluorocarbons (CFCs). These compounds exist as gases or low boiling liquids at room temperature and are used as aerosols or refrigerants.",
+          "src": "p.301"
+        },
+        {
+          "type": "concept",
+          "head": "CFC Mechanism — Chain Reaction",
+          "body": "CFCs diffuse into the stratosphere where UV radiation breaks them down, creating chlorine free radicals (Cl·) that destroy ozone in a chain reaction.",
+          "eq": "CCl₃F →(UV)→ CCl₂F + Cl·\nCl· + O₃ → ClO + O₂\nClO + O → Cl· + O₂",
+          "note": "Steps 2 and 3 repeat many times. One CFC molecule can destroy up to 100,000 O₃ molecules. CFCs are 100,000 times more effective than CO₂ at trapping heat in the atmosphere."
+        },
+        {
+          "type": "subsec",
+          "t": "14.4.7 Polycyclic Aromatic Hydrocarbons (PAHs)"
+        },
+        {
+          "type": "p",
+          "t": "PAHs are composed of fused multiple aromatic rings. Examples: naphthalene, anthracene, phenanthrene. Generated mainly during incomplete combustion of fossil fuels (coal, oil, petrol, wood), vehicle emissions, industrial processes and grilled foods. They have potential toxicity and <strong>carcinogenic properties</strong>."
+        },
+        {
+          "type": "subsec",
+          "t": "14.4.8 Persistent Organic Pollutants (POPs)"
+        },
+        {
+          "type": "p",
+          "t": "POPs are organic compounds resistant to chemical, biological and photolytic degradation. They are toxic, travel by wind and water, and <strong>accumulate in the environment</strong> (bioaccumulation). Most POPs generated in one country can affect people and wildlife far from where they are used."
+        },
+        {
+          "type": "table",
+          "cols": ["Name of POP", "Uses"],
+          "rows": [
+            ["Polychlorinated Biphenyls (PCBs)", "Electrical equipment, surface coatings, inks, adhesives and paints"],
+            ["Dichlorodiphenyltrichloroethane (DDT)", "Insecticide in agriculture"]
+          ]
+        },
+        {
+          "type": "subsec",
+          "t": "14.4.9 Volatile Organic Compounds (VOCs)"
+        },
+        {
+          "type": "concept",
+          "head": "VOCs",
+          "body": "A large group of organic compounds that easily evaporate at room temperature. Liquid fuels are the major source. Common VOCs: benzene, xylene, toluene, ethanol, formaldehyde, acetone.",
+          "items": [
+            "<strong>Short-term effects:</strong> Eye, nose and throat irritation, headache, nausea.",
+            "<strong>Long-term effects:</strong> Damage to liver, kidney and central nervous system."
+          ]
+        },
+        {
+          "type": "subsec",
+          "t": "14.4.10 Particulate Matter (PM)"
+        },
+        {
+          "type": "def",
+          "label": "Particulate Matter (PM)",
+          "text": "The term 'particulate matter (PM)' refers to the wide variety of tiny substances that float in the air in the form of either solid particles or liquid droplets or both.",
+          "src": "p.302"
+        },
+        {
+          "type": "p",
+          "t": "PM includes dust, smoke, haze, acids, organic chemicals, metals and soil particles. Natural sources: volcanoes, fires, dust storms, aerosolized sea salt. Man-made sources: combustion in mechanical and industrial processes, vehicle emissions, tobacco smoke."
+        },
+        {
+          "type": "subsec",
+          "t": "14.4.11 Heavy Metals (Lead, Mercury and Cadmium)"
+        },
+        {
+          "type": "p",
+          "t": "Lead (Pb), mercury (Hg) and cadmium (Cd) are significant air pollutants released from industrial processes, transportation and other human activities. <strong>Metallurgy, battery waste and incineration</strong> are their major sources."
+        }
+      ]
+    },
+    {
+      "id": "sec145",
+      "number": "14.5",
+      "title": "Impact of Human Activities on the Atmosphere",
+      "blocks": [
+        {
+          "type": "subsec",
+          "t": "14.5.1 Impact of Burning Fossil Fuels"
+        },
+        {
+          "type": "p",
+          "t": "Burning fossil fuels is the primary cause of current climate change, altering the earth's ecosystems and causing human health problems. Key impacts include greenhouse gas emission, air pollution and release of volatile organic compounds."
+        },
+        {
+          "type": "subsec",
+          "t": "14.5.2 Impact of Deforestation"
+        },
+        {
+          "type": "def",
+          "label": "Deforestation",
+          "text": "Deforestation is purposeful clearing or thinning of forests by humans. It represents one of the largest issues in global climate.",
+          "src": "p.303"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Forests absorb greenhouse gases like CO₂ — removing forests reduces CO₂ uptake and increases atmospheric CO₂.",
+            "Loss of biodiversity.",
+            "Climate change acceleration.",
+            "Soil degradation.",
+            "Water cycle disruption."
+          ]
+        },
+        {
+          "type": "qc",
+          "title": "Quick Check 14.2",
+          "items": [
+            {
+              "num": "a",
+              "q": "Mention man-made sources of air pollution.",
+              "ans": "<p><strong>Mobile sources:</strong> Cars, trucks, airplanes, marine engines.</p><p><strong>Point sources:</strong> Factories, electric power plants.</p><p>Combustion of fossil fuels releases CO₂, CO and hydrocarbons. Burning wood as domestic fuel and coal in brick kilns are also significant sources.</p>"
+            },
+            {
+              "num": "b",
+              "q": "How do polycyclic aromatic hydrocarbons (PAHs) primarily enter the atmosphere?",
+              "ans": "<p>PAHs enter the atmosphere mainly through <strong>incomplete combustion</strong> of fossil fuels (coal, oil, petrol, wood), vehicle emissions, industrial processes and grilled foods. Natural sources include open burning and seepage from petroleum and coal deposits.</p>"
+            },
+            {
+              "num": "c",
+              "q": "How do volatile organic compounds (VOCs) affect air quality?",
+              "ans": "<p>VOCs easily evaporate at room temperature. They are significant air pollutants contributing to both indoor and outdoor pollution. In the presence of sunlight and NO<sub>x</sub>, VOCs undergo photochemical reactions to form secondary pollutants like ozone (O₃) and PAN — the main components of photochemical smog.</p>"
+            },
+            {
+              "num": "d",
+              "q": "What are the major sources of heavy metals in the atmosphere?",
+              "ans": "<p>Major sources of heavy metals (Pb, Hg, Cd) include: <strong>metallurgy</strong> (metal smelting), <strong>battery waste</strong> and <strong>incineration</strong>. Transportation and other industrial processes also release these metals into the atmosphere.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec146",
+      "number": "14.6",
+      "title": "Effects of Air Pollutants",
+      "blocks": [
+        {
+          "type": "subsec",
+          "t": "14.6.1 Formation of Smog"
+        },
+        {
+          "type": "def",
+          "label": "Smog",
+          "text": "Smog is a type of air pollution typically characterized by a thick haze. It primarily occurs in urban areas and is often caused by emissions from vehicles, industrial activities and other sources of pollution.",
+          "src": "p.304"
+        },
+        {
+          "type": "concept",
+          "head": "Types of Smog",
+          "body": "There are two main types of smog.",
+          "items": [
+            "<strong>Classical / Industrial Smog (London Smog):</strong> Also called reducing smog. Results from high quantities of SO<sub>x</sub> released into the air. Associated with cold, humid conditions.",
+            "<strong>Photochemical Smog (Los Angeles Smog):</strong> Primary pollutants (NO<sub>x</sub>, VOCs, unburned hydrocarbons) undergo photochemical reactions in sunlight to form secondary pollutants — ozone (O₃) and peroxyacetyl nitrates (PAN). More dangerous — causes heart palpitations, pneumonia and lung cancer. NO₂ gives it a yellow-brown colour."
+          ]
+        },
+        {
+          "type": "diagram",
+          "file": "diagrams/ch14_photochemical_smog.svg",
+          "caption": "Formation of photochemical smog from NOx and VOCs in sunlight",
+          "alt": "Flowchart: NOx + VOCs + sunlight → O3 + PAN (photochemical smog)"
+        },
+        {
+          "type": "subsec",
+          "t": "14.6.2 Acid Rain"
+        },
+        {
+          "type": "def",
+          "label": "Acid Rain",
+          "text": "When rain water has pH less than 5.6, it is known as acid rain. It refers to precipitation (rain, snow, sleet or hail) that contains dissolved acids formed from SOx and NOx in the atmosphere.",
+          "src": "p.305"
+        },
+        {
+          "type": "reactions",
+          "head": "Chemical Reactions for Acid Rain Formation",
+          "rxns": [
+            {"eq": "2SO₂(g) + O₂(g) → 2SO₃(g)", "note": "SO₂ from fossil fuels is oxidized to SO₃"},
+            {"eq": "SO₃(g) + H₂O(l) → H₂SO₄(aq)", "note": "SO₃ reacts with water to form sulphuric acid"},
+            {"eq": "2NO(g) + O₂(g) → 2NO₂(g)", "note": "NO is oxidized to NO₂"},
+            {"eq": "3NO₂(g) + H₂O(l) → 2HNO₃(aq) + NO(aq)", "note": "NO₂ reacts with water to form nitric acid"}
+          ]
+        },
+        {
+          "type": "tip",
+          "t": "Remember: acid rain pH < 5.6. Two pathways — SO₂ → SO₃ → H₂SO₄ (sulphuric acid) and NO → NO₂ → HNO₃ (nitric acid). Both acids form acid rain. These equations are commonly asked in long questions."
+        }
+      ]
+    },
+    {
+      "id": "sec147",
+      "number": "14.7",
+      "title": "Greenhouse Effect and Global Warming",
+      "blocks": [
+        {
+          "type": "def",
+          "label": "Global Warming",
+          "text": "Global warming refers to the long-term rise in the Earth's average surface temperature due to human activities, primarily the emission of greenhouse gases (GHGs) released by burning fossil fuels.",
+          "src": "p.305"
+        },
+        {
+          "type": "def",
+          "label": "Greenhouse Effect",
+          "text": "The progressive warming up of the earth's surface due to the blanketing effect of greenhouse gases in the atmosphere is called the greenhouse effect.",
+          "src": "p.305"
+        },
+        {
+          "type": "concept",
+          "head": "How the Greenhouse Effect Works",
+          "body": "CO₂ and water vapour transmit short-wavelength solar radiations but reflect back longer-wavelength heat radiation coming from the warmed surface of the earth.",
+          "items": [
+            "<strong>Day:</strong> Infrared radiation from the sun passes through the atmosphere and heats the earth's surface.",
+            "<strong>Night:</strong> The earth radiates heat to outer space. Greenhouse gases trap this heat, preventing its escape.",
+            "Higher concentration of CO₂ → more absorption of thermal radiations → greater increase in global temperature."
+          ]
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Key greenhouse gases: CO₂, CH₄ (methane), N₂O (nitrous oxide), H₂O vapour, CFCs.",
+            "CFCs are 100,000 times more effective than CO₂ at preventing heat from escaping the atmosphere."
+          ]
+        },
+        {
+          "type": "diagram",
+          "file": "diagrams/ch14_greenhouse_effect.svg",
+          "caption": "Mechanism of the greenhouse effect showing solar radiation, earth heating and GHG heat trapping",
+          "alt": "Diagram: Sun emits shortwave radiation → passes through atmosphere → earth absorbs and emits longwave (IR) heat → greenhouse gases trap outgoing IR heat"
+        },
+        {
+          "type": "qc",
+          "title": "Quick Check 14.3",
+          "items": [
+            {
+              "num": "a",
+              "q": "Differentiate between classical smog and photochemical smog.",
+              "ans": "<p><strong>Classical (Industrial) Smog — London Smog:</strong></p><ul><li>Caused by high SO<sub>x</sub> from coal burning.</li><li>Also called reducing smog.</li><li>Forms in cold, humid, windless conditions.</li></ul><p><strong>Photochemical Smog — Los Angeles Smog:</strong></p><ul><li>Caused by NO<sub>x</sub> + VOCs reacting in sunlight → secondary pollutants O₃ and PAN.</li><li>More dangerous — causes heart palpitations, pneumonia and lung cancer.</li><li>NO₂ gives it a yellow-brown colour.</li></ul>"
+            },
+            {
+              "num": "b",
+              "q": "Name greenhouse gases (GHGs). How do these gases cause global warming?",
+              "ans": "<p><strong>GHGs:</strong> CO₂, CH₄ (methane), N₂O (nitrous oxide), H₂O vapour, CFCs.</p><p><strong>Mechanism:</strong> These gases absorb infrared radiation emitted by the earth's surface at night and re-radiate it back, preventing heat from escaping to space. Higher GHG concentration → more heat trapped → rise in global temperature (global warming).</p>"
+            },
+            {
+              "num": "c",
+              "q": "Write a balanced equation showing the formation of sulphuric acid from atmospheric SO₃.",
+              "ans": "<div class='eq-block'>SO₃(g) + H₂O(l) → H₂SO₄(aq)</div><p>SO₃ (formed by oxidation of SO₂ from fossil fuels) reacts with water vapour in the atmosphere to form sulphuric acid, which falls as acid rain.</p>"
+            },
+            {
+              "num": "d",
+              "q": "How is HNO₃ formed from NO in the atmosphere?",
+              "ans": "<p>Two steps:</p><div class='eq-block'>2NO(g) + O₂(g) → 2NO₂(g)\n3NO₂(g) + H₂O(l) → 2HNO₃(aq) + NO(aq)</div><p>NO is first oxidized to NO₂, which then reacts with water to produce nitric acid (HNO₃) — a contributor to acid rain.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec14del",
+      "number": "14.8–14.16",
+      "title": "Deleted Sections",
+      "blocks": [
+        {
+          "type": "deleted",
+          "t": "Sections 14.8 (Air Quality/AQI), 14.9 (Air Quality & Human Health), 14.10 (Health Risks), 14.11 (Monitoring Methods), 14.12 (Experiments), 14.13 (Data Analysis), 14.14 (Strategies to Reduce Pollution), 14.15 (Laws & Regulations), and 14.16 (Economic/Social/Political Issues) are removed from the smart syllabus — pp.306–311."
+        }
+      ]
+    }
+  ],
+  "mcqs": [
+    {
+      "num": "Q1",
+      "src": "Book I",
+      "q": "Which gas causes the yellow colour in photochemical smog?",
+      "opts": ["CO", "SO₃", "NO₂", "SO₂"],
+      "ans": 2,
+      "exp": "NO₂ (nitrogen dioxide) is a brown-yellow gas. It is a secondary pollutant formed in photochemical smog and gives it its characteristic yellow-brown colour."
+    },
+    {
+      "num": "Q2",
+      "src": "Book II",
+      "q": "The depletion of ozone in the stratosphere is mainly due to the reaction of O₃ with:",
+      "opts": ["CO₂", "SO₂", "O₂", "CFCs"],
+      "ans": 3,
+      "exp": "CFCs release chlorine free radicals (Cl·) under UV radiation. These radicals react with ozone in a chain reaction, destroying up to 100,000 O₃ molecules per CFC molecule."
+    },
+    {
+      "num": "Q3",
+      "src": "Book V",
+      "q": "What is a common human activity that leads to increased levels of carbon monoxide in the atmosphere?",
+      "opts": ["Tree planting", "Gasoline-driven vehicles", "Using electric appliances", "Solar panel installation"],
+      "ans": 1,
+      "exp": "Gasoline-driven vehicles produce CO through incomplete combustion of fossil fuels in their engines. CO is a toxic gas that binds haemoglobin."
+    },
+    {
+      "num": "Q4",
+      "src": "Book VI",
+      "q": "Chlorofluorocarbons (CFCs) have been primarily used in:",
+      "opts": ["Fertilizers", "Refrigerants and aerosol propellants", "Pharmaceuticals", "Pesticides"],
+      "ans": 1,
+      "exp": "CFCs are used as propellants in aerosol sprays and as coolants in refrigerators and air conditioners. They are stable at ground level but destructive in the stratosphere."
+    },
+    {
+      "num": "Q5",
+      "src": "Book VIII",
+      "q": "An AQI value between 51 and 100 typically indicates which level of air quality?",
+      "opts": ["Good", "Moderate", "Unhealthy", "Hazardous"],
+      "ans": 1,
+      "exp": "AQI 0–50 = Good (Green). AQI 51–100 = Moderate (Yellow). AQI 101–150 = Unhealthy for Sensitive Groups (Orange). AQI 301–500 = Hazardous (Maroon)."
+    },
+    {
+      "num": "Q6",
+      "src": "Book IX",
+      "q": "Acid rain is primarily caused by the release of which gases into the atmosphere?",
+      "opts": ["CO₂ and CH₄", "SO₂ and NO₂", "CFCs and halons", "O₃ and CO"],
+      "ans": 1,
+      "exp": "SO₂ is oxidized to SO₃ which dissolves in water to form H₂SO₄. NO is oxidized to NO₂ which dissolves to form HNO₃. Both acids make up acid rain."
+    },
+    {
+      "num": "Q7",
+      "src": "Book X",
+      "q": "In the presence of sunlight and NOₓ, VOCs can contribute to the formation of:",
+      "opts": ["Acid rain", "Ozone depletion", "Photochemical smog", "Greenhouse gases"],
+      "ans": 2,
+      "exp": "VOCs + NOₓ + sunlight → photochemical reactions → ground-level O₃ and PAN. These secondary pollutants make up photochemical smog."
+    },
+    {
+      "num": "Q8",
+      "src": "Extra",
+      "q": "In which atmospheric layer does the protective ozone layer exist?",
+      "opts": ["Troposphere", "Stratosphere", "Mesosphere", "Thermosphere"],
+      "ans": 1,
+      "exp": "The ozone layer is found in the stratosphere (12–50 km). In the middle stratosphere, O₂ + O → O₃ (exothermic) forms this protective layer that absorbs UV radiation."
+    },
+    {
+      "num": "Q9",
+      "src": "Extra",
+      "q": "Ground-level ozone (O₃) is an example of which type of pollutant?",
+      "opts": ["Primary pollutant", "Secondary pollutant", "Natural pollutant only", "Persistent organic pollutant"],
+      "ans": 1,
+      "exp": "Ground-level ozone is a secondary pollutant — it is not directly emitted but is formed from photochemical reactions between primary pollutants (NOₓ and VOCs) in sunlight."
+    },
+    {
+      "num": "Q10",
+      "src": "Extra",
+      "q": "One molecule of CFC can destroy up to how many molecules of ozone?",
+      "opts": ["1,000", "10,000", "100,000", "1,000,000"],
+      "ans": 2,
+      "exp": "One CFC molecule can destroy up to 100,000 ozone molecules. This is because the Cl· free radical is regenerated in the chain reaction and keeps attacking new O₃ molecules."
+    },
+    {
+      "num": "Q11",
+      "src": "Extra",
+      "q": "Which of the following is the coldest layer of the atmosphere?",
+      "opts": ["Troposphere", "Stratosphere", "Mesosphere", "Thermosphere"],
+      "ans": 2,
+      "exp": "The mesosphere (50–80 km) is the coldest region of the atmosphere, with temperatures reaching as low as –93°C at its top boundary."
+    }
+  ],
+  "sqs": [
+    {
+      "num": "SAQ a",
+      "q": "Identify and briefly explain three major natural sources of air pollutants.",
+      "a": "<p><strong>Three major natural sources of air pollutants:</strong></p><ol><li><strong>Volcanic Eruptions:</strong> Introduce very large quantities of gases (SO₂, CO₂) and particulate matter (PM) directly into the atmosphere.</li><li><strong>Thunderbolts (Lightning):</strong> Produce significant quantities of oxides of nitrogen (NO<sub>x</sub>) by reacting atmospheric N₂ with O₂ at the extremely high temperatures of a lightning discharge.</li><li><strong>Biological / Oceanic Sources:</strong> Algae on ocean surfaces release hydrogen sulphide (H₂S). Swamps and humid zones produce methane (CH₄). Wind erosion also introduces particulate matter (PM).</li></ol><p><strong>Conclusion:</strong> Natural sources are largely uncontrollable, but their impact is far less than human-made sources in most urban environments.</p>",
+      "tag": "BOARD STYLE ANSWER"
+    },
+    {
+      "num": "SAQ b",
+      "q": "How can deforestation impact air quality?",
+      "a": "<p><strong>Definition:</strong> Deforestation is the purposeful clearing or thinning of forests by humans.</p><p><strong>Impacts on Air Quality:</strong></p><ul><li>Forests absorb CO₂ (a major greenhouse gas) through photosynthesis. Removing forests reduces this CO₂ uptake, increasing atmospheric CO₂ levels.</li><li>Burning of cleared forest vegetation directly releases CO₂, CO and particulate matter into the air.</li><li>Reduces oxygen production (less photosynthesis).</li><li>Also leads to soil degradation, water cycle disruption and loss of biodiversity.</li></ul><p><strong>Conclusion:</strong> Deforestation significantly worsens air quality by increasing greenhouse gases and eliminating the natural carbon sink, accelerating climate change.</p>",
+      "tag": "BOARD STYLE ANSWER"
+    },
+    {
+      "num": "SAQ c",
+      "q": "Explain the reasons for the temperature trends observed in the troposphere and the stratosphere.",
+      "a": "<p><strong>Troposphere (0–12 km) — Temperature Decreases with Altitude:</strong></p><ul><li>The earth's surface absorbs solar radiation and warms the air immediately above it by conduction and convection.</li><li>As altitude increases, distance from the heated surface increases, so temperature drops from 17°C to –58°C.</li></ul><p><strong>Stratosphere (12–50 km) — Temperature Increases with Altitude:</strong></p><ul><li>The ozone layer in the stratosphere absorbs high-energy UV radiation from the sun.</li><li>This UV energy is converted into heat, causing temperature to rise from –58°C to –2°C.</li></ul><p><strong>Conclusion:</strong> The troposphere is heated from below (earth's surface), while the stratosphere is heated from above (UV absorption by ozone). This reversal of temperature gradient is called a temperature inversion at the tropopause.</p>",
+      "tag": "BOARD STYLE ANSWER"
+    },
+    {
+      "num": "SAQ f",
+      "q": "How do polycyclic aromatic hydrocarbons (PAHs) affect human health?",
+      "a": "<p><strong>Definition:</strong> PAHs are compounds composed of fused multiple aromatic rings. Examples: naphthalene, anthracene, phenanthrene.</p><p><strong>Health Effects:</strong></p><ul><li><strong>Carcinogenic:</strong> Prolonged exposure to PAHs can cause lung cancer and other cancers.</li><li><strong>Toxic:</strong> PAHs have potential toxicity affecting the respiratory and immune systems.</li><li>Inhalation of PAH-containing particles causes irritation of the respiratory tract.</li></ul><p><strong>Sources:</strong> Incomplete combustion of fossil fuels, vehicle emissions, industrial processes, grilled foods.</p><p><strong>Conclusion:</strong> PAHs are serious environmental carcinogens. Reducing fossil fuel combustion and industrial emissions is essential to limit health risks.</p>",
+      "tag": "BOARD STYLE ANSWER"
+    },
+    {
+      "num": "SAQ g",
+      "q": "What is photochemical smog? Under what conditions does it form?",
+      "a": "<p><strong>Definition:</strong> Photochemical smog is a type of smog in which primary air pollutants — NO<sub>x</sub>, VOCs and unburned hydrocarbons — undergo photochemical reactions in the presence of sunlight to produce secondary pollutants such as ozone (O₃) and peroxyacetyl nitrates (PAN). It is also called <em>Los Angeles smog</em>.</p><p><strong>Conditions Required for Formation:</strong></p><ul><li>Presence of NO<sub>x</sub> and VOCs (emitted by vehicle and industrial exhausts).</li><li>Bright sunlight to trigger photochemical reactions.</li><li>Warm, dry, sunny weather with little or no wind.</li></ul><p><strong>Effects:</strong> Causes heart palpitations, pneumonia and lung cancer. NO₂ gives photochemical smog its yellow-brown colour.</p><p><strong>Conclusion:</strong> Photochemical smog is more dangerous than classical smog and is a growing problem in warm, traffic-heavy cities.</p>",
+      "tag": "BOARD STYLE ANSWER"
+    },
+    {
+      "num": "SAQ j",
+      "q": "What are the main chemical processes involved in the formation of acid rain?",
+      "a": "<p><strong>Definition:</strong> Acid rain is precipitation with pH less than 5.6 formed when SO<sub>x</sub> and NO<sub>x</sub> react with atmospheric water vapour to form acids.</p><p><strong>Via Sulphur Compounds:</strong></p><div class='eq-block'>2SO₂(g) + O₂(g) → 2SO₃(g)\nSO₃(g) + H₂O(l) → H₂SO₄(aq)</div><p><strong>Via Nitrogen Compounds:</strong></p><div class='eq-block'>2NO(g) + O₂(g) → 2NO₂(g)\n3NO₂(g) + H₂O(l) → 2HNO₃(aq) + NO(aq)</div><p><strong>Conclusion:</strong> SO₂ from burning coal and NO from combustion are oxidized and dissolve in water to form H₂SO₄ and HNO₃. These acids lower rainfall pH below 5.6, causing acid rain that corrodes structures and damages ecosystems.</p>",
+      "tag": "BOARD STYLE ANSWER"
+    },
+    {
+      "num": "Extra 1",
+      "q": "Explain the mechanism by which CFCs deplete the ozone layer.",
+      "a": "<p><strong>Definition:</strong> Ozone depletion is the decrease in the concentration of ozone in the stratosphere, mainly caused by CFCs.</p><p><strong>Mechanism — Three Steps:</strong></p><ol><li>CFCs diffuse into the stratosphere where UV breaks them down, releasing chlorine free radicals (Cl·):<div class='eq-block'>CCl₃F →(UV)→ CCl₂F + Cl·</div></li><li>Cl· attacks ozone:<div class='eq-block'>Cl· + O₃ → ClO + O₂</div></li><li>ClO reacts with an oxygen atom to regenerate Cl·:<div class='eq-block'>ClO + O → Cl· + O₂</div></li></ol><p><strong>Chain Reaction:</strong> Steps 2 and 3 repeat many times. One CFC molecule can destroy up to 100,000 molecules of ozone. CFCs are also 100,000 times more effective than CO₂ at trapping heat.</p><p><strong>Conclusion:</strong> Because Cl· is continuously regenerated, the damage is catalytic. This is why even small amounts of CFCs cause enormous ozone depletion.</p>",
+      "tag": "BOARD STYLE ANSWER"
+    },
+    {
+      "num": "Extra 2",
+      "q": "Describe the sources and harmful effects of Persistent Organic Pollutants (POPs).",
+      "a": "<p><strong>Definition:</strong> POPs are organic compounds that are resistant to chemical, biological and photolytic degradation. They persist in the environment and accumulate in living organisms (bioaccumulation).</p><p><strong>Sources:</strong></p><ul><li>PCBs — used in electrical equipment, paints, inks, adhesives.</li><li>DDT — used as an insecticide in agriculture.</li><li>Other industrial chemicals and pesticides.</li></ul><p><strong>Harmful Effects:</strong></p><ul><li>Toxic and adversely affect human health and the environment.</li><li>Travel long distances by wind and water — a global problem.</li><li>Bioaccumulate in food chains, reaching dangerous concentrations in top predators and humans.</li><li>Long-term exposure causes cancer, hormonal disruption and immune system damage.</li></ul><p><strong>Conclusion:</strong> POPs require international cooperation for regulation. The Stockholm Convention was established specifically to control POPs globally.</p>",
+      "tag": "BOARD STYLE ANSWER"
+    },
+    {
+      "num": "Extra 3",
+      "q": "Compare the composition and key characteristics of the four layers of the atmosphere.",
+      "a": "<p><strong>Troposphere (0–12 km):</strong> Contains N₂, O₂, CO₂ and all major atmospheric gases. Temperature decreases with altitude (17°C to –58°C). Densest layer. All weather events (rain, lightning, hurricanes) occur here.</p><p><strong>Stratosphere (12–50 km):</strong> Contains the ozone layer. Temperature increases with altitude (–58°C to –2°C) due to UV absorption by ozone. Divided into upper, middle and lower zones with different ozone behaviour.</p><p><strong>Mesosphere (50–80 km):</strong> Temperature decreases with altitude (–2°C to –93°C). Coldest region of the entire atmosphere.</p><p><strong>Thermosphere (80–600 km):</strong> Temperature increases with altitude (500°C to 2000°C+) due to absorption of UV and X-ray radiation. Thinnest and outermost major layer.</p>",
+      "tag": "BOARD STYLE ANSWER"
+    }
+  ],
+  "lqs": [
+    {
+      "title": "Q8(b) — Atmosphere: Greenhouse Effect, Smog and Acid Rain",
+      "marks": "8 marks",
+      "q": "Describe the greenhouse effect and global warming. Also explain the formation of smog and acid rain with relevant chemical equations.",
+      "parts": [
+        {
+          "label": "GREENHOUSE EFFECT AND GLOBAL WARMING",
+          "points": [
+            "Global warming = long-term rise in Earth's average surface temperature due to emission of GHGs (CO₂, CH₄, N₂O, H₂O vapour, CFCs) from burning fossil fuels.",
+            "Greenhouse effect = progressive warming of earth's surface due to the blanketing effect of greenhouse gases in the atmosphere.",
+            "CO₂ and H₂O vapour transmit short-wavelength solar radiation but reflect back longer-wavelength heat radiation from the earth's surface.",
+            "At night, earth radiates heat to outer space — greenhouse gases absorb and re-radiate this heat back, preventing its escape.",
+            "Higher CO₂ concentration → more absorption of thermal radiation → greater rise in global temperature.",
+            "CFCs are 100,000 times more effective than CO₂ at trapping heat in the atmosphere."
+          ]
+        },
+        {
+          "label": "FORMATION OF SMOG",
+          "points": [
+            "Smog = thick haze in urban areas caused by vehicle and industrial emissions.",
+            "Classical (London) smog: caused by high SO<sub>x</sub> levels from coal burning — also called reducing smog.",
+            "Photochemical (LA) smog: primary pollutants (NOₓ + VOCs) react in sunlight → secondary pollutants — ozone (O₃) and peroxyacetyl nitrates (PAN).",
+            "Photochemical smog causes heart palpitations, pneumonia and lung cancer.",
+            "NO₂ gives photochemical smog a characteristic yellow-brown colour."
+          ]
+        },
+        {
+          "label": "FORMATION OF ACID RAIN — EQUATIONS",
+          "points": [
+            "Acid rain = precipitation with pH < 5.6. Burning fossil fuels releases SO₂ and NO.",
+            "Step 1 (sulphur pathway): 2SO₂(g) + O₂(g) → 2SO₃(g)",
+            "Step 2 (sulphur pathway): SO₃(g) + H₂O(l) → H₂SO₄(aq)   [sulphuric acid]",
+            "Step 3 (nitrogen pathway): 2NO(g) + O₂(g) → 2NO₂(g)",
+            "Step 4 (nitrogen pathway): 3NO₂(g) + H₂O(l) → 2HNO₃(aq) + NO(aq)   [nitric acid]",
+            "Acid rain has pH < 5.6 and damages ecosystems, corrodes buildings and reduces agricultural yield."
+          ]
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Which layer of the atmosphere extends from 0 to 12 km?",
+      "opts": ["Stratosphere", "Mesosphere", "Troposphere", "Thermosphere"],
+      "ans": 2,
+      "exp": "The troposphere (0–12 km) is the lowest and densest layer. All weather events occur here and temperature decreases with altitude from 17°C to –58°C."
+    },
+    {
+      "q": "In which layer does temperature increase with altitude because of UV absorption by ozone?",
+      "opts": ["Troposphere", "Stratosphere", "Mesosphere", "Thermosphere"],
+      "ans": 1,
+      "exp": "The stratosphere (12–50 km) contains the ozone layer. Ozone absorbs UV radiation, converting it to heat, which raises the temperature from –58°C to –2°C."
+    },
+    {
+      "q": "The coldest region of the atmosphere is found in the:",
+      "opts": ["Troposphere", "Stratosphere", "Mesosphere", "Thermosphere"],
+      "ans": 2,
+      "exp": "The mesosphere (50–80 km) has temperatures decreasing to –93°C. It is the coldest layer of the atmosphere."
+    },
+    {
+      "q": "What percentage of the atmosphere is nitrogen (N₂)?",
+      "opts": ["21%", "0.93%", "78%", "0.04%"],
+      "ans": 2,
+      "exp": "N₂ = 78%, O₂ = 21%, Ar = 0.93%, CO₂ = 0.04%. Nitrogen and oxygen are the two major components."
+    },
+    {
+      "q": "Carbon monoxide (CO) is dangerous because it:",
+      "opts": ["Is highly flammable", "Binds haemoglobin more strongly than O₂", "Destroys ozone", "Causes acid rain"],
+      "ans": 1,
+      "exp": "CO binds to haemoglobin with greater affinity than O₂, blocking oxygen transport during respiration. CO poisoning can be reversed by high-pressure oxygen."
+    },
+    {
+      "q": "Which is produced by incomplete combustion of carbon?",
+      "opts": ["CO₂", "CO", "CH₄", "H₂S"],
+      "ans": 1,
+      "exp": "Incomplete combustion: 2C(s) + O₂(g) → 2CO(g). Complete combustion gives CO₂. CO is produced when oxygen supply is limited."
+    },
+    {
+      "q": "Ozone forms in the middle stratosphere by which reaction?",
+      "opts": ["O₃ → O₂ + O", "O₂ + O → O₃", "N₂ + O₂ → 2NO", "SO₂ + O → SO₃"],
+      "ans": 1,
+      "exp": "In the middle stratosphere: O₂(g) + O(g) → O₃(g). This is exothermic and is how the protective ozone layer forms."
+    },
+    {
+      "q": "In the upper stratosphere, ozone is broken down by:",
+      "opts": ["Infrared radiation", "X-rays", "High-energy UV radiation", "Visible light"],
+      "ans": 2,
+      "exp": "High-energy UV radiation in the upper stratosphere breaks ozone: O₃ → O₂ + O. This is ozone depletion."
+    },
+    {
+      "q": "Methane gas is a natural air pollutant released from:",
+      "opts": ["Volcanoes only", "Swamps and humid zones", "Ocean algae", "Wind erosion"],
+      "ans": 1,
+      "exp": "Swamps, peat bogs and shallow lakes are natural sources of methane (CH₄). Ocean algae release H₂S; volcanoes release SO₂ and CO₂."
+    },
+    {
+      "q": "PAHs (polycyclic aromatic hydrocarbons) are primarily generated from:",
+      "opts": ["Complete combustion of fuels", "Incomplete combustion of fossil fuels", "Water treatment plants", "Refrigerants"],
+      "ans": 1,
+      "exp": "PAHs are generated during incomplete combustion of coal, oil, petrol and wood, as well as vehicle emissions and industrial processes."
+    },
+    {
+      "q": "Which of the following is a Persistent Organic Pollutant (POP) used as a pesticide?",
+      "opts": ["Benzene", "PCB", "DDT", "Methane"],
+      "ans": 2,
+      "exp": "DDT (Dichlorodiphenyltrichloroethane) is a POP used as an insecticide in agriculture. PCBs are used in electrical equipment."
+    },
+    {
+      "q": "Acid rain is defined as precipitation with pH:",
+      "opts": ["Below 7.0", "Below 6.5", "Below 5.6", "Below 4.5"],
+      "ans": 2,
+      "exp": "Acid rain is specifically defined as precipitation with pH less than 5.6. Normal rainwater has a pH of about 5.6 due to dissolved CO₂ forming carbonic acid."
+    },
+    {
+      "q": "Which acid is formed when SO₃ reacts with water in the atmosphere?",
+      "opts": ["HCl", "H₂SO₃", "H₂SO₄", "HNO₃"],
+      "ans": 2,
+      "exp": "SO₃(g) + H₂O(l) → H₂SO₄(aq). Sulphuric acid is the major acid in acid rain from SO₂ pollution."
+    },
+    {
+      "q": "Photochemical smog is also known as:",
+      "opts": ["London smog", "Reducing smog", "Los Angeles smog", "Industrial smog"],
+      "ans": 2,
+      "exp": "Photochemical smog = Los Angeles smog. Classical/industrial smog = London smog (reducing smog)."
+    },
+    {
+      "q": "PAN (peroxyacetyl nitrate) in photochemical smog is a:",
+      "opts": ["Primary pollutant", "Secondary pollutant", "Natural atmospheric gas", "Inert compound"],
+      "ans": 1,
+      "exp": "PAN is a secondary pollutant — it is not emitted directly but formed when VOCs and NOₓ react in sunlight. It is a powerful eye irritant and component of photochemical smog."
+    },
+    {
+      "q": "Greenhouse gases trap heat by absorbing:",
+      "opts": ["UV radiation", "X-rays", "Infrared (heat) radiation", "Visible light"],
+      "ans": 2,
+      "exp": "Greenhouse gases (CO₂, CH₄, H₂O vapour) absorb infrared radiation emitted by the earth's surface, preventing it from escaping to outer space."
+    },
+    {
+      "q": "Deforestation worsens climate change because forests:",
+      "opts": ["Emit large amounts of CO₂", "Absorb CO₂ — removing them reduces CO₂ uptake", "Produce methane", "Block solar radiation"],
+      "ans": 1,
+      "exp": "Forests act as carbon sinks — they absorb CO₂ through photosynthesis. Deforestation reduces this uptake and often involves burning, which releases additional CO₂."
+    },
+    {
+      "q": "VOCs can contribute to ground-level ozone formation in the presence of:",
+      "opts": ["Water vapour only", "SO₂ and moisture", "Sunlight and NOₓ", "CO₂ and heat"],
+      "ans": 2,
+      "exp": "VOCs + NOₓ + sunlight → photochemical reactions → ground-level O₃ and PAN. This is the basis of photochemical smog formation."
+    },
+    {
+      "q": "Temperature in the thermosphere can reach:",
+      "opts": ["–93°C", "–2°C", "100°C", "Up to 2000°C or higher"],
+      "ans": 3,
+      "exp": "The thermosphere (80–600 km) absorbs energetic UV and X-rays, causing temperatures to soar from 500°C to over 2000°C in the upper region."
+    },
+    {
+      "q": "Which of the following is a characteristic of POPs that makes them globally dangerous?",
+      "opts": ["They dissolve easily in water", "They are resistant to degradation and travel by wind and water", "They react quickly with oxygen", "They are only harmful in high concentrations"],
+      "ans": 1,
+      "exp": "POPs resist chemical, biological and photolytic degradation. They travel by wind and water across international borders and bioaccumulate up the food chain, causing toxic effects far from their source."
+    }
+  ]
+}

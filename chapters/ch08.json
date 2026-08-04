@@ -1,0 +1,1018 @@
+{
+  "meta": {
+    "id": "ch08",
+    "number": 8,
+    "title": "Chemical Equilibrium",
+    "exam_info": "1 MCQ · Q2 Short Questions · Q7(a) Long Question",
+    "deleted": "8.1–8.3 (Macroscopic/Microscopic Events, pp.166–167) · 8.4 (Dynamic Equilibrium between Physical States) · 8.5 (Conditions for Equilibrium) · 8.9 (Kp/Kn/Kx expressions and relationships, pp.172–175) · 8.16 (Industrial Applications, pp.179–181) · MCQs II, IV, VII · SAQs e, h, i · DQs 8, 9",
+    "notes_merged": "Academy notes merged · 1 book error flagged (p.178 temperature effect contradiction) · 1 note error flagged (catalyst definition)"
+  },
+  "sections": [
+    {
+      "id": "sec81",
+      "number": "8.1",
+      "title": "Reversible and Irreversible Reactions",
+      "blocks": [
+        {
+          "type": "deleted",
+          "t": "Sections 8.1–8.5 (Macroscopic/Microscopic Events, Dynamic Equilibrium between physical states, and Conditions) are removed from the smart syllabus. Core reversible/irreversible concepts are retained here."
+        },
+        {
+          "type": "subsec",
+          "t": "Irreversible Reactions"
+        },
+        {
+          "type": "def",
+          "label": "Irreversible Reaction",
+          "text": "The reactions in which the reactants are completely consumed and converted into products are called irreversible reactions. Such reactions stop when the limiting reactant is used up.",
+          "src": "p.164"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Reactants form products only — products do NOT recombine to form reactants.",
+            "Limiting reactant is consumed, which stops the reaction.",
+            "Reaction goes to completion."
+          ]
+        },
+        {
+          "type": "reactions",
+          "head": "EXAMPLES OF IRREVERSIBLE REACTIONS",
+          "rxns": [
+            {"eq": "CaCO₃ → CaO + CO₂", "note": "Single arrow — does not reverse"},
+            {"eq": "CH₄ + 2O₂ → CO₂ + 2H₂O", "note": "Combustion — irreversible"}
+          ]
+        },
+        {
+          "type": "subsec",
+          "t": "Reversible Reactions"
+        },
+        {
+          "type": "def",
+          "label": "Reversible Reaction",
+          "text": "Some reactions continue in both directions, i.e., forward and reverse, without changing the concentration of reactants and products under the existing conditions. Such reactions never stop and are called reversible reactions.",
+          "src": "p.164"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Reactants change into products AND products recombine to reform reactants.",
+            "There is no limiting reactant — reaction does not go to completion.",
+            "Reaction gains equilibrium instead of completing.",
+            "Written with double arrow ⇌"
+          ]
+        },
+        {
+          "type": "reactions",
+          "head": "EXAMPLES OF REVERSIBLE REACTIONS",
+          "rxns": [
+            {"eq": "N₂(g) + 3H₂(g) ⇌ 2NH₃(g)"},
+            {"eq": "2NO₂(g) ⇌ N₂O₄(g)"},
+            {"eq": "PCl₅(g) ⇌ PCl₃(g) + Cl₂(g)"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec82",
+      "number": "8.2",
+      "title": "State of Chemical Equilibrium",
+      "blocks": [
+        {
+          "type": "def",
+          "label": "State of Chemical Equilibrium",
+          "text": "The state of a reversible reaction at which composition of the reaction mixture does not change and forward and reverse rates are equal is called the state of chemical equilibrium.",
+          "src": "p.165"
+        },
+        {
+          "type": "concept",
+          "head": "Key Points About the Equilibrium State",
+          "body": "At equilibrium, the rate of forward reaction (Rf) equals the rate of reverse reaction (Rr). Concentrations of reactants and products remain constant — but they may or may not be equal to each other.",
+          "items": [
+            "Rf = Rr",
+            "[Reactants] and [Products] remain constant (may be unequal)",
+            "Only achieved in a closed system",
+            "Macroscopically static (no colour/volume change visible)",
+            "Microscopically dynamic — bond-breaking and bond-forming continues at equal rates"
+          ],
+          "eq": "A ⇌ B\nAt start:  [A]=4 mol · [B]=2 mol\nAt equil:  [A]=3 mol · [B]=3 mol\n→ Rf = Rr at equilibrium"
+        },
+        {
+          "type": "subsec",
+          "t": "Graphical Possibilities at Equilibrium (A ⇌ B)"
+        },
+        {
+          "type": "p",
+          "t": "After equilibrium is established, concentrations become constant. Three possibilities exist:"
+        },
+        {
+          "type": "diagram",
+          "file": "diagrams/ch08_conc_vs_time_three_cases.svg",
+          "caption": "Concentration vs. time for A ⇌ B: (a) [A]=[B] equal at equilibrium, (b) [A]<[B] product favoured, (c) [A]>[B] reactant favoured",
+          "alt": "Three separate line graphs each showing [A] decreasing and [B] increasing until both flatten to constant values — at equal, lower, and higher levels respectively"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Case (a): [Reactant] = [Product] — both level off at the same value.",
+            "Case (b): [Reactant] < [Product] — equilibrium favours products (Kc > 1).",
+            "Case (c): [Reactant] > [Product] — equilibrium favours reactants (Kc < 1)."
+          ]
+        },
+        {
+          "type": "tip",
+          "t": "Board tip: In concentration vs. time graphs, reactant curves go down and product curves go up, both becoming horizontal at the same time (the equilibrium point). The horizontal lines do NOT have to be at the same level."
+        }
+      ]
+    },
+    {
+      "id": "sec83",
+      "number": "8.6",
+      "title": "Characteristics of Chemical Equilibrium",
+      "blocks": [
+        {
+          "type": "ul",
+          "items": [
+            "Concentrations of reactants and products remain <strong>constant</strong> at equilibrium.",
+            "Equilibrium can be approached from <strong>either side</strong> — whether we start with reactants or products.",
+            "A <strong>catalyst</strong> does not change the equilibrium position or Kc; it only helps attain equilibrium faster.",
+            "Value of Kc does not depend on initial concentrations — depends on <strong>temperature only</strong>.",
+            "Physical states (colour, pressure, volume) remain constant.",
+            "<strong>Only temperature</strong> changes the value of Kc. Concentration, pressure, and catalyst do NOT change Kc."
+          ]
+        },
+        {
+          "type": "info",
+          "head": "Pure Solids and Liquids in Kc",
+          "body": "Pure solids or pure liquids are NOT included in the Kc expression. Their concentrations do not change meaningfully and have no effect on the equilibrium constant.",
+          "items": [
+            "CaCO₃(s) ⇌ CaO(s) + CO₂(g) → Kc = [CO₂] only",
+            "C(s) + H₂O(g) ⇌ CO(g) + H₂(g) → Kc = [CO][H₂] / [H₂O]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec84",
+      "number": "8.7",
+      "title": "Types of Equilibrium",
+      "blocks": [
+        {
+          "type": "subsec",
+          "t": "8.7.1 Homogeneous Equilibrium"
+        },
+        {
+          "type": "def",
+          "label": "Homogeneous Equilibrium",
+          "text": "An equilibrium system in which all of the reactants and products are in the same phase.",
+          "src": "p.169"
+        },
+        {
+          "type": "reactions",
+          "head": "EXAMPLES",
+          "rxns": [
+            {"eq": "N₂(g) + 3H₂(g) ⇌ 2NH₃(g)", "note": "All gases"},
+            {"eq": "2SO₂(g) + O₂(g) ⇌ 2SO₃(g)", "note": "All gases"},
+            {"eq": "CH₃COOH(l) + C₂H₅OH(l) ⇌ CH₃COOC₂H₅(l) + H₂O(l)", "note": "All liquids"}
+          ]
+        },
+        {
+          "type": "subsec",
+          "t": "8.7.2 Heterogeneous Equilibrium"
+        },
+        {
+          "type": "def",
+          "label": "Heterogeneous Equilibrium",
+          "text": "An equilibrium in which the reactants and products are in more than one phase is called heterogeneous equilibrium.",
+          "src": "p.169"
+        },
+        {
+          "type": "reactions",
+          "head": "EXAMPLES",
+          "rxns": [
+            {"eq": "CaCO₃(s) ⇌ CaO(s) + CO₂(g)", "note": "Solid and gas"},
+            {"eq": "C(s) + H₂O(g) ⇌ CO(g) + H₂(g)", "note": "Solid and gases"},
+            {"eq": "3Fe(s) + 4H₂O(g) ⇌ Fe₃O₄(s) + 4H₂(g)", "note": "Solid and gas"}
+          ]
+        },
+        {
+          "type": "qc",
+          "title": "Quick Check 8.3",
+          "items": [
+            {
+              "num": "a",
+              "q": "Differentiate between homogeneous and heterogeneous equilibria.",
+              "ans": "<p><strong>Homogeneous equilibrium:</strong> All reactants and products are in the <em>same phase</em> (all gas or all liquid). Example: N₂(g) + 3H₂(g) ⇌ 2NH₃(g) — all gases.</p><p><strong>Heterogeneous equilibrium:</strong> Reactants and products are in <em>more than one phase</em>. Example: CaCO₃(s) ⇌ CaO(s) + CO₂(g) — solid and gas phases.</p>"
+            },
+            {
+              "num": "b",
+              "q": "Why do the rates of forward reactions slow down when a reversible reaction approaches the equilibrium stage?",
+              "ans": "<p>By the <strong>Law of Mass Action</strong>, the rate of forward reaction is directly proportional to the concentration of reactants: Rf = kf[A][B].</p><p>As the forward reaction proceeds, reactants are consumed and their concentration decreases. This causes Rf to slow down. Simultaneously, products accumulate and Rr increases. Eventually Rf = Rr and equilibrium is reached.</p>"
+            },
+            {
+              "num": "c",
+              "q": "In capped soda water, CO₂(g) + H₂O(l) ⇌ HCO₃⁻(aq) + H⁺(aq). (i) Which direction does equilibrium shift when the bottle is opened? (ii) Why does equilibrium require the closed cap?",
+              "ans": "<p><strong>(i)</strong> When opened, CO₂ gas escapes — product side CO₂ decreases — equilibrium shifts <strong>LEFT</strong> (toward CO₂) — more CO₂ is released as gas (fizzing).</p><p><strong>(ii)</strong> The closed cap maintains the pressure of CO₂ above the liquid. Without the cap, CO₂ escapes, the equilibrium cannot be established (open system), and all CO₂ is lost.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec85",
+      "number": "8.8",
+      "title": "Law of Mass Action and Equilibrium Constant (Kc)",
+      "blocks": [
+        {
+          "type": "subsec",
+          "t": "Law of Mass Action"
+        },
+        {
+          "type": "def",
+          "label": "Law of Mass Action",
+          "text": "The rate of a chemical reaction is directly proportional to the product of molar concentrations of reactants, each raised to the power equal to its coefficient in the balanced chemical equation.",
+          "src": "p.170"
+        },
+        {
+          "type": "p",
+          "t": "Presented by <strong>Guldberg and Waage</strong> (1864). Active mass = molar concentration in mol dm⁻³, expressed with square brackets [ ]."
+        },
+        {
+          "type": "subsec",
+          "t": "Derivation of Kc from Rate Laws"
+        },
+        {
+          "type": "concept",
+          "head": "Derivation (for A + B ⇌ C + D)",
+          "body": "",
+          "eq": "Forward:  Rf = kf [A][B]\nReverse:  Rr = kr [C][D]\n\nAt equilibrium: Rf = Rr\nkf [A][B] = kr [C][D]\n\nkf / kr = [C][D] / [A][B]\n\n∴  Kc = kf / kr = [C][D] / [A][B]",
+          "note": "Kc is the ratio of the forward to reverse rate constants. It is called the equilibrium constant."
+        },
+        {
+          "type": "subsec",
+          "t": "General Kc Expression"
+        },
+        {
+          "type": "def",
+          "label": "Equilibrium Constant (Kc)",
+          "text": "The ratio between the product of equilibrium concentrations of products (raised to their stoichiometric coefficients) and the product of equilibrium concentrations of reactants (raised to their stoichiometric coefficients) is called the equilibrium constant.",
+          "src": "p.170"
+        },
+        {
+          "type": "eq",
+          "t": "For: aA + bB ⇌ cC + dD\n\n      [C]ᶜ [D]ᵈ\nKc = ————————\n      [A]ᵃ [B]ᵇ\n\nProducts in NUMERATOR · Reactants in DENOMINATOR\nEach raised to stoichiometric coefficient"
+        },
+        {
+          "type": "tip",
+          "t": "Board tip: Products go on top, reactants go on bottom. Each concentration is raised to the power of its coefficient in the balanced equation. Pure solids and liquids are excluded."
+        },
+        {
+          "type": "subsec",
+          "t": "Kc Expressions for Important Reactions"
+        },
+        {
+          "type": "table",
+          "cols": ["Reaction", "Kc Expression"],
+          "rows": [
+            ["N₂(g) + 3H₂(g) ⇌ 2NH₃(g)", "Kc = [NH₃]² / [N₂][H₂]³"],
+            ["2N₂O₅(g) ⇌ 4NO₂(g) + O₂(g)", "Kc = [NO₂]⁴[O₂] / [N₂O₅]²"],
+            ["2SO₃(g) ⇌ 2SO₂(g) + O₂(g)", "Kc = [SO₂]²[O₂] / [SO₃]²"],
+            ["PCl₅(g) ⇌ PCl₃(g) + Cl₂(g)", "Kc = [PCl₃][Cl₂] / [PCl₅]"],
+            ["Sn²⁺(aq) + 2Fe³⁺(aq) ⇌ Sn⁴⁺(aq) + 2Fe²⁺(aq)", "Kc = [Sn⁴⁺][Fe²⁺]² / [Sn²⁺][Fe³⁺]²"],
+            ["CaCO₃(s) ⇌ CaO(s) + CO₂(g)", "Kc = [CO₂]  (solids excluded)"]
+          ]
+        },
+        {
+          "type": "subsec",
+          "t": "Units of Kc"
+        },
+        {
+          "type": "concept",
+          "head": "When Does Kc Have Units?",
+          "body": "The unit of Kc depends on the difference in moles (Δn = moles of products − moles of reactants).",
+          "items": [
+            "Δn = 0 (equal moles on both sides): Kc has NO units. Example: H₂ + I₂ ⇌ 2HI",
+            "Δn ≠ 0 (unequal moles): Kc has units. Example: N₂ + 3H₂ ⇌ 2NH₃ gives Kc in dm⁶ mol⁻²"
+          ],
+          "eq": "Unit of Kc = (mol dm⁻³)^Δn\nwhere Δn = Σ(product moles) − Σ(reactant moles)"
+        },
+        {
+          "type": "deleted",
+          "t": "Section 8.9 (Kp, Kn, Kx expressions and relationships Kp = Kc(RT)^Δn etc., pp.172–175) is removed from the smart syllabus."
+        },
+        {
+          "type": "qc",
+          "title": "Quick Check 8.4",
+          "items": [
+            {
+              "num": "a",
+              "q": "Write Kc for: (i) Sn²⁺(aq) + 2Fe³⁺(aq) ⇌ Sn⁴⁺(aq) + 2Fe²⁺(aq)   (ii) 4NH₃(g) + 5O₂(g) ⇌ 4NO(g) + 6H₂O(g)   (iii) PCl₅(g) ⇌ PCl₃(g) + Cl₂(g)",
+              "ans": "<p><strong>(i)</strong> Kc = [Sn⁴⁺][Fe²⁺]² / [Sn²⁺][Fe³⁺]²</p><p><strong>(ii)</strong> Kc = [NO]⁴[H₂O]⁶ / [NH₃]⁴[O₂]⁵</p><p><strong>(iii)</strong> Kc = [PCl₃][Cl₂] / [PCl₅]</p>"
+            },
+            {
+              "num": "b",
+              "q": "Calculate Kc for H₂(g) + CO₂(g) ⇌ H₂O(g) + CO(g). Given: initial [H₂] = [CO₂] = 10.00 mol dm⁻³; equilibrium [CO] = 9.47 mol dm⁻³.",
+              "ans": "<p><strong>Step 1 — Find equilibrium concentrations:</strong></p><div class='eq-block'>Δ[CO] formed = 9.47 mol dm⁻³\n[H₂]eq = 10.00 − 9.47 = 0.53 mol dm⁻³\n[CO₂]eq = 10.00 − 9.47 = 0.53 mol dm⁻³\n[H₂O]eq = 9.47 mol dm⁻³\n[CO]eq = 9.47 mol dm⁻³</div><p><strong>Step 2 — Write and calculate Kc:</strong></p><div class='eq-block'>Kc = [H₂O][CO] / [H₂][CO₂]\nKc = (9.47)(9.47) / (0.53)(0.53)\nKc = 89.68 / 0.28 ≈ 320</div><p>Kc has no units (Δn = 2 − 2 = 0).</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec86",
+      "number": "8.11",
+      "title": "Le-Chatelier's Principle",
+      "blocks": [
+        {
+          "type": "def",
+          "label": "Le-Chatelier's Principle",
+          "text": "If a system in equilibrium is disturbed, it behaves in such a way as to nullify or counteract the effect of that disturbance.",
+          "src": "p.176"
+        },
+        {
+          "type": "p",
+          "t": "In simpler words: <strong>When stress is applied on a system at equilibrium, the system acts to minimize that stress.</strong>"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Change in <strong>concentration</strong> → equilibrium shifts toward the opposite side where concentration is high.",
+            "Change in <strong>pressure</strong> → equilibrium shifts toward the side with fewer gas moles.",
+            "Change in <strong>temperature</strong> → equilibrium shifts to absorb or release heat. Only temperature changes Kc.",
+            "<strong>Catalyst</strong> → no effect on equilibrium position or Kc."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec87",
+      "number": "8.12",
+      "title": "Effect of Change in Concentration",
+      "blocks": [
+        {
+          "type": "concept",
+          "head": "General Rule",
+          "body": "If concentration of any component is changed, the system shifts to restore balance.",
+          "items": [
+            "Add reactant OR remove product → equilibrium shifts RIGHT (Rf increases, more products form)",
+            "Add product OR remove reactant → equilibrium shifts LEFT (Rr increases, more reactants form)",
+            "Kc itself does NOT change — only the position of equilibrium changes"
+          ],
+          "note": "Equilibrium shifts toward the opposite side where concentration is high."
+        },
+        {
+          "type": "subsec",
+          "t": "Example: Hydrolysis of BiCl₃"
+        },
+        {
+          "type": "reactions",
+          "head": "REACTION",
+          "rxns": [
+            {"eq": "BiCl₃ + H₂O ⇌ BiOCl + 2HCl", "note": "BiOCl is a white precipitate — causes milkiness/cloudiness"}
+          ]
+        },
+        {
+          "type": "eq",
+          "t": "Kc = [BiOCl][HCl]² / [BiCl₃][H₂O]\n\nMilkiness ∝ [BiOCl]"
+        },
+        {
+          "type": "table",
+          "cols": ["Change", "Shift", "Observable Effect"],
+          "rows": [
+            ["Add BiCl₃ or remove BiOCl/HCl", "→ RIGHT: Rf increases, more BiOCl forms", "Milkiness INCREASES"],
+            ["Add HCl or remove BiCl₃", "← LEFT: Rr increases, BiOCl converts to BiCl₃", "Milkiness DECREASES"]
+          ]
+        },
+        {
+          "type": "tip",
+          "t": "Board exam: When equilibrium shifts right it means the forward reaction rate (Rf) increases. When it shifts left, the reverse reaction rate (Rr) increases. Kc never changes due to concentration changes."
+        }
+      ]
+    },
+    {
+      "id": "sec88",
+      "number": "8.13",
+      "title": "Effect of Change in Pressure",
+      "blocks": [
+        {
+          "type": "concept",
+          "head": "When Does Pressure Affect Equilibrium?",
+          "body": "Pressure only affects equilibrium when the number of moles of gas on both sides are different (nr ≠ np).",
+          "items": [
+            "NO effect if: no gaseous components present",
+            "NO effect if: moles of gas on reactant side = moles of gas on product side (nr = np)",
+            "HAS effect if: gases are present AND nr ≠ np"
+          ]
+        },
+        {
+          "type": "p",
+          "t": "<strong>Examples where pressure has NO effect:</strong> A(g) ⇌ B(g), 2A(l) ⇌ B(l), CO(g) + H₂O(g) ⇌ CO₂(g) + H₂(g) (all equal moles)."
+        },
+        {
+          "type": "table",
+          "cols": ["Condition", "Increase Pressure", "Decrease Pressure"],
+          "rows": [
+            ["np > nr (more gas moles on product side)", "Shifts LEFT toward reactants", "Shifts RIGHT toward products"],
+            ["nr > np (more gas moles on reactant side)", "Shifts RIGHT toward products", "Shifts LEFT toward reactants"]
+          ]
+        },
+        {
+          "type": "subsec",
+          "t": "Example 1: N₂O₄(g) ⇌ 2NO₂(g)   (1 mole ⇌ 2 moles, np > nr)"
+        },
+        {
+          "type": "table",
+          "cols": ["Increase Pressure", "Decrease Pressure"],
+          "rows": [
+            ["Shifts LEFT", "Shifts RIGHT"],
+            ["Rr increases", "Rf increases"],
+            ["NO₂ decreases, N₂O₄ increases", "N₂O₄ decreases, NO₂ increases"]
+          ]
+        },
+        {
+          "type": "subsec",
+          "t": "Example 2: N₂(g) + 3H₂(g) ⇌ 2NH₃(g)   (4 moles ⇌ 2 moles, nr > np)"
+        },
+        {
+          "type": "table",
+          "cols": ["Increase Pressure", "Decrease Pressure"],
+          "rows": [
+            ["Shifts RIGHT", "Shifts LEFT"],
+            ["Rf increases, more NH₃ produced", "Rr increases, NH₃ decomposes"]
+          ]
+        },
+        {
+          "type": "qc",
+          "title": "Quick Check 8.6",
+          "items": [
+            {
+              "num": "a",
+              "q": "For 2H₂(g) + O₂(g) ⇌ 2H₂O(g), how does equilibrium shift when pressure is increased?",
+              "ans": "<p>Reactants have 3 moles of gas (2+1), products have 2 moles. nr > np. Increasing pressure shifts equilibrium <strong>RIGHT</strong> (toward fewer moles — products). More H₂O is produced.</p>"
+            },
+            {
+              "num": "b",
+              "q": "For 2CO(g) + O₂(g) ⇌ 2CO₂(g), how does equilibrium shift when volume is increased (pressure decreases)?",
+              "ans": "<p>Reactants have 3 moles of gas, products have 2. nr > np. Increasing volume (decreasing pressure) shifts equilibrium <strong>LEFT</strong> (toward more moles — reactants). Less CO₂ is produced.</p>"
+            },
+            {
+              "num": "c",
+              "q": "For 2SO₂(g) + O₂(g) ⇌ 2SO₃(g), how does equilibrium shift when volume is increased?",
+              "ans": "<p>Reactants have 3 moles of gas, products have 2. Increasing volume (decreasing pressure) shifts equilibrium <strong>LEFT</strong>. More SO₂ and O₂ are formed; SO₃ decreases.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec89",
+      "number": "8.14",
+      "title": "Effect of Change in Temperature",
+      "blocks": [
+        {
+          "type": "concept",
+          "head": "Key Rule — Temperature and Kc",
+          "body": "Temperature is the ONLY factor that changes the value of Kc itself. All other factors only change the position of equilibrium.",
+          "items": [
+            "Endothermic (ΔH = +ve): heat is a reactant → increase T shifts RIGHT → Kc increases",
+            "Exothermic (ΔH = −ve): heat is a product → increase T shifts LEFT → Kc decreases",
+            "Isothermic (ΔH = 0): temperature has no effect on equilibrium (e.g., solubility of NaCl)"
+          ]
+        },
+        {
+          "type": "note",
+          "t": "From academy notes — three types: isothermic (ΔH=0), endothermic (ΔH=+ve), exothermic (ΔH=−ve)."
+        },
+        {
+          "type": "subsec",
+          "t": "Endothermic Reactions — ΔH = +ve"
+        },
+        {
+          "type": "p",
+          "t": "Written as: <strong>reactant + heat ⇌ product</strong>"
+        },
+        {
+          "type": "table",
+          "cols": ["Change in Temperature", "Equilibrium Shift", "Effect on Kc", "Concentrations"],
+          "rows": [
+            ["Increase T", "→ RIGHT", "Kc increases", "[Reactant] ↓, [Product] ↑"],
+            ["Decrease T", "← LEFT", "Kc decreases", "[Reactant] ↑, [Product] ↓"]
+          ]
+        },
+        {
+          "type": "concept",
+          "head": "Example: N₂O₄(g) ⇌ 2NO₂(g)    ΔH = +52.7 kJ (Endothermic)",
+          "body": "",
+          "eq": "Kc = [NO₂]² / [N₂O₄]",
+          "items": [
+            "Increase T → shifts RIGHT → [NO₂] ↑, [N₂O₄] ↓, Kc increases",
+            "Decrease T → shifts LEFT → [NO₂] ↓, [N₂O₄] ↑, Kc decreases",
+            "At 273 K: Kc = 7.7 × 10⁻⁵ ; at 373 K: Kc = 0.4 (Kc increases with T)"
+          ]
+        },
+        {
+          "type": "subsec",
+          "t": "Exothermic Reactions — ΔH = −ve"
+        },
+        {
+          "type": "p",
+          "t": "Written as: <strong>reactant ⇌ product + heat</strong>"
+        },
+        {
+          "type": "table",
+          "cols": ["Change in Temperature", "Equilibrium Shift", "Effect on Kc", "Concentrations"],
+          "rows": [
+            ["Increase T", "← LEFT", "Kc decreases", "[Reactant] ↑, [Product] ↓"],
+            ["Decrease T", "→ RIGHT", "Kc increases", "[Reactant] ↓, [Product] ↑"]
+          ]
+        },
+        {
+          "type": "concept",
+          "head": "Example: 2SO₂(g) + O₂(g) ⇌ 2SO₃(g)    ΔH = −192 kJ (Exothermic)",
+          "body": "",
+          "eq": "Kc = [SO₃]² / [SO₂]²[O₂]",
+          "items": [
+            "Increase T → shifts LEFT → [SO₂] ↑, [O₂] ↑, [SO₃] ↓, Kc decreases",
+            "Decrease T → shifts RIGHT → [SO₃] ↑, Kc increases",
+            "At 1000 K: Kc = 2.8 × 10² ; at 298 K: Kc = 1 × 10²⁶ (Kc decreases as T increases)"
+          ]
+        },
+        {
+          "type": "error",
+          "head": "BOOK ERROR — Page 178",
+          "wrong": "After correctly stating that increasing T shifts 2SO₂+O₂⇌2SO₃ to the LEFT and decreases Kc, the book then contradicts itself saying 'an increase in temperature will shift the reaction from left to right' and 'the value of the equilibrium constant will increase' for the same exothermic reaction.",
+          "correct": "For an exothermic reaction, increasing temperature ALWAYS shifts equilibrium to the LEFT and DECREASES Kc. The contradictory passage in the book appears to be a mix-up with an endothermic reaction example.",
+          "reason": "Le-Chatelier's Principle: for exothermic reactions, heat is a product. Adding heat (increasing T) makes the system oppose the change by shifting LEFT (reverse reaction) to absorb heat, which decreases product concentration and Kc."
+        },
+        {
+          "type": "diagram",
+          "file": "diagrams/ch08_temp_effect_summary.svg",
+          "caption": "Summary: Effect of temperature on exothermic vs endothermic equilibrium — showing shift direction and change in Kc",
+          "alt": "Side-by-side comparison: endothermic (ΔH+) shows right shift and Kc increase with higher T; exothermic (ΔH-) shows left shift and Kc decrease with higher T"
+        }
+      ]
+    },
+    {
+      "id": "sec810",
+      "number": "8.15",
+      "title": "Effect of Catalyst on Equilibrium",
+      "blocks": [
+        {
+          "type": "def",
+          "label": "Catalyst",
+          "text": "A catalyst is that substance which increases the rate of a chemical reaction without itself being consumed in the reaction.",
+          "src": "p.178"
+        },
+        {
+          "type": "error",
+          "head": "NOTE ERROR",
+          "wrong": "Notes define catalyst as 'The substance that increases the rate of reaction without changing itself is called a catalyst.'",
+          "correct": "Book definition: 'A catalyst is that substance which increases the rate of a chemical reaction without itself being consumed in the reaction.'",
+          "reason": "'Without changing itself' and 'without itself being consumed' have different meanings. Some catalysts temporarily change form (homogeneous catalysts). The precise term is 'consumed' (permanently used up). Use the book definition."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Provides an <strong>alternate pathway</strong> with lower activation energy (Ea).",
+            "Brings molecules into correct orientation for reaction.",
+            "Speeds up <strong>both forward and reverse reactions equally</strong>.",
+            "Helps attain equilibrium in a <strong>shorter time</strong>.",
+            "Does <strong>NOT</strong> change the equilibrium position.",
+            "Does <strong>NOT</strong> change the value of Kc."
+          ]
+        },
+        {
+          "type": "diagram",
+          "file": "diagrams/ch08_catalyst_energy_profile.svg",
+          "caption": "Energy profile: reaction coordinate vs potential energy showing two curves — one with higher Ea (without catalyst) and one with lower Ea (with catalyst) — starting and ending at the same energy levels",
+          "alt": "Two bell curves on same axes: first taller peak (without catalyst, higher Ea) and second shorter peak (with catalyst, lower Ea), same reactant and product energy levels"
+        },
+        {
+          "type": "tip",
+          "t": "Board exam: Catalyst increases rate of BOTH Rf and Rr equally, so equilibrium is reached faster but the final equilibrium position (amounts of products and reactants) and Kc are unchanged."
+        },
+        {
+          "type": "deleted",
+          "t": "Section 8.16 (Industrial Applications — Haber's Process and Contact Process optimum conditions, pp.179–181) is removed from the smart syllabus."
+        }
+      ]
+    }
+  ],
+  "mcqs": [
+    {
+      "num": "Book I",
+      "src": "Book I",
+      "q": "For which system does the equilibrium constant Kc have units of (concentration)⁻¹ (i.e., dm³ mol⁻¹)?",
+      "opts": [
+        "N₂ + 3H₂ ⇌ 2NH₃",
+        "H₂ + I₂ ⇌ 2HI",
+        "2NO₂ ⇌ N₂O₄",
+        "2HF ⇌ H₂ + F₂"
+      ],
+      "ans": 2,
+      "exp": "For Kc units, use Δn = moles of products − moles of reactants. For 2NO₂ ⇌ N₂O₄: Δn = 1 − 2 = −1. Kc = [N₂O₄]/[NO₂]² has units of (mol dm⁻³)⁻¹ = dm³ mol⁻¹. NOTE: The book likely has a typo — the question should read (concentration)⁻¹ not (concentration)¹, since none of the options give Δn = +1."
+    },
+    {
+      "num": "Book III",
+      "src": "Book III",
+      "q": "The correct equilibrium constant expression (Kc) for 2SO₃(g) ⇌ 2SO₂(g) + O₂(g) is:",
+      "opts": [
+        "[SO₂]² / [SO₃]",
+        "[SO₂]²[O₂] / [SO₃]²",
+        "[SO₃]² / [SO₂]²[O₂]",
+        "[SO₂][O₂]"
+      ],
+      "ans": 1,
+      "exp": "Products in numerator raised to their coefficients; reactants in denominator. Products: 2SO₂ (power 2) and 1O₂ (power 1). Reactant: 2SO₃ (power 2). Kc = [SO₂]²[O₂] / [SO₃]²."
+    },
+    {
+      "num": "Book V",
+      "src": "Book V",
+      "q": "Which of the following correctly describes the effect of temperature on the equilibrium constant Kc?",
+      "opts": [
+        "Kc is directly proportional to temperature",
+        "Kc is inversely proportional to temperature",
+        "Kc depends on the enthalpy change of the reaction",
+        "Temperature has no effect on the value of Kc"
+      ],
+      "ans": 2,
+      "exp": "Whether Kc increases or decreases with temperature depends on ΔH. For endothermic (ΔH = +ve) reactions, Kc increases with T. For exothermic (ΔH = −ve) reactions, Kc decreases with T. So Kc depends on the enthalpy change."
+    },
+    {
+      "num": "Book VI",
+      "src": "Book VI",
+      "q": "Consider 2H₂O(g) ⇌ 2H₂(g) + O₂(g). The forward reaction is endothermic. Which change will DECREASE the equilibrium amount of H₂O?",
+      "opts": [
+        "Adding more oxygen",
+        "Adding a solid phase catalyst",
+        "Decreasing the volume (pressure increases)",
+        "Increasing the temperature at constant pressure"
+      ],
+      "ans": 3,
+      "exp": "For an endothermic reaction, increasing temperature shifts equilibrium RIGHT (more H₂ and O₂ produced, less H₂O). Adding O₂ or increasing pressure shifts it LEFT (more H₂O). A catalyst does not change equilibrium position."
+    },
+    {
+      "num": "Book VIII",
+      "src": "Book VIII",
+      "q": "In which of the following gaseous equilibria does pressure have NO effect on the equilibrium position?",
+      "opts": [
+        "2NO₂(g) ⇌ N₂O₄(g)",
+        "PCl₅(g) ⇌ PCl₃(g) + Cl₂(g)",
+        "CO(g) + H₂O(g) ⇌ CO₂(g) + H₂(g)",
+        "2SO₂(g) + O₂(g) ⇌ 2SO₃(g)"
+      ],
+      "ans": 2,
+      "exp": "Pressure has no effect when Δn = 0. For CO + H₂O ⇌ CO₂ + H₂: reactants = 2 moles of gas, products = 2 moles of gas. Δn = 0, so pressure has no effect. All other options have unequal moles."
+    },
+    {
+      "num": "Book IX",
+      "src": "Book IX",
+      "q": "Consider the equilibrium 2H₂(g) + O₂(g) ⇌ 2H₂O(g). If the concentration of H₂O(g) is increased, the concentrations of H₂(g) and O₂(g) will:",
+      "opts": [
+        "Increase",
+        "Decrease",
+        "Remain the same",
+        "Change irregularly"
+      ],
+      "ans": 0,
+      "exp": "Adding product H₂O shifts equilibrium LEFT (by Le-Chatelier's principle). The reverse reaction increases, consuming H₂O and producing more H₂ and O₂. So [H₂] and [O₂] increase."
+    },
+    {
+      "num": "Book X",
+      "src": "Book X",
+      "q": "For a specific reaction, the value of the equilibrium constant Kc:",
+      "opts": [
+        "Always remains the same at different reaction conditions",
+        "Increases if the concentration of one of the products is increased",
+        "Changes with changes in temperature",
+        "Increases if the concentration of one of the reactants is increased"
+      ],
+      "ans": 2,
+      "exp": "Kc only changes when temperature changes. Changing concentration, pressure, or adding a catalyst changes the position of equilibrium only — NOT the value of Kc."
+    },
+    {
+      "num": "Extra 1",
+      "src": "Extra",
+      "q": "At equilibrium in a reversible reaction, which of the following is true?",
+      "opts": [
+        "The reaction has stopped completely",
+        "Concentrations of reactants and products are always equal",
+        "Rate of forward reaction equals rate of reverse reaction",
+        "All reactants have been converted to products"
+      ],
+      "ans": 2,
+      "exp": "At equilibrium, Rf = Rr. The reaction does not stop (it is dynamic). Concentrations remain constant but are not necessarily equal. No limiting reactant is fully consumed."
+    },
+    {
+      "num": "Extra 2",
+      "src": "Extra",
+      "q": "For PCl₅(g) ⇌ PCl₃(g) + Cl₂(g), which change will shift equilibrium to the RIGHT?",
+      "opts": [
+        "Increasing pressure",
+        "Adding more Cl₂",
+        "Removing PCl₃",
+        "Adding a catalyst"
+      ],
+      "ans": 2,
+      "exp": "Removing a product (PCl₃) reduces product concentration. By Le-Chatelier's principle, the system shifts RIGHT to produce more products. Increasing pressure shifts left (more moles on product side); adding Cl₂ shifts left; catalyst has no effect on position."
+    },
+    {
+      "num": "Extra 3",
+      "src": "Extra",
+      "q": "For N₂ + 3H₂ ⇌ 2NH₃ (ΔH = −92 kJ mol⁻¹), increasing temperature will:",
+      "opts": [
+        "Increase Kc and produce more NH₃",
+        "Decrease Kc and produce less NH₃",
+        "Have no effect on Kc",
+        "Increase Kc but produce less NH₃"
+      ],
+      "ans": 1,
+      "exp": "This is exothermic (ΔH = −ve). Heat is a product. Increasing T shifts equilibrium LEFT, decomposing NH₃ back to N₂ and H₂. [NH₃] decreases. Since equilibrium shifts away from products, Kc decreases."
+    },
+    {
+      "num": "Extra 4",
+      "src": "Extra",
+      "q": "For CaCO₃(s) ⇌ CaO(s) + CO₂(g), the correct Kc expression is:",
+      "opts": [
+        "Kc = [CaO][CO₂] / [CaCO₃]",
+        "Kc = [CO₂]",
+        "Kc = [CaO] / [CaCO₃]",
+        "Kc = 1 / [CO₂]"
+      ],
+      "ans": 1,
+      "exp": "Pure solids (CaCO₃ and CaO) are excluded from the Kc expression. Only the gaseous product CO₂ is included. Therefore Kc = [CO₂]."
+    },
+    {
+      "num": "Extra 5",
+      "src": "Extra",
+      "q": "Which of the following statements about a catalyst is CORRECT?",
+      "opts": [
+        "It shifts equilibrium to the right",
+        "It increases only the forward reaction rate",
+        "It changes the value of Kc",
+        "It lowers activation energy and speeds up attaining equilibrium"
+      ],
+      "ans": 3,
+      "exp": "A catalyst lowers activation energy and increases the rates of BOTH forward and reverse reactions equally. It helps reach equilibrium faster but does not shift the equilibrium position or change Kc."
+    }
+  ],
+  "sqs": [
+    {
+      "num": "SAQ a",
+      "q": "What is meant by the state of chemical equilibrium?",
+      "a": "<p><strong>Definition:</strong> The state of a reversible reaction at which the composition of the reaction mixture does not change and the forward and reverse rates are equal is called the state of chemical equilibrium. (p.165)</p><p><strong>Explanation:</strong> At equilibrium:</p><div class='eq-block'>Rf = Rr</div><ul><li>Concentrations of reactants and products remain constant (though not necessarily equal).</li><li>The reaction is dynamic — bond-breaking and bond-forming continues at equal rates.</li><li>Can only be achieved in a <strong>closed system</strong>.</li></ul><p><strong>Example:</strong> For A ⇌ B, starting with 4 mol A and 2 mol B, equilibrium is reached when both are at 3 mol with Rf = Rr.</p>",
+      "tag": "BOARD STYLE ANSWER"
+    },
+    {
+      "num": "SAQ b",
+      "q": "Define reversible reaction. Give an example.",
+      "a": "<p><strong>Definition:</strong> Reactions in which reactants change into products AND products recombine to reform reactants are called reversible reactions. They never stop and are written with the double arrow ⇌.</p><p><strong>Characteristics:</strong></p><ul><li>No limiting reactant — reaction does not go to completion.</li><li>Proceeds in both forward and reverse directions simultaneously.</li><li>Eventually reaches a state of chemical equilibrium.</li></ul><p><strong>Example:</strong></p><div class='eq-block'>N₂(g) + 3H₂(g) ⇌ 2NH₃(g)</div><p>N₂ and H₂ form NH₃ in the forward direction; NH₃ decomposes back to N₂ and H₂ in the reverse direction.</p>",
+      "tag": "BOARD STYLE ANSWER"
+    },
+    {
+      "num": "SAQ c",
+      "q": "The change of volume disturbs the equilibrium position for some gas-phase reactions but not the equilibrium constant. Explain.",
+      "a": "<p><strong>Effect on equilibrium position:</strong> Changing volume changes the pressure. By Le-Chatelier's principle, the system shifts to counteract this change — toward the side with fewer (if pressure increases) or more (if pressure decreases) moles of gas. This changes the <em>amounts</em> of reactants and products, i.e., the <strong>position</strong> of equilibrium shifts.</p><p><strong>Why Kc does not change:</strong> Kc depends only on <strong>temperature</strong>. Volume/pressure change does not supply or remove heat. The ratio of equilibrium concentrations still satisfies the same Kc value at the new equilibrium.</p><p><strong>Example:</strong></p><div class='eq-block'>N₂(g) + 3H₂(g) ⇌ 2NH₃(g)  (4 mol → 2 mol)</div><p>Increasing pressure shifts equilibrium RIGHT (more NH₃ forms), but Kc at the same temperature remains unchanged.</p><p><strong>Exception:</strong> If nr = np (e.g., CO + H₂O ⇌ CO₂ + H₂), pressure has NO effect on equilibrium position at all.</p>",
+      "tag": "BOARD STYLE ANSWER"
+    },
+    {
+      "num": "SAQ d",
+      "q": "Mention the characteristics of chemical equilibrium.",
+      "a": "<p><strong>Characteristics of Chemical Equilibrium:</strong></p><ul><li>The concentrations of reactants and products remain <strong>constant</strong> at equilibrium.</li><li>The rate of forward reaction equals rate of reverse reaction: <strong>Rf = Rr</strong>.</li><li>Equilibrium can be approached from <strong>either side</strong> (starting with reactants or products).</li><li>Requires a <strong>closed system</strong> — no entry or escape of any reactant or product.</li><li>A <strong>catalyst</strong> does not change equilibrium position or Kc; it only speeds up attainment of equilibrium.</li><li>Value of Kc does not depend on initial concentrations — depends on <strong>temperature only</strong>.</li><li>Physical states (colour, pressure, volume) remain constant.</li><li>Concentration, volume, pressure, and catalyst do NOT affect the value of Kc.</li></ul>",
+      "tag": "BOARD STYLE ANSWER"
+    },
+    {
+      "num": "SAQ f",
+      "q": "Why do the rates of forward reactions slow down when a reversible reaction approaches the equilibrium stage?",
+      "a": "<p><strong>Reason:</strong> As the forward reaction proceeds, reactants are consumed and their concentrations decrease.</p><p><strong>Law of Mass Action:</strong> Rate of reaction is directly proportional to the concentrations of reactants.</p><div class='eq-block'>Rf = kf [A][B]</div><p>As [A] and [B] decrease, Rf also decreases. At the same time, as products accumulate, Rr increases. Eventually:</p><div class='eq-block'>Rf = Rr → Equilibrium is reached</div><p><strong>Conclusion:</strong> The decrease in reactant concentration directly causes Rf to slow down until it equals the increasing Rr.</p>",
+      "tag": "BOARD STYLE ANSWER"
+    },
+    {
+      "num": "SAQ g",
+      "q": "Why can ice at 0°C be melted by applying pressure without supply of heat from outside?",
+      "a": "<p><strong>Concept:</strong> This is an application of Le-Chatelier's principle to a physical equilibrium between ice and liquid water.</p><p><strong>Equilibrium:</strong></p><div class='eq-block'>Ice(s) ⇌ Water(l)</div><p><strong>Explanation:</strong> Liquid water has a smaller volume (higher density, ~1.0 g/cm³) than ice (lower density, ~0.92 g/cm³).</p><p>When pressure is applied, by Le-Chatelier's principle, the equilibrium shifts toward the side that occupies <em>less volume</em> — which is liquid water.</p><p><strong>Result:</strong> Applying pressure at 0°C forces the equilibrium to shift RIGHT. Ice melts into water without any external heat supply. This is why ice skates (which apply pressure to ice) cause melting and reduce friction.</p>",
+      "tag": "BOARD STYLE ANSWER"
+    },
+    {
+      "num": "Extra 1",
+      "q": "State Le-Chatelier's Principle. Explain the effect of adding HCl on the equilibrium: BiCl₃ + H₂O ⇌ BiOCl + 2HCl.",
+      "a": "<p><strong>Le-Chatelier's Principle:</strong> If a system in equilibrium is disturbed, it behaves in such a way as to nullify or counteract the effect of that disturbance.</p><p><strong>Equilibrium expression:</strong></p><div class='eq-block'>Kc = [BiOCl][HCl]² / [BiCl₃][H₂O]</div><p><strong>Effect of adding HCl (a product):</strong></p><ul><li>Adding HCl increases [product].</li><li>By Le-Chatelier's principle, equilibrium shifts <strong>LEFT</strong> to reduce the excess HCl.</li><li>Rr increases. BiOCl (white precipitate) converts back to BiCl₃ and H₂O.</li><li><strong>Milkiness decreases</strong> as [BiOCl] decreases.</li><li>Kc remains constant — only the position shifts.</li></ul>",
+      "tag": "BOARD STYLE ANSWER"
+    },
+    {
+      "num": "Extra 2",
+      "q": "What is the effect of temperature on the equilibrium constant Kc? Explain with an example of an endothermic reaction.",
+      "a": "<p><strong>Key Rule:</strong> Temperature is the ONLY factor that changes the value of Kc.</p><p><strong>Endothermic reactions (ΔH = +ve):</strong> Heat is treated as a reactant: <em>reactant + heat ⇌ product</em>.</p><ul><li>Increase T: equilibrium shifts RIGHT → more products → Kc <strong>increases</strong>.</li><li>Decrease T: equilibrium shifts LEFT → Kc <strong>decreases</strong>.</li></ul><p><strong>Example:</strong></p><div class='eq-block'>N₂O₄(g) ⇌ 2NO₂(g)    ΔH = +52.7 kJ\nKc = [NO₂]² / [N₂O₄]\n\nAt 273 K: Kc = 7.7 × 10⁻⁵  (mostly N₂O₄ — low T)\nAt 373 K: Kc = 0.4            (more NO₂ — high T)</div><p><strong>Conclusion:</strong> For endothermic reactions, Kc increases with increasing temperature.</p>",
+      "tag": "BOARD STYLE ANSWER"
+    }
+  ],
+  "lqs": [
+    {
+      "title": "Q7(a) — Law of Mass Action and Equilibrium Constant (Kc)",
+      "marks": "8 marks",
+      "q": "Define and explain the Law of Mass Action. Derive the expression for the equilibrium constant Kc. Write the Kc expressions for: (i) N₂(g) + O₂(g) ⇌ 2NO(g)   (ii) 4NH₃(g) + 5O₂(g) ⇌ 4NO(g) + 6H₂O(g)   (iii) PCl₅(g) ⇌ PCl₃(g) + Cl₂(g).",
+      "parts": [
+        {
+          "label": "LAW OF MASS ACTION",
+          "points": [
+            "Presented by Guldberg and Waage (1864), two Norwegian chemists.",
+            "Statement: The rate of a chemical reaction is directly proportional to the product of molar concentrations of reactants, each raised to the power equal to its coefficient in the balanced equation.",
+            "Active mass = molar concentration, expressed in mol dm⁻³ using square brackets [ ].",
+            "For aA + bB: Rate ∝ [A]ᵃ[B]ᵇ"
+          ]
+        },
+        {
+          "label": "DERIVATION OF Kc",
+          "points": [
+            "For A + B ⇌ C + D: Rf = kf[A][B] and Rr = kr[C][D].",
+            "At equilibrium: Rf = Rr → kf[A][B] = kr[C][D].",
+            "Rearranging: kf / kr = [C][D] / [A][B] = Kc.",
+            "For general reaction aA + bB ⇌ cC + dD: Kc = [C]ᶜ[D]ᵈ / [A]ᵃ[B]ᵇ.",
+            "Products go in the numerator; reactants in the denominator; each raised to its stoichiometric coefficient.",
+            "Pure solids and pure liquids are NOT included in Kc. Units depend on Δn = Σ(product moles) − Σ(reactant moles)."
+          ]
+        },
+        {
+          "label": "Kc EXPRESSIONS",
+          "points": [
+            "(i) N₂(g) + O₂(g) ⇌ 2NO(g): Kc = [NO]² / [N₂][O₂]",
+            "(ii) 4NH₃(g) + 5O₂(g) ⇌ 4NO(g) + 6H₂O(g): Kc = [NO]⁴[H₂O]⁶ / [NH₃]⁴[O₂]⁵",
+            "(iii) PCl₅(g) ⇌ PCl₃(g) + Cl₂(g): Kc = [PCl₃][Cl₂] / [PCl₅]",
+            "Units: If Δn = 0 → no units. If Δn ≠ 0 → units = (mol dm⁻³)^Δn."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Q7(a) — Le-Chatelier's Principle and Its Applications",
+      "marks": "8 marks",
+      "q": "State Le-Chatelier's Principle and explain its applications with reference to (i) concentration, (ii) pressure, and (iii) temperature for the reaction: N₂(g) + 3H₂(g) ⇌ 2NH₃(g)   ΔH = −92 kJ mol⁻¹.",
+      "parts": [
+        {
+          "label": "LE-CHATELIER'S PRINCIPLE",
+          "points": [
+            "Statement: If a system in equilibrium is disturbed, it behaves so as to nullify or counteract the effect of that disturbance.",
+            "The system always shifts to oppose the applied stress.",
+            "Applications: concentration, pressure, temperature (all change position).",
+            "Only temperature changes Kc; all others change position only."
+          ]
+        },
+        {
+          "label": "EFFECT OF CONCENTRATION",
+          "points": [
+            "Increasing [N₂] or [H₂] (reactants) → equilibrium shifts RIGHT → more NH₃ produced.",
+            "Removing NH₃ (product) → equilibrium shifts RIGHT → more NH₃ produced.",
+            "Adding NH₃ (product) → equilibrium shifts LEFT → NH₃ decomposes to N₂ + H₂.",
+            "Kc remains constant — only position changes."
+          ]
+        },
+        {
+          "label": "EFFECT OF PRESSURE",
+          "points": [
+            "Reactants: 4 moles of gas (N₂ + 3H₂). Products: 2 moles (2NH₃). nr > np.",
+            "Increasing pressure → shifts RIGHT (toward fewer moles) → more NH₃ produced.",
+            "Decreasing pressure → shifts LEFT → NH₃ decomposes.",
+            "This is why industrial NH₃ synthesis uses high pressure (200–300 atm) for better yield."
+          ]
+        },
+        {
+          "label": "EFFECT OF TEMPERATURE",
+          "points": [
+            "Reaction is exothermic (ΔH = −92 kJ mol⁻¹). Heat is written on product side.",
+            "Increasing T → equilibrium shifts LEFT → less NH₃, Kc decreases.",
+            "Decreasing T → equilibrium shifts RIGHT → more NH₃, Kc increases.",
+            "Low T favours yield but rate is too slow; moderate T (~400°C) with catalyst is used in practice.",
+            "Temperature is the ONLY factor that changes the value of Kc."
+          ]
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Which symbol represents a reversible reaction?",
+      "opts": ["→", "⇌", "⇒", "↔"],
+      "ans": 1,
+      "exp": "The double equilibrium arrow ⇌ indicates the reaction proceeds in both forward and reverse directions simultaneously."
+    },
+    {
+      "q": "At chemical equilibrium, which statement is correct?",
+      "opts": ["All reactants are used up", "Rf = Rr", "[Reactants] = [Products]", "Reaction has stopped"],
+      "ans": 1,
+      "exp": "At equilibrium, the rate of forward reaction equals the rate of reverse reaction (Rf = Rr). The reaction does NOT stop."
+    },
+    {
+      "q": "The Law of Mass Action was given by:",
+      "opts": ["Le-Chatelier", "Boyle and Charles", "Guldberg and Waage", "Arrhenius"],
+      "ans": 2,
+      "exp": "Norwegian chemists Guldberg and Waage presented the Law of Mass Action in 1864."
+    },
+    {
+      "q": "Which factor ONLY changes the value of Kc?",
+      "opts": ["Concentration", "Pressure", "Catalyst", "Temperature"],
+      "ans": 3,
+      "exp": "Only temperature changes Kc. Concentration, pressure, and catalyst change the position of equilibrium but NOT the value of Kc."
+    },
+    {
+      "q": "For CaCO₃(s) ⇌ CaO(s) + CO₂(g), the Kc expression is:",
+      "opts": ["[CaO][CO₂]/[CaCO₃]", "[CO₂]", "[CO₂][CaO]", "1/[CO₂]"],
+      "ans": 1,
+      "exp": "Pure solids (CaCO₃ and CaO) are excluded from Kc. Only the gaseous species CO₂ is included. Kc = [CO₂]."
+    },
+    {
+      "q": "For N₂O₄(g) ⇌ 2NO₂(g) (ΔH = +52.7 kJ), decreasing temperature will:",
+      "opts": ["Increase [NO₂] and increase Kc", "Decrease [NO₂] and decrease Kc", "Increase [N₂O₄] and decrease Kc", "Have no effect"],
+      "ans": 1,
+      "exp": "This is endothermic. Decreasing T shifts equilibrium LEFT. [NO₂] decreases, [N₂O₄] increases, and Kc decreases."
+    },
+    {
+      "q": "Adding a catalyst to an equilibrium system will:",
+      "opts": ["Shift equilibrium right", "Increase Kc", "Not change Kc or equilibrium position", "Decrease activation energy and shift equilibrium"],
+      "ans": 2,
+      "exp": "A catalyst lowers activation energy and speeds up BOTH Rf and Rr equally. It does not change equilibrium position or Kc."
+    },
+    {
+      "q": "In homogeneous equilibrium, all reactants and products are:",
+      "opts": ["In different phases", "In the same phase", "All gases only", "All solids only"],
+      "ans": 1,
+      "exp": "Homogeneous equilibrium means all reactants and products are in the same phase (all gas or all liquid)."
+    },
+    {
+      "q": "Adding water (H₂O) to the equilibrium BiCl₃ + H₂O ⇌ BiOCl + 2HCl will:",
+      "opts": ["Decrease milkiness", "Increase milkiness", "Not affect milkiness", "Change Kc"],
+      "ans": 1,
+      "exp": "Adding reactant H₂O shifts equilibrium RIGHT. More BiOCl (white precipitate) forms. Milkiness ∝ [BiOCl], so milkiness increases."
+    },
+    {
+      "q": "For CO(g) + H₂O(g) ⇌ CO₂(g) + H₂(g), changing pressure will:",
+      "opts": ["Shift equilibrium right", "Shift equilibrium left", "Have no effect on position", "Increase Kc"],
+      "ans": 2,
+      "exp": "Both sides have 2 moles of gas (Δn = 0). Pressure has no effect on equilibrium position when nr = np."
+    },
+    {
+      "q": "Kc > 1 for a reaction at equilibrium means:",
+      "opts": ["Mostly reactants are present", "Mostly products are present", "Equal amounts of reactants and products", "Reaction is incomplete"],
+      "ans": 1,
+      "exp": "Kc > 1 means products/reactants > 1, so [products] > [reactants] at equilibrium. Equilibrium lies to the right."
+    },
+    {
+      "q": "For 2SO₂(g) + O₂(g) ⇌ 2SO₃(g) (ΔH = −192 kJ), increasing pressure will shift equilibrium:",
+      "opts": ["Left — fewer gas moles on reactant side", "Right — fewer gas moles on product side", "No effect — equal moles", "Depends on temperature only"],
+      "ans": 1,
+      "exp": "Reactants: 3 moles gas. Products: 2 moles gas. nr > np. Increasing pressure shifts RIGHT (toward fewer moles). More SO₃ forms."
+    },
+    {
+      "q": "Kc = [NH₃]² / [N₂][H₂]³ represents which reaction?",
+      "opts": ["N₂ + H₂ ⇌ NH₃", "N₂ + 3H₂ ⇌ 2NH₃", "2N₂ + 3H₂ ⇌ 2NH₃", "NH₃ ⇌ N₂ + H₂"],
+      "ans": 1,
+      "exp": "Kc = [NH₃]² / [N₂][H₂]³ means products (NH₃ with coefficient 2) in numerator, reactants (N₂ coefficient 1, H₂ coefficient 3) in denominator → N₂ + 3H₂ ⇌ 2NH₃."
+    },
+    {
+      "q": "If Kc is very small (e.g., Kc = 0.0001), it means:",
+      "opts": ["Products are strongly favoured", "Reactants are strongly favoured", "Equal amounts at equilibrium", "No equilibrium exists"],
+      "ans": 1,
+      "exp": "Very small Kc means the equilibrium lies far to the LEFT. Very little product is formed; mostly reactants are present at equilibrium."
+    },
+    {
+      "q": "Adding HCl to BiCl₃ + H₂O ⇌ BiOCl + 2HCl will cause milkiness to:",
+      "opts": ["Increase", "Decrease", "Remain same", "First increase then decrease"],
+      "ans": 1,
+      "exp": "Adding product HCl shifts equilibrium LEFT. BiOCl (white precipitate) converts back to BiCl₃. [BiOCl] decreases, so milkiness decreases."
+    },
+    {
+      "q": "For N₂ + 3H₂ ⇌ 2NH₃ (exothermic), the BEST conditions for maximum yield of NH₃ are:",
+      "opts": ["High T and low P", "Low T and high P", "High T and high P", "Low T and low P"],
+      "ans": 1,
+      "exp": "Low T favours the exothermic forward reaction (shifts RIGHT, increases yield). High P shifts equilibrium RIGHT (fewer gas moles on product side). In practice, moderate T with catalyst balances yield and rate."
+    },
+    {
+      "q": "Equilibrium is called 'dynamic' because:",
+      "opts": ["Concentrations keep changing", "Forward and reverse reactions proceed simultaneously at equal rates", "Temperature is constantly changing", "It is a very fast reaction"],
+      "ans": 1,
+      "exp": "Equilibrium is dynamic because the forward and reverse reactions continue occurring simultaneously at equal rates. Macroscopically static (no observable change) but microscopically dynamic."
+    },
+    {
+      "q": "For 2SO₂(g) + O₂(g) ⇌ 2SO₃(g) (ΔH = −192 kJ), decreasing temperature will:",
+      "opts": ["Shift equilibrium left and decrease Kc", "Shift equilibrium right and increase Kc", "Not affect equilibrium at all", "Shift equilibrium left and increase Kc"],
+      "ans": 1,
+      "exp": "For an exothermic reaction, decreasing T shifts equilibrium RIGHT (favours forward reaction). More SO₃ is produced. Kc increases as temperature decreases."
+    },
+    {
+      "q": "The correct Kc for Sn²⁺(aq) + 2Fe³⁺(aq) ⇌ Sn⁴⁺(aq) + 2Fe²⁺(aq) is:",
+      "opts": [
+        "[Sn⁴⁺][Fe²⁺] / [Sn²⁺][Fe³⁺]",
+        "[Sn⁴⁺][Fe²⁺]² / [Sn²⁺][Fe³⁺]²",
+        "[Sn²⁺][Fe³⁺]² / [Sn⁴⁺][Fe²⁺]²",
+        "[Sn⁴⁺]²[Fe²⁺]² / [Sn²⁺][Fe³⁺]²"
+      ],
+      "ans": 1,
+      "exp": "Products in numerator, reactants in denominator, each raised to coefficient: Kc = [Sn⁴⁺][Fe²⁺]² / [Sn²⁺][Fe³⁺]². Coefficients 2 for Fe³⁺ and Fe²⁺ become powers."
+    },
+    {
+      "q": "Chemical equilibrium can ONLY be established in a:",
+      "opts": ["Heated container", "Open container", "Closed container", "Pressurised container only"],
+      "ans": 2,
+      "exp": "A closed system is required so that no reactants or products can enter or escape. In an open container, volatile components (like CO₂ from CaCO₃ decomposition) escape and equilibrium cannot be established."
+    }
+  ]
+}

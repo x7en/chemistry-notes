@@ -1,0 +1,1006 @@
+{
+  "meta": {
+    "id": "ch07",
+    "number": 7,
+    "title": "Reaction Kinetics",
+    "exam_info": "1 MCQ (Objective) · Q2 Short Questions · Q6(b) Long Question",
+    "deleted": "Section 7.5 Determination of Rate Constant (pp.154–155) · Section 7.6 Reaction Mechanism (pp.156–158) · Exercise MCQs VII, VIII, IX, XIII · SAQs c, f, g, h, k–o · DQs 4, 6 · Numericals 7, 8",
+    "notes_merged": "Academy handwritten notes merged · 1 book error flagged (p.152)"
+  },
+  "sections": [
+    {
+      "id": "sec71",
+      "number": "7.1",
+      "title": "Collision Theory",
+      "blocks": [
+        {
+          "type": "p",
+          "t": "Collision theory explains how reactions occur. Reactant particles must form a <strong>homogeneous mixture</strong> and collide with one another."
+        },
+        {
+          "type": "table",
+          "cols": ["Type of Collision", "Orientation", "Energy", "Result"],
+          "rows": [
+            ["Effective", "Proper (correct)", "≥ Ea (activation energy)", "Products formed"],
+            ["Ineffective", "Not properly oriented", "< Ea", "Particles bounce back"]
+          ]
+        },
+        {
+          "type": "def",
+          "label": "Activation Energy",
+          "text": "The minimum amount of energy, required for an effective collision between the reacting species, is called activation energy.",
+          "src": "p.141"
+        },
+        {
+          "type": "tip",
+          "t": "Most reactions are slow because most collisions are ineffective — particles lack sufficient energy OR are not properly oriented."
+        },
+        {
+          "type": "qc",
+          "title": "Quick Check 7.1",
+          "items": [
+            {
+              "num": "a",
+              "q": "What role does the activation energy play in chemical reactions?",
+              "ans": "<p><strong>Role of Activation Energy:</strong> Ea acts as an energy barrier. Only particles with energy ≥ Ea can undergo effective collision and form products. A lower Ea means more particles can react → faster rate.</p>"
+            },
+            {
+              "num": "b",
+              "q": "How does the activation energy affect the rate of a reaction?",
+              "ans": "<p><strong>Lower Ea</strong> → more particles have sufficient energy → more effective collisions → <strong>faster rate</strong>.<br><strong>Higher Ea</strong> → fewer particles can react → <strong>slower rate</strong>.<br>This is why a catalyst (which lowers Ea) speeds up a reaction.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec72",
+      "number": "7.2",
+      "title": "Rate of Reaction",
+      "blocks": [
+        {
+          "type": "def",
+          "label": "Rate of Reaction",
+          "text": "The rate of a reaction is defined as the change in the concentration of a reactant or a product divided by the time taken for the change.",
+          "src": "p.141"
+        },
+        {
+          "type": "eq",
+          "t": "Rate of reaction = ΔC / Δt\n\nFor:  A → B\nRate = –Δ[A]/Δt  =  +Δ[B]/Δt\n\nUnits:\n  Fast reaction  →  mol dm⁻³ s⁻¹\n  Slow reaction  →  mol dm⁻³ min⁻¹  or  mol dm⁻³ h⁻¹\n  Gas phase      →  pressure units used instead of mol dm⁻³"
+        },
+        {
+          "type": "concept",
+          "head": "Sign Convention",
+          "body": "The sign in the rate expression tells us whether a species is being consumed or formed:",
+          "items": [
+            "Negative sign (–Δ[A]/Δt): reactant A is being consumed → concentration decreasing.",
+            "Positive sign (+Δ[B]/Δt): product B is being formed → concentration increasing."
+          ]
+        },
+        {
+          "type": "subsec",
+          "t": "7.2.1 Instantaneous and Average Rate"
+        },
+        {
+          "type": "table",
+          "cols": ["Type", "Definition", "Formula / How to Find"],
+          "rows": [
+            ["Instantaneous rate", "Rate at any one instant during the reaction", "dC/dt — slope of tangent to curve at that point"],
+            ["Average rate", "Rate over a time period between two specific intervals", "ΔC/Δt — change in concentration ÷ time interval"]
+          ]
+        },
+        {
+          "type": "p",
+          "t": "Initially, instantaneous rate > average rate. At the end of the interval, instantaneous rate < average rate. They are equal for only one instant in any time interval."
+        },
+        {
+          "type": "concept",
+          "head": "Sample Problem 7.1 — Haber Process",
+          "body": "N₂(aq) + 3H₂(g) → 2NH₃(g). [NH₃] = 3.5 mol dm⁻³ at 1.0 min; [NH₃] = 6.2 mol dm⁻³ at 4.0 min.",
+          "eq": "i) Instantaneous rate at 1.0 min:\n   Rate = ΔC/Δt = 3.5 / 1.0 = 3.5 mol dm⁻³ min⁻¹\n\nii) Average rate from 1.0 to 4.0 min:\n   ΔC = 6.2 – 3.5 = 2.7 mol dm⁻³\n   Δt = 4.0 – 1.0 = 3.0 min\n   Rate = 2.7 / 3.0 = 0.90 mol dm⁻³ min⁻¹"
+        },
+        {
+          "type": "qc",
+          "title": "Quick Check 7.2",
+          "items": [
+            {
+              "num": "",
+              "q": "H₂(g) + I₂(g) → 2HI(g). At 100.0 s, iodine concentration fell from 0.010 to 0.0080 mol dm⁻³. What is the average rate?",
+              "ans": "<p>ΔC = 0.010 – 0.0080 = 0.0020 mol dm⁻³<br>Δt = 100.0 s<br><strong>Rate = 0.0020 / 100.0 = 2.0 × 10⁻⁵ mol dm⁻³ s⁻¹</strong></p>"
+            }
+          ]
+        },
+        {
+          "type": "subsec",
+          "t": "7.2.2 Measuring the Rate of a Chemical Reaction"
+        },
+        {
+          "type": "p",
+          "t": "To find rate graphically: plot <strong>concentration (y-axis) vs time (x-axis)</strong>. Draw a tangent at the desired time point. The slope of the tangent = instantaneous rate at that point."
+        },
+        {
+          "type": "concept",
+          "head": "Reading Rate from a Graph — HI Decomposition Example",
+          "body": "2HI(g) → H₂(g) + I₂(g) at 508°C. See Table 7.1 and Figure 7.2 in book.",
+          "eq": "At 100 s, tangent gives:\n  ΔC = 0.04 mol dm⁻³ over 100 s\n\nRate = ΔC/Δt = 0.04 / 100 = 4×10⁻⁴ mol dm⁻³ s⁻¹",
+          "note": "If a product (H₂ or I₂) is plotted instead, a rising curve is obtained. The tangent at 100 s gives the same rate value."
+        },
+        {
+          "type": "diagram",
+          "file": "diagrams/ch07_concentration_time_HI.svg",
+          "caption": "Concentration–time graph for 2HI(g) → H₂(g) + I₂(g) at 508°C. Tangent drawn at 100 s gives rate = 4×10⁻⁴ mol dm⁻³ s⁻¹.",
+          "alt": "Falling hyperbolic curve with tangent drawn at t=100 s. Triangle ABC shows ΔC=0.04 mol dm⁻³ over Δt=100 s."
+        },
+        {
+          "type": "concept",
+          "head": "Why Rate Decreases with Time",
+          "body": "Rate ∝ concentration. As reaction proceeds:",
+          "items": [
+            "Reactants are consumed → concentration falls.",
+            "Fewer particles per unit volume → fewer collisions.",
+            "Rate of forward reaction decreases.",
+            "Graph slope becomes less steep with time → slope = 0 at completion."
+          ]
+        },
+        {
+          "type": "qc",
+          "title": "Quick Check 7.3",
+          "items": [
+            {
+              "num": "d",
+              "q": "What do you deduce about the rate of the reaction with time from these calculations?",
+              "ans": "<p>Rate <strong>decreases with time</strong>. As [HI] falls, fewer HI molecules collide effectively per second → lower rate. The concentration–time graph slope becomes less steep as time passes.</p>"
+            },
+            {
+              "num": "e",
+              "q": "At which concentration is the rate highest, and lowest?",
+              "ans": "<p><strong>Highest rate</strong> at highest [HI] = 0.10 mol dm⁻³ (start of reaction).<br><strong>Lowest rate</strong> at lowest [HI] = 0.02 mol dm⁻³ (near completion).</p>"
+            }
+          ]
+        },
+        {
+          "type": "subsec",
+          "t": "7.2.3 Measurement of Concentration"
+        },
+        {
+          "type": "factors",
+          "items": [
+            {
+              "num": "a",
+              "title": "Chemical Method (Titration)",
+              "body": " — Most suitable for reactions in solution (e.g. esterification, hydrolysis of esters). Steps: (1) Allow reactants under specific conditions. (2) Remove small sample at set time interval. (3) Cool in ice-cold water to stop reaction (quench). (4) Titrate against NaOH with phenolphthalein indicator → gives acid concentration. Repeat at various intervals."
+            },
+            {
+              "num": "b-i",
+              "title": "Spectrophotometry / Colorimetry",
+              "body": " — Used if reactant or product absorbs UV, visible, or IR radiation. Rate ∝ amount of radiation absorbed. As reactant is used up, absorption changes → rate can be tracked. E.g. alcohol → aldehyde → alcohol (colorimetric change)."
+            },
+            {
+              "num": "b-ii",
+              "title": "Electrical Conductivity Method",
+              "body": " — Used for reactions involving ions. Rate ∝ conductivity (when ions are formed). Rate ∝ 1/conductivity (when ions are combined). E.g. neutralisation, solubility of ionic compounds."
+            },
+            {
+              "num": "b-iii",
+              "title": "Volume Change Method (Volumetric Method)",
+              "body": " — Used for gas-phase reactions where volume/pressure changes. Rate ∝ volume change (ΔV) or pressure change. E.g. CO + H₂ → CH₃OH (methanol synthesis). Rate observed by measuring gas volume change or pressure change over time."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec73",
+      "number": "7.3",
+      "title": "Factors Affecting Rate of a Chemical Reaction",
+      "blocks": [
+        {
+          "type": "ul",
+          "items": [
+            "Concentration of the reactants",
+            "Temperature of the system",
+            "Surface area",
+            "Catalyst"
+          ]
+        },
+        {
+          "type": "subsec",
+          "t": "7.3.1 Concentration"
+        },
+        {
+          "type": "concept",
+          "head": "Effect of Concentration on Rate",
+          "body": "According to the law of mass action: greater the concentration of reactants → more rapidly the reaction proceeds.",
+          "items": [
+            "More concentration → more particles per unit volume → more chances of collision.",
+            "More effective collisions → higher rate.",
+            "Less concentration → fewer collisions → lower rate.",
+            "For gaseous reactions: increasing pressure increases gas concentration → rate increases (no effect on solids/liquids).",
+            "Example: When CO₂ concentration is high, rate of photosynthesis is higher."
+          ]
+        },
+        {
+          "type": "subsec",
+          "t": "7.3.2 Temperature (Maxwell-Boltzmann Distribution Curve)"
+        },
+        {
+          "type": "p",
+          "t": "Increasing temperature increases rate. Rate either <strong>doubles or triples for every 10°C rise</strong> in temperature. Rate ∝ frequency of collisions ∝ energy ∝ Temperature."
+        },
+        {
+          "type": "def",
+          "label": "Boltzmann Distribution Curve",
+          "text": "The Boltzmann distribution curve is a graph that shows the distribution of energies at certain temperature.",
+          "src": "p.146"
+        },
+        {
+          "type": "concept",
+          "head": "Maxwell-Boltzmann Curve — Key Points",
+          "body": "Graph: number of molecules (y-axis) vs kinetic/molecular energy (x-axis) at a given temperature.",
+          "items": [
+            "Few molecules have very low energy.",
+            "Few molecules have very high energy.",
+            "Most molecules have moderate (average) energy.",
+            "Area under curve = total number of molecules.",
+            "Shaded area (E ≥ Ea) = molecules with enough energy for effective collision.",
+            "Number of molecules with effective collision ∝ shaded area."
+          ]
+        },
+        {
+          "type": "diagram",
+          "file": "diagrams/ch07_boltzmann_single_temp.svg",
+          "caption": "Boltzmann distribution curve at one temperature T showing Ea marked by vertical line and shaded area representing molecules with E ≥ Ea.",
+          "alt": "Bell-shaped asymmetric curve peaking then trailing off. Vertical line at Ea on x-axis. Area to the right of Ea is shaded."
+        },
+        {
+          "type": "concept",
+          "head": "Effect of Temperature Rise on Boltzmann Curve",
+          "body": "When temperature increases from T₁ to T₂ (T₂ > T₁):",
+          "items": [
+            "Curve flattens (peak lowers) and shifts to the right.",
+            "Shaded area increases — more molecules have E ≥ Ea.",
+            "More molecules undergo effective collisions → rate increases.",
+            "For 10°C rise: shaded area approximately doubles → rate doubles or triples."
+          ]
+        },
+        {
+          "type": "diagram",
+          "file": "diagrams/ch07_boltzmann_two_temps.svg",
+          "caption": "Boltzmann distribution at T₁ and T₂ (T₂ > T₁). T₂ curve is flatter/wider with a larger shaded area to right of Ea.",
+          "alt": "Two overlapping bell curves. T₁ is taller and narrower. T₂ is flatter and wider with peak shifted right. Shaded areas to right of Ea shown; T₂ shaded area is larger."
+        },
+        {
+          "type": "qc",
+          "title": "Quick Check 7.4",
+          "items": [
+            {
+              "num": "a",
+              "q": "What is the Boltzmann distribution curve?",
+              "ans": "<p>It is a graph between <strong>number of molecules (y-axis)</strong> and their <strong>molecular energy (x-axis)</strong>. It shows the distribution of kinetic energies at a specific temperature. At any temperature: few have very low energy, few have very high energy, and most have moderate energy. The shaded area (E ≥ Ea) shows molecules capable of effective collision.</p>"
+            },
+            {
+              "num": "b",
+              "q": "Explain why a 10°C rise in temperature approximately doubles the rate of a reaction.",
+              "ans": "<p>When temperature rises by 10°C, molecules gain more kinetic energy. The Boltzmann curve flattens and shifts to the right. The shaded area (E ≥ Ea) <strong>approximately doubles</strong>. This means twice as many molecules can undergo effective collisions per second → rate doubles (or triples).</p>"
+            }
+          ]
+        },
+        {
+          "type": "subsec",
+          "t": "7.3.3 Surface Area"
+        },
+        {
+          "type": "concept",
+          "head": "Effect of Surface Area",
+          "body": "Rate ∝ surface area ∝ number of binding/active sites exposed.",
+          "items": [
+            "Greater surface area = more particles exposed = more chances of collision.",
+            "Powdered solids react faster than lumps of the same solid.",
+            "Example: Wood burns more rapidly when chopped into small pieces."
+          ],
+          "note": "From academy notes"
+        },
+        {
+          "type": "subsec",
+          "t": "7.3.4 Catalyst"
+        },
+        {
+          "type": "def",
+          "label": "Catalyst",
+          "text": "A catalyst is defined as a substance which alters the rate of a chemical reaction, but remains chemically unchanged at the end of the reaction.",
+          "src": "p.147"
+        },
+        {
+          "type": "def",
+          "label": "Catalysis",
+          "text": "The process, which takes place in the presence of a catalyst, is called catalysis.",
+          "src": "p.148"
+        },
+        {
+          "type": "concept",
+          "head": "How a Catalyst Works",
+          "body": "A catalyst provides a new reaction path with a lower activation energy barrier.",
+          "items": [
+            "Catalyst brings molecules into correct orientation.",
+            "Provides alternative pathway with lower Ea.",
+            "More molecules now have energy ≥ new (lower) Ea → more effective collisions → rate increases.",
+            "Without catalyst: reaction occurs at slower speed.",
+            "Catalyst is NOT consumed — regenerated at end of reaction.",
+            "Common catalysts: Pt, Ni, H₂SO₄."
+          ]
+        },
+        {
+          "type": "diagram",
+          "file": "diagrams/ch07_energy_profile_catalyst.svg",
+          "caption": "Energy profile diagram for uncatalyzed (high peak) and catalyzed (low peak) reaction. Reactants and products at the same energy level in both cases.",
+          "alt": "Two energy curves from Reactants to Products. Uncatalyzed: tall peak (large Ea without catalyst). Catalyzed: shorter peak (smaller Ea with catalyst). Products energy is the same for both."
+        },
+        {
+          "type": "reactions",
+          "head": "Examples of Catalytic Reactions",
+          "rxns": [
+            {"eq": "2H₂ + O₂ → 2H₂O", "note": "Catalyst: Pt (platinum)"},
+            {"eq": "2KClO₃ → 2KCl + 3O₂", "note": "Catalyst: MnO₂"},
+            {"eq": "4HCl + O₂ → 2H₂O + 2Cl₂", "note": "Catalyst: CuCl₂"},
+            {"eq": "CH₃COOC₂H₅ + H₂O → CH₃COOH + C₂H₅OH", "note": "Catalyst: H⁺ (H₂SO₄); acid hydrolysis of ester"}
+          ]
+        },
+        {
+          "type": "subsec",
+          "t": "Types of Catalysis"
+        },
+        {
+          "type": "table",
+          "cols": ["Feature", "Homogeneous Catalysis", "Heterogeneous Catalysis"],
+          "rows": [
+            ["Definition", "Catalyst and reactants are in the SAME phase", "Catalyst and reactants are in DIFFERENT phases"],
+            ["Catalyst state", "Gas or liquid (matches reactants)", "Usually solid; reactants are gas or liquid"],
+            ["Mixture formed", "Homogeneous mixture", "Does NOT form homogeneous mixture"],
+            ["Example 1", "2SO₂(g) + O₂(g) → 2SO₃(g); catalyst: NO(g)", "C₂H₄(g) + H₂(g) → C₂H₆(g); catalyst: Ni(s), 150°C"],
+            ["Example 2", "CH₃COOC₂H₅(l) + H₂O(l) → products; catalyst: H⁺(aq)", "4NH₃(g) + 5O₂(g) → 4NO(g) + 6H₂O(g); catalyst: Pt(s), 800°C"]
+          ]
+        },
+        {
+          "type": "info",
+          "head": "Enzymes — Nature's Catalysts",
+          "body": "Biochemical catalysts (enzymes) lower Ea in living organisms. Enzymes are typically proteins. Factors affecting enzyme activity: pH, temperature, substrate concentration.",
+          "items": [
+            "Vitamins can act as coenzymes — help enzymes catalyze reactions more efficiently.",
+            "Vitamin K: necessary for blood clotting."
+          ]
+        },
+        {
+          "type": "qc",
+          "title": "Quick Check 7.5",
+          "items": [
+            {
+              "num": "a",
+              "q": "Can a catalyst be consumed in a chemical reaction? Why or why not?",
+              "ans": "<p>No. By definition, a catalyst <strong>remains chemically unchanged</strong> at the end of the reaction. It provides an alternative lower-energy pathway and is regenerated at the end.</p>"
+            },
+            {
+              "num": "b",
+              "q": "Is 2SO₂(g) + O₂(g) → 2SO₃(g) with V₂O₅(solid) homogeneous or heterogeneous catalysis?",
+              "ans": "<p><strong>Heterogeneous catalysis.</strong> V₂O₅ is a solid while the reactants SO₂ and O₂ are gases — they are in different phases.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec74",
+      "number": "7.4",
+      "title": "Rate Law, Rate Constant and Order of Reaction",
+      "blocks": [
+        {
+          "type": "subsec",
+          "t": "7.4.1 Rate Law and Rate Constant"
+        },
+        {
+          "type": "def",
+          "label": "Rate Law",
+          "text": "The representation of rate of a reaction in terms of concentration of the reactants is known as rate law.",
+          "src": "p.150"
+        },
+        {
+          "type": "concept",
+          "head": "Rate Law Equation",
+          "body": "For reaction:  aA + bB → cC + dD",
+          "eq": "Rate = k [A]ˣ [B]ʸ\n\n  k  = rate constant (proportionality constant)\n  x  = order w.r.t. A  (from experiment)\n  y  = order w.r.t. B  (from experiment)\n  x+y = overall order of reaction",
+          "note": "x and y are experimentally determined. They may or may NOT equal the stoichiometric coefficients a and b in the balanced equation."
+        },
+        {
+          "type": "def",
+          "label": "Rate Constant (k)",
+          "text": "The specific rate constant of a chemical reaction is the rate of reaction when the concentrations of the reactants are unity.",
+          "src": "p.150"
+        },
+        {
+          "type": "p",
+          "t": "<strong>Rate constant (from notes):</strong> Ratio between rate of reaction and molar concentration of reactants. When [A] = [B] = 1 mol dm⁻³, Rate = k. k is constant at a given temperature but <strong>changes with temperature</strong>."
+        },
+        {
+          "type": "subsec",
+          "t": "7.4.2 Reaction Order"
+        },
+        {
+          "type": "def",
+          "label": "Order of Reaction",
+          "text": "The order of a reaction with respect to a specific reactant is the exponent applied to that reactant's concentration within the rate equation.",
+          "src": "p.150"
+        },
+        {
+          "type": "concept",
+          "head": "Key Facts About Reaction Order",
+          "body": "Order of reaction (n) = sum of exponents of molar concentrations in the rate equation.",
+          "items": [
+            "Always determined experimentally — NEVER from the balanced equation.",
+            "Value may be zero, whole number, or a fraction.",
+            "For single-step reactions, molecularity and reaction order are the same.",
+            "For multi-step reactions, order is determined from the slow (rate-determining) step.",
+            "Example: 2H₂ + 2NO → N₂ + H₂O; rate = k[H₂][NO]²; order w.r.t. H₂ = 1; w.r.t. NO = 2; overall = 3."
+          ]
+        },
+        {
+          "type": "tip",
+          "t": "The order of reaction CANNOT be deduced from the balanced equation. Exponents x and y in Rate = k[A]ˣ[B]ʸ must come from experimental data (kinetic measurements)."
+        },
+        {
+          "type": "qc",
+          "title": "Quick Check 7.6",
+          "items": [
+            {
+              "num": "a",
+              "q": "How is the order of reaction derived from the rate law?",
+              "ans": "<p>The order w.r.t. each reactant is the <strong>exponent (power) of that reactant's concentration</strong> in the rate law equation. These exponents are found experimentally. The <strong>overall order = sum of all exponents</strong>. Example: Rate = k[A]²[B]¹ → overall order = 2+1 = 3.</p>"
+            },
+            {
+              "num": "b",
+              "q": "Explain the specific rate constant of a reaction and how it is represented.",
+              "ans": "<p>The specific rate constant (k) equals the rate of reaction when all reactant concentrations are <strong>unity (1 mol dm⁻³)</strong>. In Rate = k[A]ˣ[B]ʸ, when [A]=[B]=1: Rate = k×1×1 = k. It is constant at a given temperature but changes with temperature.</p>"
+            }
+          ]
+        },
+        {
+          "type": "subsec",
+          "t": "7.4.3 Types of Reaction Order"
+        },
+        {
+          "type": "concept",
+          "head": "Zero Order Reaction",
+          "body": "The rate of a zero order reaction is independent of the concentration of the reactants. A change in concentration has no effect on the speed of the reaction.",
+          "eq": "A → Product\nRate = k[A]⁰ = k\n\nUnit of k = mol dm⁻³ s⁻¹",
+          "items": [
+            "Photochemical reactions are usually zero order.",
+            "H₂(g) + Cl₂(g) → 2HCl(g) [sunlight]; Rate = k[H₂]⁰[Cl₂]⁰ = k",
+            "2NH₃(g) → N₂(g) + 3H₂(g) [high T, catalyst]; Rate = k[NH₃]⁰ = k",
+            "Photosynthesis is also zero order."
+          ]
+        },
+        {
+          "type": "concept",
+          "head": "First Order Reaction",
+          "body": "A reaction for which the sum of the exponents of concentrations in the rate equation is 1. Rate depends on initial concentration of ONE reactant.",
+          "eq": "Rate = k[A]¹\n\nUnit of k = s⁻¹",
+          "items": [
+            "One reactant may be in excess (i) or absent in the slow step (ii).",
+            "Example: N₂O₅(g) → 2NO₂(g) + ½O₂(g); Rate = k[N₂O₅]¹",
+            "Example: R–Cl + H₂O → R–OH + HX; Rate = k[R–X]¹; H₂O is in excess",
+            "Nuclear (radioactive) decay is ALWAYS first order."
+          ]
+        },
+        {
+          "type": "concept",
+          "head": "Second Order Reaction",
+          "body": "A reaction for which sum of exponents of concentrations in the rate equation is 2.",
+          "eq": "Rate = k[A]²         (one reactant, order = 2)\nRate = k[A]¹[B]¹     (two reactants, 1+1 = 2)\n\nUnit of k = dm³ mol⁻¹ s⁻¹",
+          "items": [
+            "Two reactants may be similar or different.",
+            "Example: C₂H₅Cl + CN⁻ → C₂H₅CN + Cl⁻; Rate = k[C₂H₅Cl][CN⁻]; order = 1+1 = 2",
+            "Example: NO + O₃ → NO₂ + O₂; Rate = k[NO][O₃]; order = 1+1 = 2"
+          ]
+        },
+        {
+          "type": "concept",
+          "head": "Third Order Reaction",
+          "body": "A reaction for which sum of exponents of concentrations in the rate equation is 3.",
+          "eq": "Rate = k[A]³                  (n = 3)\nRate = k[A]²[B]¹              (n = 2+1 = 3)\nRate = k[A]¹[B]¹[C]¹          (n = 1+1+1 = 3)\n\nUnit of k = dm⁶ mol⁻² s⁻¹",
+          "items": [
+            "Example: 2FeCl₃ + 6KI → 2FeI₂ + 6KCl + I₂; Rate = k[FeCl₃][KI]²; order = 1+2 = 3",
+            "Example: 2NO(g) + O₂(g) → 2NO₂(g); Rate = k[NO]²[O₂]¹; order = 2+1 = 3"
+          ]
+        },
+        {
+          "type": "error",
+          "head": "BOOK ERROR — Page 152",
+          "wrong": "Book writes '2NO(g) + O₂(g) → 2NO₂(g), Rate = k[NO]²[O₂]¹, order = 1+1 = 2' under the Third Order Reaction examples.",
+          "correct": "Order = 2 + 1 = 3, not 1+1 = 2. The exponent of NO is 2 and of O₂ is 1.",
+          "reason": "Printing/calculation error. This reaction IS third order (2+1=3) and is listed in the third-order section, so the book contradicts itself."
+        },
+        {
+          "type": "concept",
+          "head": "Fractional Order Reaction",
+          "body": "A reaction in which the sum of exponents of the rate equation is a fraction.",
+          "eq": "Rate = k[CHCl₃][Cl₂]^(1/2);   n = 1 + 0.5 = 1.5\nRate = k[A]^1.5\nRate = k[A][B]^(1/2)\n\nExample: CH₄ + Cl₂ → CH₃Cl + HCl\nRate = k[CH₄][Cl₂]^(1/2);   order = 1.5",
+          "items": [
+            "Reactions involving free radicals frequently exhibit fractional orders.",
+            "Sum of exponents is not a whole number."
+          ]
+        },
+        {
+          "type": "subsec",
+          "t": "7.4.4 Units of Rate Constant"
+        },
+        {
+          "type": "concept",
+          "head": "General Formula for Units of k",
+          "body": "The units of k depend on the overall order of the reaction.",
+          "eq": "kₙ = (mol dm⁻³)^(1–n) × s⁻¹\n\nn = 0 (zero):    k = mol dm⁻³ s⁻¹\nn = 1 (first):   k = s⁻¹\nn = 2 (second):  k = dm³ mol⁻¹ s⁻¹\nn = 3 (third):   k = dm⁶ mol⁻² s⁻¹"
+        },
+        {
+          "type": "concept",
+          "head": "Worked Derivation — Units of k for 3rd Order Reaction",
+          "body": "For rate = k[A]³ (from notes):",
+          "eq": "k = Rate / [A]³\n  = (mol dm⁻³ s⁻¹) / (mol dm⁻³)³\n  = mol dm⁻³ s⁻¹ / mol³ dm⁻⁹\n  = mol^(1–3) × dm^(–3+9) × s⁻¹\n  = mol⁻² dm⁶ s⁻¹\n  = dm⁶ mol⁻² s⁻¹"
+        },
+        {
+          "type": "qc",
+          "title": "Quick Check 7.7",
+          "items": [
+            {
+              "num": "a",
+              "q": "For rate = k[NO]²[NH₃]⁰ and rate = k[BrO₃⁻][Br⁻][H⁺]²: find overall order and order w.r.t. each reactant.",
+              "ans": "<p><strong>Expression 1:</strong> rate = k[NO]²[NH₃]⁰<br>Overall order = 2+0 = <strong>2</strong><br>Order w.r.t. NO = 2; w.r.t. NH₃ = 0<br><br><strong>Expression 2:</strong> rate = k[BrO₃⁻][Br⁻][H⁺]²<br>Overall order = 1+1+2 = <strong>4</strong><br>Order w.r.t. BrO₃⁻ = 1; Br⁻ = 1; H⁺ = 2</p>"
+            }
+          ]
+        },
+        {
+          "type": "deleted",
+          "t": "Sections 7.5 (Determination of Rate Constant, pp.154–155) and 7.6 (Reaction Mechanism, pp.156–158) are DELETED from the Smart Syllabus. Do NOT study for the board exam."
+        }
+      ]
+    }
+  ],
+  "mcqs": [
+    {
+      "num": "Book I",
+      "src": "Book I",
+      "q": "The rate of reaction:",
+      "opts": [
+        "Increases as the reaction proceeds",
+        "Decreases as the reaction proceeds",
+        "Remains the same as the reaction proceeds",
+        "May decrease or increase as the reaction proceeds"
+      ],
+      "ans": 1,
+      "exp": "As reaction proceeds, reactants are consumed → concentration falls → fewer effective collisions → rate decreases."
+    },
+    {
+      "num": "Book II",
+      "src": "Book II",
+      "q": "Increasing the temperature of a chemical reaction increases the rate of a reaction because:",
+      "opts": [
+        "Both the collision frequency and collision energies of reactant molecules increase",
+        "Collision frequency of reactant molecules increases only",
+        "Activation energy increases",
+        "Activation energy decreases"
+      ],
+      "ans": 0,
+      "exp": "Higher temperature gives molecules more kinetic energy (more energetic collisions) AND increases collision frequency. Both factors increase rate."
+    },
+    {
+      "num": "Book III",
+      "src": "Book III",
+      "q": "Consider two reactions with different activation energies at the same temperature. The reaction with the lower activation energy will have:",
+      "opts": [
+        "A smaller rate constant",
+        "A larger rate constant",
+        "The same rate constant",
+        "A rate constant that depends on the enthalpy change"
+      ],
+      "ans": 1,
+      "exp": "Lower Ea → more molecules have E ≥ Ea → more effective collisions per second → larger rate constant k."
+    },
+    {
+      "num": "Book IV",
+      "src": "Book IV",
+      "q": "The order of a chemical reaction that is independent of concentration is:",
+      "opts": [
+        "Second order reaction",
+        "First order reaction",
+        "Zero order reaction",
+        "Pseudo first order reaction"
+      ],
+      "ans": 2,
+      "exp": "Zero order: Rate = k[A]⁰ = k. Concentration has no effect on rate; rate equals the rate constant."
+    },
+    {
+      "num": "Book V",
+      "src": "Book V",
+      "q": "On a Boltzmann distribution curve, the area under the curve represents:",
+      "opts": [
+        "Activation energy of the reaction",
+        "Total number of molecules in the sample",
+        "Average kinetic energy of the molecules",
+        "Rate constant of the reaction"
+      ],
+      "ans": 1,
+      "exp": "The total area under the Boltzmann distribution curve represents the total number of molecules in the sample."
+    },
+    {
+      "num": "Book VI",
+      "src": "Book VI",
+      "q": "On a Boltzmann distribution curve, the activation energy (Ea) is represented by:",
+      "opts": [
+        "The height of the peak",
+        "The area under the entire curve",
+        "A vertical line drawn at a specific kinetic energy value",
+        "The difference between the peak and the X-axis"
+      ],
+      "ans": 2,
+      "exp": "Ea is marked as a vertical line at a specific energy value on the x-axis. Only molecules to the right of this line have E ≥ Ea."
+    },
+    {
+      "num": "Book X",
+      "src": "Book X",
+      "q": "How does the presence of a catalyst affect the rate of a chemical reaction?",
+      "opts": [
+        "It always decreases the rate of the reaction",
+        "It always increases the rate of the reaction",
+        "It increases the rate of the forward and decreases the rate of the reverse reaction",
+        "It increases the rate of both the forward and reverse reactions"
+      ],
+      "ans": 3,
+      "exp": "A catalyst lowers Ea for both forward and reverse reactions equally, so rates of both increase. Equilibrium position is unchanged."
+    },
+    {
+      "num": "Book XI",
+      "src": "Book XI",
+      "q": "On an energy profile diagram, the presence of a catalyst is represented by:",
+      "opts": [
+        "A higher peak representing the activation energy",
+        "A lower peak representing the activation energy",
+        "A change in the energy level of the reactants or products",
+        "A shift in the equilibrium position"
+      ],
+      "ans": 1,
+      "exp": "A catalyst provides an alternative pathway with lower Ea, shown as a lower peak on the energy profile diagram."
+    },
+    {
+      "num": "Book XII",
+      "src": "Book XII",
+      "q": "The units of the rate constant (k) for a reaction depend on the:",
+      "opts": [
+        "Activation energy of the reaction",
+        "Temperature of the reaction",
+        "Overall order of the reaction",
+        "Stoichiometry of the balanced chemical equation"
+      ],
+      "ans": 2,
+      "exp": "Formula kₙ = (mol dm⁻³)^(1-n) s⁻¹ shows units depend on n (order). Order 0: mol dm⁻³ s⁻¹; order 1: s⁻¹; order 2: dm³ mol⁻¹ s⁻¹."
+    },
+    {
+      "num": "Extra 1",
+      "src": "Extra",
+      "q": "For reaction 2NO(g) + O₂(g) → 2NO₂(g) with Rate = k[NO]²[O₂], the overall order is:",
+      "opts": ["1", "2", "3", "4"],
+      "ans": 2,
+      "exp": "Overall order = sum of exponents = 2 (for NO) + 1 (for O₂) = 3."
+    },
+    {
+      "num": "Extra 2",
+      "src": "Extra",
+      "q": "In homogeneous catalysis:",
+      "opts": [
+        "Catalyst and reactants are in different phases",
+        "Catalyst is always a solid",
+        "Catalyst and reactants are in the same phase",
+        "No activation energy is required"
+      ],
+      "ans": 2,
+      "exp": "Homogeneous catalysis: catalyst and reactants are in the same physical phase, forming a homogeneous mixture."
+    },
+    {
+      "num": "Extra 3",
+      "src": "Extra",
+      "q": "The unit of rate constant k for a second order reaction is:",
+      "opts": ["mol dm⁻³ s⁻¹", "s⁻¹", "dm³ mol⁻¹ s⁻¹", "dm⁶ mol⁻² s⁻¹"],
+      "ans": 2,
+      "exp": "For n=2: k = (mol dm⁻³)^(1-2) s⁻¹ = mol⁻¹ dm³ s⁻¹ = dm³ mol⁻¹ s⁻¹."
+    },
+    {
+      "num": "Extra 4",
+      "src": "Extra",
+      "q": "Rate = k[A]³. If [A] is doubled, the new rate becomes:",
+      "opts": ["2 times original", "4 times original", "6 times original", "8 times original"],
+      "ans": 3,
+      "exp": "Third order: rate ∝ [A]³. New rate = k(2[A])³ = 8k[A]³ → rate increases 8 times."
+    }
+  ],
+  "sqs": [
+    {
+      "num": "SAQ a",
+      "q": "What do you understand by the rate of a reaction?",
+      "a": "<p><strong>Definition:</strong> Rate of reaction is the change in concentration of a reactant or product divided by the time taken for that change.</p><div class='eq-block'>Rate = ΔC/Δt = –Δ[Reactant]/Δt = +Δ[Product]/Δt</div><p><strong>Units:</strong> mol dm⁻³ s⁻¹ for fast reactions; mol dm⁻³ min⁻¹ for slow reactions.</p><p><strong>Note:</strong> Rate decreases with time as reactant concentration falls. Negative sign = reactant consumed; positive sign = product formed.</p>",
+      "tag": "BOARD STYLE ANSWER"
+    },
+    {
+      "num": "SAQ b",
+      "q": "Give the difference between enthalpy change of reaction and energy of activation of reaction.",
+      "a": "<p><strong>Enthalpy Change (ΔH):</strong></p><ul><li>Difference in energy between reactants and products.</li><li>Can be positive (endothermic) or negative (exothermic).</li><li>Tells us whether heat is released or absorbed overall.</li></ul><p><strong>Activation Energy (Ea):</strong></p><ul><li>Minimum energy required for effective collision between reacting species.</li><li>Always positive — energy must always be supplied to start a reaction.</li><li>Determines the rate — higher Ea = slower reaction.</li></ul><p><strong>Key Difference:</strong> ΔH = overall energy change of reaction; Ea = energy barrier that must be overcome to start the reaction. They are independent of each other.</p>",
+      "tag": "BOARD STYLE ANSWER"
+    },
+    {
+      "num": "SAQ d",
+      "q": "Why does the instantaneous rate change during a reaction?",
+      "a": "<p><strong>Reason:</strong> Rate ∝ concentration. As reaction proceeds:</p><ul><li>Reactants are consumed → reactant concentration decreases.</li><li>Fewer reactant particles per unit volume → fewer chances of collision.</li><li>Fewer effective collisions per second → instantaneous rate decreases with time.</li></ul><p><strong>Conclusion:</strong> Instantaneous rate is highest at the start (maximum concentration) and continuously falls as reactants are used up.</p>",
+      "tag": "BOARD STYLE ANSWER"
+    },
+    {
+      "num": "SAQ e",
+      "q": "Briefly summarize the effects of temperature and surface area on the rates of reactions.",
+      "a": "<p><strong>Effect of Temperature:</strong></p><ul><li>Higher temperature → molecules gain more kinetic energy.</li><li>More molecules attain energy ≥ Ea (shaded area on Boltzmann curve increases).</li><li>More effective collisions per second → rate increases.</li><li>Rate doubles or triples for every 10°C rise in temperature.</li></ul><p><strong>Effect of Surface Area:</strong></p><ul><li>Rate ∝ surface area (binding sites exposed).</li><li>Greater surface area = more exposed particles = more chance of collision.</li><li>Powdered solids react faster than large lumps (e.g. CaCO₃ powder vs lumps with HCl).</li></ul>",
+      "tag": "BOARD STYLE ANSWER"
+    },
+    {
+      "num": "SAQ i",
+      "q": "Why does wood burn more rapidly in pure oxygen than in air?",
+      "a": "<p><strong>Reason — Effect of Concentration:</strong></p><ul><li>Air contains only about 21% oxygen.</li><li>Pure oxygen has a much higher concentration of O₂ molecules per unit volume.</li><li>Higher concentration → more O₂ molecules → more frequent and effective collisions with wood.</li><li>More effective collisions per second → combustion proceeds much faster.</li></ul><p><strong>Conclusion:</strong> The higher concentration of O₂ in pure oxygen increases collision frequency → rate of combustion increases.</p>",
+      "tag": "BOARD STYLE ANSWER"
+    },
+    {
+      "num": "SAQ j",
+      "q": "A catalyst lowers the activation energy of a chemical reaction. Illustrate it.",
+      "a": "<p><strong>Definition:</strong> A catalyst provides an alternative reaction pathway with a lower activation energy (Ea).</p><p><strong>How it works:</strong></p><ul><li>Without catalyst: reactants must overcome a high Ea barrier → slow reaction.</li><li>With catalyst: molecules are brought into correct orientation and a new lower-Ea pathway is available.</li><li>More molecules now have energy ≥ new (lower) Ea → more effective collisions → faster rate.</li><li>Products have the same energy with or without catalyst — only Ea is lowered.</li></ul><p><strong>Energy profile illustration:</strong></p><div class='eq-block'>Energy\n  |\n  |  /\\  ← uncatalyzed (high Ea)\n  | /  \\   /\\  ← catalyzed (low Ea)\n  |/    \\ /  \\\n  R      *    P\n  |___________________→ Reaction progress</div>",
+      "tag": "BOARD STYLE ANSWER"
+    },
+    {
+      "num": "DQ 5",
+      "q": "How does the activation energy profile of an uncatalyzed reaction compare with that of the catalyzed reaction?",
+      "a": "<p><strong>Uncatalyzed reaction:</strong></p><ul><li>Reactants must go over a <strong>high energy barrier</strong> (large Ea).</li><li>Only few molecules have E ≥ large Ea → slow rate.</li><li>Energy profile shows a tall peak between reactants and products.</li></ul><p><strong>Catalyzed reaction:</strong></p><ul><li>Catalyst provides a <strong>new alternative pathway</strong> with a <strong>lower Ea</strong>.</li><li>More molecules now have E ≥ smaller Ea → faster rate.</li><li>Energy profile shows a shorter (lower) peak on the same diagram.</li></ul><p><strong>Key points for both:</strong></p><ul><li>Energy of reactants and products remains the same — ΔH is unchanged.</li><li>Catalyst lowers Ea for both forward AND reverse reactions equally.</li><li>Equilibrium position is not changed, only the rate at which equilibrium is reached.</li></ul>",
+      "tag": "BOARD STYLE ANSWER"
+    },
+    {
+      "num": "Num 6",
+      "q": "Calculate the reaction rate if [A] = 0.5 M, [B] = 0.2 M and rate constant k = 4.0 M⁻² s⁻¹. Given rate law: Rate = k[A][B]².",
+      "a": "<p><strong>Given:</strong></p><ul><li>[A] = 0.5 mol dm⁻³</li><li>[B] = 0.2 mol dm⁻³</li><li>k = 4.0 dm⁶ mol⁻² s⁻¹</li><li>Rate = k[A][B]²</li></ul><p><strong>Solution:</strong></p><div class='eq-block'>Rate = k[A][B]²\n     = 4.0 × (0.5) × (0.2)²\n     = 4.0 × 0.5 × 0.04\n     = 4.0 × 0.02\n     = 0.08 mol dm⁻³ s⁻¹</div><p><strong>Answer: Rate = 0.08 mol dm⁻³ s⁻¹</strong></p>",
+      "tag": "NUMERICAL"
+    },
+    {
+      "num": "Extra 1",
+      "q": "Differentiate between homogeneous and heterogeneous catalysis with one example each.",
+      "a": "<p><strong>Homogeneous Catalysis:</strong></p><ul><li>Catalyst and reactants are in the SAME physical phase.</li><li>Forms a homogeneous mixture.</li><li>Example: 2SO₂(g) + O₂(g) → 2SO₃(g); catalyst: NO(g) — all gases.</li></ul><p><strong>Heterogeneous Catalysis:</strong></p><ul><li>Catalyst and reactants are in DIFFERENT phases.</li><li>Does NOT form a homogeneous mixture.</li><li>Example: C₂H₄(g) + H₂(g) → C₂H₆(g); catalyst: Ni(s) — solid catalyst, gaseous reactants.</li></ul>",
+      "tag": "BOARD STYLE ANSWER"
+    },
+    {
+      "num": "Extra 2",
+      "q": "Explain the Maxwell-Boltzmann distribution curve and how it explains the effect of temperature on rate of reaction.",
+      "a": "<p><strong>Maxwell-Boltzmann Distribution Curve:</strong> A graph between number of molecules (y-axis) and kinetic energy (x-axis) at a specific temperature. At any given temperature:</p><ul><li>Few molecules have very low energy.</li><li>Few molecules have very high energy.</li><li>Most molecules have moderate/average energy.</li><li>Shaded area (E ≥ Ea) = molecules capable of effective collision.</li></ul><p><strong>Effect of Temperature Rise (T₁ → T₂):</strong></p><ul><li>Curve flattens and shifts to the right.</li><li>Shaded area approximately doubles for every 10°C rise.</li><li>More molecules have E ≥ Ea → more effective collisions → rate doubles or triples.</li></ul>",
+      "tag": "BOARD STYLE ANSWER"
+    }
+  ],
+  "lqs": [
+    {
+      "title": "Q6(b) — Rate Law, Order of Reaction and Units of Rate Constant",
+      "marks": "8 marks",
+      "q": "What is rate law? Explain different orders of reaction (zero, first, second, third, fractional) with examples. Also give the units of rate constant for each order.",
+      "parts": [
+        {
+          "label": "RATE LAW AND RATE CONSTANT",
+          "points": [
+            "Rate law: equation that relates rate of reaction to concentrations of reactants raised to various powers: Rate = k[A]ˣ[B]ʸ.",
+            "k = rate constant (specific rate constant) — the rate of reaction when all reactant concentrations are unity (1 mol dm⁻³).",
+            "Exponents x and y are determined experimentally — NOT from stoichiometric coefficients.",
+            "Overall order = x + y (sum of all exponents in rate equation).",
+            "k remains constant at a fixed temperature but changes with temperature.",
+            "General unit formula: kₙ = (mol dm⁻³)^(1−n) s⁻¹ where n = order."
+          ]
+        },
+        {
+          "label": "ZERO ORDER",
+          "points": [
+            "Rate = k[A]⁰ = k. Rate is independent of concentration.",
+            "Doubling or halving concentration has NO effect on rate.",
+            "Example: H₂ + Cl₂ → 2HCl (sunlight). Photochemical reactions are usually zero order.",
+            "Unit of k: mol dm⁻³ s⁻¹."
+          ]
+        },
+        {
+          "label": "FIRST ORDER",
+          "points": [
+            "Rate = k[A]¹. Rate depends on concentration of one reactant (sum of exponents = 1).",
+            "Doubling concentration doubles the rate.",
+            "Example: N₂O₅ → 2NO₂ + ½O₂; Rate = k[N₂O₅]¹. Nuclear decay is always first order.",
+            "Unit of k: s⁻¹."
+          ]
+        },
+        {
+          "label": "SECOND ORDER",
+          "points": [
+            "Rate = k[A]² or k[A][B]. Sum of exponents = 2.",
+            "Example: NO + O₃ → NO₂ + O₂; Rate = k[NO][O₃]; order = 1+1 = 2.",
+            "Doubling one reactant in Rate = k[A]²: rate becomes 4× (quadruples).",
+            "Unit of k: dm³ mol⁻¹ s⁻¹."
+          ]
+        },
+        {
+          "label": "THIRD AND FRACTIONAL ORDER",
+          "points": [
+            "Third order: sum of exponents = 3. Rate = k[A]³, k[A]²[B], or k[A][B][C].",
+            "Example: 2NO + O₂ → 2NO₂; Rate = k[NO]²[O₂]¹; order = 2+1 = 3. Unit of k: dm⁶ mol⁻² s⁻¹.",
+            "Fractional order: sum of exponents is a fraction. Example: CHCl₃ + Cl₂ → CCl₄ + HCl; Rate = k[CHCl₃][Cl₂]^(1/2); order = 1.5.",
+            "Fractional orders are common in free radical reactions."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Q6(b) Alt — Factors Affecting Rate of Reaction",
+      "marks": "8 marks",
+      "q": "Describe the factors that affect the rate of a chemical reaction. Explain temperature using the Maxwell-Boltzmann distribution curve and catalyst using an energy profile diagram.",
+      "parts": [
+        {
+          "label": "CONCENTRATION",
+          "points": [
+            "Rate ∝ concentration (law of mass action).",
+            "More concentration → more particles per unit volume → more chances of collision.",
+            "Effective collisions increase → rate increases.",
+            "Example: Higher CO₂ concentration → higher rate of photosynthesis.",
+            "For gases: higher pressure = higher concentration → higher rate."
+          ]
+        },
+        {
+          "label": "TEMPERATURE AND MAXWELL-BOLTZMANN CURVE",
+          "points": [
+            "Rate doubles or triples for every 10°C rise in temperature.",
+            "Maxwell-Boltzmann curve: graph of number of molecules (y-axis) vs kinetic energy (x-axis).",
+            "At any temperature: few molecules have very low or very high energy; most have moderate energy.",
+            "Shaded area (E ≥ Ea) = molecules capable of effective collision.",
+            "When temperature rises: curve flattens and shifts right; shaded area doubles → more effective collisions → rate doubles."
+          ]
+        },
+        {
+          "label": "SURFACE AREA",
+          "points": [
+            "Rate ∝ surface area (number of binding sites).",
+            "Greater surface area = more exposed particles = more chance of collision.",
+            "Powdered solids react faster than large lumps."
+          ]
+        },
+        {
+          "label": "CATALYST AND ENERGY PROFILE",
+          "points": [
+            "Catalyst: substance that alters rate but remains chemically unchanged at the end.",
+            "Catalyst provides alternative reaction pathway with lower Ea.",
+            "More molecules have energy ≥ new lower Ea → more effective collisions → higher rate.",
+            "Energy profile: catalyzed reaction has lower peak (lower Ea); products at same energy level.",
+            "Homogeneous catalysis: catalyst and reactants in same phase (e.g. NO(g) in Contact process).",
+            "Heterogeneous catalysis: catalyst and reactants in different phases (e.g. Ni(s) in hydrogenation)."
+          ]
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Reaction kinetics is the study of:",
+      "opts": ["Energy changes in reactions", "Rates of chemical reactions", "Chemical equilibrium", "Atomic structure"],
+      "ans": 1,
+      "exp": "Reaction kinetics deals with rates of reactions, factors affecting rates, and reaction mechanisms."
+    },
+    {
+      "q": "For a slow reaction, the unit of rate of reaction is:",
+      "opts": ["mol dm⁻³ s⁻¹", "mol dm⁻³ min⁻¹", "mol dm⁻³", "s⁻¹"],
+      "ans": 1,
+      "exp": "For slow reactions, time is measured in minutes so unit = mol dm⁻³ min⁻¹. Fast reactions use s⁻¹."
+    },
+    {
+      "q": "For reaction A → B, the rate expression with respect to product is:",
+      "opts": ["Rate = –Δ[B]/Δt", "Rate = +Δ[B]/Δt", "Rate = –Δ[A]/Δt + Δ[B]/Δt", "Rate = Δ[A]/Δt"],
+      "ans": 1,
+      "exp": "Product concentration increases with time → positive sign: Rate = +Δ[B]/Δt."
+    },
+    {
+      "q": "According to collision theory, effective collisions require:",
+      "opts": ["Only sufficient energy", "Only proper orientation", "Both proper orientation and energy ≥ Ea", "Any collision between reactant particles"],
+      "ans": 2,
+      "exp": "Both conditions must be met: particles must be properly oriented AND have energy ≥ activation energy (Ea)."
+    },
+    {
+      "q": "The rate of reaction is measured graphically by finding:",
+      "opts": ["Area under the concentration–time curve", "Slope of the tangent to the concentration–time curve", "Intercept on the y-axis", "Gradient of the straight line portion only"],
+      "ans": 1,
+      "exp": "Instantaneous rate = slope (gradient) of tangent drawn at a specific point on the concentration–time curve."
+    },
+    {
+      "q": "Spectrophotometry measures rate by tracking changes in:",
+      "opts": ["Volume of gas evolved", "Electrical conductivity", "Amount of radiation absorbed", "Temperature of solution"],
+      "ans": 2,
+      "exp": "Spectrophotometry measures rate by monitoring the amount of UV, visible, or IR radiation absorbed by a reactant or product."
+    },
+    {
+      "q": "For the reaction N₂O₅ → 2NO₂ + ½O₂, Rate = k[N₂O₅]¹. The reaction is:",
+      "opts": ["Zero order", "First order", "Second order", "Third order"],
+      "ans": 1,
+      "exp": "The exponent of N₂O₅ is 1 → first order reaction."
+    },
+    {
+      "q": "Which of the following is always a first order reaction?",
+      "opts": ["Photochemical reactions", "Radioactive (nuclear) decay", "Hydrogenation of alkenes", "Ester hydrolysis"],
+      "ans": 1,
+      "exp": "Nuclear (radioactive) decay is always first order because rate depends only on the amount of radioactive isotope present."
+    },
+    {
+      "q": "Rate = k[A]²[B]. What is the order with respect to A?",
+      "opts": ["1", "2", "3", "0"],
+      "ans": 1,
+      "exp": "The exponent of [A] is 2, so the reaction is second order with respect to A."
+    },
+    {
+      "q": "The unit of k for a zero order reaction is:",
+      "opts": ["s⁻¹", "dm³ mol⁻¹ s⁻¹", "mol dm⁻³ s⁻¹", "dm⁶ mol⁻² s⁻¹"],
+      "ans": 2,
+      "exp": "n=0: k = (mol dm⁻³)^(1-0) s⁻¹ = mol dm⁻³ s⁻¹."
+    },
+    {
+      "q": "Increasing concentration increases rate because:",
+      "opts": ["Activation energy decreases", "Collision frequency increases", "Temperature increases", "Catalyst is formed"],
+      "ans": 1,
+      "exp": "More particles per unit volume → more frequent collisions → more effective collisions → higher rate."
+    },
+    {
+      "q": "In the Boltzmann distribution curve, the shaded area represents:",
+      "opts": ["Molecules with energy less than Ea", "Molecules with energy equal to or greater than Ea", "All molecules at average energy", "Molecules that bounce back"],
+      "ans": 1,
+      "exp": "Shaded area = molecules with E ≥ Ea = molecules capable of effective (productive) collision."
+    },
+    {
+      "q": "When temperature rises, the Boltzmann distribution curve:",
+      "opts": ["Becomes taller and narrower", "Shifts left with higher peak", "Flattens and shifts right", "Remains unchanged"],
+      "ans": 2,
+      "exp": "At higher temperature, more molecules have higher energy → curve flattens (lower peak) and shifts to the right."
+    },
+    {
+      "q": "The hydrogenation C₂H₄ + H₂ → C₂H₆ with Ni catalyst is:",
+      "opts": ["Homogeneous catalysis", "Heterogeneous catalysis", "Enzymatic catalysis", "Photocatalysis"],
+      "ans": 1,
+      "exp": "Ni is solid; reactants are gases → different phases → heterogeneous catalysis."
+    },
+    {
+      "q": "For reaction CHCl₃ + Cl₂ → CCl₄ + HCl, Rate = k[CHCl₃][Cl₂]^(1/2). The order is:",
+      "opts": ["1.0", "1.5", "2.0", "0.5"],
+      "ans": 1,
+      "exp": "Order = 1 + 0.5 = 1.5 — this is a fractional order reaction common in free radical processes."
+    },
+    {
+      "q": "A catalyst increases reaction rate by:",
+      "opts": ["Increasing the temperature", "Providing an alternative pathway with lower Ea", "Increasing concentration of reactants", "Increasing Ea"],
+      "ans": 1,
+      "exp": "Catalyst lowers Ea by providing an alternative reaction pathway, so more molecules can react per second."
+    },
+    {
+      "q": "For rate = k[A][B]², overall order is 3. If [B] is doubled, the rate becomes:",
+      "opts": ["2 times", "3 times", "4 times", "8 times"],
+      "ans": 2,
+      "exp": "Rate ∝ [B]². Doubling [B] → rate = k[A](2[B])² = 4k[A][B]² → rate becomes 4 times."
+    },
+    {
+      "q": "The specific rate constant k equals the rate of reaction when:",
+      "opts": ["Temperature is 0°C", "Reactant concentrations are unity", "Half the reactant has been consumed", "Catalyst is present"],
+      "ans": 1,
+      "exp": "When [A]=[B]=1 mol dm⁻³, Rate = k×1ˣ×1ʸ = k. So k = rate at unit concentrations."
+    },
+    {
+      "q": "Which method is used to measure rate of a reaction involving formation of ions?",
+      "opts": ["Colorimetry", "Volume change method", "Electrical conductivity method", "Chemical titration"],
+      "ans": 2,
+      "exp": "Formation of ions changes electrical conductivity of solution. Rate ∝ conductivity for ion-forming reactions."
+    },
+    {
+      "q": "In the Contact process 2SO₂ + O₂ → 2SO₃, catalyst NO(g) represents:",
+      "opts": ["Heterogeneous catalysis", "Homogeneous catalysis", "Enzymatic catalysis", "Autocatalysis"],
+      "ans": 1,
+      "exp": "NO gas catalyst with SO₂ and O₂ gas reactants — all in the same (gas) phase → homogeneous catalysis."
+    }
+  ]
+}
