@@ -1,0 +1,627 @@
+{
+  "meta": {
+    "id": "ch10",
+    "number": 10,
+    "title": "Electrochemistry",
+    "exam_info": "2 MCQs · Q4 Short Questions (6/9 attempted) · No Long Question in exam",
+    "deleted": "10.8 Mass Deposited During Electrolysis · 10.9 Amount of Substance Produced · 10.10 Avogadro's Constant by Electrolytic Method (pp.216-219) · 10.16 Applications of E° · 10.17 Variation of E° with Ion Concentration · 10.18 Nernst Equation · 10.19 Activity Series of Metals · 10.20 Feasibility from Activity Series (pp.224-230) · 10.22 Winkler Method / BOD / DO (pp.231-232) · MCQs I,II,VIII,X,XI · SAQs g,h,i,j · DQs 3,4 · Numericals 7,8,9",
+    "notes_merged": "No handwritten notes available · 1 book error flagged (Quick Check 10.6b Cu electrode potential)"
+  },
+  "sections": [
+    {
+      "id": "sec10_1",
+      "number": "10.1",
+      "title": "Oxidation, Reduction, and Redox Reactions",
+      "blocks": [
+        { "type": "def", "label": "Electrochemistry", "text": "The branch of chemistry which deals with the interconversion of electrical and chemical energy is called electrochemistry.", "src": "p.208" },
+        { "type": "def", "label": "Oxidation", "text": "Oxidation is a process involving loss of electron or electrons.", "src": "p.208" },
+        { "type": "def", "label": "Reduction", "text": "Reduction is a process involving gain of electron or electrons.", "src": "p.208" },
+        { "type": "def", "label": "Redox Reaction", "text": "Oxidation and reduction always take place together. The reactions in which this happens are called redox reactions.", "src": "p.208" },
+        { "type": "concept", "head": "Two Ways to Identify Oxidation/Reduction", "body": "There are two methods to determine whether a substance has been oxidized or reduced:", "items": ["Electron transfer", "Changes in oxidation number"] },
+        { "type": "reactions", "head": "Oxidation Examples (loss of electrons)", "rxns": [
+            { "eq": "Fe²⁺ → Fe³⁺ + e⁻", "note": "Fe²⁺ is oxidized — loses one electron" },
+            { "eq": "Zn⁰ → Zn²⁺ + e⁻", "note": "Zn is oxidized — loses electrons" }
+          ]
+        },
+        { "type": "reactions", "head": "Reduction Examples (gain of electrons)", "rxns": [
+            { "eq": "Cl⁰ + e⁻ → Cl⁻¹", "note": "Cl is reduced — gains one electron" },
+            { "eq": "Cu²⁺ + 2e⁻ → Cu⁰", "note": "Cu²⁺ is reduced — gains two electrons" }
+          ]
+        },
+        { "type": "info", "head": "Interesting Information", "body": "Both photosynthesis and respiration are redox reactions. Photosynthesis provides food for the entire planet; respiration keeps us alive." }
+      ]
+    },
+    {
+      "id": "sec10_2",
+      "number": "10.2",
+      "title": "Oxidation Number and Its Significance",
+      "blocks": [
+        { "type": "def", "label": "Oxidation Number (Oxidation State)", "text": "An oxidation number is a number given to each atom or ion in a compound that shows its degree of oxidation. It is the apparent charge on an atom (per atom) of an element in a molecule or an ion.", "src": "p.209" },
+        { "type": "concept", "head": "Key Facts", "body": null, "items": [
+            "Can be positive, negative, or zero",
+            "The + or − sign must always be included",
+            "Higher positive Ox. No. = more oxidized",
+            "Higher negative Ox. No. = more reduced"
+          ]
+        },
+        { "type": "subsec", "t": "10.2.1 Oxidation Number Rules" },
+        { "type": "factors", "items": [
+            { "num": "i", "title": "Uncombined element", "body": " — Ox. No. = 0. e.g., each atom in S₈, H₂, Cl₂, Na, Mg, Zn = 0" },
+            { "num": "ii", "title": "More electronegative element", "body": " — Gets the negative Ox. No. e.g., in HF, fluorine = −1" },
+            { "num": "iii", "title": "Fixed Ox. Nos. in compounds", "body": " — Group 1 = +1 · Group 2 = +2 · Group 3 = +3 · Group 17 halogens in binary compounds = −1 · H = +1 (except metal hydrides like NaH where H = −1) · O = −2 (except peroxides = −1; F₂O = +2)" },
+            { "num": "iv", "title": "Monoatomic ion", "body": " — Ox. No. = charge on the ion. e.g., Cl⁻ = −1, Al³⁺ = +3" },
+            { "num": "v", "title": "Neutral compound", "body": " — Algebraic sum of all Ox. Nos. = 0. e.g., HCl, NaCl" },
+            { "num": "vi", "title": "Polyatomic ion", "body": " — Sum of Ox. Nos. = charge on the ion. e.g., NH₄⁺, CO₃²⁻, SO₄²⁻" },
+            { "num": "vii", "title": "Transition metals / many non-metals", "body": " — Variable Ox. states; always determined by calculation" }
+          ]
+        },
+        { "type": "info", "head": "Keep in Mind!", "body": null, "items": [
+            "H shows −1 Ox. state with all metals",
+            "H shows +1 Ox. state with all non-metals",
+            "O shows negative Ox. state with all metals",
+            "O shows negative Ox. state with all non-metals except fluorine",
+            "O shows −2, −1, and −½ in H₂O, Na₂O₂, and KO₂ respectively"
+          ]
+        },
+        { "type": "subsec", "t": "10.2.2 Finding Oxidation Number in a Compound or Radical" },
+        { "type": "concept", "head": "Metal with Non-metal", "body": "Metal always has positive Ox. No.; non-metal has negative Ox. No.", "eq": "Example — Na₂S:\n2(+1) + S = 0\nS = −2" },
+        { "type": "concept", "head": "Non-metal with Non-metal", "body": "More electronegative element gets the negative sign.", "eq": "Sample Problem 10.1 — SO₂:\nS + 2(−2) = 0\nS = +4" },
+        { "type": "concept", "head": "Compound Ions (Polyatomic)", "body": "Sum of Ox. Nos. = charge on the ion.", "eq": "Sample Problem 10.2 — SO₄²⁻:\n[Ox. No. of S] + 4[Ox. No. of O] = −2\nS + 4(−2) = −2\nS − 8 = −2\nS = +6" },
+        { "type": "qc", "title": "Quick Check 10.1", "items": [
+            { "num": "a", "q": "Define oxidation and reduction in terms of electron transfer with examples.", "ans": "<p><strong>Oxidation:</strong> Loss of one or more electrons.<br>Example: Zn⁰ → Zn²⁺ + 2e⁻ (zinc is oxidized)</p><p><strong>Reduction:</strong> Gain of one or more electrons.<br>Example: Cu²⁺ + 2e⁻ → Cu⁰ (copper ion is reduced)</p>" },
+            { "num": "b", "q": "Define oxidation and reduction in terms of change in oxidation number with examples.", "ans": "<p><strong>Oxidation:</strong> Increase in oxidation number (loss of electrons).<br>Example: Fe²⁺ → Fe³⁺ + e⁻ (Ox. No. +2 → +3, increased)</p><p><strong>Reduction:</strong> Decrease in oxidation number (gain of electrons).<br>Example: Cu²⁺ + 2e⁻ → Cu⁰ (Ox. No. +2 → 0, decreased)</p>" },
+            { "num": "c-i", "q": "Determine Ox. No. of Oxygen in Na₂O.", "ans": "<p>2(+1) + O = 0 → O = <strong>−2</strong></p>" },
+            { "num": "c-ii", "q": "Determine Ox. No. of Iodine (I) in ICl₃.", "ans": "<p>I + 3(−1) = 0 → I = <strong>+3</strong></p>" },
+            { "num": "c-iii", "q": "Determine Ox. No. of Nitrogen (N) in NO₃⁻.", "ans": "<p>N + 3(−2) = −1 → N − 6 = −1 → N = <strong>+5</strong></p>" },
+            { "num": "c-iv", "q": "Determine Ox. No. of Chromium (Cr) in K₂Cr₂O₇.", "ans": "<p>2(+1) + 2Cr + 7(−2) = 0<br>2 + 2Cr − 14 = 0<br>2Cr = 12 → Cr = <strong>+6</strong></p>" },
+            { "num": "c-v", "q": "Determine Ox. No. of Manganese (Mn) in KMnO₄.", "ans": "<p>(+1) + Mn + 4(−2) = 0<br>1 + Mn − 8 = 0 → Mn = <strong>+7</strong></p>" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec10_3",
+      "number": "10.3",
+      "title": "Disproportionation Reaction",
+      "blocks": [
+        { "type": "def", "label": "Disproportionation Reaction", "text": "A disproportionation reaction is a chemical reaction where a single substance acts as both the oxidizing and reducing agent, resulting in two different products with different oxidation states. This type of reaction involves the simultaneous oxidation and reduction of the same element.", "src": "p.211" },
+        { "type": "reactions", "head": "Example 1 — Decomposition of H₂O₂", "rxns": [
+            { "eq": "2H₂O₂(l) → 2H₂O(l) + O₂(g)", "note": "O in H₂O₂ = −1 · O in H₂O = −2 (reduced −1→−2) · O in O₂ = 0 (oxidized −1→0)" }
+          ]
+        },
+        { "type": "reactions", "head": "Example 2 — Cl₂ with NaOH", "rxns": [
+            { "eq": "6NaOH(aq) + 3Cl₂(g) → 5NaCl(aq) + NaClO₃(aq) + 3H₂O", "note": "Cl in Cl₂ = 0 · in NaCl = −1 (reduced 0→−1) · in NaClO₃ = +5 (oxidized 0→+5)" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec10_4",
+      "number": "10.4",
+      "title": "Oxidizing Agent (Oxidant) and Reducing Agent (Reductant)",
+      "blocks": [
+        { "type": "def", "label": "Oxidizing Agent (Oxidant)", "text": "An oxidizing agent (atom, ion or molecule) is that substance which oxidizes some other substance, and is itself reduced to a lower oxidation state by gaining one or more electrons.", "src": "p.211" },
+        { "type": "def", "label": "Reducing Agent (Reductant)", "text": "A reducing agent (atom, ion or molecule) is that substance which reduces some other substance, and is itself oxidized to a higher oxidation state by losing one or more electrons.", "src": "p.211" },
+        { "type": "concept", "head": "Memory Aid — OIL RIG", "body": null, "items": [
+            "OIL RIG: Oxidation Is Loss, Reduction Is Gain (of electrons)",
+            "Oxidizing agent → gains electrons → its Ox. No. DECREASES → itself is REDUCED",
+            "Reducing agent → loses electrons → its Ox. No. INCREASES → itself is OXIDIZED"
+          ]
+        },
+        { "type": "reactions", "head": "Oxidizing Agent (gains electrons — reduced)", "rxns": [
+            { "eq": "Cl⁰ + e⁻ → Cl⁻¹", "note": "Cl acts as oxidizing agent — Ox. No. 0 → −1 (decreases). Cl gains the electron." }
+          ]
+        },
+        { "type": "reactions", "head": "Reducing Agent (loses electrons — oxidized)", "rxns": [
+            { "eq": "Na⁰ → Na⁺ + e⁻", "note": "Na acts as reducing agent — Ox. No. 0 → +1 (increases). Na provides the electron." }
+          ]
+        },
+        { "type": "qc", "title": "Quick Check 10.2", "items": [
+            { "num": "a-i", "q": "Identify oxidized/reduced species and oxidizing/reducing agents in: Fe₂O₃(s) + CO(g) → Fe(s) + CO₂(g)", "ans": "<p><strong>Reduced:</strong> Fe in Fe₂O₃ (Ox. No. +3 → 0) — Fe₂O₃ is the <strong>oxidizing agent</strong></p><p><strong>Oxidized:</strong> C in CO (Ox. No. +2 → +4) — CO is the <strong>reducing agent</strong></p>" },
+            { "num": "a-ii", "q": "Identify in: CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l)", "ans": "<p><strong>Oxidized:</strong> C in CH₄ (Ox. No. −4 → +4 in CO₂) — CH₄ is the <strong>reducing agent</strong></p><p><strong>Reduced:</strong> O in O₂ (Ox. No. 0 → −2) — O₂ is the <strong>oxidizing agent</strong></p>" },
+            { "num": "b-i", "q": "Identify the species undergoing both oxidation and reduction in: 2Na₂O₂(s) + 2H₂O(l) → 4NaOH(aq) + O₂(g)", "ans": "<p><strong>Oxygen</strong> in Na₂O₂ (Ox. No. = −1) undergoes disproportionation:<br>→ In NaOH: Ox. No. = −2 (reduced)<br>→ In O₂: Ox. No. = 0 (oxidized)</p>" },
+            { "num": "b-ii", "q": "Identify in: P₄(s) + 3OH⁻(aq) + 3H₂O(l) → PH₃(g) + 3H₂PO₂⁻(aq)", "ans": "<p><strong>Phosphorus</strong> in P₄ (Ox. No. = 0) undergoes disproportionation:<br>→ In PH₃: Ox. No. = −3 (reduced)<br>→ In H₂PO₂⁻: Ox. No. = +1 (oxidized)</p>" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec10_5",
+      "number": "10.5",
+      "title": "Balancing of Redox Equations by Oxidation Number Method",
+      "blocks": [
+        { "type": "ol", "items": [
+            "Write down the skeleton equation of the redox reaction.",
+            "Identify the elements which undergo a change in their oxidation number.",
+            "Record the oxidation number above the symbols of elements that changed.",
+            "Indicate the change in Ox. No. by arrows — shows electrons gained or lost.",
+            "Equate the increase/decrease in Ox. No. by multiplying with a suitable digit.",
+            "Balance the rest of the equation by inspection (hit and trial) method."
+          ]
+        },
+        { "type": "info", "head": "Keep in Mind! — Three Cases", "body": null, "items": [
+            "(a) Only increase OR decrease in Ox. No. → write product species once on RHS. e.g., Zn + HCl → ZnCl₂ + H₂",
+            "(b) Both increase AND decrease in Ox. No. (disproportionation) → write species twice on RHS. e.g., Cl₂ + NaOH → NaCl + H₂O + NaOCl",
+            "(c) Change AND no change in Ox. No. → also write twice. e.g., HNO₃ + Cu + HNO₃ → Cu(NO₃)₂ + H₂O + NO₂"
+          ]
+        },
+        { "type": "info", "head": "Did You Know? — Inspection (Hit & Trial) Sequence", "body": "Balance atoms in this order:", "items": [
+            "1st: All elements except N, O, H",
+            "2nd: Nitrogen (N)",
+            "3rd: Oxygen (O)",
+            "4th: Hydrogen (H)"
+          ]
+        },
+        { "type": "concept", "head": "Sample Problem 10.4 — Balancing K₂Cr₂O₇ + HCl → KCl + CrCl₃ + Cl₂ + H₂O", "body": "Full step-by-step solution:", "eq": "Step 1 — Assign Ox. Nos.:\n  K₂¹⁺Cr₂⁶⁺O₇²⁻ + H¹⁺Cl¹⁻ → Cl₂⁰ + K¹⁺Cl¹⁻ + Cr³⁺Cl₃¹⁻ + H₂¹⁺O²⁻\n\nStep 2 — Identify changes:\n  Cr: +6 → +3 (reduced, gains 3e⁻ per Cr; ×2 Cr = 6e⁻ gained)\n  Cl: −1 → 0 in Cl₂ (oxidized, loses 1e⁻ per Cl; ×2 Cl = 2e⁻ lost per Cl₂)\n\nStep 3 — Equate electrons:\n  Multiply Cl₂ × 3 (gives 6e⁻ lost) and Cr × 2 (6e⁻ gained)\n  K₂Cr₂O₇ + HCl → 3Cl₂ + KCl + 2CrCl₃ + H₂O\n\nStep 4 — Inspection:\n  Balance K: ×2 KCl\n  K₂Cr₂O₇ + HCl → 3Cl₂ + 2KCl + 2CrCl₃ + H₂O\n  Balance Cl: ×14 HCl\n  K₂Cr₂O₇ + 14HCl → 3Cl₂ + 2KCl + 2CrCl₃ + H₂O\n  Balance O: ×7 H₂O\n  K₂Cr₂O₇ + 14HCl → 3Cl₂ + 2KCl + 2CrCl₃ + 7H₂O  ✓" },
+        { "type": "qc", "title": "Quick Check 10.3", "items": [
+            { "num": "i", "q": "Balance: Fe₂O₃(s) + CO(g) → Fe(s) + CO₂(g)", "ans": "<p>Fe: +3 → 0 (gains 3e⁻; ×2 Fe = 6e⁻ gained)<br>C: +2 → +4 (loses 2e⁻; ×3 CO = 6e⁻ lost)<br><strong>Fe₂O₃ + 3CO → 2Fe + 3CO₂</strong></p>" },
+            { "num": "ii", "q": "Balance: MnO₂(s) + HCl(aq) → MnCl₂(aq) + H₂O(l) + Cl₂(g)", "ans": "<p>Mn: +4 → +2 (gains 2e⁻)<br>Cl: −1 → 0 (loses 1e⁻; ×2 Cl = 2e⁻ lost per Cl₂)<br>Electrons balanced 1:1<br><strong>MnO₂ + 4HCl → MnCl₂ + 2H₂O + Cl₂</strong></p>" },
+            { "num": "iii", "q": "Balance: Fe²⁺(aq) + MnO₄⁻(aq) → Fe³⁺(aq) + Mn²⁺(aq)", "ans": "<p>Fe: +2 → +3 (loses 1e⁻ × 5 = 5e⁻)<br>Mn: +7 → +2 (gains 5e⁻)<br><strong>5Fe²⁺ + MnO₄⁻ + 8H⁺ → 5Fe³⁺ + Mn²⁺ + 4H₂O</strong></p>" },
+            { "num": "iv", "q": "Balance: K₂Cr₂O₇(aq) + FeSO₄(aq) + H₂SO₄(aq) → Cr₂(SO₄)₃(aq) + Fe₂(SO₄)₃(aq) + K₂SO₄(aq) + H₂O(l)", "ans": "<p>Cr: +6 → +3 (gains 3e⁻; ×2 Cr = 6e⁻ gained)<br>Fe: +2 → +3 (loses 1e⁻; ×6 Fe = 6e⁻ lost)<br><strong>K₂Cr₂O₇ + 6FeSO₄ + 7H₂SO₄ → Cr₂(SO₄)₃ + 3Fe₂(SO₄)₃ + K₂SO₄ + 7H₂O</strong></p>" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec10_6",
+      "number": "10.6",
+      "title": "Electrolytic Cell",
+      "blocks": [
+        { "type": "def", "label": "Electrolytic Cell", "text": "An electrolytic cell is a device that converts electrical energy into chemical energy through a process called electrolysis.", "src": "p.214" },
+        { "type": "concept", "head": "Components of an Electrolytic Cell", "body": null, "items": [
+            "<strong>Electrolyte:</strong> Molten ionic compound or concentrated aqueous solution of ions — the compound that is ionized",
+            "<strong>Cathode (−):</strong> Negative electrode — connected to – terminal of DC supply — REDUCTION occurs here",
+            "<strong>Anode (+):</strong> Positive electrode — connected to + terminal of DC supply — OXIDATION occurs here",
+            "<strong>Electrodes:</strong> Made from carbon (graphite) or metal — conduct electricity to and from the electrolyte",
+            "<strong>Power supply:</strong> Must be DIRECT CURRENT (DC)"
+          ]
+        },
+        { "type": "concept", "head": "How It Works", "body": null, "items": [
+            "DC is applied → cathode becomes negatively charged, anode becomes positively charged",
+            "Positive ions (cations) migrate to cathode → gain electrons → REDUCTION",
+            "Negative ions (anions) migrate to anode → lose electrons → OXIDATION",
+            "This movement converts electrical energy into chemical energy"
+          ]
+        },
+        { "type": "concept", "head": "Uses of Electrolytic Cells", "body": null, "items": [
+            "Electrolysis of NaCl → produces Na metal and Cl₂ gas",
+            "Refining and electroplating of metals",
+            "Production of caustic soda (NaOH)"
+          ]
+        },
+        { "type": "diagram", "file": "diagrams/ch10_electrolytic_cell.svg", "caption": "Main parts of an electrolytic cell (Figure 10.1)", "alt": "DC power supply connected to cathode (negative) and anode (positive) immersed in electrolyte" }
+      ]
+    },
+    {
+      "id": "sec10_7",
+      "number": "10.7",
+      "title": "Redox Reactions in Electrolysis",
+      "blocks": [
+        { "type": "concept", "head": "At the Cathode — Reduction", "body": "Positive ions (cations) move to cathode. They gain electrons → REDUCTION.", "eq": "Cu²⁺(aq) + 2e⁻ → Cu(s)   [copper deposited as metal layer]\n2H⁺(aq) + 2e⁻ → H₂(g)    [hydrogen bubbles off]" },
+        { "type": "concept", "head": "At the Anode — Oxidation", "body": "Negative ions (anions) move to anode. They lose electrons → OXIDATION.", "eq": "2Cl⁻(aq) → Cl₂(g) + 2e⁻\n4OH⁻(aq) → O₂(g) + 2H₂O(l) + 4e⁻" },
+        { "type": "concept", "head": "Full Example — Electrolysis of Molten ZnCl₂", "body": "Complete electrode reactions:", "eq": "Cathode: Zn²⁺(l) + 2e⁻ → Zn(s)   [Reduction]\nAnode:   2Cl⁻(l) → Cl₂(g) + 2e⁻    [Oxidation]\nOverall: ZnCl₂(l) → Zn(s) + Cl₂(g)", "note": "Electron loss at anode = electron gain at cathode (balanced)." },
+        { "type": "qc", "title": "Quick Check 10.4", "items": [
+            { "num": "i", "q": "Which ions are present when molten CuBr₂ is electrolyzed?", "ans": "<p>Cu²⁺ ions and Br⁻ ions.</p>" },
+            { "num": "ii", "q": "Name the electrode where copper metal forms.", "ans": "<p><strong>Cathode</strong> (negative electrode). Cu²⁺ cations migrate to the cathode and gain electrons → reduced to Cu metal.</p>" },
+            { "num": "iii", "q": "Half-equation for formation of copper metal.", "ans": "<div class='eq-block'>Cu²⁺(l) + 2e⁻ → Cu(s)</div>" },
+            { "num": "iv", "q": "Half-equation for formation of bromine at the other electrode.", "ans": "<div class='eq-block'>2Br⁻(l) → Br₂(g) + 2e⁻</div><p>Oxidation at the anode.</p>" }
+          ]
+        },
+        { "type": "deleted", "t": "DELETED: Sections 10.8 (Mass of Substance Deposited), 10.9 (Amount of Substance Produced), and 10.10 (Avogadro's Constant by Electrolytic Method) — pages 216–219 — removed from smart syllabus. SAQs i and j also deleted." }
+      ]
+    },
+    {
+      "id": "sec10_11",
+      "number": "10.11",
+      "title": "Electrode Potentials",
+      "blocks": [
+        { "type": "def", "label": "Electrode Potential", "text": "When a metal is put into a solution of its ions, an electric potential (voltage) is established between the metal and the metal ions in solution. This is called electrode potential and it indicates the ease of oxidation or reduction of a substance.", "src": "p.219" },
+        { "type": "concept", "head": "Redox Equilibrium at an Electrode", "body": "Two opposing reactions occur when a metal is placed in its ion solution:", "eq": "a) Cu(s) → Cu²⁺(aq) + 2e⁻   [metal atoms enter solution]\nb) Cu²⁺(aq) + 2e⁻ → Cu(s)   [ions deposit as metal]\n\nEquilibrium is reached when:\nrate of electron gain = rate of electron loss" },
+        { "type": "concept", "head": "Unreactive vs Reactive Metals", "body": null, "items": [
+            "<strong>Unreactive metals (e.g., Cu):</strong> Equilibrium lies to the RIGHT → Cu²⁺ is EASY to reduce (gains electrons readily to form Cu metal)",
+            "<strong>Reactive metals (e.g., V):</strong> Equilibrium lies to the LEFT → V²⁺ is DIFFICULT to reduce (gains electrons much less readily)"
+          ]
+        },
+        { "type": "subsec", "t": "10.11.1 Electrical Double Layer" },
+        { "type": "concept", "head": "Formation of Electrical Double Layer", "body": "When zinc is placed in ZnSO₄ solution:", "items": [
+            "Some Zn atoms on the surface dissolve as Zn²⁺ ions into solution",
+            "This leaves excess electrons on the zinc electrode (negatively charged)",
+            "Excess Zn²⁺ ions near the surface are attracted back to the negative electrode",
+            "This creates TWO layers of charge — the ELECTRICAL DOUBLE LAYER",
+            "This double layer causes an electric potential (voltage) between metal and solution"
+          ], "note": "Because of the double layer, ABSOLUTE electrode potential cannot be directly measured. Only the potential DIFFERENCE relative to a reference electrode (SHE) can be measured. This measured value is called the electrode potential, E (in volts)." },
+        { "type": "diagram", "file": "diagrams/ch10_electrical_double_layer.svg", "caption": "Formation of electrical double layer at zinc electrode (Figure 10.3)", "alt": "Zinc rod with excess electrons on surface; Zn²⁺ ions arranged in two layers near the electrode surface in ZnSO₄ solution" }
+      ]
+    },
+    {
+      "id": "sec10_12",
+      "number": "10.12",
+      "title": "Standard Hydrogen Electrode (SHE)",
+      "blocks": [
+        { "type": "def", "label": "Standard Hydrogen Electrode (SHE)", "text": "The standard hydrogen electrode is one of several types of half-cell that can be used as reference electrode.", "src": "p.220" },
+        { "type": "concept", "head": "Construction of SHE", "body": "The SHE consists of two key parts:", "items": [
+            "Hydrogen gas (H₂) at <strong>101 kPa (1 atm)</strong> pressure, in equilibrium with H⁺ ions at concentration <strong>1.00 mol dm⁻³</strong>",
+            "A <strong>platinum electrode covered with platinum black</strong> — in contact with both H₂ gas and H⁺ ions"
+          ]
+        },
+        { "type": "concept", "head": "Role of Platinum Black", "body": "Platinum black is finely divided platinum. It provides large surface area so H₂ gas and H⁺ ions come into close contact → equilibrium is established QUICKLY. The platinum electrode is INERT (does not participate in the reaction)." },
+        { "type": "eq", "t": "Half-equation for SHE:\n2H⁺(aq) + 2e⁻ ⇌ H₂(g)   Eº = 0.00 V\n\nMeaning: H₂ gas and H⁺ ions have equal tendency to lose and gain electrons." },
+        { "type": "tip", "t": "Eº of SHE = 0.00 V by international convention. All other Eº values are measured against this reference. Remember: Pt is inert; platinum black speeds up equilibrium. H₂ pressure = 1 atm; H⁺ concentration = 1 mol dm⁻³." },
+        { "type": "diagram", "file": "diagrams/ch10_she.svg", "caption": "Standard Hydrogen Electrode (SHE) — Figure 10.4", "alt": "Glass bell jar with H₂ gas at 1 atm supplied from top, platinum wire, H⁺ at 1 mol/dm³, platinum black electrode at bottom" }
+      ]
+    },
+    {
+      "id": "sec10_13",
+      "number": "10.13",
+      "title": "Standard Electrode Potential (Eº)",
+      "blocks": [
+        { "type": "def", "label": "Standard Electrode Potential (Eº)", "text": "The standard electrode potential for a half-cell is the voltage measured under standard conditions with a standard hydrogen electrode (SHE) as the other half-cell.", "src": "p.221" },
+        { "type": "concept", "head": "Standard Conditions Required", "body": null, "items": [
+            "Concentration of all ions = <strong>1.00 mol dm⁻³</strong>",
+            "Temperature = <strong>25°C (298 K)</strong>",
+            "Gas pressure = <strong>1 atmosphere (101 kPa)</strong>",
+            "Electrode potential measured relative to SHE"
+          ]
+        },
+        { "type": "tip", "t": "Symbol: Eº (spoken as 'E standard'). Under non-standard conditions the symbol is just E. Standard conditions: 1 mol dm⁻³ concentration, 25°C, 1 atm, measured vs SHE." }
+      ]
+    },
+    {
+      "id": "sec10_14",
+      "number": "10.14",
+      "title": "Measuring Standard Electrode Potentials",
+      "blocks": [
+        { "type": "concept", "head": "Three Types of Half-Cell for Eº Measurement", "body": null, "items": [
+            "Metal/metal ion half-cell — e.g., Cu²⁺/Cu (use metal electrode)",
+            "Non-metal/non-metal ion half-cell — e.g., Cl⁻/Cl₂ (use inert Pt or C electrode)",
+            "Ion/ion half-cell — e.g., Fe²⁺/Fe³⁺ (use inert Pt or C electrode)"
+          ]
+        },
+        { "type": "concept", "head": "Cu²⁺/Cu Half-Cell — Eº = +0.34 V", "body": "Cu²⁺/Cu half-cell is connected to SHE. Voltmeter reads +0.34 V.", "eq": "Cu²⁺(aq) + 2e⁻ ⇌ Cu(s)   Eº = +0.34 V\nH⁺(aq) + e⁻ ⇌ ½H₂(g)    Eº = 0.00 V", "note": "Cu²⁺ is EASIER to reduce than H⁺ (more positive Eº) → Cu²⁺ accepts electrons from H⁺/H₂ half-cell." },
+        { "type": "concept", "head": "Zn²⁺/Zn Half-Cell — Eº = −0.76 V", "body": "Zn²⁺/Zn half-cell is connected to SHE. Voltmeter reads −0.76 V.", "eq": "Zn²⁺(aq) + 2e⁻ ⇌ Zn(s)   Eº = −0.76 V\n2H⁺(aq) + 2e⁻ ⇌ H₂(g)    Eº = 0.00 V", "note": "Zn²⁺ is MORE DIFFICULT to reduce than H⁺ (more negative Eº) → Zn loses electrons to H⁺/H₂ half-cell." },
+        { "type": "concept", "head": "Key Rules from Examples", "body": null, "items": [
+            "REDUCTION occurs at the POSITIVE terminal of the cell",
+            "OXIDATION occurs at the NEGATIVE terminal of the cell"
+          ]
+        },
+        { "type": "diagram", "file": "diagrams/ch10_cu_halfcell_she.svg", "caption": "Measuring Eº for Cu²⁺/Cu vs SHE — Figure 10.5 (reads +0.34 V)", "alt": "Copper electrode in 1 mol/dm³ Cu²⁺ solution connected by salt bridge and voltmeter to SHE; voltmeter shows +0.34 V" },
+        { "type": "diagram", "file": "diagrams/ch10_zn_halfcell_she.svg", "caption": "Measuring Eº for Zn²⁺/Zn vs SHE — Figure 10.6 (reads −0.76 V)", "alt": "Zinc electrode in 1 mol/dm³ Zn²⁺ solution connected by salt bridge and voltmeter to SHE; voltmeter shows −0.76 V" }
+      ]
+    },
+    {
+      "id": "sec10_15",
+      "number": "10.15",
+      "title": "Electrochemical Cell (Galvanic Cell)",
+      "blocks": [
+        { "type": "def", "label": "Galvanic Cell (Voltaic Cell)", "text": "A cell in which the conversion of chemical energy into electrical energy takes place spontaneously in exothermic redox process with oxidation at the anode and reduction at the cathode.", "src": "p.223" },
+        { "type": "concept", "head": "How Half-Cells Are Connected", "body": null, "items": [
+            "<strong>Wires + Voltmeter:</strong> Metal rods connected to a high-resistance voltmeter; electrons flow from MORE NEGATIVE to MORE POSITIVE electrode potential through external circuit",
+            "<strong>Salt bridge:</strong> Allows movement of IONS between half-cells to maintain ionic balance; does NOT allow electron flow"
+          ]
+        },
+        { "type": "info", "head": "Salt Bridge Details", "body": "Made from filter paper (or inert porous material) soaked in saturated KNO₃ solution.", "items": [
+            "Allows ion flow between half-cells",
+            "Maintains electrical neutrality (ionic balance)",
+            "Does NOT allow electron flow",
+            "If removed, voltage drops to ZERO immediately"
+          ]
+        },
+        { "type": "concept", "head": "Zn-Cu Galvanic Cell — Full Working", "body": "Cu²⁺/Cu connected to Zn²⁺/Zn half-cell.", "eq": "Eº values:\n  Cu²⁺(aq) + 2e⁻ ⇌ Cu(s)   Eº = +0.34 V\n  Zn²⁺(aq) + 2e⁻ ⇌ Zn(s)   Eº = −0.76 V\n\nZn is more negative → ANODE (oxidation)\nCu is more positive → CATHODE (reduction)\n\nAnode:   Zn(s) → Zn²⁺(aq) + 2e⁻\nCathode: Cu²⁺(aq) + 2e⁻ → Cu(s)\n\nOverall: Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s)\n\nEºcell = Eºred − Eºox = +0.34 − (−0.76) = +1.10 V", "note": "Electrons flow externally from Zn (anode) to Cu (cathode). The spontaneous redox reaction converts chemical energy into electrical energy." },
+        { "type": "tip", "t": "Formula: Eºcell = Eºred − Eºox. Positive Eºcell = feasible (spontaneous). In Zn-Cu cell: Zn is always anode (−) and Cu is always cathode (+). Cell notation: Zn | Zn²⁺ || Cu²⁺ | Cu." },
+        { "type": "error", "head": "BOOK ERROR — Quick Check 10.6(b), p.224", "wrong": "Cu²⁺(aq) + 2e⁻ ⇌ Cu(s)   Eº = −0.44 V", "correct": "Cu²⁺(aq) + 2e⁻ ⇌ Cu(s)   Eº = +0.34 V", "reason": "The standard electrode potential for Cu²⁺/Cu is +0.34 V. The book printed −0.44 V by mistake — that value belongs to Fe²⁺/Fe." },
+        { "type": "diagram", "file": "diagrams/ch10_zn_cu_galvanic_cell.svg", "caption": "Zn-Cu Electrochemical (Galvanic) Cell — Figure 10.7", "alt": "Copper rod in 1 mol/dm³ Cu²⁺ solution and zinc rod in 1 mol/dm³ Zn²⁺ solution connected by salt bridge; high-resistance voltmeter across the two electrodes showing +1.10 V" },
+        { "type": "qc", "title": "Quick Check 10.6", "items": [
+            { "num": "a", "q": "What is the function of a salt bridge in the voltaic cell?", "ans": "<p>The salt bridge <strong>completes the electrical circuit</strong> between the two half-cells. It allows the movement of ions to maintain <strong>ionic balance</strong> (electrical neutrality) in both compartments as the cell operates. Without a salt bridge, charge would build up in each half-cell, stopping ion flow and making the voltage immediately <strong>drop to zero</strong>. Note: the salt bridge allows ion movement but NOT electron flow — electrons travel through the external wire only.</p>" },
+            { "num": "b", "q": "Calculate the voltage of a cell having iron and copper electrodes. [Fe(s) ⇌ Fe²⁺(aq) + 2e⁻, Eº = −0.44 V; Cu²⁺(aq) + 2e⁻ ⇌ Cu(s), Eº = +0.34 V]", "ans": "<p>Fe is more negative (−0.44 V) → Fe is the <strong>anode</strong> (oxidation)<br>Cu²⁺ is more positive (+0.34 V) → Cu is the <strong>cathode</strong> (reduction)</p><div class='eq-block'>Eºcell = Eºred − Eºox\n= (+0.34) − (−0.44)\n= +0.78 V</div><p><strong>Cell voltage = +0.78 V</strong></p>" }
+          ]
+        },
+        { "type": "deleted", "t": "DELETED: Sections 10.16 (Applications of E°), 10.17 (Variation of E° with Ion Concentration), 10.18 (Nernst Equation), 10.19 (Activity Series), 10.20 (Feasibility from Activity Series) — pages 224–230 — removed from smart syllabus. SAQs g, h also deleted." }
+      ]
+    },
+    {
+      "id": "sec10_21",
+      "number": "10.21",
+      "title": "Photovoltaic Cells",
+      "blocks": [
+        { "type": "def", "label": "Photovoltaic Cell", "text": "The cell which converts light energy into electrical energy is called photovoltaic cell. The word 'photovoltaic' is composed of photo (light) and volt (electrical potential).", "src": "p.231" },
+        { "type": "subsec", "t": "10.21.1 Principle of Photovoltaic Cells" },
+        { "type": "concept", "head": "Photovoltaic Effect", "body": "The photovoltaic effect: generation of voltage and electric current in a material upon exposure to light.", "items": [
+            "Photons provide energy to excite electrons from the <strong>valence band</strong> to the <strong>conduction band</strong> in semiconductors",
+            "A <strong>PN junction</strong> separates the electrons and holes",
+            "This creates a voltage that drives an electric current"
+          ]
+        },
+        { "type": "concept", "head": "Merits as Sustainable Energy Source", "body": null, "items": [
+            "The photovoltaic effect continues as long as light is present → sustainable electricity",
+            "Renewable energy source — converts sunlight directly into electrical energy",
+            "Uses sun's energy → independent of fossil fuels"
+          ]
+        },
+        { "type": "deleted", "t": "DELETED: Section 10.22 (Winkler Method, BOD and DO) — pages 231–232 — removed from smart syllabus." }
+      ]
+    }
+  ],
+  "mcqs": [
+    {
+      "num": "Book III",
+      "src": "Book III",
+      "q": "The salt bridge allows transfer of ------------ in Zn-Cu voltaic cell.",
+      "opts": ["Zn²⁺ ions only", "SO₄²⁻ ions only", "Both (cations and anions)", "None of these"],
+      "ans": 2,
+      "exp": "The salt bridge (KNO₃) allows K⁺ and NO₃⁻ ions to migrate between half-cells, maintaining ionic balance. Both cations and anions can transfer — the answer is 'Both'."
+    },
+    {
+      "num": "Book IV",
+      "src": "Book IV",
+      "q": "If Zn-Cu galvanic cell works ideally after complete discharge, both compartments will have:",
+      "opts": ["CuSO₄ solution", "ZnSO₄ solution", "Cu²⁺ ions", "Zn solid"],
+      "ans": 1,
+      "exp": "As the cell discharges: Zn anode dissolves → Zn²⁺ accumulates. Cu²⁺ is completely deposited as Cu metal. After full discharge, the Cu compartment also contains ZnSO₄ (from salt bridge ion exchange), and no Cu²⁺ remains."
+    },
+    {
+      "num": "Book V",
+      "src": "Book V",
+      "q": "Which of the following half-reactions represents a reduction process?",
+      "opts": ["Zn(s) → Zn²⁺(aq) + 2e⁻", "Fe²⁺(aq) → Fe³⁺(aq) + e⁻", "Cl₂(g) + 2e⁻ → 2Cl⁻(aq)", "2H⁺(aq) + 2e⁻ → H₂(g)"],
+      "ans": 2,
+      "exp": "Cl₂ + 2e⁻ → 2Cl⁻: Cl₂ GAINS electrons → reduction. (Option d is also reduction, but option c is the standard answer for this question.) Options a and b show oxidation (loss of electrons)."
+    },
+    {
+      "num": "Book VI",
+      "src": "Book VI",
+      "q": "Which half-reaction represents the OXIDATION process in the disproportionation of Cu⁺?",
+      "opts": ["Cu²⁺(aq) + 2e⁻ → Cu(s)", "Cu⁺(aq) + e⁻ → Cu(s)", "Cu⁺(aq) → Cu²⁺(aq) + e⁻", "2Cu⁺(aq) → Cu²⁺(aq) + Cu(s)"],
+      "ans": 2,
+      "exp": "In disproportionation of Cu⁺: one Cu⁺ is oxidized (Cu⁺ → Cu²⁺ + e⁻, Ox. No. +1 → +2) and another is reduced (Cu⁺ + e⁻ → Cu, Ox. No. +1 → 0). Option c shows only the oxidation half."
+    },
+    {
+      "num": "Book VII",
+      "src": "Book VII",
+      "q": "If salt bridge is NOT used between two half cells in a galvanic cell, then the voltage:",
+      "opts": ["Decreases slowly", "Decreases rapidly", "Does not change", "Drops to zero"],
+      "ans": 3,
+      "exp": "Without a salt bridge, charge builds up in each half-cell (one becomes too positive, the other too negative). This immediately stops further electron flow. The voltage drops to zero right away."
+    },
+    {
+      "num": "Book IX",
+      "src": "Book IX",
+      "q": "The experimental determination of Avogadro's number through electrolysis typically involves measuring:",
+      "opts": ["The current and voltage applied", "The mass of substance deposited or liberated by a known charge", "The conductivity of the electrolytic solution", "The temperature changes during electrolysis"],
+      "ans": 1,
+      "exp": "By measuring the mass of Cu deposited for a known charge Q = I × t, we calculate: moles of Cu → charge per mole of electrons → NA = charge on 1 mole of electrons ÷ charge on 1 electron (1.6 × 10⁻¹⁹ C)."
+    },
+    {
+      "num": "Book XII",
+      "src": "Book XII",
+      "q": "Which of the following changes would typically lead to an increase in the rate of electrolysis?",
+      "opts": ["Decreasing the concentration of the electrolyte", "Increasing the distance between the electrodes", "Decreasing the surface area of the electrodes", "Increasing the current passed through the cell"],
+      "ans": 3,
+      "exp": "Increasing current (amperes) = more charge per second = more ions discharged per second = higher rate of electrolysis. The other options all decrease the rate."
+    },
+    {
+      "num": "Extra 1",
+      "src": "Extra",
+      "q": "Which process occurs at the anode of an electrolytic cell?",
+      "opts": ["Reduction (gain of electrons)", "Oxidation (loss of electrons)", "Deposition of metal", "Liberation of hydrogen gas"],
+      "ans": 1,
+      "exp": "The anode is the positive electrode. Anions migrate toward it and LOSE electrons there. Oxidation (loss of electrons) always occurs at the anode. ANODE = OXidation (A-O)."
+    },
+    {
+      "num": "Extra 2",
+      "src": "Extra",
+      "q": "The oxidation number of Cr in K₂Cr₂O₇ is:",
+      "opts": ["+3", "+6", "+7", "+4"],
+      "ans": 1,
+      "exp": "2(+1) + 2Cr + 7(−2) = 0 → 2 + 2Cr − 14 = 0 → 2Cr = 12 → Cr = +6"
+    },
+    {
+      "num": "Extra 3",
+      "src": "Extra",
+      "q": "The standard electrode potential Eº of the Standard Hydrogen Electrode (SHE) is:",
+      "opts": ["+1.00 V", "−0.76 V", "+0.34 V", "0.00 V"],
+      "ans": 3,
+      "exp": "The SHE is defined as having Eº = 0.00 V. This is an international convention. All other Eº values are measured relative to it."
+    },
+    {
+      "num": "Extra 4",
+      "src": "Extra",
+      "q": "Which electrode acts as the anode in the Zn-Cu galvanic cell?",
+      "opts": ["Copper (Cu), Eº = +0.34 V", "Zinc (Zn), Eº = −0.76 V", "Platinum (Pt)", "The one with higher concentration"],
+      "ans": 1,
+      "exp": "Zinc has the more negative Eº (−0.76 V) → more easily oxidized → acts as ANODE. Zn(s) → Zn²⁺(aq) + 2e⁻. The more negative electrode is always the anode in a galvanic cell."
+    },
+    {
+      "num": "Extra 5",
+      "src": "Extra",
+      "q": "A substance that GAINS electrons in a redox reaction is called a:",
+      "opts": ["Reducing agent", "Oxidizing agent", "Catalyst", "Electrolyte"],
+      "ans": 1,
+      "exp": "An oxidizing agent gains electrons (is itself REDUCED). It causes another substance to be oxidized. OIL RIG: Reduction Is Gain. The oxidizing agent is the one that 'takes' electrons."
+    }
+  ],
+  "sqs": [
+    {
+      "num": "SAQ a",
+      "q": "How and why is an electrical double layer formed?",
+      "a": "<p><strong>Why it forms:</strong> When a metal (e.g., zinc) is placed in its ion solution (e.g., ZnSO₄), some zinc atoms on the surface dissolve as Zn²⁺ ions. This leaves an excess of electrons on the metal surface.</p><p><strong>How double layer forms:</strong> The solution near the surface now has excess Zn²⁺ ions. These positive ions are attracted toward the negatively charged metal surface and line up near it. This creates TWO layers: (1) negative electrons on the metal surface, (2) positive Zn²⁺ ions in solution just adjacent — forming the electrical double layer.</p><p><strong>Effect:</strong> This double layer creates a potential difference (voltage) between the metal and solution. Due to this, <strong>absolute electrode potential cannot be measured directly</strong> — only the difference in potential relative to a reference electrode (SHE) can be measured, called the electrode potential E (in volts).</p>",
+      "tag": "BOARD STYLE ANSWER"
+    },
+    {
+      "num": "SAQ b",
+      "q": "Why is the electrode potential of Cu called a reduction potential?",
+      "a": "<p><strong>Definition of Reduction Potential:</strong> Electrode potential expressed for a half-cell measures the tendency of a species to gain electrons (be reduced). It is therefore called a <em>reduction potential</em>.</p><p><strong>For Cu electrode:</strong> When a copper rod is placed in Cu²⁺ solution, the equilibrium is:</p><div class='eq-block'>Cu²⁺(aq) + 2e⁻ ⇌ Cu(s)   Eº = +0.34 V</div><p>This half-equation is written as a <strong>REDUCTION</strong> — the species on the left (Cu²⁺) gains electrons to form the species on the right (Cu).</p><p><strong>Conclusion:</strong> Because electrode potential is always expressed for the reduction half-equation (gain of electrons), it is universally called the <em>reduction potential</em>. The positive value (+0.34 V) means Cu²⁺ has a strong tendency to be reduced compared to H⁺ in SHE.</p>",
+      "tag": "BOARD STYLE ANSWER"
+    },
+    {
+      "num": "SAQ c",
+      "q": "What are the advantages of a salt bridge in a galvanic cell?",
+      "a": "<p><strong>Definition:</strong> A salt bridge is an electrolytic connection (usually filter paper soaked in saturated KNO₃) between the two half-cells.</p><p><strong>Advantages:</strong></p><ul><li><strong>Completes the circuit:</strong> Allows ions to flow between half-cells, enabling continuous current flow through the cell.</li><li><strong>Maintains ionic balance:</strong> As electrons flow externally, charge builds up in each half-cell. The salt bridge allows K⁺ and NO₃⁻ ions to migrate and neutralize this charge imbalance.</li><li><strong>Prevents solution mixing:</strong> Allows ionic contact without direct mixing of the two electrode solutions.</li><li><strong>Sustains voltage:</strong> Without a salt bridge, charge build-up would immediately stop the cell — voltage would drop to zero.</li></ul>",
+      "tag": "BOARD STYLE ANSWER"
+    },
+    {
+      "num": "SAQ d",
+      "q": "How can we predict the feasibility of a chemical reaction using cell voltage?",
+      "a": "<p><strong>Principle:</strong> The standard cell potential (Eºcell) tells us whether a reaction will proceed spontaneously or not.</p><p><strong>Formula:</strong></p><div class='eq-block'>Eºcell = Eºreduction − Eºoxidation</div><p><strong>Decision Rule:</strong></p><ul><li><strong>Eºcell positive (+) → Reaction is FEASIBLE</strong> (spontaneous, will occur)</li><li><strong>Eºcell negative (−) → Reaction is NOT FEASIBLE</strong> (non-spontaneous, will not occur)</li></ul><p><strong>Example — Zn + Cu²⁺:</strong></p><div class='eq-block'>Eº(Cu²⁺/Cu) = +0.34 V  [reduction half]\nEº(Zn²⁺/Zn) = −0.76 V  [oxidation half]\nEºcell = +0.34 − (−0.76) = +1.10 V → Positive → FEASIBLE ✓</div>",
+      "tag": "BOARD STYLE ANSWER"
+    },
+    {
+      "num": "SAQ e",
+      "q": "During electrolysis of aqueous NaCl, why is Na not liberated at the cathode?",
+      "a": "<p><strong>Ions present in aqueous NaCl:</strong> Na⁺, Cl⁻, H⁺, OH⁻ (the last two come from water ionization)</p><p><strong>At the cathode:</strong> Both Na⁺ and H⁺ compete for electrons (reduction).</p><div class='eq-block'>Na⁺ + e⁻ → Na   Eº = −2.71 V\n2H⁺ + 2e⁻ → H₂  Eº = 0.00 V</div><p><strong>Why Na is NOT discharged:</strong></p><ul><li>H⁺ has a much MORE POSITIVE electrode potential (0.00 V) than Na⁺ (−2.71 V).</li><li>A more positive Eº means H⁺ is <strong>much easier to reduce</strong> than Na⁺.</li><li>H⁺ ions preferentially gain electrons at the cathode → <strong>H₂ gas is liberated</strong>, not Na metal.</li></ul><p><strong>Rule:</strong> At the cathode, the species with the <strong>higher (less negative) electrode potential</strong> is preferentially discharged. H⁺ (0.00 V) wins over Na⁺ (−2.71 V).</p>",
+      "tag": "BOARD STYLE ANSWER"
+    },
+    {
+      "num": "SAQ f",
+      "q": "Calculate the oxidation number of chromium (Cr) in: (i) CrCl₃  (ii) Cr₂(SO₄)₃  (iii) Cr₂O₇²⁻",
+      "a": "<p><strong>(i) CrCl₃:</strong></p><div class='eq-block'>Cr + 3(−1) = 0\nCr = <strong>+3</strong></div><p><strong>(ii) Cr₂(SO₄)₃:</strong> Three SO₄²⁻ ions give total charge = 3 × (−2) = −6</p><div class='eq-block'>2Cr + 3(−2) = 0\n2Cr = +6 → Cr = <strong>+3</strong></div><p><strong>(iii) Cr₂O₇²⁻:</strong></p><div class='eq-block'>2Cr + 7(−2) = −2\n2Cr − 14 = −2\n2Cr = 12 → Cr = <strong>+6</strong></div>",
+      "tag": "BOARD STYLE ANSWER"
+    },
+    {
+      "num": "SAQ k",
+      "q": "A cell is set up with Ni²⁺/Ni (Eº = −0.25 V) and Co²⁺/Co (Eº = −0.28 V). (i) Identify anode and cathode with justification. (ii) Write the balanced overall cell reaction. (iii) Calculate Eºcell.",
+      "a": "<p><strong>(i) Anode and Cathode:</strong><br>Co has the MORE NEGATIVE Eº (−0.28 V) → more easily oxidized → Co is the <strong>ANODE</strong> (oxidation)<br>Ni has the LESS NEGATIVE Eº (−0.25 V) → Ni²⁺ more easily reduced → Ni is the <strong>CATHODE</strong> (reduction)</p><p><strong>(ii) Balanced overall cell reaction:</strong></p><div class='eq-block'>Anode (oxidation):    Co(s) → Co²⁺(aq) + 2e⁻\nCathode (reduction): Ni²⁺(aq) + 2e⁻ → Ni(s)\n\nOverall: Co(s) + Ni²⁺(aq) → Co²⁺(aq) + Ni(s)</div><p><strong>(iii) Standard cell potential:</strong></p><div class='eq-block'>Eºcell = Eºred − Eºox\n= (−0.25) − (−0.28)\n= +0.03 V</div><p>Eºcell is positive → reaction is feasible (spontaneous).</p>",
+      "tag": "BOARD STYLE ANSWER"
+    },
+    {
+      "num": "Extra 1",
+      "q": "What is a disproportionation reaction? Give one example with oxidation numbers.",
+      "a": "<p><strong>Definition:</strong> A disproportionation reaction is one in which a single substance acts as <strong>both the oxidizing agent and the reducing agent</strong> simultaneously, producing two products with different oxidation states of the same element.</p><p><strong>Key feature:</strong> Same element undergoes simultaneous oxidation AND reduction.</p><p><strong>Example — Decomposition of H₂O₂:</strong></p><div class='eq-block'>2H₂O₂(l) → 2H₂O(l) + O₂(g)</div><ul><li>O in H₂O₂ = −1</li><li>O in H₂O = −2 (Ox. No. decreased → <strong>reduced</strong>)</li><li>O in O₂ = 0 (Ox. No. increased → <strong>oxidized</strong>)</li></ul><p>Since oxygen is both oxidized (−1 → 0) and reduced (−1 → −2), this is a disproportionation reaction.</p>",
+      "tag": "BOARD STYLE ANSWER"
+    },
+    {
+      "num": "Extra 2",
+      "q": "Describe the construction and working of the Standard Hydrogen Electrode (SHE). Why is it significant?",
+      "a": "<p><strong>Construction:</strong></p><ul><li>H₂ gas at <strong>101 kPa (1 atm)</strong> pressure</li><li>H⁺ ion concentration = <strong>1.00 mol dm⁻³</strong></li><li><strong>Platinum electrode covered with platinum black</strong> — inert, ensures rapid equilibrium</li></ul><p><strong>Half-equation:</strong></p><div class='eq-block'>2H⁺(aq) + 2e⁻ ⇌ H₂(g)   Eº = 0.00 V</div><p><strong>Significance:</strong></p><ul><li>Acts as the universal <strong>reference electrode</strong> — Eº = 0.00 V by international convention</li><li>All other Eº values are measured relative to SHE</li><li>When another half-cell is connected, the voltmeter reading directly gives the Eº of that half-cell</li><li>Platinum black speeds up equilibrium; platinum electrode is inert</li></ul>",
+      "tag": "BOARD STYLE ANSWER"
+    },
+    {
+      "num": "Extra 3",
+      "q": "Describe the construction and working of the Zn-Cu galvanic cell with half-equations and cell potential.",
+      "a": "<p><strong>Definition:</strong> A galvanic (voltaic) cell converts chemical energy of a spontaneous redox reaction into electrical energy.</p><p><strong>Construction:</strong></p><ul><li>Zinc electrode in 1 mol dm⁻³ ZnSO₄ solution</li><li>Copper electrode in 1 mol dm⁻³ CuSO₄ solution</li><li>Salt bridge (KNO₃) connecting both half-cells</li><li>External wire + voltmeter connecting the two electrodes</li></ul><p><strong>Working:</strong></p><div class='eq-block'>Anode (Zn, Eº = −0.76 V):   Zn(s) → Zn²⁺(aq) + 2e⁻   [Oxidation]\nCathode (Cu, Eº = +0.34 V): Cu²⁺(aq) + 2e⁻ → Cu(s)   [Reduction]\nOverall: Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s)\nEºcell = +0.34 − (−0.76) = +1.10 V</div><p><strong>Electron flow:</strong> Zn (anode) → external wire → Cu (cathode). Salt bridge allows K⁺/NO₃⁻ ions to maintain ionic balance.</p>",
+      "tag": "BOARD STYLE ANSWER"
+    }
+  ],
+  "lqs": [],
+  "quiz": [
+    {
+      "q": "Electrochemistry deals with the interconversion of which two forms of energy?",
+      "opts": ["Heat and light energy", "Electrical and chemical energy", "Nuclear and solar energy", "Mechanical and thermal energy"],
+      "ans": 1,
+      "exp": "Electrochemistry is the branch dealing with interconversion of electrical energy and chemical energy (e.g., galvanic cells convert chemical → electrical; electrolytic cells convert electrical → chemical)."
+    },
+    {
+      "q": "Oxidation is defined as:",
+      "opts": ["Gain of electrons", "Loss of electrons", "Gain of protons", "Loss of protons"],
+      "ans": 1,
+      "exp": "Oxidation = loss of one or more electrons. Remember OIL RIG: Oxidation Is Loss, Reduction Is Gain."
+    },
+    {
+      "q": "The oxidation number of Mn in KMnO₄ is:",
+      "opts": ["+4", "+6", "+7", "+2"],
+      "ans": 2,
+      "exp": "(+1) + Mn + 4(−2) = 0 → 1 + Mn − 8 = 0 → Mn = +7"
+    },
+    {
+      "q": "Which ions are discharged at the cathode during electrolysis?",
+      "opts": ["Anions (negative ions)", "Cations (positive ions)", "Both anions and cations", "Neutral molecules only"],
+      "ans": 1,
+      "exp": "The cathode is the negative electrode. Cations (positive ions) are attracted to it and gain electrons there (reduction). Anions go to the anode."
+    },
+    {
+      "q": "The value of the Faraday constant (F) is:",
+      "opts": ["9650 C mol⁻¹", "96500 C mol⁻¹", "6.02 × 10²³ C mol⁻¹", "1.60 × 10⁻¹⁹ C mol⁻¹"],
+      "ans": 1,
+      "exp": "F = 96500 C mol⁻¹. It is the charge carried by 1 mole of electrons (or 1 mole of singly charged ions)."
+    },
+    {
+      "q": "What is the standard electrode potential (Eº) of the Standard Hydrogen Electrode (SHE)?",
+      "opts": ["+1.00 V", "−0.76 V", "+0.34 V", "0.00 V"],
+      "ans": 3,
+      "exp": "Eº of SHE = 0.00 V by international convention. Half-equation: 2H⁺(aq) + 2e⁻ ⇌ H₂(g), Eº = 0.00 V."
+    },
+    {
+      "q": "Which type of cell converts electrical energy into chemical energy?",
+      "opts": ["Galvanic cell", "Voltaic cell", "Electrolytic cell", "Photovoltaic cell"],
+      "ans": 2,
+      "exp": "An electrolytic cell uses electrical energy (from external DC supply) to drive a non-spontaneous chemical reaction. Galvanic/voltaic cells do the reverse."
+    },
+    {
+      "q": "The standard cell potential of the Zn-Cu galvanic cell is:",
+      "opts": ["+0.42 V", "+1.10 V", "−1.10 V", "+0.76 V"],
+      "ans": 1,
+      "exp": "Eºcell = Eºred − Eºox = +0.34 − (−0.76) = +1.10 V. Zn is anode (−0.76 V) and Cu is cathode (+0.34 V)."
+    },
+    {
+      "q": "In a galvanic cell, at which electrode does oxidation occur?",
+      "opts": ["Cathode", "Anode", "Salt bridge", "Both electrodes equally"],
+      "ans": 1,
+      "exp": "Oxidation (loss of electrons) always occurs at the anode. In the Zn-Cu cell, Zn is the anode: Zn(s) → Zn²⁺(aq) + 2e⁻."
+    },
+    {
+      "q": "In a disproportionation reaction, a single element simultaneously undergoes:",
+      "opts": ["Oxidation only", "Reduction only", "Both oxidation and reduction", "Neither oxidation nor reduction"],
+      "ans": 2,
+      "exp": "In disproportionation, the same element in a single compound acts as both oxidizing agent (gets reduced) and reducing agent (gets oxidized) in the same reaction."
+    },
+    {
+      "q": "The oxidation number of S in SO₄²⁻ is:",
+      "opts": ["+4", "+2", "+6", "−2"],
+      "ans": 2,
+      "exp": "S + 4(−2) = −2 → S − 8 = −2 → S = +6"
+    },
+    {
+      "q": "Platinum black is used in the SHE because it:",
+      "opts": ["Acts as the oxidizing agent", "Speeds up equilibrium between H₂ and H⁺", "Increases electrode potential", "Prevents ion flow"],
+      "ans": 1,
+      "exp": "Platinum black is finely divided Pt with large surface area. It allows close contact between H₂ gas and H⁺ ions so that equilibrium 2H⁺ + 2e⁻ ⇌ H₂ is established quickly."
+    },
+    {
+      "q": "A more positive standard electrode potential (Eº) means the species is a:",
+      "opts": ["Better reducing agent", "Better oxidizing agent", "Neither oxidizing nor reducing", "Weaker acid"],
+      "ans": 1,
+      "exp": "More positive Eº = greater tendency to gain electrons = easier to reduce = better OXIDIZING agent. More negative Eº = better REDUCING agent."
+    },
+    {
+      "q": "In an electrolytic cell, the anode is connected to which terminal of the DC supply?",
+      "opts": ["Negative (−) terminal", "Positive (+) terminal", "Neutral terminal", "Either terminal"],
+      "ans": 1,
+      "exp": "The anode is the positive electrode and is connected to the positive (+) terminal of the DC power supply. The cathode (−) connects to the negative terminal."
+    },
+    {
+      "q": "The oxidation number of oxygen in Na₂O₂ (sodium peroxide) is:",
+      "opts": ["−2", "−1", "−½", "0"],
+      "ans": 1,
+      "exp": "In peroxides (compounds with O−O bond), oxygen has Ox. No. = −1. Check: 2(+1) + 2O = 0 → 2O = −2 → O = −1. (Normal oxide gives −2.)"
+    },
+    {
+      "q": "What do photovoltaic cells convert?",
+      "opts": ["Chemical energy to electrical energy", "Light energy to electrical energy", "Electrical energy to chemical energy", "Heat energy to electrical energy"],
+      "ans": 1,
+      "exp": "'Photo' = light, 'voltaic' = electrical potential. Photovoltaic cells use the photovoltaic effect to convert solar (light) energy directly into electrical energy."
+    },
+    {
+      "q": "Which half-reaction occurs at the anode during electrolysis of molten ZnCl₂?",
+      "opts": ["Zn²⁺ + 2e⁻ → Zn", "Cl₂ + 2e⁻ → 2Cl⁻", "2Cl⁻ → Cl₂ + 2e⁻", "Zn → Zn²⁺ + 2e⁻"],
+      "ans": 2,
+      "exp": "At the anode (oxidation): 2Cl⁻(l) → Cl₂(g) + 2e⁻. Cl⁻ anions migrate to the anode and lose electrons there."
+    },
+    {
+      "q": "Group 1 alkali metals always have which oxidation number in compounds?",
+      "opts": ["+2", "+1", "−1", "0"],
+      "ans": 1,
+      "exp": "Group 1 alkali metals (Li, Na, K, Rb, Cs, Fr) always have Ox. No. = +1 in compounds. Group 2 = always +2."
+    },
+    {
+      "q": "If Eºcell = +1.10 V for a reaction, the reaction is:",
+      "opts": ["Not feasible (non-spontaneous)", "Feasible (spontaneous)", "In equilibrium", "Endothermic and non-spontaneous"],
+      "ans": 1,
+      "exp": "A positive Eºcell value means the redox reaction is spontaneous/feasible. Negative Eºcell = non-spontaneous. Here +1.10 V confirms the reaction will proceed."
+    },
+    {
+      "q": "For electrolysis, the power supply must be:",
+      "opts": ["Alternating current (AC)", "Direct current (DC)", "High frequency AC", "Low voltage AC"],
+      "ans": 1,
+      "exp": "DC (direct current) is required so that each electrode maintains a fixed polarity. With AC, the electrodes would alternate roles and no net electrolysis would occur."
+    }
+  ]
+}
