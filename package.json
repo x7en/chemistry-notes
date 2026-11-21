@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/x7en/chemistry-notes#readme",
   "devDependencies": {
-    "@babel/core": "^7.29.0",
+    "@babel/core": "^8.1.2",
     "@babel/preset-env": "^7.29.2",
     "babel-jest": "^30.3.0",
     "jest": "^30.3.0",
