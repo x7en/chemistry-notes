@@ -30,7 +30,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch12_n2_lewis.svg",
+          "file": "assets/diagrams/ch12/ch12_n2_lewis.svg",
           "caption": "Lewis structure of N₂ showing triple bond (one σ + two π) and lone pairs on each nitrogen atom",
           "alt": "N≡N with lone pairs, triple bond annotation, and bond enthalpy value +944 kJ/mol"
         },
@@ -100,7 +100,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch12_nh3_lab_setup.svg",
+          "file": "assets/diagrams/ch12/ch12_nh3_lab_setup.svg",
           "caption": "Lab apparatus for NH₃ preparation: flask with NH₄Cl + Ca(OH)₂ heated, CaO drying tube, inverted gas collection jar",
           "alt": "Round flask, delivery tube passing through CaO drying tube, into inverted collection jar"
         },
@@ -134,7 +134,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch12_nh3_nh4_geometry.svg",
+          "file": "assets/diagrams/ch12/ch12_nh3_nh4_geometry.svg",
           "caption": "Side-by-side comparison of NH₃ (trigonal pyramidal with lone pair shown) and NH₄⁺ (tetrahedral, all bonds equal, positive charge shown)",
           "alt": "NH₃ pyramid shape with lone pair on N, arrow to NH₄⁺ tetrahedral with four equal N-H bonds"
         },
@@ -261,7 +261,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch12_pan_structure.svg",
+          "file": "assets/diagrams/ch12/ch12_pan_structure.svg",
           "caption": "General PAN structure RC(=O)-O-O-NO₂ with R group label; PAN formation flowchart from O₃ + hydrocarbon through acyl radical to PAN",
           "alt": "PAN molecule structure and stepwise formation mechanism"
         },
@@ -306,7 +306,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch12_catalytic_converter.svg",
+          "file": "assets/diagrams/ch12/ch12_catalytic_converter.svg",
           "caption": "Cross-section of catalytic converter: honeycomb monolith channels, Al₂O₃ washcoat with Pt/Pd/Rh dots, arrow showing exhaust gas (HC/CO/NOₓ) entering and N₂/CO₂/H₂O exiting",
           "alt": "Honeycomb structure cross-section with metal catalyst dots on inner surface and gas flow arrows"
         },
@@ -423,7 +423,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch12_s8_ring.svg",
+          "file": "assets/diagrams/ch12/ch12_s8_ring.svg",
           "caption": "3D crown-shaped S₈ ring molecule showing all 8 sulfur atoms connected by single bonds in a puckered ring with alternating up/down positions",
           "alt": "Crown ring of 8 S atoms in chair-like puckered arrangement with S-S bonds labelled"
         },
@@ -460,7 +460,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch12_sulfur_orbital_states.svg",
+          "file": "assets/diagrams/ch12/ch12_sulfur_orbital_states.svg",
           "caption": "Orbital box diagrams for S: (a) ground state 3s² 3p⁴; (b) 1st excited state 3s² 3p³ 3d¹; (c) 2nd excited state 3s¹ 3p³ 3d². Oxygen ground state shown for contrast — no d orbitals available in n=2.",
           "alt": "Three rows of orbital box diagrams for sulfur showing electron promotion into 3d orbitals"
         }
@@ -579,7 +579,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch12_vulcanization.svg",
+          "file": "assets/diagrams/ch12/ch12_vulcanization.svg",
           "caption": "Two wavy polymer chains cross-linked by S-S bridges at multiple points showing restricted chain movement after vulcanization",
           "alt": "Two parallel polymer chains connected by multiple S-S cross-links"
         },
@@ -682,7 +682,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch12_h2so4_structure.svg",
+          "file": "assets/diagrams/ch12/ch12_h2so4_structure.svg",
           "caption": "Lewis structure of H₂SO₄ showing tetrahedral geometry; S=O bonds (142.2 pm) and S-OH bonds (157.4 pm, O-H 97 pm) labelled; 3D ball-and-stick model alongside",
           "alt": "Tetrahedral H₂SO₄ with two S=O and two S-OH groups, bond lengths annotated"
         },
@@ -758,7 +758,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch12_contact_process_flowsheet.svg",
+          "file": "assets/diagrams/ch12/ch12_contact_process_flowsheet.svg",
           "caption": "Flowsheet of Contact Process: (1) Sulfur burner → SO₂; (2) Dust precipitator; (3) Washing/cooling tower; (4) Drying tower; (5) Arsenic purifier [Fe(OH)₃ shelves]; (6) Preheater; (7) Contact tower (V₂O₅ beds); (8) Heat exchangers; (9) Absorption tower → oleum; (10) Dilution → conc. H₂SO₄",
           "alt": "Full flowsheet of Contact Process with all stages labelled, gas flow arrows, and key conditions at each stage"
         },
@@ -954,7 +954,7 @@
       "exp": "Gunpowder: 75% KNO₃ (oxidiser) + 15% charcoal/C (main fuel) + 10% sulfur (additional fuel). Memory: 75-15-10."
     }
   ],
-  "saqs": [
+  "sqs": [
     {
       "num": "SAQ a",
       "q": "List two reasons for the inertness of N₂.",

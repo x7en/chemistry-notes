@@ -107,7 +107,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch08_conc_vs_time_three_cases.svg",
+          "file": "assets/diagrams/ch08/ch08_conc_vs_time_three_cases.svg",
           "caption": "Concentration vs. time for A ⇌ B: (a) [A]=[B] equal at equilibrium, (b) [A]<[B] product favoured, (c) [A]>[B] reactant favoured",
           "alt": "Three separate line graphs each showing [A] decreasing and [B] increasing until both flatten to constant values — at equal, lower, and higher levels respectively"
         },
@@ -546,7 +546,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch08_temp_effect_summary.svg",
+          "file": "assets/diagrams/ch08/ch08_temp_effect_summary.svg",
           "caption": "Summary: Effect of temperature on exothermic vs endothermic equilibrium — showing shift direction and change in Kc",
           "alt": "Side-by-side comparison: endothermic (ΔH+) shows right shift and Kc increase with higher T; exothermic (ΔH-) shows left shift and Kc decrease with higher T"
         }
@@ -583,7 +583,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch08_catalyst_energy_profile.svg",
+          "file": "assets/diagrams/ch08/ch08_catalyst_energy_profile.svg",
           "caption": "Energy profile: reaction coordinate vs potential energy showing two curves — one with higher Ea (without catalyst) and one with lower Ea (with catalyst) — starting and ending at the same energy levels",
           "alt": "Two bell curves on same axes: first taller peak (without catalyst, higher Ea) and second shorter peak (with catalyst, lower Ea), same reactant and product energy levels"
         },

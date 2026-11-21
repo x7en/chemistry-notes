@@ -46,7 +46,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch13_halogen_colours.svg",
+          "file": "assets/diagrams/ch13/ch13_halogen_colours.svg",
           "caption": "Greenish-yellow chlorine (left), orange bromine (middle), and purple iodine vapour (right)",
           "alt": "Three flasks showing the distinct colours of chlorine, bromine, and iodine"
         }
@@ -354,7 +354,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch13_water_purification.svg",
+          "file": "assets/diagrams/ch13/ch13_water_purification.svg",
           "caption": "Chlorination of water: Cl₂ dissolves to form HOCl and OCl⁻, which kill bacteria",
           "alt": "Flowchart showing Cl₂ dissolving in water, forming HCl and HOCl, then HOCl dissociating to H+ and OCl-, both species killing bacteria"
         },

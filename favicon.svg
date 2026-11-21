@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="FSc Chemistry XI">
+  <rect width="64" height="64" rx="14" fill="#faf4e4"/>
+  <rect x="10" y="10" width="9" height="44" rx="4" fill="#8e1b33"/>
+  <g stroke="#423d24" stroke-width="4" stroke-linecap="round">
+    <path d="M27 21h27"/>
+    <path d="M27 32h21"/>
+    <path d="M27 43h25"/>
+  </g>
+</svg>

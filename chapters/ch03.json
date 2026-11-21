@@ -81,7 +81,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch03_ss_overlap.svg",
+          "file": "assets/diagrams/ch03/ch03_ss_overlap.svg",
           "caption": "s-s overlap forming σ bond in H₂ molecule",
           "alt": "Two circles (s orbitals) merging into elongated oval representing σ bond"
         },
@@ -98,7 +98,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch03_sp_overlap_hcl.svg",
+          "file": "assets/diagrams/ch03/ch03_sp_overlap_hcl.svg",
           "caption": "s-p overlap in HCl — σ bond formation with polarization",
           "alt": "Sphere (H 1s) overlapping with lobe of dumbbell (Cl 3p) along axis"
         },
@@ -114,7 +114,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch03_pp_headon.svg",
+          "file": "assets/diagrams/ch03/ch03_pp_headon.svg",
           "caption": "Head-on p-p overlap forming σ bond in Cl₂",
           "alt": "Two dumbbells facing each other along x-axis, lobes merging"
         },
@@ -156,7 +156,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch03_pi_bond_oxygen.svg",
+          "file": "assets/diagrams/ch03/ch03_pi_bond_oxygen.svg",
           "caption": "Formation of σ and π bonds in O₂ — double bond",
           "alt": "Two oxygen atoms with sigma bond along axis and two pi lobes above and below"
         },
@@ -173,7 +173,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch03_sigma_vs_pi.svg",
+          "file": "assets/diagrams/ch03/ch03_sigma_vs_pi.svg",
           "caption": "Comparison: head-on (σ) vs parallel (π) orbital overlap",
           "alt": "Side by side: two dumbbells facing each other for sigma, two dumbbells stacked parallel for pi"
         },
@@ -274,7 +274,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch03_sp_hybridization.svg",
+          "file": "assets/diagrams/ch03/ch03_sp_hybridization.svg",
           "caption": "sp hybridization — energy diagram and two sp orbitals at 180°",
           "alt": "Energy diagram showing 2s and 2p combining to form two sp orbitals; orbital diagram showing two lobes at 180 degrees"
         },
@@ -315,7 +315,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch03_sp2_hybridization.svg",
+          "file": "assets/diagrams/ch03/ch03_sp2_hybridization.svg",
           "caption": "sp² hybridization — energy diagram and three sp² orbitals at 120°",
           "alt": "Energy diagram showing s + two p orbitals combining; three orbital lobes pointing 120 degrees apart in a plane"
         },
@@ -335,7 +335,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch03_bf3_structure.svg",
+          "file": "assets/diagrams/ch03/ch03_bf3_structure.svg",
           "caption": "BF₃ trigonal planar structure with sp² hybridized B at center",
           "alt": "B in center, three F atoms at 120 degree angles, flat triangular shape"
         },
@@ -363,7 +363,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch03_sp3_hybridization.svg",
+          "file": "assets/diagrams/ch03/ch03_sp3_hybridization.svg",
           "caption": "sp³ hybridization — energy diagram and four sp³ orbitals in tetrahedral arrangement",
           "alt": "Energy diagram: 2s + three 2p → four sp3 orbitals; tetrahedral shape with 109.5 degree angles"
         },
@@ -465,7 +465,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch03_lone_vs_bond_pair.svg",
+          "file": "assets/diagrams/ch03/ch03_lone_vs_bond_pair.svg",
           "caption": "Comparison of space occupied by lone pair vs bond pair around central atom X",
           "alt": "Two diagrams: left shows H-X with small bond pair region; right shows X lone pair with wider repulsion cloud"
         },
@@ -580,7 +580,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch03_ch4_tetrahedral.svg",
+          "file": "assets/diagrams/ch03/ch03_ch4_tetrahedral.svg",
           "caption": "CH₄ regular tetrahedral shape with 109.5° bond angles",
           "alt": "Carbon in center with 4 hydrogen atoms at tetrahedral corners, 109.5 degree angles shown"
         },
@@ -621,7 +621,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch03_h2o_shape.svg",
+          "file": "assets/diagrams/ch03/ch03_h2o_shape.svg",
           "caption": "H₂O: tetrahedral electron pair geometry vs actual V-shaped molecular shape",
           "alt": "Left: tetrahedral with two lone pairs and two O-H bonds; Right: V-shaped structure with 104.5 degree angle"
         },
@@ -656,7 +656,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch03_pcl5_trigonal_bipyramidal.svg",
+          "file": "assets/diagrams/ch03/ch03_pcl5_trigonal_bipyramidal.svg",
           "caption": "PCl₅ trigonal bipyramidal shape — 3 equatorial (120°) + 2 axial bonds",
           "alt": "P in center with 3 Cl in equatorial plane at 120 degrees and 2 Cl above and below at 90 degrees"
         },
@@ -701,7 +701,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch03_xef4_square_planar.svg",
+          "file": "assets/diagrams/ch03/ch03_xef4_square_planar.svg",
           "caption": "XeF₄ square planar shape — 2 lone pairs axial, 4 F in equatorial plane",
           "alt": "Xe in center, 4 F atoms at 90 degrees in square plane, 2 lone pairs above and below"
         },
@@ -822,7 +822,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch03_bmo_abmo_formation.svg",
+          "file": "assets/diagrams/ch03/ch03_bmo_abmo_formation.svg",
           "caption": "Formation of BMO and ABMO from two atomic orbitals — constructive and destructive interference",
           "alt": "Two s orbitals: same sign combining to form BMO (egg shape between nuclei); opposite signs forming ABMO (two separate lobes with node)"
         },
@@ -896,7 +896,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch03_pp_headon_parallel_mo.svg",
+          "file": "assets/diagrams/ch03/ch03_pp_headon_parallel_mo.svg",
           "caption": "Head-on p-p overlap (σ MOs) and parallel p-p overlap (π MOs)",
           "alt": "Two diagrams: top shows two p orbitals along axis combining to sigma MO; bottom shows parallel p orbitals combining to pi MO above and below plane"
         },
@@ -920,7 +920,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch03_h2_mo_diagram.svg",
+          "file": "assets/diagrams/ch03/ch03_h2_mo_diagram.svg",
           "caption": "MO diagram of H₂ — 2 electrons in σ(1s) BMO",
           "alt": "Energy level diagram: two 1s AOs on sides, σ*1s ABMO at top center (empty), σ1s BMO at bottom center (2 electrons)"
         },
@@ -938,7 +938,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch03_he2_mo_diagram.svg",
+          "file": "assets/diagrams/ch03/ch03_he2_mo_diagram.svg",
           "caption": "MO diagram of He₂ — bond order = 0, molecule does not exist",
           "alt": "Energy level diagram: 1s AOs on sides; σ*1s with 2 electrons; σ1s with 2 electrons — equal bonding/antibonding"
         },
@@ -955,7 +955,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch03_n2_mo_diagram.svg",
+          "file": "assets/diagrams/ch03/ch03_n2_mo_diagram.svg",
           "caption": "MO diagram of N₂ showing 10 bonding and 4 antibonding electrons — bond order 3",
           "alt": "Full MO energy level diagram for N2: AOs of both N atoms on sides, MOs in center filled from bottom up to sigma 2px"
         },
@@ -990,7 +990,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch03_o2_mo_diagram.svg",
+          "file": "assets/diagrams/ch03/ch03_o2_mo_diagram.svg",
           "caption": "MO diagram of O₂ showing 2 unpaired electrons in π* orbitals — paramagnetic",
           "alt": "Full MO energy level diagram for O2: sigma and pi MOs filled; two pi-star orbitals each with 1 unpaired electron shown"
         },

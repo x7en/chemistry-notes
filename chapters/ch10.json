@@ -189,7 +189,7 @@
             "Production of caustic soda (NaOH)"
           ]
         },
-        { "type": "diagram", "file": "diagrams/ch10_electrolytic_cell.svg", "caption": "Main parts of an electrolytic cell (Figure 10.1)", "alt": "DC power supply connected to cathode (negative) and anode (positive) immersed in electrolyte" }
+        { "type": "diagram", "file": "assets/diagrams/ch10/ch10_electrolytic_cell.svg", "caption": "Main parts of an electrolytic cell (Figure 10.1)", "alt": "DC power supply connected to cathode (negative) and anode (positive) immersed in electrolyte" }
       ]
     },
     {
@@ -230,7 +230,7 @@
             "This creates TWO layers of charge — the ELECTRICAL DOUBLE LAYER",
             "This double layer causes an electric potential (voltage) between metal and solution"
           ], "note": "Because of the double layer, ABSOLUTE electrode potential cannot be directly measured. Only the potential DIFFERENCE relative to a reference electrode (SHE) can be measured. This measured value is called the electrode potential, E (in volts)." },
-        { "type": "diagram", "file": "diagrams/ch10_electrical_double_layer.svg", "caption": "Formation of electrical double layer at zinc electrode (Figure 10.3)", "alt": "Zinc rod with excess electrons on surface; Zn²⁺ ions arranged in two layers near the electrode surface in ZnSO₄ solution" }
+        { "type": "diagram", "file": "assets/diagrams/ch10/ch10_electrical_double_layer.svg", "caption": "Formation of electrical double layer at zinc electrode (Figure 10.3)", "alt": "Zinc rod with excess electrons on surface; Zn²⁺ ions arranged in two layers near the electrode surface in ZnSO₄ solution" }
       ]
     },
     {
@@ -247,7 +247,7 @@
         { "type": "concept", "head": "Role of Platinum Black", "body": "Platinum black is finely divided platinum. It provides large surface area so H₂ gas and H⁺ ions come into close contact → equilibrium is established QUICKLY. The platinum electrode is INERT (does not participate in the reaction)." },
         { "type": "eq", "t": "Half-equation for SHE:\n2H⁺(aq) + 2e⁻ ⇌ H₂(g)   Eº = 0.00 V\n\nMeaning: H₂ gas and H⁺ ions have equal tendency to lose and gain electrons." },
         { "type": "tip", "t": "Eº of SHE = 0.00 V by international convention. All other Eº values are measured against this reference. Remember: Pt is inert; platinum black speeds up equilibrium. H₂ pressure = 1 atm; H⁺ concentration = 1 mol dm⁻³." },
-        { "type": "diagram", "file": "diagrams/ch10_she.svg", "caption": "Standard Hydrogen Electrode (SHE) — Figure 10.4", "alt": "Glass bell jar with H₂ gas at 1 atm supplied from top, platinum wire, H⁺ at 1 mol/dm³, platinum black electrode at bottom" }
+        { "type": "diagram", "file": "assets/diagrams/ch10/ch10_she.svg", "caption": "Standard Hydrogen Electrode (SHE) — Figure 10.4", "alt": "Glass bell jar with H₂ gas at 1 atm supplied from top, platinum wire, H⁺ at 1 mol/dm³, platinum black electrode at bottom" }
       ]
     },
     {
@@ -284,8 +284,8 @@
             "OXIDATION occurs at the NEGATIVE terminal of the cell"
           ]
         },
-        { "type": "diagram", "file": "diagrams/ch10_cu_halfcell_she.svg", "caption": "Measuring Eº for Cu²⁺/Cu vs SHE — Figure 10.5 (reads +0.34 V)", "alt": "Copper electrode in 1 mol/dm³ Cu²⁺ solution connected by salt bridge and voltmeter to SHE; voltmeter shows +0.34 V" },
-        { "type": "diagram", "file": "diagrams/ch10_zn_halfcell_she.svg", "caption": "Measuring Eº for Zn²⁺/Zn vs SHE — Figure 10.6 (reads −0.76 V)", "alt": "Zinc electrode in 1 mol/dm³ Zn²⁺ solution connected by salt bridge and voltmeter to SHE; voltmeter shows −0.76 V" }
+        { "type": "diagram", "file": "assets/diagrams/ch10/ch10_cu_halfcell_she.svg", "caption": "Measuring Eº for Cu²⁺/Cu vs SHE — Figure 10.5 (reads +0.34 V)", "alt": "Copper electrode in 1 mol/dm³ Cu²⁺ solution connected by salt bridge and voltmeter to SHE; voltmeter shows +0.34 V" },
+        { "type": "diagram", "file": "assets/diagrams/ch10/ch10_zn_halfcell_she.svg", "caption": "Measuring Eº for Zn²⁺/Zn vs SHE — Figure 10.6 (reads −0.76 V)", "alt": "Zinc electrode in 1 mol/dm³ Zn²⁺ solution connected by salt bridge and voltmeter to SHE; voltmeter shows −0.76 V" }
       ]
     },
     {
@@ -309,7 +309,7 @@
         { "type": "concept", "head": "Zn-Cu Galvanic Cell — Full Working", "body": "Cu²⁺/Cu connected to Zn²⁺/Zn half-cell.", "eq": "Eº values:\n  Cu²⁺(aq) + 2e⁻ ⇌ Cu(s)   Eº = +0.34 V\n  Zn²⁺(aq) + 2e⁻ ⇌ Zn(s)   Eº = −0.76 V\n\nZn is more negative → ANODE (oxidation)\nCu is more positive → CATHODE (reduction)\n\nAnode:   Zn(s) → Zn²⁺(aq) + 2e⁻\nCathode: Cu²⁺(aq) + 2e⁻ → Cu(s)\n\nOverall: Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s)\n\nEºcell = Eºred − Eºox = +0.34 − (−0.76) = +1.10 V", "note": "Electrons flow externally from Zn (anode) to Cu (cathode). The spontaneous redox reaction converts chemical energy into electrical energy." },
         { "type": "tip", "t": "Formula: Eºcell = Eºred − Eºox. Positive Eºcell = feasible (spontaneous). In Zn-Cu cell: Zn is always anode (−) and Cu is always cathode (+). Cell notation: Zn | Zn²⁺ || Cu²⁺ | Cu." },
         { "type": "error", "head": "BOOK ERROR — Quick Check 10.6(b), p.224", "wrong": "Cu²⁺(aq) + 2e⁻ ⇌ Cu(s)   Eº = −0.44 V", "correct": "Cu²⁺(aq) + 2e⁻ ⇌ Cu(s)   Eº = +0.34 V", "reason": "The standard electrode potential for Cu²⁺/Cu is +0.34 V. The book printed −0.44 V by mistake — that value belongs to Fe²⁺/Fe." },
-        { "type": "diagram", "file": "diagrams/ch10_zn_cu_galvanic_cell.svg", "caption": "Zn-Cu Electrochemical (Galvanic) Cell — Figure 10.7", "alt": "Copper rod in 1 mol/dm³ Cu²⁺ solution and zinc rod in 1 mol/dm³ Zn²⁺ solution connected by salt bridge; high-resistance voltmeter across the two electrodes showing +1.10 V" },
+        { "type": "diagram", "file": "assets/diagrams/ch10/ch10_zn_cu_galvanic_cell.svg", "caption": "Zn-Cu Electrochemical (Galvanic) Cell — Figure 10.7", "alt": "Copper rod in 1 mol/dm³ Cu²⁺ solution and zinc rod in 1 mol/dm³ Zn²⁺ solution connected by salt bridge; high-resistance voltmeter across the two electrodes showing +1.10 V" },
         { "type": "qc", "title": "Quick Check 10.6", "items": [
             { "num": "a", "q": "What is the function of a salt bridge in the voltaic cell?", "ans": "<p>The salt bridge <strong>completes the electrical circuit</strong> between the two half-cells. It allows the movement of ions to maintain <strong>ionic balance</strong> (electrical neutrality) in both compartments as the cell operates. Without a salt bridge, charge would build up in each half-cell, stopping ion flow and making the voltage immediately <strong>drop to zero</strong>. Note: the salt bridge allows ion movement but NOT electron flow — electrons travel through the external wire only.</p>" },
             { "num": "b", "q": "Calculate the voltage of a cell having iron and copper electrodes. [Fe(s) ⇌ Fe²⁺(aq) + 2e⁻, Eº = −0.44 V; Cu²⁺(aq) + 2e⁻ ⇌ Cu(s), Eº = +0.34 V]", "ans": "<p>Fe is more negative (−0.44 V) → Fe is the <strong>anode</strong> (oxidation)<br>Cu²⁺ is more positive (+0.34 V) → Cu is the <strong>cathode</strong> (reduction)</p><div class='eq-block'>Eºcell = Eºred − Eºox\n= (+0.34) − (−0.44)\n= +0.78 V</div><p><strong>Cell voltage = +0.78 V</strong></p>" }

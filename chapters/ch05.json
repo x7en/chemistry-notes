@@ -202,7 +202,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch05_id_id_force_bromine.svg",
+          "file": "assets/diagrams/ch05/ch05_id_id_force_bromine.svg",
           "caption": "Creation of instantaneous dipole-induced dipole force in Br₂",
           "alt": "Two Br₂ molecules showing electron redistribution creating δ+ and δ- ends, then attraction between dipoles"
         },
@@ -320,7 +320,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch05_dipole_dipole_HCl.svg",
+          "file": "assets/diagrams/ch05/ch05_dipole_dipole_hcl.svg",
           "caption": "Permanent dipole-permanent dipole forces in HCl",
           "alt": "Row of HCl molecules showing δ+ on H end and δ- on Cl end, with dotted lines showing attraction between molecules"
         },
@@ -358,7 +358,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch05_hbond_water.svg",
+          "file": "assets/diagrams/ch05/ch05_hbond_water.svg",
           "caption": "Hydrogen bonding network in liquid water",
           "alt": "Multiple water molecules connected by dotted H-bonds showing tetrahedral arrangement"
         },
@@ -456,7 +456,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch05_ice_structure.svg",
+          "file": "assets/diagrams/ch05/ch05_ice_structure.svg",
           "caption": "Extensive hydrogen bonding in ice showing empty spaces between molecules",
           "alt": "Hexagonal lattice of water molecules in ice connected by H-bonds with visible empty spaces"
         },
@@ -493,7 +493,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch05_group16_bp_graph.svg",
+          "file": "assets/diagrams/ch05/ch05_group16_bp_graph.svg",
           "caption": "Graph of boiling points of Group 16 hydrides showing anomalous high BP of H₂O",
           "alt": "Line graph with atomic number on x-axis and BP on y-axis; H₂S, H₂Se, H₂Te increasing, then H₂O far above the trend line"
         },
@@ -563,7 +563,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch05_surface_tension.svg",
+          "file": "assets/diagrams/ch05/ch05_surface_tension.svg",
           "caption": "Surface tension showing inward pull on surface molecules vs balanced forces on interior molecules",
           "alt": "Liquid in container with arrows showing net downward/inward force on surface molecules and balanced arrows on interior molecules"
         },
@@ -780,7 +780,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch05_vapour_pressure_equilibrium.svg",
+          "file": "assets/diagrams/ch05/ch05_vapour_pressure_equilibrium.svg",
           "caption": "Attainment of equilibrium during evaporation in closed vessel: (a) initial, (b) intermediate, (c) equilibrium",
           "alt": "Three containers showing liquid with vapour above: (a) few arrows up only, (b) more arrows both directions, (c) equal arrows up and down"
         },

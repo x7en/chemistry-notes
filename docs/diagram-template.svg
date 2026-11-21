@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400">
+  <!--
+    CHEMISTRY-NOTES FIGURE TEMPLATE
+    ----------------------------------------------------------------
+    Rules (see docs/DIAGRAMS.md §4):
+      - No background rect. Transparent only; the app supplies a light plate.
+      - viewBox 0 0 640 H, matching width/height attributes.
+      - Labels >= 12px, sentence case, system sans only (never a webfont).
+      - Five colours exactly: ink, ink-muted, grid, and two of the accents.
+      - <title> and <desc> first, always.
+      - Unique ids inside the file, prefixed by the figure slug.
+      - <= 40 KB, no raster images, no external hrefs, no shadows.
+  -->
+  <title>Figure template</title>
+  <desc>Starter canvas with title, axes, arrow marker and legend to copy when drawing a new figure.</desc>
+
+  <defs>
+    <marker id="tpl-arrow" viewBox="0 0 6 6" refX="5" refY="3"
+            markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L6,3 L0,6 z" fill="#1f2933"/>
+    </marker>
+  </defs>
+
+  <!-- figure title -->
+  <text x="32" y="40" font-family="ui-sans-serif, system-ui, 'Segoe UI', Roboto, sans-serif"
+        font-size="13" font-weight="600" fill="#1f2933">Figure title — sentence case</text>
+
+  <!-- axes / scaffolding -->
+  <line x1="64" y1="80" x2="64" y2="330" stroke="#5b6673" stroke-width="1.25"/>
+  <line x1="64" y1="330" x2="592" y2="330" stroke="#5b6673" stroke-width="1.25"/>
+  <line x1="64" y1="205" x2="592" y2="205" stroke="#d8d4cb" stroke-width="1.25" stroke-dasharray="4 4"/>
+
+  <text x="48" y="84" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif"
+        font-size="12" fill="#5b6673">Energy</text>
+  <text x="592" y="352" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif"
+        font-size="12" fill="#5b6673">Reaction coordinate</text>
+
+  <!-- example content: replace -->
+  <path d="M96,290 L208,290 L288,130 L400,130 L480,210 L576,210"
+        fill="none" stroke="#1f2933" stroke-width="1.75" stroke-linecap="round"
+        marker-end="url(#tpl-arrow)"/>
+
+  <text x="288" y="118" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif"
+        font-size="12" font-weight="600" fill="#b03a2e">Activation energy</text>
+
+  <text x="96" y="312" font-family="ui-sans-serif, system-ui, sans-serif"
+        font-size="12" fill="#1f2933">Reactants</text>
+  <text x="576" y="232" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif"
+        font-size="12" fill="#1f2933">Products</text>
+
+  <!-- legend key: colour meanings, keep the wording identical across figures -->
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#5b6673">
+    <rect x="64" y="366" width="10" height="10" fill="#b03a2e"/>
+    <text x="82" y="375">energy / heat</text>
+    <rect x="184" y="366" width="10" height="10" fill="#1f6f8b"/>
+    <text x="202" y="375">structure / lattice</text>
+    <rect x="330" y="366" width="10" height="10" fill="#2f6f4e"/>
+    <text x="348" y="375">electrons / bonds</text>
+    <rect x="470" y="366" width="10" height="10" fill="#a8741a"/>
+    <text x="488" y="375">measured value</text>
+  </g>
+</svg>

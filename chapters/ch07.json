@@ -127,7 +127,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch07_concentration_time_HI.svg",
+          "file": "assets/diagrams/ch07/ch07_concentration_time_hi.svg",
           "caption": "Concentration–time graph for 2HI(g) → H₂(g) + I₂(g) at 508°C. Tangent drawn at 100 s gives rate = 4×10⁻⁴ mol dm⁻³ s⁻¹.",
           "alt": "Falling hyperbolic curve with tangent drawn at t=100 s. Triangle ABC shows ΔC=0.04 mol dm⁻³ over Δt=100 s."
         },
@@ -248,7 +248,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch07_boltzmann_single_temp.svg",
+          "file": "assets/diagrams/ch07/ch07_boltzmann_single_temp.svg",
           "caption": "Boltzmann distribution curve at one temperature T showing Ea marked by vertical line and shaded area representing molecules with E ≥ Ea.",
           "alt": "Bell-shaped asymmetric curve peaking then trailing off. Vertical line at Ea on x-axis. Area to the right of Ea is shaded."
         },
@@ -265,7 +265,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch07_boltzmann_two_temps.svg",
+          "file": "assets/diagrams/ch07/ch07_boltzmann_two_temps.svg",
           "caption": "Boltzmann distribution at T₁ and T₂ (T₂ > T₁). T₂ curve is flatter/wider with a larger shaded area to right of Ea.",
           "alt": "Two overlapping bell curves. T₁ is taller and narrower. T₂ is flatter and wider with peak shifted right. Shaded areas to right of Ea shown; T₂ shaded area is larger."
         },
@@ -331,7 +331,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch07_energy_profile_catalyst.svg",
+          "file": "assets/diagrams/ch07/ch07_energy_profile_catalyst.svg",
           "caption": "Energy profile diagram for uncatalyzed (high peak) and catalyzed (low peak) reaction. Reactants and products at the same energy level in both cases.",
           "alt": "Two energy curves from Reactants to Products. Uncatalyzed: tall peak (large Ea without catalyst). Catalyzed: shorter peak (smaller Ea with catalyst). Products energy is the same for both."
         },
