@@ -19,7 +19,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch14_atmosphere_layers.svg",
+          "file": "assets/diagrams/ch14/ch14_atmosphere_layers.svg",
           "caption": "Four layers of the atmosphere showing altitude ranges and temperature trends",
           "alt": "Vertical diagram showing troposphere (0–12 km), stratosphere (12–50 km), mesosphere (50–80 km), thermosphere (80–600 km) with temperature curves"
         },
@@ -388,7 +388,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch14_photochemical_smog.svg",
+          "file": "assets/diagrams/ch14/ch14_photochemical_smog.svg",
           "caption": "Formation of photochemical smog from NOx and VOCs in sunlight",
           "alt": "Flowchart: NOx + VOCs + sunlight → O3 + PAN (photochemical smog)"
         },
@@ -454,7 +454,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch14_greenhouse_effect.svg",
+          "file": "assets/diagrams/ch14/ch14_greenhouse_effect.svg",
           "caption": "Mechanism of the greenhouse effect showing solar radiation, earth heating and GHG heat trapping",
           "alt": "Diagram: Sun emits shortwave radiation → passes through atmosphere → earth absorbs and emits longwave (IR) heat → greenhouse gases trap outgoing IR heat"
         },

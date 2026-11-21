@@ -64,7 +64,7 @@ describe('sidebar and home rendering', () => {
     expect(nav.querySelectorAll('.ch-item').length).toBe(4);
     expect(nav.querySelectorAll('.ch-item.hot').length).toBe(1);
     expect(nav.textContent).toContain('Retained Chapters');
-    expect(nav.textContent).toContain('Deleted (Ch 15–16)');
+    expect(nav.textContent).toContain('Deleted (Ch 15)');
   });
 
   test('renderHome shows ready and coming chapters and resets title', () => {
@@ -75,7 +75,7 @@ describe('sidebar and home rendering', () => {
     const cards = dom.window.document.querySelectorAll('.ch-card');
 
     expect(cards.length).toBe(3);
-    expect(dom.window.document.querySelector('.ch-card.deleted')).not.toBeNull();
+    expect(dom.window.document.querySelector('.ch-card.is-coming')).not.toBeNull();
     expect(dom.window.document.title).toContain('FSc Chemistry XI');
     expect(dom.window.document.getElementById('topbar-title').textContent).toBe('Home');
   });
@@ -123,7 +123,7 @@ describe('chapter loading', () => {
     await dom.window.loadChapter(coming);
 
     expect(dom.window.fetch).not.toHaveBeenCalled();
-    expect(dom.window.document.getElementById('page').textContent).toContain('Coming Soon');
+    expect(dom.window.document.getElementById('page').textContent).toContain('Coming soon');
   });
 
   test('renders chapter content when fetch succeeds', async () => {
@@ -137,7 +137,7 @@ describe('chapter loading', () => {
 
     await dom.window.loadChapter(chMeta);
 
-    expect(dom.window.fetch).toHaveBeenCalledWith('chapters/ch02.json');
+    expect(dom.window.fetch.mock.calls[0][0]).toBe('chapters/ch02.json');
     expect(dom.window.document.title).toContain('Ch 02 · Atomic Structure');
     expect(dom.window.document.getElementById('page').innerHTML).toContain('ch-header');
     expect(interactivitySpy).toHaveBeenCalled();
@@ -150,7 +150,7 @@ describe('chapter loading', () => {
 
     await dom.window.loadChapter(chMeta);
 
-    expect(dom.window.document.getElementById('page').textContent).toContain('not yet available');
+    expect(dom.window.document.getElementById('page').textContent).toContain('not available');
   });
 });
 
@@ -177,7 +177,7 @@ describe('renderers', () => {
     const sqHtml = dom.window.renderSQ(chapterPayload.sqs[0], 0);
 
     expect(sqHtml).toContain('sq-item');
-    expect(sqHtml).toContain('sq-tog');
+    expect(sqHtml).toContain('chev');
   });
 
   test('renderLQ displays parts and marks', () => {
@@ -195,16 +195,17 @@ describe('renderers', () => {
     expect(html).toContain('ch-header');
     expect(html).toContain(chapterPayload.meta.deleted);
     expect(html).toContain(chapterPayload.meta.notes_merged);
-    expect(html).toContain('MCQs —');
-    expect(html).toContain('Short Questions');
-    expect(html).toContain('Long Questions');
+    expect(html).toContain('group-title');
+    expect(html).toContain('MCQs');
+    expect(html).toContain('Short questions');
+    expect(html).toContain('Long questions');
   });
 });
 
 describe('interactivity', () => {
   test('scroll handler toggles scroll-to-top button', () => {
     const dom = createAppDom();
-    dom.window.setupInteractivity();
+    dom.window.bindChrome();
     const btn = dom.window.document.getElementById('scroll-top');
 
     dom.window.scrollY = 500;
@@ -226,5 +227,195 @@ describe('interactivity', () => {
     dom.window.toggleSQ(question);
     expect(question.classList.contains('open')).toBe(true);
     expect(answer.classList.contains('show')).toBe(true);
+  });
+});
+
+
+describe('regressions', () => {
+  const fs = require('fs');
+  const path = require('path');
+
+  test('diagram blocks render a semantic figure and escape attributes', () => {
+    const dom = createAppDom();
+    const html = dom.window.renderBlock({
+      type: 'diagram',
+      file: 'assets/diagrams/ch03/ch03_sigma_vs_pi.svg',
+      alt: 'A "sigma" bond < head-on overlap',
+      caption: 'Sigma vs pi: [A] < [B]',
+      number: '3.4'
+    });
+
+    expect(html).toContain('<figure class="figure"');
+    expect(html).toContain('<figcaption>');
+    expect(html).toContain('Fig. 3.4');
+    // No inline handler may smuggle the caption into an attribute.
+    expect(html).not.toContain('onerror');
+    expect(html).not.toContain('&quot;sigma&quot; bond < ');
+    expect(html).toContain('&quot;sigma&quot; bond &lt; head-on overlap');
+  });
+
+  test('renderSection omits the id attribute when a section has none', () => {
+    const dom = createAppDom();
+    const withId = dom.window.renderSection({ number: '1.0', title: 'A', id: 'sec1', blocks: [] });
+    const withoutId = dom.window.renderSection({ number: '1.1', title: 'B', blocks: [] });
+
+    expect(withId).toContain('id="s-sec1"');
+    expect(withoutId).not.toContain('id=""');
+  });
+
+  test('renderSidebar derives the deleted range and footer counts', () => {
+    const dom = createAppDom();
+    setManifest(dom, [
+      ...sampleManifest,
+      { id: 'ch16', num: '16', short_title: 'Lab Safety', title: 'Lab Safety', hot: false, deleted: true, status: 'deleted', exam_line: 'removed' }
+    ]);
+    dom.window.renderSidebar();
+
+    expect(dom.window.document.getElementById('ch-list').textContent).toContain('Deleted (Ch 15–16)');
+    const footer = dom.window.document.getElementById('sidebar-footer').textContent;
+    expect(footer).toContain('3 retained');
+    expect(footer).toContain('2 available');
+    expect(footer).toContain('2 deleted');
+  });
+
+  test('initQuiz resets a stale score bar', () => {
+    const dom = createAppDom();
+    const doc = dom.window.document;
+    doc.getElementById('page').innerHTML = '<div id="qscore">Score: 9 / 9</div><div id="qcard"></div>';
+    dom.window.eval(`currentChapter = { quiz: [
+      { q: 'a', opts: ['1','2','3','4'], ans: 0, exp: '' },
+      { q: 'b', opts: ['1','2','3','4'], ans: 1, exp: '' }
+    ] };`);
+
+    dom.window.initQuiz();
+
+    expect(doc.getElementById('qscore').textContent).toBe('Score: 0 / 2');
+  });
+
+  test('chapter data goes through the figure path convention', () => {
+    const dir = path.join(__dirname, '..', 'chapters');
+    const files = fs.readdirSync(dir).filter(f => /^ch\d{2}\.json$/.test(f));
+
+    expect(files.length).toBeGreaterThan(0);
+
+    for (const file of files) {
+      const data = JSON.parse(fs.readFileSync(path.join(dir, file), 'utf8'));
+      expect(data.saqs).toBeUndefined();
+      expect(Array.isArray(data.sqs)).toBe(true);
+
+      for (const section of data.sections || []) {
+        for (const block of section.blocks || []) {
+          if (block.type !== 'diagram') continue;
+          expect(block.file).toMatch(/^assets\/diagrams\/ch\d{2}\/ch\d{2}_[a-z0-9][a-z0-9_-]*\.svg$/);
+          expect(block.alt).toBeTruthy();
+        }
+      }
+    }
+  });
+});
+
+
+describe('bug fixes', () => {
+  test('deleted chapters reached by hash do not fetch or show a 404', async () => {
+    const dom = createAppDom();
+    const deleted = { id: 'ch15', num: '15', title: 'Separation Techniques', short_title: 'Separation', status: 'deleted', deleted: true };
+
+    await dom.window.loadChapter(deleted);
+
+    expect(dom.window.fetch).not.toHaveBeenCalled();
+    expect(dom.window.document.getElementById('page').textContent).toContain('Deleted from the syllabus');
+  });
+
+  test('a superseded chapter response never overwrites the current one', async () => {
+    const dom = createAppDom();
+    let resolveSlow;
+    const slow = new Promise(resolve => { resolveSlow = resolve; });
+    const payload = (title, number) => ({ meta: { title, number }, sections: [], mcqs: [], sqs: [], lqs: [] });
+
+    dom.window.fetch
+      .mockReturnValueOnce(slow)
+      .mockResolvedValueOnce({ ok: true, json: async () => payload('Second', 2) });
+
+    const first = dom.window.loadChapter({ id: 'ch01', num: '01', status: 'ready' });
+    const second = dom.window.loadChapter({ id: 'ch02', num: '02', status: 'ready' });
+    await second;
+
+    resolveSlow({ ok: true, json: async () => payload('First', 1) });
+    await first;
+
+    expect(dom.window.document.title).toContain('Ch 02 · Second');
+  });
+
+  test('short questions open with the keyboard and report aria-expanded', () => {
+    const dom = createAppDom();
+    const doc = dom.window.document;
+    doc.getElementById('page').innerHTML = dom.window.renderSQ({ num: 'a', q: 'Why?', a: '<p>Because</p>' }, 0);
+    dom.window.bindChrome();
+
+    const head = doc.querySelector('.sq-q');
+    const answer = doc.querySelector('.sq-ans');
+    expect(head.getAttribute('aria-expanded')).toBe('false');
+
+    head.dispatchEvent(new dom.window.KeyboardEvent('keydown', { key: 'Enter', bubbles: true }));
+
+    expect(answer.classList.contains('show')).toBe(true);
+    expect(head.getAttribute('aria-expanded')).toBe('true');
+  });
+
+  test('home view does not mark deleted sidebar entries as active', () => {
+    const dom = createAppDom();
+    setManifest(dom, sampleManifest);
+    dom.window.renderSidebar();
+
+    dom.window.updateActiveNav('');
+
+    expect(dom.window.document.querySelector('.ch-item.active')).toBeNull();
+  });
+});
+
+
+describe('security', () => {
+  test('sanitizer strips scripts, handlers, styles and ids', () => {
+    const dom = createAppDom();
+    const dirty = '<p id="page" style="position:fixed" onclick="alert(1)">Keep me' +
+      '<script>alert(2)</scr' + 'ipt><img src=x onerror="alert(3)"></p>';
+    const clean = dom.window.sanitizeHtml(dirty);
+
+    expect(clean).toContain('Keep me');
+    expect(clean).not.toMatch(/script/i);
+    expect(clean).not.toMatch(/onclick|onerror/i);
+    expect(clean).not.toContain('style=');
+    expect(clean).not.toContain('id=');
+    expect(clean).not.toContain('<img');
+  });
+
+  test('chapter load sanitizes every HTML-bearing field', async () => {
+    const dom = createAppDom();
+    const payload = {
+      meta: { title: 'T', number: 1 },
+      sections: [{ number: '1.0', title: 'S', blocks: [{ type: 'p', t: '<em>ok</em><img src=x onerror=alert(1)>' }] }],
+      mcqs: [], sqs: [], lqs: []
+    };
+    dom.window.fetch.mockResolvedValue({ ok: true, json: async () => payload });
+
+    await dom.window.loadChapter({ id: 'ch01', num: '01', status: 'ready' });
+
+    const page = dom.window.document.getElementById('page');
+    expect(page.innerHTML).toContain('<em>ok</em>');
+    expect(page.innerHTML).not.toMatch(/onerror|<img/i);
+  });
+
+  test('theme switcher sets the accent and persists aria state', () => {
+    const dom = createAppDom();
+    const doc = dom.window.document;
+    dom.window.bindChrome();
+
+    dom.window.setAccent('forest');
+
+    expect(doc.documentElement.getAttribute('data-accent')).toBe('forest');
+    const forest = doc.querySelector('[data-accent-set="forest"]');
+    const burgundy = doc.querySelector('[data-accent-set="burgundy"]');
+    expect(forest.getAttribute('aria-pressed')).toBe('true');
+    expect(burgundy.getAttribute('aria-pressed')).toBe('false');
   });
 });

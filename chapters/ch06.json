@@ -73,7 +73,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch06_enthalpy_diagram_exo_endo.svg",
+          "file": "assets/diagrams/ch06/ch06_enthalpy_diagram_exo_endo.svg",
           "caption": "Enthalpy diagram for (a) Exothermic and (b) Endothermic reactions",
           "alt": "Two bar diagrams showing HR and HP levels with ΔH arrows"
         }
@@ -109,7 +109,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch06_energy_profile_exo_endo.svg",
+          "file": "assets/diagrams/ch06/ch06_energy_profile_exo_endo.svg",
           "caption": "Energy profile diagram showing ΔH and Ea for exothermic and endothermic reactions",
           "alt": "Two humped curves showing reactants, transition state peak, and products with Ea and ΔH marked"
         },
@@ -385,7 +385,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch06_hess_bond_energy_cycle.svg",
+          "file": "assets/diagrams/ch06/ch06_hess_bond_energy_cycle.svg",
           "caption": "Hess Cycle showing relationship between bond energies and ΔHᵣ: Reactants → Atoms → Products",
           "alt": "Triangle diagram: Reactants at top-left, Atoms at bottom, Products at top-right. ΔH rxn across top, ER down-left, EP down-right"
         },
@@ -450,7 +450,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch06_glass_calorimeter.svg",
+          "file": "assets/diagrams/ch06/ch06_glass_calorimeter.svg",
           "caption": "Glass calorimeter setup showing beaker, cotton wool insulation, thermometer, stirrer and loose lid",
           "alt": "Labeled diagram of glass calorimeter with stirrer at top, thermometer, reaction mixture in beaker, surrounded by cotton wool"
         },
@@ -548,7 +548,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch06_hess_cycle_general.svg",
+          "file": "assets/diagrams/ch06/ch06_hess_cycle_general.svg",
           "caption": "Hess's Cycle showing direct route A→B and two indirect routes via intermediates",
           "alt": "Diagram showing substance A converting to B directly (ΔHr), or indirectly via M+N (route 1: ΔH1+ΔH2) or via X,Y,Z (route 2: ΔH3+ΔH4+ΔH5)"
         },
@@ -579,7 +579,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch06_hess_CO_formation.svg",
+          "file": "assets/diagrams/ch06/ch06_hess_co_formation.svg",
           "caption": "Hess cycle for formation of CO: Route 1 direct C+O₂→CO₂, Route 2 via CO",
           "alt": "Triangle: C+O₂ at top-left, CO₂ at top-right, C+2O at bottom. ΔH along top, ΔH1 and ΔH2 on sides"
         },
@@ -663,7 +663,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch06_dissolution_steps.svg",
+          "file": "assets/diagrams/ch06/ch06_dissolution_steps.svg",
           "caption": "Three-step process of dissolution showing solvent expansion, solute expansion and interaction",
           "alt": "Diagram showing ionic compound breaking apart and water molecules surrounding the ions"
         },
@@ -787,7 +787,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch06_lattice_energies_graph.svg",
+          "file": "assets/diagrams/ch06/ch06_lattice_energies_graph.svg",
           "caption": "Graph of lattice enthalpies of alkali metal halides — decreasing with increase in cation/anion size",
           "alt": "Line graph: y-axis = lattice enthalpy (kJ mol⁻¹) from 0 to −1100, x-axis = halide ions F⁻, Cl⁻, Br⁻, I⁻. Five lines for Li⁺, Na⁺, K⁺, Rb⁺, Cs⁺ all decreasing left to right"
         },
@@ -815,7 +815,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch06_solution_energy_cycle.svg",
+          "file": "assets/diagrams/ch06/ch06_solution_energy_cycle.svg",
           "caption": "Energy cycle for formation of aqueous solution using Hess's Law (ionic solid → gaseous ions → ions in solution)",
           "alt": "Cycle: ionic solid at left, gaseous ions at right (connected by ΔH°latt), ions in solution at bottom. ΔH°sol connects solid to solution, ΔH°hyd connects gaseous ions to solution"
         },
@@ -856,7 +856,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch06_born_haber_NaCl.svg",
+          "file": "assets/diagrams/ch06/ch06_born_haber_nacl.svg",
           "caption": "Born-Haber Cycle for sodium chloride showing all steps from elements to NaCl",
           "alt": "Vertical energy level diagram: Na(s)+½Cl₂ at bottom (reactants), NaCl(s) at bottom-right (product), steps going up through Na(g), Na(g)+Cl(g), Na⁺(g)+Cl(g), Na⁺(g)+Cl⁻(g), then down via lattice energy to NaCl(s)"
         },

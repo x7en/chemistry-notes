@@ -46,7 +46,7 @@
         ]},
 
         {"type":"subsec","t":"Calculating Number of Moles"},
-        {"type":"diagram","file":"diagrams/ch04_mole_triangle.svg","caption":"Mole triangle — three routes to calculate moles: from mass (m/M), from volume (V/Vm), from particles (N/Nₐ)","alt":"Triangle with moles at center, mass/molar mass on left, volume/molar volume on top, particles/Avogadro's number on right"},
+        {"type":"diagram","file":"assets/diagrams/ch04/ch04_mole_triangle.svg","caption":"Mole triangle — three routes to calculate moles: from mass (m/M), from volume (V/Vm), from particles (N/Nₐ)","alt":"Triangle with moles at center, mass/molar mass on left, volume/molar volume on top, particles/Avogadro's number on right"},
         {"type":"eq","t":"Moles (n) from mass:      n = m / M       → mass (g) ÷ molar mass (g/mol)\nMoles (n) from volume:    n = V / Vm      → volume (dm³) ÷ molar volume (22.4 dm³/mol)\nMoles (n) from particles: n = N / Nₐ      → no. of particles ÷ 6.02×10²³\n\nRearranged:\n  Mass           m = n × M\n  Volume         V = n × Vm\n  No. particles  N = n × 6.02×10²³"},
 
         {"type":"subsec","t":"Types of Moles (From Notes — 4 types)"},
@@ -177,7 +177,7 @@
         ]},
 
         {"type":"subsec","t":"Steps to Do Stoichiometric Calculations (From Notes — 4 Steps)"},
-        {"type":"diagram","file":"diagrams/ch04_stoich_flowchart.svg","caption":"Stoichiometric calculation flowchart — 4 steps from given data to answer","alt":"Flowchart: Step 1 write balanced equation → Step 2 convert known to moles → Step 3 compare moles of known vs unknown using equation ratio → Step 4 convert moles of unknown to mass/volume/particles"},
+        {"type":"diagram","file":"assets/diagrams/ch04/ch04_stoich_flowchart.svg","caption":"Stoichiometric calculation flowchart — 4 steps from given data to answer","alt":"Flowchart: Step 1 write balanced equation → Step 2 convert known to moles → Step 3 compare moles of known vs unknown using equation ratio → Step 4 convert moles of unknown to mass/volume/particles"},
         {"type":"factors","items":[
           {"num":"1","title":"Balanced Chemical Equation","body":" — Write the balanced chemical equation."},
           {"num":"2","title":"Moles of Known","body":" — Convert given mass, volume, or no. of particles to moles using: n = m/M or n = V/Vₘ or n = N/Nₐ"},

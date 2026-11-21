@@ -1,10 +1,13 @@
 {
   "name": "chemistry-notes",
   "version": "1.0.0",
-  "description": "**BISE Bahawalpur · Smart Syllabus · Chapters 1–14**",
+  "description": "**BISE Bahawalpur \u00b7 Smart Syllabus \u00b7 Chapters 1\u201314**",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "validate": "node scripts/validate-content.mjs",
+    "validate:strict": "node scripts/validate-content.mjs --strict"
   },
   "repository": {
     "type": "git",

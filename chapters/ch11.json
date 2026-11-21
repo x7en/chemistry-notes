@@ -202,7 +202,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch11_cycloalkane_structures.svg",
+          "file": "assets/diagrams/ch11/ch11_cycloalkane_structures.svg",
           "caption": "Structural shapes of cyclopropane, cyclobutane, cyclopentane, cyclohexane",
           "alt": "Ring structures of cycloalkanes from 3 to 6 carbons"
         },
@@ -267,7 +267,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch11_sp3_orbital_diagram.svg",
+          "file": "assets/diagrams/ch11/ch11_sp3_orbital_diagram.svg",
           "caption": "sp³ orbital diagram of carbon showing 2s, 2px, 2py, 2pz combining into four sp³ hybrid orbitals",
           "alt": "Four sp³ hybrid orbitals arranged tetrahedrally"
         },
@@ -283,7 +283,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch11_alkane_tetrahedral.svg",
+          "file": "assets/diagrams/ch11/ch11_alkane_tetrahedral.svg",
           "caption": "Tetrahedral shape of methane and ethane with bond angle 109.5° and bond length 1.54 Å",
           "alt": "Ball-and-stick models of methane and ethane"
         },
@@ -441,7 +441,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch11_fission_types.svg",
+          "file": "assets/diagrams/ch11/ch11_fission_types.svg",
           "caption": "Comparison of homolytic and heterolytic fission with arrow notation",
           "alt": "Two diagrams: homolytic with half arrows forming radicals, heterolytic with full arrow forming ions"
         }
@@ -594,7 +594,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch11_halogenation_propagation.svg",
+          "file": "assets/diagrams/ch11/ch11_halogenation_propagation.svg",
           "caption": "Propagation steps of free radical chlorination of methane showing formation of CH₃Cl, CH₂Cl₂, CHCl₃, CCl₄",
           "alt": "Chain of propagation steps from methane to tetrachloromethane"
         },
@@ -767,7 +767,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch11_sp2_orbital_diagram.svg",
+          "file": "assets/diagrams/ch11/ch11_sp2_orbital_diagram.svg",
           "caption": "sp² orbital diagram of carbon — three sp² hybrid orbitals + one unhybrid pz orbital",
           "alt": "Three sp² orbitals in a plane, unhybrid p orbital perpendicular"
         },
@@ -793,7 +793,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch11_ethene_bonding.svg",
+          "file": "assets/diagrams/ch11/ch11_ethene_bonding.svg",
           "caption": "Bond formation in ethene showing σ-bonds and π-bond formation",
           "alt": "Ethene with sp² orbitals forming sigma bonds and pz forming pi bond"
         },
@@ -936,7 +936,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch11_electrophilic_addition_mechanism.svg",
+          "file": "assets/diagrams/ch11/ch11_electrophilic_addition_mechanism.svg",
           "caption": "Generalized mechanism of electrophilic addition to alkene: electrophile attacks C=C forming carbocation, then nucleophile attacks",
           "alt": "Two-step mechanism diagram with carbocation intermediate"
         },
@@ -1027,7 +1027,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch11_hydrohalogenation_mechanism.svg",
+          "file": "assets/diagrams/ch11/ch11_hydrohalogenation_mechanism.svg",
           "caption": "Mechanism of HBr addition to propene showing 2° vs 1° carbocation and major/minor products",
           "alt": "Propene + HBr giving 2-bromopropane (major) and 1-bromopropane (minor)"
         },
@@ -1129,7 +1129,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch11_epoxidation.svg",
+          "file": "assets/diagrams/ch11/ch11_epoxidation.svg",
           "caption": "Epoxidation of alkene using Ag catalyst and hydrolysis to trans-viccinal diol",
           "alt": "Alkene to epoxide to diol reaction steps"
         },
@@ -1165,7 +1165,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch11_ozonolysis_mechanism.svg",
+          "file": "assets/diagrams/ch11/ch11_ozonolysis_mechanism.svg",
           "caption": "Ozonolysis mechanism: molo-ozonide formation, ozonide rearrangement, hydrolysis to carbonyl compounds",
           "alt": "3-step ozonolysis mechanism with structural formulas"
         },
@@ -1275,7 +1275,7 @@
         },
         {
           "type": "diagram",
-          "file": "diagrams/ch11_conjugated_diene_delocalization.svg",
+          "file": "assets/diagrams/ch11/ch11_conjugated_diene_delocalization.svg",
           "caption": "Delocalization of π electrons across conjugated C=C–C=C system",
           "alt": "Four carbon chain with alternating double-single-double bonds and electron delocalization shown"
         },

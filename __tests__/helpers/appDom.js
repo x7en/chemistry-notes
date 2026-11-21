@@ -3,39 +3,29 @@ const path = require('path');
 const vm = require('vm');
 const { JSDOM } = require('jsdom');
 
-const html = fs.readFileSync(path.join(__dirname, '..', '..', 'index.html'), 'utf8');
-const scriptMatch = html.match(/<script>([\s\S]*)<\/script>/);
-const scriptPath = path.join(__dirname, '..', '..', 'app-inline.js');
-const fileScript = fs.readFileSync(scriptPath, 'utf8').trim();
+const root = path.join(__dirname, '..', '..');
+const html = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
+const appScript = fs.readFileSync(path.join(root, 'assets', 'js', 'app.js'), 'utf8');
 
-if (!scriptMatch) {
-  throw new Error('Unable to locate inline script in index.html');
-}
+// Tests mount the real shell markup and execute the real app bundle, so the
+// suite can never drift from what the browser runs.
+const bodyMatch = html.match(/<body[^>]*>([\s\S]*)<\/body>/);
+if (!bodyMatch) throw new Error('Unable to locate <body> in index.html');
 
-const extractedScript = scriptMatch[1].replace(/\/\/ ─── RUN[\s\S]*?init\(\);\s*$/, '').trim();
-
-if (fileScript !== extractedScript) {
-  throw new Error('app-inline.js is out of sync with index.html inline script');
-}
-
-const scriptWithoutRun = fileScript;
-
-const baseMarkup = `
-  <div id="sidebar" class="sidebar"></div>
-  <div id="overlay" class="overlay"></div>
-  <div id="ch-list"></div>
-  <div id="page"></div>
-  <div id="topbar-title"></div>
-  <button id="scroll-top"></button>
-`;
+const baseMarkup = bodyMatch[1].replace(/<script[\s\S]*?<\/script>/g, '');
 
 function createAppDom() {
-  const dom = new JSDOM(baseMarkup, { url: 'http://localhost/#home', runScripts: 'outside-only' });
+  const dom = new JSDOM(
+    `<!doctype html><html lang="en" data-accent="burgundy" data-mode="light"><head></head><body>${baseMarkup}</body></html>`,
+    { url: 'http://localhost/#home', runScripts: 'outside-only', pretendToBeVisual: true }
+  );
+
+  dom.window.__CHEM_TEST__ = true;
   dom.window.scrollTo = jest.fn();
   dom.window.fetch = jest.fn();
+
   const context = dom.getInternalVMContext();
-  const script = new vm.Script(scriptWithoutRun, { filename: scriptPath });
-  script.runInContext(context);
+  new vm.Script(appScript, { filename: 'assets/js/app.js' }).runInContext(context);
   return dom;
 }
 
@@ -43,7 +33,4 @@ function setManifest(dom, data) {
   dom.window.eval(`manifest = ${JSON.stringify(data)};`);
 }
 
-module.exports = {
-  createAppDom,
-  setManifest
-};
+module.exports = { createAppDom, setManifest };
